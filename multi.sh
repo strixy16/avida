@@ -6,16 +6,19 @@
 
 cd cbuild/work          # go into correct directory
 
+
 CURR=1                  #version of data file you start with
-while ((CURR<=2))       # number of times to run avida
+TIMESRUN=2              #number of times you run avida
+while ((CURR<=TIMESRUN))
 do
     ((NEXT = CURR + 1)) # index of next data file
     ./avida > "logfile$CURR" &           # run avida in the background
-    sleep 2
+    sleep 2                              #stop avida overiding itself when change config
     sed "40s/run$CURR/run$NEXT/" avida.cfg > temp # change data outputfile by 1
     cat temp > avida.cfg
     rm temp
     ((CURR=CURR+1))
+    #put any changes to the config here
 done
 
 # reset data outputfile to 1
