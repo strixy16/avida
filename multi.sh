@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#SBATCH -c 2
-#SBATCH --mem=5120
-#SBATCH --time=0-4:0:00
+#SBATCH -c 2		 # number of CPUS (default 2)
+#SBATCH --mem=5120	 # memory allocated for job (default 5G)
+#SBATCH --time=0-4:0:00  # time for job to run (default 4)
 
 cd cbuild/work          # go into correct directory
 
