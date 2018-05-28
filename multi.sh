@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#SBATCH -c 2
-#SBATCH --mem=1024
-#SBATCH --time=0-0:2:00
+#SBATCH -c 4
+#SBATCH --mem=3072
+#SBATCH --time=2-0:0:00
 
 cd cbuild/work          # go into correct directory
 
