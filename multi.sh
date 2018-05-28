@@ -6,6 +6,8 @@
 
 cd cbuild/work          # go into correct directory
 
+sed "40s/data/data1/" avida.cfg > temp  #change data to data1 for while loop
+cat temp > avida.cfg
 
 CURR=1                  #version of data file you start with
 TIMESRUN=6             #number of times you run avida
