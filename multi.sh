@@ -8,7 +8,9 @@ cd cbuild/work          # go into correct directory
 
 
 CURR=1                  #version of data file you start with
-TIMESRUN=2              #number of times you run avida
+TIMESRUN=6             #number of times you run avida
+arr=(0.0025 0.005 0.0075 0.01 0.05 0.1) #starts at 0.0025 already in file
+i=0
 while ((CURR<=TIMESRUN))
 do
     ((NEXT = CURR + 1)) # index of next data file
@@ -19,6 +21,10 @@ do
     rm temp
     ((CURR=CURR+1))
     #put any changes to the config here
+    ((nexti = i + 1 ))
+    sed "55s/${arr[i]}/${arr[nexti]}/" avida.cfg > temp
+    cat temp > avida.cfg
+    rm temp
 done
 
 # reset data outputfile to 1
