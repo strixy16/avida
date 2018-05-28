@@ -24,7 +24,7 @@ do
 done
 
 # reset data outputfile to 1
-sed "40s/data$NEXT/data1/" avida.cfg > temp
+sed "40s/data$NEXT/data/" avida.cfg > temp
 cat temp > avida.cfg
 rm temp
 wait
