@@ -25,6 +25,7 @@ do
     sed "55s/${arr[i]}/${arr[nexti]}/" avida.cfg > temp
     cat temp > avida.cfg
     rm temp
+    ((i=i+1))
 done
 
 # reset data outputfile to 1
