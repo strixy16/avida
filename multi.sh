@@ -2,7 +2,7 @@
 
 #SBATCH -c 4
 #SBATCH --mem=3072
-#SBATCH --time=2-0:0:00
+#SBATCH --time=1-0:0:00
 
 cd cbuild/work          # go into correct directory
 
@@ -10,10 +10,8 @@ sed "40s/data/data1/" avida.cfg > temp  #change data to data1 for while loop
 cat temp > avida.cfg
 
 CURR=1                  #version of data file you start with
-TIMESRUN=6             #number of times you run avida
-arr=(0.0025 0.005 0.0075 0.01 0.05 0.1) #starts at 0.0025 already in file
-i=0
-while ((CURR<TIMESRUN))
+TIMESRUN=4             #number of times you run avida
+while ((CURR<=TIMESRUN))
 do
     ((NEXT = CURR + 1)) # index of next data file
     ./avida > "logfile$CURR" &           # run avida in the background
@@ -23,11 +21,16 @@ do
     rm temp
     ((CURR=CURR+1))
     #put any changes to the config here
-    ((nexti = i + 1 ))
-    sed "55s/${arr[i]}/${arr[nexti]}/" avida.cfg > temp
-    cat temp > avida.cfg
-    rm temp
-    ((i=i+1))
+    if ((CURR==3)); then #after 2 runs, switch to going from 0.0025 to 0.1 to reverse
+        sed "55s/0.0025/0.1/" avida.cfg > temp
+        cat temp > avida.cfg
+        rm temp
+        sed "35s/0.1/0.0025/" events.cfg > temp
+        cat temp > avida.cfg
+        rm temp
+
+    fi
+    
 done
 
 # reset data outputfile to 1
