@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#SBATCH -c 4
+#SBATCH -c 2
 #SBATCH --mem=3072
-#SBATCH --time=1-0:0:00
+#SBATCH --time=0-4:0:00
 
 cd cbuild/work          # go into correct directory
 
@@ -21,11 +21,8 @@ do
     rm temp
     ((CURR=CURR+1))
     #put any changes to the config here
-    if ((CURR==3)); then #after 2 runs, switch to going from 0.0025 to 0.1 to reverse
+    if ((CURR==3)); then #after 2 runs, switch to starting with 0.1
         sed "55s/0.0025/0.1/" avida.cfg > temp
-        cat temp > avida.cfg
-        rm temp
-        sed "35s/0.1/0.0025/" events.cfg > temp
         cat temp > avida.cfg
         rm temp
 
