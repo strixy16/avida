@@ -1,0 +1,1357 @@
+#filetype genotype_data
+#format id src src_args parents num_units total_units length merit gest_time fitness gen_born update_born update_deactivated depth hw_type inst_set sequence cells gest_offset lineage 
+# Structured Population Save
+# Tue May 29 13:51:35 2018
+#  1: ID
+#  2: Source
+#  3: Source Args
+#  4: Parent ID(s)
+#  5: Number of currently living organisms
+#  6: Total number of organisms that ever existed
+#  7: Genome Length
+#  8: Average Merit
+#  9: Average Gestation Time
+# 10: Average Fitness
+# 11: Generation Born
+# 12: Update Born
+# 13: Update Deactivated
+# 14: Phylogenetic Depth
+# 15: Hardware Type ID
+# 16: Inst Set Name
+# 17: Genome Sequence
+# 18: Occupied Cell IDs
+# 19: Gestation (CPU) Cycle Offsets
+# 20: Lineage Label
+
+258911 div:int (none) 257223 1 1 19 0 0 0 680 999 -1 17 0 heads_default wzcgcncyjzvvvfcxfga 3 31 0 
+228551 div:int (none) 225718 5 777 18 17.9709 37.0172 0.485535 602 904 -1 20 0 heads_default wzcgczcwxzvvvfcxga 12,82,141,143,202 18,18,18,20,17 0,0,0,0,0 
+212382 div:int (none) 165804 44 3130 19 18.9395 36.1442 0.525506 581 853 -1 17 0 heads_default wzcgckcwtzvvvfcxvga 77,136,189,190,197,254,255,2303,2362,2364,2365,2417,2717,2778,2781,2838,2840,2898,2907,2968,3309,3313,3369,3370,3371,3374,3375,3376,3430,3431,3432,3433,3434,3435,3436,3437,3438,3490,3491,3497,3498,3551,3557,3558 7,9,22,26,17,30,27,22,19,9,21,24,5,5,2,22,3,104,0,0,23,22,12,25,12,19,12,1,25,5,33,8,14,4,25,15,16,7,12,2,35,12,26,25 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+239591 div:int (none) 235789 9 185 19 18.9189 37.9234 0.498699 633 939 -1 19 0 heads_default wzcgcncvopzvvvfcxga 110,169,170,171,231,3471,3531,3532,3590 1,14,44,0,15,36,0,0,17 0,0,0,0,0,0,0,0,0 
+257117 div:int (none) 245758 1 3 18 18 52 0.346154 679 994 -1 20 0 heads_default wzcgctcwnzqvvfcxga 173 46 0 
+258819 div:int (none) 212382 1 1 19 0 0 0 710 999 -1 18 0 heads_default wzcgckcwtzvvifcxvga 194 36 0 
+259141 div:int (none) 112560 1 1 17 0 0 0 682 1000 -1 15 0 heads_default wzcgcncwbzvvfcxga 196 12 0 
+256657 div:int (none) 247891 1 1 17 0 0 0 671 993 -1 19 0 heads_default wcgcecwuzvivfcxga 296 231 0 
+258957 div:int (none) 258457 1 1 17 0 0 0 679 1000 -1 22 0 heads_default wzcgcxmwivvvvcxga 340 29 0 
+255208 div:int (none) 245305 5 21 18 18 37 0.486486 677 988 -1 18 0 heads_default wzcgcycywzvvvfcxga 468,529,593,652,654 0,0,18,21,9 0,0,0,0,0 
+259210 div:int (none) 253244 1 1 19 0 0 0 687 1000 -1 21 0 heads_default wzcgspcvwbzvivfcxga 509 9 0 
+259164 div:int (none) 198969 1 1 18 0 0 0 685 1000 -1 18 0 heads_default wzcgcojcwdzvvvfcxa 758 7 0 
+256427 div:int (none) 222559 1 1 20 0 0 0 686 992 -1 19 0 heads_default wzcgcpcvwbzvvvfcxgma 807 267 0 
+248032 div:int (none) 236064 5 166 19 19 39 0.487179 665 966 -1 19 0 heads_default wzcgcwmvwbzvvvfcxga 814,817,875,936,994 5,35,20,16,16 0,0,0,0,0 
+250240 div:int (none) 240122 7 97 21 20.9189 45.8829 0.455685 652 973 -1 30 0 heads_default wnjatcgcjiowzvvvfgxga 879,938,939,997,998,999,1058 29,34,2,2,36,1,3 0,0,0,0,0,0,0 
+238855 div:int (none) 230267 16 278 18 17.9469 37.9469 0.472737 628 937 -1 20 0 heads_default wzcgctswtzvvvfcxga 917,976,977,978,1032,1035,1036,1093,1094,1095,1096,1097,1099,1154,1155,1156 8,11,22,26,27,29,31,8,3,3,28,13,30,12,20,13 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258290 div:int (none) 238855 1 1 18 9 27 0.333333 675 998 -1 21 0 heads_default wzcgctswtzvvvfkxga 920 29 0 
+256289 div:int (none) 190897 1 2 17 0 0 0 688 992 -1 17 0 heads_default wzcgncpbzvvvfcxga 925 231 0 
+259026 div:int (none) 249414 1 1 19 0 0 0 706 1000 -1 23 0 heads_default wzcgctowtzvvvfcxvga 963 16 0 
+258750 div:int (none) 217218 2 2 18 18 38 0.473684 677 999 -1 16 0 heads_default wzcgctqwbzvvvfcxga 1038,1039 14,19 0,0 
+252770 div:int (none) 193469 11 43 20 19.8511 49.8723 0.398008 689 980 -1 20 0 heads_default wxzcgcbnwtztvvfcxvga 1092,1151,1152,1211,1212,1270,1271,1329,1332,1333,1389 25,10,7,23,12,38,20,35,44,45,41 0,0,0,0,0,0,0,0,0,0,0 
+258796 div:int (none) 237071 1 1 18 9 23 0.391304 684 999 -1 18 0 heads_default wzcgckbibzvvvrcxga 1115 10 0 
+258888 div:int (none) 247904 1 1 20 0 0 0 688 999 -1 19 0 heads_default wzcygckbibzvvvfcxvga 1120 38 0 
+258175 div:int (none) 256325 1 1 19 0 0 0 711 997 -1 20 0 heads_default wzggcpcszzvvvfcxvga 1277 105 0 
+257531 div:int (none) 237506 1 1 20 0 0 0 708 995 -1 25 0 heads_default wzcgcsydbzvvvfcxvcga 1553 143 0 
+259049 div:int (none) 252420 1 1 19 0 0 0 711 1000 -1 27 0 heads_default wzcgcjydszvvvfctvga 1734 26 0 
+259095 div:int (none) 246153 1 1 19 0 0 0 681 1000 -1 19 0 heads_default wzchgcnpkxzvvvfcxga 1773 14 0 
+237567 div:int (none) 199912 11 411 19 18.9409 36.6457 0.522482 651 933 -1 21 0 heads_default wzcgcbycbzvvvfcxvga 1800,1859,1919,1976,1977,1981,1982,2037,2040,2096,2099 12,9,9,30,19,24,30,20,26,35,24 0,0,0,0,0,0,0,0,0,0,0 
+248262 div:int (none) 224116 3 64 19 19 36 0.527778 679 966 -1 24 0 heads_default wzcgcsyobzvvvfcxvga 1858,1917,1975 3,6,18 0,0,0 
+258497 div:int (none) 255703 1 1 19 0 0 0 707 998 -1 19 0 heads_default wzuicgcwbzvvvfcxvga 1995 82 0 
+257163 div:int (none) 241384 2 6 19 19 37 0.513514 707 994 -1 19 0 heads_default wzcgcbcqbzvvvfcxvga 2043,2103 3,1 0,0 
+258405 div:int (none) 233218 1 1 18 0 0 0 706 998 -1 18 0 heads_default wzcdccwbzvvvfcxvga 2056 99 0 
+257830 div:int (none) 200439 1 3 19 19 84 0.22619 703 996 -1 17 0 heads_default wzcgcncwzzvvlfcxvga 2083 46 0 
+202883 div:int (none) 186529 2 498 18 17.9773 37.9878 0.473212 554 823 -1 19 0 heads_default wzcgcbcwtzvvvfcxga 2106,2287 9,33 0,0 
+257002 div:int (none) 249450 1 1 17 0 0 0 689 994 -1 20 0 heads_default wzcgclcbzvvvfcxga 2129 204 0 
+247158 div:int (none) 246243 6 142 19 19 37.1131 0.512191 680 963 -1 19 0 heads_default wzcgcijqbzvvvfcxvga 2350,2352,2410,2411,2470,2472 8,6,1,11,0,26 0,0,0,0,0,0 
+259187 div:int (none) 241746 1 1 19 0 0 0 705 1000 -1 19 0 heads_default wzcgcwcotzvvvfcxvga 2379 2 0 
+255737 div:int (none) 241384 5 14 19 19 36 0.527778 702 990 -1 19 0 heads_default wzcgcblrbzvvvfcxvga 2407,2466,2467,2468,2529 0,0,30,2,3 0,0,0,0,0 
+258451 div:int (none) 183408 3 3 18 18 37 0.486486 686 998 -1 18 0 heads_default wzcgcnczwzvvvfcxga 2429,2488,2489 11,3,5 0,0,0 
+258566 div:int (none) 231596 1 1 18 0 0 0 685 998 -1 20 0 heads_default wzegcdbubzvvvfcxga 2604 57 0 
+258704 div:int (none) 165804 1 1 18 0 0 0 710 999 -1 17 0 heads_default wzccncwtzvvvfcxvga 2612 46 0 
+256818 div:int (none) 241746 2 6 19 19 37 0.513514 701 993 -1 19 0 heads_default wzcgcwmwtzvvvfcxvga 2793,2794 2,2 0,0 
+257669 div:int (none) 244142 1 1 20 0 0 0 708 996 -1 19 0 heads_default wzcgcxcwtzsvvvfcxvga 2835 157 0 
+258934 div:int (none) 231596 1 1 18 0 0 0 686 1000 -1 20 0 heads_default wrcgcdbubzvvvfcxga 2844 31 0 
+257278 div:int (none) 225810 1 1 19 0 0 0 679 995 -1 18 0 heads_default wzcgcnnwwzvvivfcxga 3038 182 0 
+187358 div:int (none) 144260 15 1315 18 17.9477 35.9345 0.499253 503 773 -1 16 0 heads_default wzcgcnbsbzvvvfcxga 3053,3054,3055,3111,3112,3113,3114,3115,3171,3173,3303,3364,3365,3482,3541 10,3,7,26,23,19,10,23,227,13,0,4,5,5,5 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258014 div:int (none) 254302 1 1 20 0 0 0 708 997 -1 19 0 heads_default wzcgckcwwzvrvvfcxvga 3322 123 0 
+251137 div:int (none) 205189 4 49 18 18 38 0.473684 665 975 -1 21 0 heads_default wzcgcdpxxzvvvfcxga 3406,3408,3465,3468 14,10,7,10 0,0,0,0 
+259072 div:int (none) 240343 1 1 17 0 0 0 690 1000 -1 21 0 heads_default wzcgctcfxvvvfcxga 3572 23 0 
+256612 div:int (none) 159794 1 1 20 0 0 0 686 993 -1 17 0 heads_default wzcgcicvwbzvvvfcxgga 24 250 0 
+251598 div:int (none) 236515 4 32 19 18.8182 37.7273 0.498433 673 977 -1 18 0 heads_default wzcgcidvjbzvvvfcxga 33,92,93,3573 9,52,13,11 0,0,0,0 
+257003 div:int (none) 247764 3 6 18 18 51 0.352941 680 994 -1 17 0 heads_default wzcgcncsbzvyvfcxga 52,111,172 3,3,5 0,0,0 
+233267 div:int (none) 112560 22 604 18 17.9358 36.9247 0.485505 616 919 -1 15 0 heads_default wzcgcncljzvvvfcxga 67,120,237,238,357,421,480,484,488,547,607,664,666,667,668,726,727,728,786,788,848,3487 32,29,10,7,36,11,17,17,3,6,26,14,8,8,1,19,23,1,27,14,26,5 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258337 div:int (none) 246473 1 1 20 0 0 0 703 998 -1 22 0 heads_default wzcgctthzzvvvvfcxvga 69 80 0 
+257118 div:int (none) 240270 4 8 18 18 38 0.473684 685 994 -1 22 0 heads_default wzcgcjpfjzvvvfcxga 188,249,250,251 0,0,0,0 0,0,0,0 
+255899 div:int (none) 222559 3 13 19 19 38 0.5 685 990 -1 19 0 heads_default wzcgcmcvwbzvvvfcxga 333,392,451 37,4,2 0,0,0 
+244353 div:int (none) 198969 3 90 18 18 37.0273 0.486137 646 954 -1 18 0 heads_default wzcgcncwdzvvvfcxga 337,338,399 23,18,8 0,0,0 
+257463 div:int (none) 245305 2 5 19 18 37 0.486486 683 995 -1 18 0 heads_default wzcgcycybvzvvvfcxga 471,532 21,17 0,0 
+259096 div:int (none) 112560 1 1 18 0 0 0 684 1000 -1 15 0 heads_default szcgcncwbzsvvfcxga 476 19 0 
+258935 div:int (none) 220522 1 1 18 0 0 0 707 1000 -1 21 0 heads_default wzcgcznwtzvvvfyvga 555 36 0 
+245342 div:int (none) 220522 15 143 19 18.9503 37.8075 0.507042 671 957 -1 21 0 heads_default wzcgcznwfzvvvfcxvga 669,670,787,847,905,906,907,908,909,965,966,967,968,1026,1027 23,21,20,14,19,17,26,24,17,45,16,26,18,24,25 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259188 div:int (none) 257247 1 1 17 0 0 0 685 1000 -1 19 0 heads_default wzcgccybzvvvecxga 713 1 0 
+258130 div:int (none) 250143 1 1 19 0 0 0 692 997 -1 18 0 heads_default wzcgcncvrbzvvvfccxg 798 123 0 
+258705 div:int (none) 258429 1 1 18 0 0 0 708 999 -1 22 0 heads_default vvfxvgawzcgcbdwtzv 835 36 0 
+257946 div:int (none) 222559 1 2 19 19 53 0.358491 690 997 -1 19 0 heads_default wzcgcpcvwbzvvtfcxga 869 23 0 
+258429 div:int (none) 251726 1 1 18 11 26 0.423077 707 998 -1 21 0 heads_default wzcgcbdwtzvvvfxvga 894 23 0 
+258061 div:int (none) 251836 1 1 18 0 0 0 694 997 -1 21 0 heads_default wzcgcpcdbzvvzfcxga 992 80 0 
+258889 div:int (none) 237367 1 1 18 0 0 0 681 999 -1 16 0 heads_default wzcgcncwhzsvvfcxga 1072 31 0 
+221882 div:int (none) 192055 34 1146 18 17.9309 36.9424 0.485273 591 883 -1 18 0 heads_default wzcgcwwsczvvvfcxga 1222,1280,1281,1338,1339,1397,1401,1459,1462,1463,1464,1519,1577,1578,1635,1636,1637,1638,1693,1694,1696,1697,1698,1756,1757,1758,1819,1870,1871,1991,1993,2052,2053,2054 28,33,34,34,32,28,3,16,15,7,11,14,19,7,3,0,35,45,33,25,3,18,16,4,10,25,27,16,4,23,3,35,33,1 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258498 div:int (none) 190897 1 1 18 0 0 0 694 998 -1 17 0 heads_default wzcgancpbzvvvfcxga 1223 62 0 
+258797 div:int (none) 247904 1 1 19 0 0 0 688 999 -1 19 0 heads_default wzcgckbibzvgvfcxvga 1241 50 0 
+257256 div:int (none) 248032 1 1 20 0 0 0 689 995 -1 20 0 heads_default wzcgcwmvwbzvjvvfckga 1351 205 0 
+256957 div:int (none) 254467 3 8 21 21 45 0.466667 668 994 -1 30 0 heads_default wnjatcgcjpzkzvvvfcxga 1415,1416,1474 15,43,15 0,0,0 
+254036 div:int (none) 224116 14 45 19 19 36 0.527778 697 984 -1 24 0 heads_default wzcgcsiubzvvvfcxvga 1425,1426,1485,1486,1487,1546,1547,1605,1606,1607,1665,1666,1669,1726 32,23,9,7,8,16,25,24,21,22,21,14,10,9 0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258521 div:int (none) 253088 1 1 18 0 0 0 706 998 -1 19 0 heads_default wzcgcxcwczvvvfcxva 2021 70 0 
+258843 div:int (none) 238445 1 1 20 0 0 0 707 999 -1 18 0 heads_default wzcgcqecwbgvvvfcxvga 2060 29 0 
+258038 div:int (none) 212489 2 2 17 17 74 0.22973 689 997 -1 19 0 heads_default wzcgceczbzvvfcxga 2069,2070 33,34 0,0 
+259004 div:int (none) 258596 1 1 19 0 0 0 708 1000 -1 27 0 heads_default vvfrxvgawzcgcfyuszv 2097 16 0 
+256520 div:int (none) 254417 4 12 19 19 36 0.527778 703 992 -1 25 0 heads_default wzcgcyylbzvvvfcxvga 2212,2272,2331,2332 0,0,2,1 0,0,0,0 
+259119 div:int (none) 241746 1 1 18 0 0 0 708 1000 -1 19 0 heads_default wzcgcwcwtzvvfcxvga 2253 14 0 
+258452 div:int (none) 247876 1 1 19 0 0 0 705 998 -1 18 0 heads_default wzcycncwczvvvfcxvga 2259 86 0 
+258751 div:int (none) 249631 1 1 19 0 0 0 710 999 -1 20 0 heads_default gzcgcnyypzvvvfcxvga 2312 54 0 
+259165 div:int (none) 258833 1 1 20 0 0 0 712 1000 -1 19 0 heads_default vvfhcxvgawzcgcncwtzv 2367 5 0 
+258682 div:int (none) 200439 1 1 18 0 0 0 704 999 -1 17 0 heads_default wcgcncwzzvvvfcxvga 2449 62 0 
+258475 div:int (none) 257919 1 2 20 19 65 0.292308 717 998 -1 24 0 heads_default wzcgcotyzvnvvzfcxvga 2581 12 0 
+258176 div:int (none) 251369 1 1 18 0 0 0 706 997 -1 19 0 heads_default wzcdcgcbzvvpfcxvga 2596 95 0 
+236372 div:int (none) 165804 12 425 19 18.9533 36.2237 0.526191 648 929 -1 17 0 heads_default wzcgcncwrzvvvfcxvga 2607,2608,2733,2734,2855,2910,2911,2912,2914,2976,3035,3036 0,28,13,14,30,11,16,35,34,15,16,9 0,0,0,0,0,0,0,0,0,0,0,0 
+258544 div:int (none) 226199 1 1 18 0 0 0 701 998 -1 18 0 heads_default wzcgcncwzzvvvfcyga 2625 56 0 
+257877 div:int (none) 257746 1 1 18 0 0 0 718 996 -1 24 0 heads_default vvvvfxvgawzcgcotyz 2645 52 0 
+259142 div:int (none) 231596 1 1 18 0 0 0 686 1000 -1 20 0 heads_default wzcgcdbubzvdvfcxga 2727 9 0 
+258774 div:int (none) 200439 1 3 19 19 36 0.527778 706 999 -1 17 0 heads_default wzcgcncozzvvvfcxvga 2796 6 0 
+257785 div:int (none) 252536 1 1 19 0 0 0 713 996 -1 25 0 heads_default wzcgcoyyzavvvfcxvga 3117 146 0 
+258360 div:int (none) 256261 3 3 17 17 75 0.226667 685 998 -1 17 0 heads_default wzcgcncwozvvfcxga 3157,3216,3337 9,5,3 0,0,0 
+259027 div:int (none) 128890 1 1 19 0 0 0 687 1000 -1 16 0 heads_default wzcgcnscwozvvvfcxga 3160 21 0 
+259073 div:int (none) 229320 1 1 20 0 0 0 693 1000 -1 20 0 heads_default wzcgclcvwlzvvvfvcxga 3211 22 0 
+258981 div:int (none) 165804 1 1 19 0 0 0 711 1000 -1 17 0 heads_default ewzcgcncwtzvvvfcxvg 3327 19 0 
+258613 div:int (none) 200428 1 1 19 0 0 0 683 999 -1 16 0 heads_default wzcgcnombzuvvvfcxga 3409 53 0 
+259211 div:int (none) 208418 1 1 20 0 0 0 702 1000 -1 21 0 heads_default wzcgctyzzzvvvfcxvgaj 3425 1 0 
+256865 div:int (none) 159794 4 17 19 19 37 0.513514 686 993 -1 17 0 heads_default wzcgcicvpbzvvvfcxga 3499,3500,3501,3560 36,31,34,27 0,0,0,0 
+258752 div:int (none) 251403 2 2 18 17 36 0.472222 682 999 -1 17 0 heads_default wzcgcebljzvvvfcxga 4,3544 1,2 0,0 
+258844 div:int (none) 208418 1 1 19 0 0 0 701 999 -1 21 0 heads_default wzcgctyzgzvvvfcxvga 5 34 0 
+257510 div:int (none) 245758 5 11 18 18 37 0.486486 680 995 -1 20 0 heads_default wzcgcucwnzvvvfcxga 232,293,294,295,354 29,9,9,5,5 0,0,0,0,0 
+258016 div:int (none) 255743 1 1 18 0 0 0 678 997 -1 16 0 heads_default wdcgcntjbzvvvfcxga 252 103 0 
+259005 div:int (none) 246851 1 1 19 0 0 0 685 1000 -1 21 0 heads_default wzcgcncvojzvvvfdxga 285 17 0 
+258867 div:int (none) 255899 1 1 18 0 0 0 692 999 -1 20 0 heads_default tzcgcmcvbzvvvfcxga 335 33 0 
+259120 div:int (none) 248970 1 1 17 0 0 0 681 1000 -1 19 0 heads_default wzcgcorwdzvvvfcga 519 11 0 
+258108 div:int (none) 253467 1 1 17 0 0 0 679 997 -1 22 0 heads_default wzcczcwpzvvvfcxga 556 93 0 
+256406 div:int (none) 248276 1 1 17 0 0 0 686 992 -1 18 0 heads_default wzgcncybzvvvfcxga 568 253 0 
+258430 div:int (none) 248752 2 2 17 17 76 0.223684 679 998 -1 20 0 heads_default wzcgcodwizvvfcxga 586,645 11,8 0,0 
+258476 div:int (none) 245342 1 1 19 0 0 0 705 998 -1 22 0 heads_default wzcgcznwfzvvvfcxiga 785 65 0 
+240122 div:int (none) 223000 4 105 21 21 45.5259 0.464551 628 941 -1 29 0 heads_default wnjatcgcjiowzvvvfcxga 818,878,937,996 33,25,24,29 0,0,0,0 
+249414 div:int (none) 229102 4 104 19 19 37.9194 0.510387 681 970 -1 22 0 heads_default wzcgcmowtzvvvfcxvga 844,902,903,904 19,133,24,16 0,0,0,0 
+257832 div:int (none) 246972 1 1 20 0 0 0 704 996 -1 24 0 heads_default wzcgncczwbzvvvfcxvga 945 129 0 
+257556 div:int (none) 248032 1 1 19 0 0 0 689 995 -1 20 0 heads_default wzcgcwmvwbzvvvfcxqa 1110 158 0 
+258982 div:int (none) 253670 1 1 20 0 0 0 693 1000 -1 21 0 heads_default wizcgcymvwbzvvvfcxga 1111 26 0 
+257257 div:int (none) 252770 1 1 20 0 0 0 698 995 -1 21 0 heads_default vgawxzcgcbnwtztvvfcx 1213 155 0 
+259212 div:int (none) 193469 1 1 20 0 0 0 708 1000 -1 20 0 heads_default wzcgcbnwtzvvvfcxgvga 1369 6 0 
+258154 div:int (none) 244040 1 1 20 0 0 0 710 997 -1 19 0 heads_default wzcgcpcsnbzvvvfcxvga 1394 111 0 
+233797 div:int (none) 232526 7 197 19 18.9481 35.9524 0.526961 639 920 -1 18 0 heads_default wzcgcgcqbzvvvfcxvga 1446,1447,1506,1624,1625,1746,1807 9,7,4,5,3,31,18 0,0,0,0,0,0,0 
+255509 div:int (none) 237536 7 16 19 19 41 0.463415 698 989 -1 18 0 heads_default wzcgcntwzfvvvfcxvga 1481,1540,1541,1598,1599,1602,1661 29,16,14,25,15,17,18 0,0,0,0,0,0,0 
+252634 div:int (none) 241697 9 65 18 18 37.2 0.484579 669 980 -1 20 0 heads_default wzcgcncpozvvvfcxga 1521,1522,1580,1639,1882,1887,1943,1946,1947 12,10,21,16,8,218,7,31,36 0,0,0,0,0,0,0,0,0 
+258890 div:int (none) 191458 1 1 18 0 0 0 684 999 -1 17 0 heads_default wzcgclckozvvvfcxga 1707 26 0 
+259097 div:int (none) 231204 1 1 19 0 0 0 704 1000 -1 20 0 heads_default wvcgcbcptzvvvfcxvga 1797 9 0 
+259028 div:int (none) 257037 1 1 19 0 0 0 681 1000 -1 21 0 heads_default wzcgcvtkkjzwvvfcxga 1830 16 0 
+258246 div:int (none) 243998 1 2 18 18 36 0.5 709 997 -1 21 0 heads_default wzcgcocflzvvvfcxvg 1874 22 0 
+249782 div:int (none) 238783 8 145 19 19 37 0.513514 682 971 -1 25 0 heads_default wzcgcfyuszvvvfcxvga 1910,1911,1912,1913,1973,1974,2035,2095 21,18,1,11,1,8,6,2 0,0,0,0,0,0,0,0 
+258453 div:int (none) 258262 1 1 18 0 0 0 683 998 -1 20 0 heads_default zvvvlcxgawzcgcwwsc 1933 46 0 
+258775 div:int (none) 258508 1 1 19 0 0 0 707 999 -1 19 0 heads_default vvqcxvgawzcgcqcwbzv 1998 25 0 
+259074 div:int (none) 249450 1 1 17 0 0 0 694 1000 -1 20 0 heads_default wzcgclczbvvvfcxga 2131 14 0 
+259166 div:int (none) 247158 1 1 20 0 0 0 714 1000 -1 20 0 heads_default wzqcgcijqbzvvvfcxvga 2293 11 0 
+258131 div:int (none) 251173 1 1 19 0 0 0 706 997 -1 25 0 heads_default wzcgasyuyzvvvfcxvga 2333 117 0 
+251967 div:int (none) 212382 11 57 19 18.9444 35.9167 0.527392 691 978 -1 18 0 heads_default wzcgcscwtzvvvfcxvga 2363,2421,2422,2479,2481,2482,2483,2538,2540,2541,2716 29,23,31,21,18,19,29,25,16,9,34 0,0,0,0,0,0,0,0,0,0,0 
+251369 div:int (none) 233218 1 54 19 19 35.1029 0.541467 688 976 -1 18 0 heads_default wzcdcgclbzvvvfcxvga 2536 295 0 
+258798 div:int (none) 252919 1 1 19 0 0 0 707 999 -1 19 0 heads_default wzcgckwwtzvavfcxvga 2544 39 0 
+257234 div:int (none) 200439 1 1 19 0 0 0 701 994 -1 17 0 heads_default wzcgcncwzzvvvfcxoga 2634 182 0 
+258706 div:int (none) 238635 3 3 19 19 41 0.463415 718 999 -1 23 0 heads_default wzcgcotyzvvvwfcxvga 2643,2646,2705 8,16,19 0,0,0 
+258729 div:int (none) 165804 1 1 19 0 0 0 710 999 -1 17 0 heads_default wxcbcncwtzvvvfcxvga 2676 34 0 
+259189 div:int (none) 258892 1 1 20 0 0 0 709 1000 -1 18 0 heads_default vvdfcxvgawzcgcncwpzv 2689 2 0 
+259051 div:int (none) 232468 1 1 19 0 0 0 718 1000 -1 22 0 heads_default wzcgcryqzvvvvfcxvga 2766 16 0 
+258683 div:int (none) 257662 1 1 19 19 36 0.527778 712 999 -1 18 0 heads_default wzcgcncbyzvvvfcxvga 2853 24 0 
+256199 div:int (none) 225810 1 1 17 0 0 0 678 991 -1 18 0 heads_default wzcgcnnwwzvvvfcxa 3033 299 0 
+258660 div:int (none) 231596 1 1 19 0 0 0 684 999 -1 20 0 heads_default jwzcgcdbubzvvvfcxge 3139 54 0 
+247529 div:int (none) 187358 9 108 18 18 37.0775 0.485684 657 964 -1 17 0 heads_default wzcgcnmsbzvvvfcxga 54,56,58,59,3411,3472,3473,3533,3595 28,38,29,27,2,8,11,18,27 0,0,0,0,0,0,0,0,0 
+245758 div:int (none) 228999 18 220 18 17.93 36.9222 0.485345 649 959 -1 19 0 heads_default wzcgctcwnzvvvfcxga 115,174,175,234,235,236,300,350,351,418,419,598,656,658,659,717,718,719 35,27,16,17,14,23,7,35,29,8,10,199,24,32,20,13,34,9 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259006 div:int (none) 253902 1 1 18 0 0 0 678 1000 -1 20 0 heads_default wzcgctcwczvvpfcxga 117 24 0 
+258891 div:int (none) 251809 1 1 18 0 0 0 677 999 -1 17 0 heads_default wzcgcfomszevvfcxga 191 22 0 
+250358 div:int (none) 228551 9 69 18 18 37 0.486486 659 973 -1 21 0 heads_default wzcgczcwczvvvfcxga 195,200,201,256,259,260,318,320,322 7,34,7,5,20,13,28,28,13 0,0,0,0,0,0,0,0,0 
+248909 div:int (none) 248459 1 26 18 18 55.2222 0.331072 655 968 -1 22 0 heads_default wzcgcxcwxzvlvfcxga 199 36 0 
+258615 div:int (none) 255144 1 1 17 0 0 0 682 999 -1 20 0 heads_default wzcgcntwzvvvfcxga 582 68 0 
+259190 div:int (none) 250143 1 1 18 0 0 0 695 1000 -1 18 0 heads_default wzcgcncvrbzvvvfxga 622 5 0 
+258914 div:int (none) 254872 1 1 18 10 25 0.4 686 1000 -1 24 0 heads_default wzcgcnclvlzvvvnxga 751 2 0 
+258937 div:int (none) 217218 1 1 18 0 0 0 680 1000 -1 16 0 heads_default wzctctcwbzvvvfcxga 776 21 0 
+259167 div:int (none) 254292 1 1 18 0 0 0 682 1000 -1 17 0 heads_default wzcgcwcwbzvvvfcxgk 823 7 0 
+255602 div:int (none) 253494 3 18 19 19 37 0.513514 695 989 -1 18 0 heads_default wzcgcnmlnzvvvfcxvga 839,900,957 24,25,68 0,0,0 
+253670 div:int (none) 248032 11 59 19 19 39 0.487179 680 983 -1 20 0 heads_default wzcgcymvwbzvvvfcxga 1048,1050,1051,1107,1108,1109,1112,1171,1172,1173,1230 18,21,33,12,22,29,21,36,33,29,33 0,0,0,0,0,0,0,0,0,0,0 
+258868 div:int (none) 258096 1 1 20 0 0 0 703 999 -1 23 0 heads_default wzcgcpcwfzvvvfcxhvga 1126 26 0 
+251945 div:int (none) 193469 6 47 18 18 38 0.473684 687 978 -1 20 0 heads_default wzcgcbnwtzvvvfcxga 1194,1314,1373,1374,1375,1434 24,3,26,5,2,6 0,0,0,0,0,0 
+254337 div:int (none) 221882 4 11 18 18 52 0.346154 674 985 -1 19 0 heads_default wzcgcwwsczvivfcxga 1402,1460,1461,1520 2,2,5,7 0,0,0,0 
+259213 div:int (none) 253917 1 1 19 0 0 0 686 1000 -1 21 0 heads_default wzcgcmcsozyvvvfcxga 1470 1 0 
+258132 div:int (none) 251774 1 1 20 19 36 0.527778 704 997 -1 27 0 heads_default wzcgcqycszvvvfcxvgac 1557 51 0 
+259075 div:int (none) 257339 1 1 20 0 0 0 705 1000 -1 24 0 heads_default mwzcgczcwczvvvfcxvga 1627 13 0 
+256085 div:int (none) 210329 3 10 27 24 51 0.470588 667 991 -1 21 0 heads_default wzcagcvvocvxpacvzvvfcaxvgab 1703,1704,1764 21,9,22 0,0,0 
+258730 div:int (none) 231204 1 1 20 11 27 0.407407 703 999 -1 20 0 heads_default wzcgcbcptzvvvfcxxvga 1918 7 0 
+255832 div:int (none) 254444 2 12 19 19 36 0.527778 702 990 -1 20 0 heads_default wzcgclzrbzvvvfcxvga 1927,2044 26,34 0,0 
+258385 div:int (none) 237506 1 1 19 0 0 0 710 998 -1 25 0 heads_default wzcmcsydbzvvvfcxvga 2084 75 0 
+259098 div:int (none) 226199 1 1 17 0 0 0 704 1000 -1 18 0 heads_default wzcgcnwzzvvvfcxga 2088 8 0 
+257810 div:int (none) 224116 1 1 19 10 27 0.37037 705 996 -1 24 0 heads_default wzcgcsyubzvxvfcxvga 2152 54 0 
+256821 div:int (none) 212382 7 11 19 19 37 0.513514 705 993 -1 18 0 heads_default wzcgcktwtzvvvfcxvga 2238,2297,2353,2414,2415,2416,2475 3,1,24,19,25,35,28 0,0,0,0,0,0,0 
+258362 div:int (none) 254417 3 4 19 19 37 0.513514 708 998 -1 25 0 heads_default wzcgcyylfzvvvfcxvga 2273,2274,2392 3,2,30 0,0,0 
+259052 div:int (none) 247076 1 1 18 0 0 0 704 1000 -1 21 0 heads_default wzcgcjtjzzvvvfcgga 2387 19 0 
+257051 div:int (none) 183408 1 4 17 17 74 0.22973 682 994 -1 18 0 heads_default wzcgcnczbzvvfcxga 2424 50 0 
+257258 div:int (none) 200439 4 9 19 19 40 0.475 701 995 -1 17 0 heads_default wzcgcncwzsvvvfcxvga 2439,2498,2499,2557 34,39,27,35 0,0,0,0 
+258247 div:int (none) 112560 1 1 18 0 0 0 681 997 -1 15 0 heads_default wzmgcncwbzvvvfcxga 2493 97 0 
+258983 div:int (none) 241540 1 1 18 0 0 0 707 1000 -1 18 0 heads_default wzcgcncdzvvvfcxvga 2808 24 0 
+256131 div:int (none) 244113 8 22 19 18.6522 36.5217 0.509581 702 991 -1 19 0 heads_default wzcgcklwmzvvvfcxvga 2829,2887,2888,2889,2890,2950,3127,3128 0,33,35,2,4,2,20,31 0,0,0,0,0,0,0,0 
+258408 div:int (none) 236372 1 3 19 19 36 0.527778 709 998 -1 18 0 heads_default wzcgcncorzvvvfcxvga 2852 11 0 
+253210 div:int (none) 244142 3 27 19 19 36 0.527778 696 982 -1 19 0 heads_default wzcgcmcwtzvvvfcxvga 2896,2954,2955 9,15,10 0,0,0 
+252497 div:int (none) 250372 11 51 19 19 41 0.463415 697 980 -1 23 0 heads_default wzcgcfyqzvvvufcxvga 2942,3000,3002,3061,3063,3122,3183,3184,3242,3244,3299 36,24,30,34,7,10,37,4,20,4,19 0,0,0,0,0,0,0,0,0,0,0 
+257465 div:int (none) 245276 1 1 19 0 0 0 681 995 -1 19 0 heads_default wyzcgcscubzvvvfcxga 3140 163 0 
+258339 div:int (none) 250674 1 1 20 0 0 0 710 998 -1 23 0 heads_default wzcgcnyqzvgvvkfcxvga 3247 94 0 
+258224 div:int (none) 255628 1 1 18 0 0 0 685 997 -1 17 0 heads_default wzagcncwozvvvfexga 3340 81 0 
+259144 div:int (none) 240343 1 1 19 0 0 0 689 1000 -1 21 0 heads_default wzcgctcfxhzvvvfcxga 3516 4 0 
+243643 div:int (none) 208418 14 157 19 18.913 36.913 0.51206 662 952 -1 21 0 heads_default wzcgctywzzvvvfcxvga 8,9,10,11,70,71,72,133,192,193,3489,3548,3549,3550 28,25,3,22,4,9,17,17,19,27,17,29,35,29 0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258685 div:int (none) 238461 1 1 19 0 0 0 685 999 -1 20 0 heads_default wzcgcnyvpdzvvvfcxgl 35 53 0 
+258432 div:int (none) 255899 1 1 20 0 0 0 691 998 -1 20 0 heads_default wzcgcmcvwbzvvvfcxwga 336 71 0 
+246311 div:int (none) 223820 2 128 18 17.9608 38.085 0.471948 652 960 -1 16 0 heads_default wzcgcplwbzvvvfcxga 422,483 0,0 0,0 
+258501 div:int (none) 250143 2 3 19 19 37 0.513514 694 998 -1 18 0 heads_default wzcgcncvkbzvvvfcxga 433,492 23,17 0,0 
+259053 div:int (none) 252457 1 1 18 0 0 0 710 1000 -1 18 0 heads_default wzctcgcwbzvvvfcxga 603 15 0 
+258593 div:int (none) 193469 4 5 19 19 37 0.513514 706 998 -1 20 0 heads_default wzcgcbpwtzvvvfcxvga 605,663,723,843 4,20,27,4 0,0,0,0 
+254292 div:int (none) 217218 3 23 18 18 37.9655 0.474126 670 985 -1 16 0 heads_default wzcgcwcwbzvvvfcxga 643,704,824 4,10,8 0,0,0 
+258133 div:int (none) 222559 1 1 18 0 0 0 691 997 -1 19 0 heads_default wzcgccvwbzvvvfcxga 685 101 0 
+259099 div:int (none) 256295 1 1 18 0 0 0 693 1000 -1 20 0 heads_default wzcgcpcvwbzvvfcxga 808 8 0 
+258777 div:int (none) 219784 1 1 19 0 0 0 710 999 -1 23 0 heads_default wzcgcslubzvvvfcxvla 1141 40 0 
+258271 div:int (none) 229102 1 1 20 0 0 0 703 998 -1 22 0 heads_default wzcgczowtzvvvfcxvgwa 1143 77 0 
+258547 div:int (none) 217218 1 1 18 0 0 0 678 998 -1 16 0 heads_default wzjgctcwbzvvvfcxga 1165 62 0 
+224116 div:int (none) 219784 19 1444 19 18.9722 36.0081 0.527 613 890 -1 23 0 heads_default wzcgcsyubzvvvfcxvga 1184,1245,1248,1306,1307,1860,1920,1979,1980,2029,2032,2039,2089,2098,2149,2150,2157,2158,2210 35,3,14,3,19,10,4,5,6,30,26,4,20,12,13,27,9,8,24 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+257282 div:int (none) 252770 1 1 20 0 0 0 698 995 -1 21 0 heads_default wxzcxcbnwtztvvfcxvga 1210 226 0 
+256891 div:int (none) 220522 2 3 19 19 85 0.223529 704 994 -1 21 0 heads_default wzcgcznwtzvovfcxvga 1275,1276 49,45 0,0 
+257673 div:int (none) 245198 1 1 18 0 0 0 682 996 -1 19 0 heads_default wzcgckbiizvvvfcxha 1663 144 0 
+258639 div:int (none) 254684 1 1 21 0 0 0 707 999 -1 28 0 heads_default wazcgcqvyvszvvvfcxvga 1670 69 0 
+257650 div:int (none) 252420 4 6 19 19 41 0.463415 707 996 -1 27 0 heads_default wzcgcjdszvvpvfcxvga 1735,1794,1795,1853 9,11,11,16 0,0,0,0 
+258064 div:int (none) 238636 1 1 19 0 0 0 678 997 -1 22 0 heads_default wzcgcpkmjzvovvfcxga 1763 94 0 
+258662 div:int (none) 249450 1 1 18 0 0 0 693 999 -1 20 0 heads_default wzcpclczbzvvvfcxga 1890 49 0 
+238445 div:int (none) 198245 15 367 19 18.9815 37.2725 0.511996 653 936 -1 17 0 heads_default wzcgcqcwbzvvvfcxvga 1999,2119,2120,2121,2178,2179,2182,2240,2241,2242,2243,2299,2300,2302,2361 14,23,45,11,7,4,16,33,13,8,4,8,29,34,15 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259145 div:int (none) 258863 1 1 19 0 0 0 710 1000 -1 18 0 heads_default vvfkxvgawzcgcncwtzv 2125 3 0 
+256385 div:int (none) 200439 1 2 19 0 0 0 700 992 -1 17 0 heads_default wzcgcncwzzvvvfcxtga 2140 246 0 
+258340 div:int (none) 224116 1 1 18 0 0 0 707 998 -1 24 0 heads_default wzcgcsyubzvvvfcxva 2211 99 0 
+259122 div:int (none) 220771 1 1 19 0 0 0 719 1000 -1 21 0 heads_default wzcgcuyfzvvvvfcxvga 2213 8 0 
+258938 div:int (none) 241384 1 1 18 0 0 0 711 1000 -1 19 0 heads_default wzcgcbcrbzvvvfcvga 2283 33 0 
+258869 div:int (none) 251967 1 1 18 0 0 0 710 999 -1 19 0 heads_default zcgcscwtzvvvfcxvga 2537 38 0 
+259214 div:int (none) 258451 1 1 18 0 0 0 688 1000 -1 19 0 heads_default wzcgcnczqzvvvfcxga 2549 4 0 
+258892 div:int (none) 200439 1 1 20 11 29 0.37931 708 999 -1 17 0 heads_default wzcgcncwpzvvvdfcxvga 2688 6 0 
+254361 div:int (none) 245713 6 40 19 19 36.0889 0.526605 695 985 -1 18 0 heads_default wzcgcrcyzzvvvfcxvga 2748,2749,2807,2927,2928,3045 16,18,24,9,6,4 0,0,0,0,0,0 
+245713 div:int (none) 200439 8 198 19 18.9024 36.1911 0.524139 671 958 -1 17 0 heads_default wzcgcrcwzzvvvfcxvga 2752,2812,2872,2873,2875,2931,2992,3052 30,9,6,12,28,6,32,24 0,0,0,0,0,0,0,0 
+257006 div:int (none) 238635 1 1 19 0 0 0 713 994 -1 23 0 heads_default vvvvfpxvgawzcgcotyz 2758 106 0 
+236904 div:int (none) 212382 13 232 18 18 37.0202 0.486253 650 931 -1 18 0 heads_default wzcgckcwtzvvvfcxga 2886,2891,2945,2947,2949,2951,2952,3006,3010,3011,3072,3132,3133 6,15,0,6,21,15,17,2,34,27,22,21,34 0,0,0,0,0,0,0,0,0,0,0,0,0 
+239549 div:int (none) 218582 23 346 19 18.9484 38.1253 0.497752 637 939 -1 19 0 heads_default wzcgcfxvpbzvvvfcxga 2924,2925,2986,2987,2990,3046,3103,3105,3110,3162,3163,3164,3165,3166,3223,3225,3227,3229,3286,3288,3348,3353,3412 7,5,34,25,37,67,10,100,28,5,9,126,19,11,4,11,1,30,2,0,0,8,8 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258386 div:int (none) 238477 2 2 18 18 52 0.346154 687 998 -1 28 0 heads_default wzcgckbkrzvcvfcxga 3043,3102 13,13 0,0 
+258524 div:int (none) 256730 1 1 19 0 0 0 691 998 -1 21 0 heads_default wzcgclcwlzvvvfcxbga 3093 64 0 
+256454 div:int (none) 128890 1 1 18 0 0 0 680 992 -1 16 0 heads_default vviacxgawzcgcncwoz 3094 129 0 
+258846 div:int (none) 254361 1 1 19 0 0 0 706 999 -1 19 0 heads_default wzcglrcyzuvvvfcxvga 3106 35 0 
+256822 div:int (none) 256568 1 1 20 0 0 0 707 993 -1 19 0 heads_default vvficxvgawzcgcncwhzv 3149 128 0 
+259007 div:int (none) 228630 1 1 19 0 0 0 689 1000 -1 19 0 heads_default wzggcecvutzvvvfcxga 3325 25 0 
+256063 div:int (none) 228630 3 16 18 18 37 0.486486 678 991 -1 19 0 heads_default wzcgcecutzvvvfcxga 3363,3421,3481 31,21,33 0,0,0 
+258225 div:int (none) 228999 2 3 18 18 38 0.473684 680 997 -1 19 0 heads_default wzcgcqcwpzvvvfcxga 3417,3478 23,26 0,0 
+259168 div:int (none) 233267 1 1 18 0 0 0 680 1000 -1 16 0 heads_default wzcgcncljzvhvfcxga 3427 8 0 
+258961 div:int (none) 228999 1 1 19 0 0 0 682 1000 -1 19 0 heads_default wzcgctcwbpzvvvfcxga 3476 21 0 
+259191 div:int (none) 249763 1 1 19 0 0 0 694 1000 -1 24 0 heads_default wzcgcecwnznvvvfcxga 3502 6 0 
+256179 div:int (none) 212382 7 18 19 19 37 0.513514 705 991 -1 18 0 heads_default wzcgcqcwtzvvvfcxvga 13,73,132,134,3492,3493,3552 73,7,9,31,17,36,22 0,0,0,0,0,0,0 
+255420 div:int (none) 241305 6 17 18 18 38 0.473684 674 989 -1 19 0 heads_default wzcgcfwrjzvvvfcxga 16,74,75,135,253,312 1,7,0,3,23,20 0,0,0,0,0,0 
+251257 div:int (none) 237920 5 34 18 18 37 0.486486 669 976 -1 21 0 heads_default wzcgcdcsyzvvvfcxga 38,97,3521,3578,3581 3,26,21,1,25 0,0,0,0,0 
+245070 div:int (none) 231032 5 153 18 16.9492 36.9266 0.458747 649 956 -1 19 0 heads_default wzcgcepwrzvvvfcxga 53,112,113,114,3593 24,23,22,33,19 0,0,0,0,0 
+246473 div:int (none) 208418 4 217 19 18.9396 37.3547 0.511032 670 961 -1 21 0 heads_default wzcgcttzzzvvvfcxvga 68,127,128,487 32,23,13,34 0,0,0,0 
+257904 div:int (none) 229320 1 1 19 9 31 0.290323 690 997 -1 20 0 heads_default wzcgclcvwlzvvdfcxga 91 41 0 
+258318 div:int (none) 247891 1 1 19 0 0 0 674 998 -1 19 0 heads_default wzcgocecwuzvivfcxga 116 86 0 
+253902 div:int (none) 228999 4 24 18 18 52 0.346154 669 984 -1 19 0 heads_default wzcgctcwpzvvpfcxga 118,179,239,3537 27,0,0,39 0,0,0,0 
+259008 div:int (none) 256278 1 1 17 0 0 0 683 1000 -1 21 0 heads_default wzcgdcwnzvvvfcxga 176 31 0 
+256455 div:int (none) 228551 1 1 18 0 0 0 675 992 -1 21 0 heads_default wzcgczcwxzvvvfcxgk 263 257 0 
+257122 div:int (none) 240122 4 6 20 20 51 0.392157 668 994 -1 30 0 heads_default wnjatcgcjiozzvvfcxga 396,397,455,456 11,8,16,11 0,0,0,0 
+256225 div:int (none) 228551 2 12 18 18 37 0.486486 674 991 -1 21 0 heads_default wzcgcncwxzvvvfcxga 443,563 32,22 0,0 
+258870 div:int (none) 254669 1 1 18 0 0 0 684 999 -1 18 0 heads_default zvvvfwxgawzcgcplwn 478 9 0 
+251809 div:int (none) 169869 4 45 18 17.0189 37.2642 0.464168 662 977 -1 16 0 heads_default wzcgcfcwszvvvfcxga 491,550,551,610 5,2,33,11 0,0,0,0 
+258893 div:int (none) 222559 1 1 20 0 0 0 693 999 -1 19 0 heads_default wzcgcpcdvwbzvvvfcxga 745 37 0 
+254707 div:int (none) 198969 9 35 18 17.7805 36.6341 0.484599 672 987 -1 18 0 heads_default wzcgcocfdzvvvfcxga 930,931,990,1054,1113,1114,1170,1174,1232 16,20,28,4,1,3,6,5,13 0,0,0,0,0,0,0,0,0 
+258594 div:int (none) 258052 1 1 17 0 0 0 703 999 -1 24 0 heads_default wzccsnwtzvkvfcxga 1033 48 0 
+244564 div:int (none) 211301 2 80 18 18 37 0.486486 643 955 -1 19 0 heads_default wzcgctyrbzvvvfcxga 1091,1150 13,10 0,0 
+258916 div:int (none) 252770 1 1 21 0 0 0 701 1000 -1 21 0 heads_default wxzcgcbnwztztvvfcxvga 1153 31 0 
+254500 div:int (none) 219808 2 34 19 19 36 0.527778 695 986 -1 20 0 heads_default wzcgcpcwlzvvvfcxvga 1206,1207 32,34 0,0 
+258985 div:int (none) 256538 1 1 20 0 0 0 708 1000 -1 20 0 heads_default wzcgcucwvzvvvfxcxvga 1386 27 0 
+259146 div:int (none) 221882 1 1 19 0 0 0 686 1000 -1 19 0 heads_default wzcgcwwscuzvvvfcxga 1403 4 0 
+258272 div:int (none) 256502 1 1 17 17 75 0.226667 677 998 -1 21 0 heads_default wzcgcuyrbzvvfcxga 1455 11 0 
+257145 div:int (none) 210329 1 1 27 0 0 0 669 994 -1 21 0 heads_default wzcagcvvpcvxpacvzvvfcaxhgab 1465 220 0 
+259215 div:int (none) 248016 1 1 20 0 0 0 703 1000 -1 21 0 heads_default wzwcgcbcqfzvvvfcxvga 1491 1 0 
+257927 div:int (none) 257680 1 1 18 0 0 0 701 997 -1 23 0 heads_default vvfxvgawzcgczowtzv 1497 53 0 
+256547 div:int (none) 223000 1 1 21 0 0 0 667 992 -1 29 0 heads_default knjatcgcjiokzvvvfcxga 1536 260 0 
+257674 div:int (none) 252634 2 2 18 18 55 0.327273 680 996 -1 21 0 heads_default wzcgcncpozvfvfcxga 1581,1640 53,35 0,0 
+259077 div:int (none) 256085 1 1 27 0 0 0 674 1000 -1 22 0 heads_default wzcagcvvofvxpacvzvvfcaxvgab 1702 26 0 
+247876 div:int (none) 200439 24 272 19 18.9615 36.0897 0.526345 677 965 -1 17 0 heads_default wzcgcncwczvvvfcxvga 1716,1718,1723,1777,1781,1782,1791,1840,1841,1842,1849,1850,1901,1908,1909,1952,2013,2014,2074,2201,2258,2260,2320,2378 0,20,20,4,13,19,6,19,14,65,35,14,20,19,18,3,1,30,7,4,35,29,29,6 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+254684 div:int (none) 251774 2 21 20 19.96 37 0.539459 695 986 -1 27 0 heads_default wzcgcqvycszvvvfcxvga 1793,1852 14,16 0,0 
+258387 div:int (none) 253088 1 1 19 0 0 0 706 998 -1 19 0 heads_default vvxcxvgawzcgcxcwczv 1900 46 0 
+259054 div:int (none) 258690 1 1 19 0 0 0 711 1000 -1 21 0 heads_default awzcgccqbzvvvfcxvga 1923 20 0 
+258962 div:int (none) 258592 1 1 18 0 0 0 711 1000 -1 26 0 heads_default wzcgcsydbzvvofcxga 1967 21 0 
+258456 div:int (none) 237567 1 1 18 0 0 0 710 998 -1 22 0 heads_default wcgcbycbzvvvfcxvga 2038 72 0 
+258019 div:int (none) 251274 1 1 19 11 33 0.333333 710 997 -1 20 0 heads_default wzcgciprbzvvefcxvga 2107 51 0 
+258939 div:int (none) 241384 1 1 19 0 0 0 713 1000 -1 19 0 heads_default wzcgczcrbzvvvfcxvga 2161 30 0 
+259100 div:int (none) 249631 1 1 19 0 0 0 711 1000 -1 20 0 heads_default wzcgcnyypzvvvfixvga 2430 14 0 
+258617 div:int (none) 241540 2 3 19 19 36 0.527778 706 999 -1 18 0 heads_default wzcgcncduzvvvfcxvga 2867,2926 1,0 0,0 
+252016 div:int (none) 232468 1 32 19 19 43.6667 0.450675 697 978 -1 22 0 heads_default wzcgcnyqzvvwvfcxvga 3067 33 0 
+257421 div:int (none) 254035 6 9 19 19 34 0.558824 716 995 -1 24 0 heads_default wzcgcbbyzvvvvfcxvga 3118,3120,3179,3180,3238,3239 9,18,32,23,26,3 0,0,0,0,0,0 
+258847 div:int (none) 128890 1 1 19 0 0 0 687 999 -1 16 0 heads_default uwzcgcncwozvvvfcxga 3224 35 0 
+259031 div:int (none) 258732 1 1 18 0 0 0 693 1000 -1 23 0 heads_default zvvvfxgawzcgcecvwl 3323 10 0 
+257283 div:int (none) 240343 1 8 18 18 37 0.486486 685 995 -1 21 0 heads_default wzcgcmcfxzvvvfcxga 3393 15 0 
+258088 div:int (none) 254448 1 1 17 17 38 0.447368 685 997 -1 17 0 heads_default wzcgcbcwozvvvfcxg 3404 26 0 
+258364 div:int (none) 200428 1 1 17 0 0 0 682 998 -1 16 0 heads_default wzcgcncmbzvvvfcga 3530 80 0 
+258848 div:int (none) 243643 1 1 19 0 0 0 702 999 -1 22 0 heads_default wzcgcnywzzvvvfcxvga 7 35 0 
+258917 div:int (none) 210742 1 2 18 18 37 0.486486 679 1000 -1 19 0 heads_default wzcgcnczozvvvfcxga 50 1 0 
+258687 div:int (none) 239591 1 1 19 0 0 0 684 999 -1 20 0 heads_default wzlgcncvopzvvvfcxga 109 62 0 
+259032 div:int (none) 227922 1 1 19 0 0 0 692 1000 -1 19 0 heads_default wzcgckclwlzvvvfcxga 148 21 0 
+258733 div:int (none) 246473 2 3 19 19 34 0.558824 704 999 -1 22 0 heads_default wzcgcttzzvvvvfcxvga 186,187 24,25 0,0 
+258457 div:int (none) 252348 1 1 18 18 38 0.473684 678 998 -1 21 0 heads_default wzcgcxmwizvvvfcxga 280 18 0 
+255743 div:int (none) 112560 2 11 18 18 37 0.486486 672 990 -1 15 0 heads_default wzcgcntjbzvvvfcxga 313,372 35,3 0,0 
+200428 div:int (none) 112560 32 1689 18 17.9404 36.0724 0.498055 532 815 -1 15 0 heads_default wzcgcncmbzvvvfcxga 345,469,769,829,2816,2874,2932,2933,2934,2991,3050,3051,3170,3174,3175,3176,3234,3235,3236,3289,3290,3291,3292,3296,3297,3350,3351,3357,3407,3410,3469,3524 29,44,3,2,20,3,21,11,5,11,7,6,31,12,10,6,7,6,14,14,19,3,3,18,28,15,18,20,10,23,17,23 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259101 div:int (none) 253467 1 1 18 0 0 0 681 1000 -1 22 0 heads_default wzcgczcwpzvvifcxga 382 13 0 
+258756 div:int (none) 256514 1 1 17 0 0 0 686 999 -1 17 0 heads_default wzcgcjmbzvvvfcxga 406 45 0 
+217218 div:int (none) 112560 33 1586 18 17.9449 36.9712 0.485358 577 869 -1 15 0 heads_default wzcgctcwbzvvvfcxga 462,463,521,522,523,581,640,641,699,700,701,759,760,761,764,765,826,860,861,1100,1158,1159,1219,1220,1221,1225,1279,1283,1407,1409,1467,1468,1528 28,11,21,2,12,22,8,4,10,2,12,30,34,17,11,9,7,24,11,12,4,21,6,4,3,9,2,20,8,2,9,2,15 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258503 div:int (none) 207777 1 1 18 0 0 0 703 998 -1 17 0 heads_default wzcgcnmwbzvvvfcxva 958 71 0 
+255789 div:int (none) 234645 2 10 18 18 37 0.486486 673 990 -1 21 0 heads_default wzcgclcowzvvvfcxga 1000,1059 3,5 0,0 
+256502 div:int (none) 244564 8 19 18 18 37 0.486486 673 992 -1 20 0 heads_default wzcgcuyrbzvvvfcxga 1214,1272,1273,1331,1334,1335,1393,1395 20,4,14,1,1,7,44,7 0,0,0,0,0,0,0,0 
+257813 div:int (none) 233797 1 7 19 19 35 0.542857 704 996 -1 19 0 heads_default wzcgcgcdbzvvvfcxvga 1440 7 0 
+257031 div:int (none) 254042 1 1 20 0 0 0 708 994 -1 20 0 heads_default wzcgcpctbzzvvvfcxvga 1458 183 0 
+191458 div:int (none) 128890 23 1843 18 17.9428 37.0237 0.484841 512 786 -1 16 0 heads_default wzcgcnckozvvvfcxga 1524,1525,1526,1527,1583,1584,1586,1587,1588,1646,1647,1648,1649,1706,1708,1766,1767,1768,1825,1827,1828,1884,1885 21,3,3,31,13,13,35,25,4,96,20,10,0,151,1,35,2,18,14,14,18,16,22 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+229592 div:int (none) 219167 11 544 18 17.9848 38.1583 0.47221 607 907 -1 19 0 heads_default wzcgctkkjzvvvfcxga 1589,1590,1650,1651,1709,1711,1712,1769,1770,1829,1889 3,9,9,23,6,26,128,22,31,22,116 0,0,0,0,0,0,0,0,0,0,0 
+259216 div:int (none) 200439 1 1 20 0 0 0 706 1000 -1 17 0 heads_default wzcgcncwzzvvvfcxviga 1657 4 0 
+259124 div:int (none) 233218 1 1 19 0 0 0 710 1000 -1 18 0 heads_default wzcdcgcwbzvvvfqxvga 1759 7 0 
+256456 div:int (none) 247492 7 16 19 19 37 0.513514 701 992 -1 25 0 heads_default wzcgcsyuwzvvvfcxvga 1783,1784,1786,1843,1844,1845,1846 27,9,31,27,5,1,4 0,0,0,0,0,0,0 
+183408 div:int (none) 177739 8 2812 18 17.9433 35.9541 0.498941 489 759 -1 17 0 heads_default wzcgcnczbzvvvfcxga 1831,2368,2425,2432,2433,2484,2486,2606 7,15,14,16,14,7,33,22 0,0,0,0,0,0,0,0 
+247969 div:int (none) 241384 4 87 19 19 36.4528 0.524933 681 965 -1 19 0 heads_default wzcgcbckbzvvvfcxvga 2164,2218,2223,2279 6,1,8,3 0,0,0,0 
+259170 div:int (none) 237506 1 1 19 0 0 0 712 1000 -1 25 0 heads_default wzcgcsydbzvvvfdxvga 2205 10 0 
+256663 div:int (none) 226199 1 8 18 18 37 0.486486 698 993 -1 18 0 heads_default wzcgcncwmzvvvfcxga 2265 16 0 
+258940 div:int (none) 202883 1 1 19 0 0 0 696 1000 -1 20 0 heads_default wzcgcdbcwtzvvvfcxga 2288 22 0 
+259147 div:int (none) 212382 1 1 19 0 0 0 711 1000 -1 18 0 heads_default wzcgckcwtzvxvfcxvga 2305 12 0 
+258825 div:int (none) 165804 1 1 19 0 0 0 710 999 -1 17 0 heads_default wzcgcncwtzvdvfcxvga 2307 40 0 
+258963 div:int (none) 165804 1 1 19 0 0 0 711 1000 -1 17 0 heads_default wzcgcncutzvvvfcxvga 2308 24 0 
+259009 div:int (none) 241384 1 1 20 0 0 0 712 1000 -1 19 0 heads_default wzcgcbcrbzvvvfcxvgaj 2403 21 0 
+259193 div:int (none) 238505 1 1 20 0 0 0 705 1000 -1 18 0 heads_default wzcgcnemwzzvvvfcxvga 2447 5 0 
+258342 div:int (none) 200439 1 1 18 0 0 0 704 998 -1 17 0 heads_default wzcgccwzzvvvfcxvga 2450 105 0 
+258664 div:int (none) 257114 1 1 19 0 0 0 690 999 -1 25 0 heads_default wzcgcvzcytzvvtfcxga 2559 48 0 
+250821 div:int (none) 230468 5 45 20 19.7255 37.6078 0.523708 685 974 -1 19 0 heads_default wzcgcnvqotzvvvfcxvga 2658,2660,2718,2776,2777 23,32,28,25,24 0,0,0,0,0 
+205189 div:int (none) 186368 9 840 18 17.9819 38.0693 0.472547 549 830 -1 20 0 heads_default wzcgcdpfxzvvvfcxga 2988,3047,3048,3049,3107,3108,3109,3167,3345 19,17,22,9,24,23,12,17,20 0,0,0,0,0,0,0,0,0 
+258595 div:int (none) 257549 1 1 19 0 0 0 717 999 -1 23 0 heads_default wzcgcnyqovrvvfcxvga 3064 69 0 
+258618 div:int (none) 187358 1 1 17 0 0 0 686 999 -1 17 0 heads_default wzcgcnbsbzvvfcxga 3172 57 0 
+258526 div:int (none) 245070 2 3 18 17 37 0.459459 681 998 -1 20 0 heads_default wzcgcexwrzvvvfcxga 3243,3302 8,7 0,0 
+246313 div:int (none) 232468 9 118 19 18.8571 33.8357 0.556557 680 960 -1 22 0 heads_default wzcgcnrqzvvvvfcxvga 3251,3252,3255,3256,3311,3312,3315,3316,3372 10,5,9,4,5,25,3,12,4 0,0,0,0,0,0,0,0,0 
+257652 div:int (none) 212382 1 1 19 11 29 0.37931 708 996 -1 18 0 heads_default wzcgckcwtzvvvbcxvga 3373 74 0 
+249763 div:int (none) 248575 2 51 18 18 37 0.486486 670 971 -1 23 0 heads_default wzcgcecwnzvvvfcxga 3382,3443 13,4 0,0 
+259055 div:int (none) 198089 1 1 19 0 0 0 685 1000 -1 18 0 heads_default wzcgczcubzvvvxfcxga 3503 17 0 
+258665 div:int (none) 251598 1 1 19 0 0 0 691 999 -1 19 0 heads_default vflxgawzcgcidvjbzvv 152 28 0 
+258412 div:int (none) 237920 1 1 18 0 0 0 688 998 -1 21 0 heads_default zvvvfmxgawzcgcdcsx 217 39 0 
+258964 div:int (none) 246851 1 1 19 0 0 0 684 1000 -1 21 0 heads_default wzcgcncvojzvvvfcxea 226 31 0 
+233871 div:int (none) 226619 9 270 18 17.9452 36.9323 0.48567 618 921 -1 18 0 heads_default wzcgcpwrbzvvvfcxga 306,366,369,370,431,489,490,549,609 30,36,12,6,35,12,30,0,112 0,0,0,0,0,0,0,0,0 
+244106 div:int (none) 222559 5 233 19 18.9779 36.9632 0.513396 656 953 -1 19 0 heads_default wzcgcpcvdbzvvvfcxga 332,390,391,871,872 13,18,19,24,102 0,0,0,0,0 
+253467 div:int (none) 228551 4 39 18 18 37.3061 0.483623 667 983 -1 21 0 heads_default wzcgczcwpzvvvfcxga 381,504,557,619 10,21,33,21 0,0,0,0 
+258228 div:int (none) 112560 1 1 19 10 37 0.27027 680 997 -1 15 0 heads_default wzcgcncwxbzvvvfcxga 437 30 0 
+259125 div:int (none) 222559 1 1 18 0 0 0 693 1000 -1 19 0 heads_default wzcgcpzvwbzvvvcxga 448 12 0 
+248752 div:int (none) 245201 5 71 18 18 38 0.473684 656 968 -1 19 0 heads_default wzcgcodwizvvvfcxga 526,583,646,647,707 32,14,22,32,32 0,0,0,0,0 
+257147 div:int (none) 256814 1 1 17 0 0 0 681 994 -1 17 0 heads_default vvvfhxgawzcgcncbz 650 105 0 
+258642 div:int (none) 248276 1 1 17 0 0 0 692 999 -1 18 0 heads_default wzcgcncbzvvvfcxga 688 57 0 
+237367 div:int (none) 112560 13 346 18 17.9051 36.8912 0.485038 629 932 -1 15 0 heads_default wzcgcncwhzvvvfcxga 771,772,830,831,891,892,893,1067,1070,1127,1129,1188,1366 9,7,1,34,4,24,3,13,29,12,7,5,33 0,0,0,0,0,0,0,0,0,0,0,0,0 
+258366 div:int (none) 251836 1 1 18 0 0 0 695 998 -1 21 0 heads_default wzcgcpcgbzvvvfcxga 813 85 0 
+259217 div:int (none) 190897 1 1 18 0 0 0 696 1000 -1 17 0 heads_default wzcgcncpbzvvvwcxga 865 1 0 
+259010 div:int (none) 240122 1 1 21 0 0 0 672 1000 -1 30 0 heads_default wnjatcgcjiowzuvvfcxga 877 31 0 
+259033 div:int (none) 257946 1 1 18 0 0 0 692 1000 -1 20 0 heads_default wzgcpcvwbzvvtfcxga 928 17 0 
+253996 div:int (none) 248032 4 15 19 19 54 0.351852 681 984 -1 20 0 heads_default wzcgcwmvwbzlvvfcxga 989,1049,1052,1053 24,27,6,14 0,0,0,0 
+258780 div:int (none) 254707 1 1 18 0 0 0 683 999 -1 19 0 heads_default wzcvcocfdzvvvfcxga 991 35 0 
+239713 div:int (none) 238523 2 112 21 20.9118 45.0147 0.464507 626 940 -1 30 0 heads_default wajatcgcpiokzvvvfcxga 1044,1105 4,1 0,0 
+259056 div:int (none) 234645 1 1 17 0 0 0 681 1000 -1 21 0 heads_default wzcgclccwzvvvfcxa 1362 19 0 
+258941 div:int (none) 258002 1 1 18 0 0 0 705 1000 -1 21 0 heads_default wcgcqnwtzvvvfcxvga 1370 29 0 
+254985 div:int (none) 219784 1 1 19 0 0 0 700 987 -1 23 0 heads_default vvycxvgawzcgcslubzv 1371 211 0 
+258481 div:int (none) 244040 1 1 18 18 35 0.514286 712 998 -1 19 0 heads_default wzcgcpcsbzvvvfcxvg 1391 28 0 
+248016 div:int (none) 228842 6 77 19 19 37.9485 0.507459 673 966 -1 20 0 heads_default wzcgcbcqfzvvvfcxvga 1430,1490,1549,1550,1608,1609 16,60,5,36,5,34 0,0,0,0,0,0 
+254042 div:int (none) 244040 3 22 19 18.3793 34.2759 0.533637 699 985 -1 19 0 heads_default wzcgcpctbzvvvfcxvga 1457,1517,1518 4,33,3 0,0,0 
+256480 div:int (none) 237506 1 9 19 19 36 0.527778 705 992 -1 25 0 heads_default wzcgcrydbzvvvfcxvga 1552 10 0 
+253237 div:int (none) 228699 5 23 20 18.6897 48.4138 0.38516 686 982 -1 18 0 heads_default wzcgcnfxbzdvvvfcxvga 1560,1619,1620,1621,1679 40,9,9,7,9 0,0,0,0,0 
+246153 div:int (none) 206415 4 81 18 18 38 0.473684 649 960 -1 18 0 heads_default wzcgcnpkxzvvvfcxga 1655,1713,1714,1774 17,13,14,11 0,0,0,0 
+258987 div:int (none) 233797 1 1 19 0 0 0 707 1000 -1 19 0 heads_default wzcgcgcqlzvvvfcxvga 1685 22 0 
+255652 div:int (none) 191458 1 1 19 0 0 0 674 990 -1 17 0 heads_default wzccgcnckozvvvfcxga 1762 313 0 
+258090 div:int (none) 249450 1 1 18 0 0 0 691 997 -1 20 0 heads_default zvvvrcxgawzcgclczb 1891 51 0 
+259079 div:int (none) 255314 1 1 19 0 0 0 708 1000 -1 20 0 heads_default wzcgcqcwjzvvvfcxvga 1894 15 0 
+259102 div:int (none) 237506 1 1 19 0 0 0 712 1000 -1 25 0 heads_default wfcgcsydbzvvvfcxvga 2146 5 0 
+258596 div:int (none) 249782 1 1 19 11 29 0.37931 707 999 -1 26 0 heads_default wzcgcfyuszvvvfrxvga 2156 16 0 
+258136 div:int (none) 238445 1 1 19 0 0 0 704 997 -1 18 0 heads_default wzcxcqcwbzvvvfcxvga 2176 118 0 
+259171 div:int (none) 238445 1 1 18 0 0 0 707 1000 -1 18 0 heads_default wzcgcqcwzvvvfcxvga 2177 9 0 
+255974 div:int (none) 255579 1 1 17 9 24 0.375 696 991 -1 19 0 heads_default wzcgcncwqzvvvcxga 2204 134 0 
+258550 div:int (none) 238445 2 2 19 19 41 0.463415 705 998 -1 18 0 heads_default wzcgcqcwbzvvvfexvga 2239,2298 38,39 0,0 
+258872 div:int (none) 258538 1 1 19 0 0 0 683 999 -1 16 0 heads_default zxvvvfcxgawzcgcjcwb 2316 25 0 
+259194 div:int (none) 256923 1 1 19 0 0 0 711 1000 -1 22 0 heads_default wzcgcbrkbczvvvfcxga 2401 4 0 
+232468 div:int (none) 220771 52 1637 19 18.9463 34.2446 0.556115 640 916 -1 21 0 heads_default wzcgcnyqzvvvvfcxvga 2469,2474,2530,2535,2591,2650,2653,2655,2710,2712,2765,2771,2773,2823,2824,2826,2830,2831,2832,2833,2834,2884,2892,2893,2895,2897,2941,2943,2944,2946,2953,2956,3003,3004,3013,3014,3062,3066,3069,3070,3071,3073,3123,3129,3130,3131,3134,3135,3189,3190,3192,3248 33,6,25,11,25,24,9,10,18,26,2,22,30,11,100,25,7,5,29,18,29,107,23,16,8,32,7,1,12,2,7,7,14,17,16,31,3,53,7,18,31,12,3,8,21,9,12,33,0,3,15,0 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258803 div:int (none) 258423 1 1 18 0 0 0 718 999 -1 22 0 heads_default wzcgcqyfzvvvvfcxva 2574 37 0 
+256940 div:int (none) 232468 1 1 20 19 34 0.558824 711 994 -1 22 0 heads_default wzcgcnyqzvvvvfcxvgas 2714 10 0 
+250661 div:int (none) 236372 5 36 19 19 36 0.527778 687 974 -1 18 0 heads_default wzcgcnclrzvvvfcxvga 2843,2903,2906,2962,2966 34,0,12,0,9 0,0,0,0,0 
+258320 div:int (none) 231596 1 1 19 9 23 0.391304 684 998 -1 20 0 heads_default wzcgcdbubzvvvfcvxga 2848 31 0 
+259148 div:int (none) 239549 1 1 19 0 0 0 687 1000 -1 20 0 heads_default wzcgcfxvpezvvvfcxga 2984 11 0 
+258895 div:int (none) 225041 2 2 18 0 0 0 690 999 -1 27 0 heads_default wzcgckboxzvvvfcxga 3039,3158 33,2 0,0 
+258757 div:int (none) 229320 1 1 20 10 24 0.416667 691 999 -1 20 0 heads_default wzcgclcvwlzvvvxfcxga 3150 10 0 
+258918 div:int (none) 257518 1 1 20 0 0 0 685 1000 -1 18 0 heads_default nycwozvwvvfexgawzcgc 3279 30 0 
+258021 div:int (none) 243643 1 1 20 0 0 0 700 997 -1 22 0 heads_default wzcgctywzzvvvfccxvga 3488 108 0 
+247764 div:int (none) 200428 6 79 18 18 36 0.5 656 965 -1 16 0 heads_default wzcgcncsbzvvvfcxga 45,47,3405,3467,3526,3585 15,16,5,28,0,4 0,0,0,0,0,0 
+237920 div:int (none) 186368 6 272 18 17.9729 37.0693 0.485086 634 934 -1 20 0 heads_default wzcgcdcsxzvvvfcxga 157,159,219,277,278,279 44,25,31,9,16,22 0,0,0,0,0,0 
+256527 div:int (none) 222559 7 20 19 19 38 0.5 687 992 -1 19 0 heads_default wzcgcpcvwnzvvvfcxga 214,273,275,334,393,394,453 15,21,20,33,15,21,12 0,0,0,0,0,0,0 
+253031 div:int (none) 240343 5 48 18 18 38.2593 0.470955 673 981 -1 21 0 heads_default wzcgctufxzvvvfcxga 269,3506,3507,3508,3567 34,18,5,12,9 0,0,0,0,0 
+257700 div:int (none) 200428 2 5 18 18 37 0.486486 683 996 -1 16 0 heads_default wzcgcnlmbzvvvfcxga 404,464 4,2 0,0 
+259103 div:int (none) 257412 1 1 18 0 0 0 681 1000 -1 16 0 heads_default wzcgcncwbzvplfcxxa 479 8 0 
+248937 div:int (none) 217218 4 71 18 17.8846 37.8205 0.472419 657 968 -1 16 0 heads_default wzcgctdwbzvvvfcxga 660,720,779,780 8,35,19,25 0,0,0,0 
+258804 div:int (none) 220522 1 2 18 11 26 0.423077 705 999 -1 21 0 heads_default wzcgcznwtzvvvfxvga 673 14 0 
+257769 div:int (none) 253494 1 1 18 0 0 0 700 996 -1 18 0 heads_default wzcgnmlbzvvvfcxvga 722 146 0 
+258344 div:int (none) 198969 2 3 18 18 37 0.486486 680 998 -1 18 0 heads_default wzcgcocwzzvvvfcxga 762,763 18,18 0,0 
+258252 div:int (none) 252003 1 1 18 0 0 0 681 997 -1 18 0 heads_default zvvvmcxgawzcgctmwb 768 46 0 
+198245 div:int (none) 154974 2 1799 19 18.9707 36.1698 0.526222 540 808 -1 16 0 heads_default wzcgcgcwbzvvvfcxvga 783,784 6,5 0,0 
+251605 div:int (none) 203862 2 44 19 18.8947 38.8421 0.486235 670 977 -1 18 0 heads_default wzcgcwyvwbzvvvfcxga 855,856 34,123 0,0 
+251996 div:int (none) 249224 1 30 19 19 39 0.487179 676 978 -1 22 0 heads_default wzcgcppvfkzvvvfcxga 863 9 0 
+258114 div:int (none) 241626 1 2 18 18 53 0.339623 678 997 -1 19 0 heads_default wzcgcnkwpzvvyfcxga 895 47 0 
+259149 div:int (none) 251996 1 1 19 0 0 0 694 1000 -1 23 0 heads_default wzcgcppvfgzvvvfcxga 924 12 0 
+258620 div:int (none) 219808 1 1 18 0 0 0 707 999 -1 20 0 heads_default wzcgcocwlzvvfcxvga 1269 56 0 
+252847 div:int (none) 219808 2 29 19 18.5429 39 0.491365 691 981 -1 20 0 heads_default wzcgcbcwlzvvvfcxvga 1330,1450 21,34 0,0 
+258574 div:int (none) 258330 2 3 12 0 0 0 684 998 -1 19 0 heads_default ihbzvvvfcxga 1359,1479 4,35 0,0 
+259195 div:int (none) 251774 1 1 19 0 0 0 708 1000 -1 27 0 heads_default wzcgcqycszsvvfcxvga 1433 4 0 
+237506 div:int (none) 224116 33 503 19 18.9667 36.1547 0.526365 651 933 -1 24 0 heads_default wzcgcsydbzvvvfcxvga 1613,1668,1671,1672,1673,1724,1725,1727,1728,1729,1730,1732,1785,1787,1788,1792,1847,1904,1905,1906,1907,1962,1963,1964,1965,1966,1968,2022,2025,2085,2087,2144,2148 12,0,10,0,2,30,28,3,34,24,32,4,29,33,21,14,28,24,12,35,28,8,25,8,23,0,35,13,2,33,7,4,12 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259126 div:int (none) 247876 1 1 19 0 0 0 707 1000 -1 18 0 heads_default wzcgzncwczvvvfcxvga 1836 6 0 
+257815 div:int (none) 225946 1 2 19 19 53 0.358491 686 996 -1 24 0 heads_default wzcgcvzcyxzvvbfcxga 2193 78 0 
+258298 div:int (none) 224116 2 4 19 19 36 0.527778 708 998 -1 24 0 heads_default wzcgcsysbzvvvfcxvga 2208,2209 11,4 0,0 
+258712 div:int (none) 247969 1 1 20 19 36 0.527778 709 999 -1 20 0 heads_default wzcgcbckbzvvvfcxvgap 2220 7 0 
+258896 div:int (none) 112560 1 1 19 0 0 0 683 999 -1 15 0 heads_default wzicgcncwbzvvvfcxga 2257 28 0 
+257976 div:int (none) 212382 4 6 19 19 37 0.513514 708 997 -1 18 0 heads_default wzcgcccwtzvvvfcxvga 2357,2358,2360,2419 6,4,12,7 0,0,0,0 
+258850 div:int (none) 258445 1 1 19 0 0 0 694 999 -1 21 0 heads_default zvvvfscxgawzcgclczb 2374 15 0 
+258390 div:int (none) 255737 1 1 19 0 0 0 709 998 -1 20 0 heads_default wzcgsblrbzvvvfcxvga 2405 91 0 
+253445 div:int (none) 249008 5 47 19 18 35 0.514286 694 983 -1 19 0 heads_default wzcgcfcwmzvvvfcxvga 2600,2661,2721,2783,2841 26,8,17,11,11 0,0,0,0,0 
+259218 div:int (none) 252919 1 1 18 0 0 0 709 1000 -1 19 0 heads_default wzcgckwwtvvvfcxvga 2601 0 0 
+258735 div:int (none) 257662 1 1 18 11 24 0.458333 712 999 -1 18 0 heads_default wzcgcncwyzvvvfxvga 2731 7 0 
+256895 div:int (none) 256543 1 1 19 0 0 0 705 994 -1 19 0 heads_default wzcdcncwfzvvvfcxvga 2850 213 0 
+257838 div:int (none) 257561 1 1 19 0 0 0 685 996 -1 21 0 heads_default zvvvfkcxgawzcgcdbub 2902 59 0 
+258689 div:int (none) 225041 1 1 18 0 0 0 689 999 -1 27 0 heads_default wzcgckbkxzvwvfcxga 3040 45 0 
+259172 div:int (none) 228630 1 1 19 0 0 0 686 1000 -1 19 0 heads_default wdcgcecvutzvvvfcxga 3078 7 0 
+257079 div:int (none) 232468 7 19 19 18.4118 33.3529 0.548969 713 994 -1 22 0 heads_default wzcgcnyszvvvvfcxvga 3188,3249,3250,3305,3308,3366,3367 8,17,23,12,5,10,5 0,0,0,0,0,0,0 
+258965 div:int (none) 228630 1 1 20 0 0 0 689 1000 -1 19 0 heads_default wzcgcecvutzvvuvfcxga 3206 19 0 
+244567 div:int (none) 242534 5 93 19 18.8598 37.8224 0.498252 655 955 -1 21 0 heads_default wzcgcecvwlzvvvfcxga 3261,3262,3321,3381,3442 140,9,8,23,4 0,0,0,0,0 
+258597 div:int (none) 128890 2 2 18 18 52 0.346154 686 999 -1 16 0 heads_default wzcgcncwozvrvfcxga 3280,3341 14,9 0,0 
+259011 div:int (none) 212382 1 1 19 0 0 0 710 1000 -1 18 0 heads_default wzcgckcwtzvvvdcxvga 3429 19 0 
+257516 div:int (none) 186368 1 1 18 0 0 0 686 995 -1 20 0 heads_default wzcgcdcfxcvvvfcxga 3583 151 0 
+258851 div:int (none) 159794 1 1 18 0 0 0 689 999 -1 17 0 heads_default wzcgcicvwbzvvvfcxg 20 31 0 
+258989 div:int (none) 210742 1 1 18 0 0 0 679 1000 -1 19 0 heads_default wzcgcncumzvvvfcxga 48 19 0 
+258644 div:int (none) 229320 1 1 18 0 0 0 691 999 -1 20 0 heads_default wzcgjlcvwlvvvfcxga 90 50 0 
+259219 div:int (none) 248276 1 1 19 0 0 0 694 1000 -1 18 0 heads_default wzecgcncybzvvvfcxga 270 0 0 
+258667 div:int (none) 246851 1 1 19 10 25 0.4 684 999 -1 21 0 heads_default wzcgcncvojzvvvucxga 344 21 0 
+252457 div:int (none) 198245 4 38 19 19 36 0.527778 691 980 -1 17 0 heads_default wzctcgcwbzvvvfcxvga 543,665,724,725 16,1,2,3 0,0,0,0 
+254872 div:int (none) 251627 6 22 19 19 38 0.5 675 987 -1 23 0 heads_default wzcgcnclvlzvvvfcxga 632,634,635,691,692,693 0,29,19,0,31,30 0,0,0,0,0,0 
+259150 div:int (none) 254292 1 1 17 0 0 0 682 1000 -1 17 0 heads_default wzcgcwcwbvvvfcxga 644 8 0 
+259173 div:int (none) 250143 1 1 18 0 0 0 695 1000 -1 18 0 heads_default wzcgcnqvrbzvvvcxga 680 8 0 
+251836 div:int (none) 244106 1 33 18 18 36 0.5 678 977 -1 20 0 heads_default wzcgcpcdbzvvvfcxga 754 20 0 
+259196 div:int (none) 248032 1 1 20 0 0 0 693 1000 -1 20 0 heads_default wzcgcwmvwbzpvvvfcxga 755 4 0 
+258483 div:int (none) 198969 1 1 19 0 0 0 680 998 -1 18 0 heads_default wzcegcocwdzvvvfcxga 757 55 0 
+181663 div:int (none) 145395 2 1234 18 17.9463 37.1153 0.484672 485 754 -1 17 0 heads_default wzcgcncwpzvvvfcxga 777,778 28,32 0,0 
+258115 div:int (none) 112560 2 3 18 18 37 0.486486 679 997 -1 15 0 heads_default wzcgcncwnzvvvfcxga 828,889 10,20 0,0 
+257563 div:int (none) 251248 1 1 20 0 0 0 702 995 -1 22 0 heads_default wwzcgcgcwfzvvvfcxvga 1066 155 0 
+256068 div:int (none) 237367 1 1 18 0 0 0 675 991 -1 16 0 heads_default vvdfcxgawzcgcncwhz 1123 172 0 
+255263 div:int (none) 245198 3 12 18 18 52 0.346154 675 988 -1 19 0 heads_default wzcgckbiizwvvfcxga 1187,1367,1368 37,7,5 0,0,0 
+259035 div:int (none) 257044 1 1 21 0 0 0 672 1000 -1 30 0 heads_default wnjatcgcjicdzvvvfcxga 1352 23 0 
+258460 div:int (none) 237367 1 1 17 0 0 0 681 998 -1 16 0 heads_default wzgcncwhzvvvfcxga 1364 67 0 
+258828 div:int (none) 221882 1 1 19 9 24 0.375 685 999 -1 19 0 heads_default wzcgcwwsczvvvfcnxga 1398 12 0 
+257126 div:int (none) 229102 1 5 18 18 38 0.473684 701 994 -1 22 0 heads_default wzcgczowtzvvvfcxga 1502 36 0 
+257655 div:int (none) 251774 1 1 20 0 0 0 704 996 -1 27 0 heads_default wjzcgcqycszvvvfcxvga 1554 145 0 
+258552 div:int (none) 254684 1 1 21 20 39 0.512821 707 998 -1 28 0 heads_default wzcgcvqvycszvvvfcxvga 1731 24 0 
+257747 div:int (none) 253088 7 10 19 19 37 0.513514 704 996 -1 19 0 heads_default wzcgcxqwczvvvfcxvga 1902,1961,2081,2082,2142,2143,2203 4,5,2,6,18,59,14 0,0,0,0,0,0,0 
+259058 div:int (none) 244113 1 1 18 0 0 0 708 1000 -1 19 0 heads_default zcgcklwtzvvvfcxvga 1930 14 0 
+259104 div:int (none) 238445 1 1 19 0 0 0 708 1000 -1 18 0 heads_default wzcgckcwbzvvvfcxvga 1940 14 0 
+258690 div:int (none) 257163 1 1 19 19 36 0.527778 710 999 -1 20 0 heads_default wzcgchcqbzvvvfcxvga 1984 26 0 
+258161 div:int (none) 213001 1 1 20 0 0 0 711 997 -1 21 0 heads_default wzcgcrcqkzvvvhfcxvga 2033 119 0 
+257218 div:int (none) 237567 1 1 20 0 0 0 707 994 -1 22 0 heads_default wzcgcbycbzqvvvfcxvga 2036 198 0 
+258184 div:int (none) 257810 1 1 19 0 0 0 706 997 -1 25 0 heads_default vxvfcxvgawzcgcsyubz 2091 51 0 
+259081 div:int (none) 258298 1 1 20 0 0 0 711 1000 -1 25 0 heads_default wzcgcsysbzvvvfcoxvga 2267 19 0 
+257609 div:int (none) 252919 1 1 19 0 0 0 704 996 -1 19 0 heads_default xvgawzcgckwwtzvvvfc 2485 139 0 
+231596 div:int (none) 228849 28 394 18 17.913 36.0828 0.497087 614 914 -1 19 0 heads_default wzcgcdbubzvvvfcxga 2545,2605,2664,2667,2726,2782,2786,2789,2790,2842,2845,2961,3016,3017,3020,3021,3027,3076,3077,3080,3141,3142,3198,3199,3200,3202,3260,3319 19,17,27,19,13,29,7,35,27,29,27,12,1,4,7,1,22,15,7,17,24,19,4,1,14,22,34,4 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258529 div:int (none) 249631 1 1 19 0 0 0 711 998 -1 20 0 heads_default wzcgcnyypevvvfcxvga 2546 64 0 
+258874 div:int (none) 254044 1 1 19 0 0 0 708 999 -1 20 0 heads_default wzcgcwlwtzvmvfcxvga 2594 31 0 
+254044 div:int (none) 244113 2 20 19 19 37 0.513514 695 985 -1 19 0 heads_default wzcgcwlwtzvvvfcxvga 2595,2654 0,1 0,0 
+258736 div:int (none) 250821 1 1 21 0 0 0 707 999 -1 20 0 heads_default wzcgcnuvqotzwvvfcxvga 2719 47 0 
+257080 div:int (none) 236372 2 3 19 19 84 0.22619 706 994 -1 18 0 heads_default wzcgcncwrzvlvfcxvga 2728,2729 16,17 0,0 
+258805 div:int (none) 236372 1 1 18 0 0 0 710 999 -1 18 0 heads_default wzcgccwrzvvvfcxvga 2795 32 0 
+225041 div:int (none) 218963 6 471 18 17.9348 37.0072 0.485005 601 893 -1 26 0 heads_default wzcgckbkxzvvvfcxga 2918,2978,2979,3099,3100,3161 17,20,13,1,28,32 0,0,0,0,0,0 
+255700 div:int (none) 200439 1 12 19 19 40 0.475 697 990 -1 17 0 heads_default wzcgcncwzpvvvfcxvga 2921 36 0 
+258966 div:int (none) 258697 1 1 19 0 0 0 706 1000 -1 19 0 heads_default vvfwxvgawzcgcncmzzv 2982 21 0 
+258000 div:int (none) 128890 1 1 18 0 0 0 683 997 -1 16 0 heads_default wzmgcncwozvvvfcxga 3214 126 0 
+258943 div:int (none) 200428 1 1 19 0 0 0 685 1000 -1 16 0 heads_default wzclgcncmbzvvvfcxga 3231 25 0 
+256942 div:int (none) 256656 1 1 19 0 0 0 690 994 -1 21 0 heads_default zvvvmcxgawzcgclcvwl 3266 109 0 
+257402 div:int (none) 247529 4 6 18 18 37 0.486486 682 995 -1 18 0 heads_default wzcgclmsbzvvvfcxga 3474,3534,3535,3536 1,10,10,9 0,0,0,0 
+259127 div:int (none) 210742 1 1 19 0 0 0 680 1000 -1 19 0 heads_default wzcgcncucozvvvfcxga 3586 8 0 
+229320 div:int (none) 223987 44 961 19 18.9674 38.1684 0.49814 614 906 -1 19 0 heads_default wzcgclcvwlzvvvfcxga 22,25,27,28,31,83,85,86,144,145,150,151,203,206,207,211,212,213,271,272,324,326,330,383,3091,3092,3151,3152,3209,3210,3212,3267,3268,3270,3273,3328,3329,3331,3389,3390,3445,3446,3505,3568 26,17,37,35,55,3,6,18,12,9,24,23,35,13,147,35,17,25,33,32,23,20,29,19,0,21,0,12,8,36,28,1,37,5,16,3,33,26,33,18,15,21,16,33 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+257472 div:int (none) 229320 2 4 20 19.3333 74 0.261261 689 995 -1 20 0 heads_default wzcgcilcvwlzvvvfcxga 23,84 7,10 0,0 
+257564 div:int (none) 256677 1 1 19 0 0 0 687 995 -1 20 0 heads_default vzcgcicvwlzvvvfcxga 29 135 0 
+257656 div:int (none) 246851 1 4 19 19 39 0.487179 681 996 -1 21 0 heads_default wzcgcnpvojzvvvfcxga 165 36 0 
+259082 div:int (none) 246851 1 1 19 0 0 0 685 1000 -1 21 0 heads_default wzcgcnxvojzvvvfcxga 225 15 0 
+244408 div:int (none) 230364 4 120 18 17.8298 37.1135 0.48114 647 954 -1 22 0 heads_default wzcgcnclfzvvvfcxga 282,342,343,403 18,27,23,30 0,0,0,0 
+245305 div:int (none) 231007 23 201 18 17.987 35.9827 0.499872 650 957 -1 17 0 heads_default wzcgcycybzvvvfcxga 414,470,472,473,531,533,534,535,590,591,592,594,595,596,649,655,709,710,712,715,770,773,774 3,104,31,1,28,1,0,7,22,32,25,11,3,2,28,16,19,31,22,26,20,11,31 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259220 div:int (none) 233871 1 1 18 0 0 0 683 1000 -1 19 0 heads_default wzcgcpwobzvvvfcxga 608 3 0 
+258484 div:int (none) 193469 1 1 18 0 0 0 705 998 -1 20 0 heads_default wzcgcbntzvvvfcxvga 661 79 0 
+249675 div:int (none) 246750 10 50 18 17.8545 37.8364 0.471341 682 971 -1 22 0 heads_default wzcgcsnwtzvvvfcxga 735,794,795,852,913,969,970,972,1030,1031 17,14,11,208,30,6,9,29,8,3 0,0,0,0,0,0,0,0,0,0 
+259174 div:int (none) 258914 1 1 18 0 0 0 687 1000 -1 25 0 heads_default zvvvnxgawzcgcnclvl 812 2 0 
+258990 div:int (none) 249414 1 1 20 0 0 0 706 1000 -1 23 0 heads_default xwzcgjmowtzvvvfcxvga 845 28 0 
+195119 div:int (none) 112560 11 2213 18 17.9465 37.0027 0.485065 523 797 -1 15 0 heads_default wzcgcycwbzvvvfcxga 866,926,927,987,988,1047,1166,1340,1341,1342,1343 28,16,22,12,27,33,38,0,2,5,2 0,0,0,0,0,0,0,0,0,0,0 
+258691 div:int (none) 241626 2 3 18 18 53 0.339623 679 999 -1 19 0 heads_default wzcgcnkwpzvsvfcxga 955,956 1,0 0,0 
+237071 div:int (none) 200356 16 584 18 17.9613 35.9656 0.499365 627 931 -1 17 0 heads_default wzcgckbibzvvvfcxga 1002,1056,1057,1062,1116,1117,1118,1175,1236,1239,1298,1358,1361,1421,1422,1480 5,44,22,29,15,10,33,2,0,31,34,30,15,27,19,28 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259151 div:int (none) 237367 1 1 17 0 0 0 682 1000 -1 16 0 heads_default wzcgcnchzvvvfcxga 1068 8 0 
+247904 div:int (none) 237071 5 79 19 18.9898 35 0.542566 657 965 -1 18 0 heads_default wzcgckbibzvvvfcxvga 1177,1178,1179,1182,1242 1,0,32,8,8 0,0,0,0,0 
+258737 div:int (none) 217218 1 1 18 0 0 0 676 999 -1 16 0 heads_default wzgctecwbzvvvfcxga 1218 49 0 
+233897 div:int (none) 227437 3 133 18 17.9448 37.1595 0.483684 617 921 -1 18 0 heads_default wzcgcxdzbzvvvfcxga 1257,1258,1259 16,19,27 0,0,0 
+250687 div:int (none) 229102 21 139 19 18.9515 35.9273 0.527357 683 974 -1 22 0 heads_default wzcgczcwtzvvvfcxvga 1263,1264,1266,1324,1325,1326,1327,1382,1383,1384,1385,1443,1444,1445,1449,1504,1505,1508,1564,1567,1628 5,13,7,6,3,2,6,19,17,4,18,33,35,11,1,27,32,0,22,15,13 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258530 div:int (none) 221882 1 1 17 0 0 0 684 998 -1 19 0 heads_default wzcgcwwsczvvvfcga 1282 66 0 
+258852 div:int (none) 237367 1 1 17 9 23 0.391304 682 999 -1 16 0 heads_default wzcgcncwhzvvvfxga 1305 7 0 
+257909 div:int (none) 193469 1 1 19 0 0 0 704 997 -1 20 0 heads_default wzcgcbnwtzvvvfcxvgt 1317 127 0 
+259059 div:int (none) 256325 1 1 18 0 0 0 714 1000 -1 20 0 heads_default wzcgcpcszzvvvfcxva 1336 20 0 
+258829 div:int (none) 257277 1 1 18 0 0 0 680 999 -1 20 0 heads_default zvvxfcxgawzcgcjdzb 1372 24 0 
+244040 div:int (none) 221686 17 271 19 19 35.1468 0.541897 670 953 -1 18 0 heads_default wzcgcpcsbzvvvfcxvga 1392,1452,1453,1454,1456,1514,1515,1516,1572,1573,1574,1575,1576,1631,1632,1633,1691 29,20,21,9,6,3,1,8,2,16,20,12,19,22,14,4,23 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+257932 div:int (none) 253917 1 1 18 0 0 0 682 997 -1 21 0 heads_default wzcgcmcsozvvvfcsga 1411 125 0 
+258300 div:int (none) 191458 1 1 18 0 0 0 682 998 -1 17 0 heads_default uzcgcnckozvvvfcxga 1642 70 0 
+228699 div:int (none) 225206 5 432 19 18.9855 37.1268 0.512316 622 904 -1 17 0 heads_default wzcgcnfxbzvvvfcxvga 1678,1739,1742,1799,1803 65,1,11,1,14 0,0,0,0,0 
+258392 div:int (none) 251774 1 1 19 11 28 0.392857 706 998 -1 27 0 heads_default wzcgcqycszvvvflxvga 1856 18 0 
+249077 div:int (none) 246675 8 78 18 17.8989 36.8876 0.484766 664 969 -1 18 0 heads_default wzcxcgcibzvvvfcxga 1886,1942,2005,2006,2067,2127,2128,2186 29,35,9,11,8,2,3,31 0,0,0,0,0,0,0,0 
+258231 div:int (none) 237506 1 1 18 0 0 0 710 997 -1 25 0 heads_default wzcgcydbzvvvfcxvga 2024 97 0 
+255218 div:int (none) 165804 1 6 18 0 0 0 700 988 -1 17 0 heads_default wzcgcncwtzvvfcxvga 2063 136 0 
+258254 div:int (none) 165804 1 2 19 19 37 0.513514 710 997 -1 17 0 heads_default fwzcgccwtzvvvfcxvga 2185 25 0 
+258047 div:int (none) 241746 1 1 20 0 0 0 705 997 -1 19 0 heads_default wzcgzcwcwtzvvvfcxvga 2198 113 0 
+249054 div:int (none) 219132 8 56 19 18.873 40.8571 0.461515 683 969 -1 19 0 heads_default wzcgctwfzvmvvfcxvga 2301,2359,2418,2478,2597,2598,2657,2659 15,37,35,31,4,3,6,12 0,0,0,0,0,0,0,0 
+258944 div:int (none) 254462 1 1 20 0 0 0 708 1000 -1 22 0 heads_default aezckcevcrbzvvfcxvga 2347 37 0 
+247076 div:int (none) 244469 4 62 18 18 38 0.473684 674 963 -1 20 0 heads_default wzcgcjtjzzvvvfcxga 2385,2444,2445,2448 9,14,18,14 0,0,0,0 
+250848 div:int (none) 246300 5 65 18 18 38 0.473684 684 974 -1 18 0 heads_default wzcgcnowzzvvvfcxga 2386,2446,2505,2506,2565 14,11,12,34,30 0,0,0,0,0 
+252458 div:int (none) 251646 12 59 20 19 41.0857 0.462469 693 980 -1 20 0 heads_default awzcgcebcrbzvvfcxvga 2408,2412,2471,2527,2528,2531,2586,2587,2589,2590,2647,2651 23,17,23,9,9,26,7,11,13,22,25,24 0,0,0,0,0,0,0,0,0,0,0,0 
+259105 div:int (none) 200439 1 1 20 0 0 0 707 1000 -1 17 0 heads_default wzcgcncxwzzvvvfcxaga 2495 16 0 
+238635 div:int (none) 218275 40 839 19 18.9548 34.1483 0.556098 661 936 -1 22 0 heads_default wzcgcotyzvvvvfcxvga 2513,2524,2525,2526,2573,2584,2585,2633,2640,2644,2690,2694,2698,2699,2700,2750,2810,2811,2813,2869,2871,2880,2881,2936,2940,2996,2999,3001,3056,3057,3060,3116,3121,3177,3181,3241,3301,3356,3358,3419 20,0,9,12,26,1,32,28,179,12,6,27,0,32,28,29,5,21,8,17,9,29,25,8,24,12,33,15,14,10,18,19,27,21,24,19,26,29,6,0 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258645 div:int (none) 231596 2 3 18 18 37 0.486486 685 999 -1 20 0 heads_default wzcgccbubzvvvfcxga 2665,2666 21,24 0,0 
+228630 div:int (none) 202358 24 1059 19 18.9269 38.1051 0.497669 607 904 -1 18 0 heads_default wzcgcecvutzvvvfcxga 2899,2900,2959,2960,3018,3019,3138,3193,3194,3197,3203,3205,3253,3257,3258,3259,3264,3265,3314,3318,3324,3326,3377,3386 5,6,20,22,31,5,9,6,9,17,30,2,30,4,8,3,26,28,19,17,18,37,7,26 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258323 div:int (none) 238635 1 2 18 18 61 0.295082 718 998 -1 23 0 heads_default wzcgcotyzvvvvfcxga 2938 21 0 
+259197 div:int (none) 246313 1 1 19 0 0 0 719 1000 -1 23 0 heads_default wzcgcnrqgvvvvfcxvga 3254 2 0 
+258967 div:int (none) 240343 1 1 19 0 0 0 690 1000 -1 21 0 heads_default wzcgctcfuxzvvvfcxga 3514 32 0 
+228999 div:int (none) 181663 18 774 18 17.9687 37.0356 0.485335 605 905 -1 18 0 heads_default wzcgctcwpzvvvfcxga 1,2,182,183,184,241,243,301,3414,3415,3418,3477,3538,3539,3540,3542,3598,3599 4,30,49,5,14,20,26,23,0,0,30,28,104,17,5,4,53,3 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258554 div:int (none) 159794 1 1 18 0 0 0 689 998 -1 17 0 heads_default wzcgcivwbzvvvfcxga 14 72 0 
+258853 div:int (none) 233267 1 1 17 0 0 0 680 999 -1 16 0 heads_default wzcgcncljzvvvfcxg 66 34 0 
+258347 div:int (none) 228999 1 1 18 0 0 0 681 998 -1 19 0 heads_default zvvvzcxgawzcgctcwp 119 38 0 
+258577 div:int (none) 253902 1 1 19 0 0 0 677 998 -1 20 0 heads_default wzcglctcwpzvvpfcxga 178 51 0 
+256622 div:int (none) 228551 5 10 18 17.2 35.7 0.479505 675 993 -1 21 0 heads_default wzcgczcwlzvvvfcxga 204,262,264,323,384 16,34,11,2,2 0,0,0,0,0 
+257519 div:int (none) 250949 5 10 18 18 37 0.486486 680 995 -1 17 0 heads_default wzcgcncthzvvvfcxga 242,302,362,423,424 15,12,22,6,10 0,0,0,0,0 
+249998 div:int (none) 248971 6 55 19 18.7794 38.6912 0.484695 669 972 -1 20 0 heads_default wzcgcimvxczvvvfcxga 265,266,325,328,385,386 34,31,16,9,15,20 0,0,0,0,0,0 
+258623 div:int (none) 220522 1 1 19 0 0 0 707 999 -1 21 0 heads_default vvfnxvgawzcgcznwtzv 373 32 0 
+258278 div:int (none) 256527 1 1 19 0 0 0 692 998 -1 20 0 heads_default wzcgcpcvcnkvvvfcxga 395 104 0 
+222559 div:int (none) 212507 38 1402 19 18.9573 38.1084 0.498058 597 885 -1 18 0 heads_default wzcgcpcvwbzvvvfcxga 454,506,511,512,513,564,565,570,571,572,573,574,624,625,629,630,633,636,682,684,687,689,694,696,742,743,744,746,747,748,750,756,800,803,804,805,810,815 3,6,51,9,5,18,24,26,23,31,26,12,16,18,21,23,19,13,2,5,13,23,19,15,3,12,11,17,18,15,17,25,16,13,28,33,18,27 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+257979 div:int (none) 112560 2 5 18 18 38 0.473684 678 997 -1 15 0 heads_default wzcgcnywbzvvvfcxga 496,497 12,13 0,0 
+259037 div:int (none) 222559 1 1 19 0 0 0 693 1000 -1 19 0 heads_default wzcgcpcvwbzuvvfcxga 514 18 0 
+259129 div:int (none) 233267 1 1 18 0 0 0 683 1000 -1 16 0 heads_default wzrgcncljzvvvfcxga 546 7 0 
+258462 div:int (none) 258037 1 1 19 0 0 0 683 998 -1 19 0 heads_default zvvvfcyxgawzcgcocwd 638 33 0 
+258807 div:int (none) 250143 2 2 19 19 38 0.5 694 999 -1 18 0 heads_default wzcgcnqvrbzvvvfcxga 678,739 3,2 0,0 
+241626 div:int (none) 181663 22 191 18 17.9593 38.276 0.470205 638 946 -1 18 0 heads_default wzcgcnkwpzvvvfcxga 714,775,833,834,836,837,896,897,898,952,954,1013,1014,1015,1016,1017,1018,1075,1076,1077,1138,1198 23,4,16,17,5,2,3,3,2,5,12,13,33,20,19,27,25,28,4,28,17,20 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259014 div:int (none) 251726 1 1 20 0 0 0 706 1000 -1 21 0 heads_default wzcgcbdwtzvvvfcxvnga 1130 23 0 
+256668 div:int (none) 244564 1 1 19 0 0 0 673 993 -1 20 0 heads_default wzcgctfyrbzvvvfcxga 1274 219 0 
+258002 div:int (none) 193469 1 2 19 19 37 0.513514 703 997 -1 20 0 heads_default wzcgcqnwtzvvvfcxvga 1311 24 0 
+259106 div:int (none) 258272 1 1 17 0 0 0 678 1000 -1 22 0 heads_default wzcgcuyrdzvvfcxga 1396 11 0 
+259152 div:int (none) 241697 1 1 19 0 0 0 685 1000 -1 20 0 heads_default wzcgcncsozmvvvfcxga 1475 9 0 
+257933 div:int (none) 254036 1 1 19 0 0 0 708 997 -1 25 0 heads_default qzcgcsiubzvvvfcxvga 1545 115 0 
+258692 div:int (none) 220522 1 2 18 0 0 0 706 999 -1 21 0 heads_default wzcgczwtzvvvfcxvga 1563 20 0 
+238636 div:int (none) 233600 15 321 18 17.9626 38.0134 0.472621 631 936 -1 21 0 heads_default wzcgcpkmjzvvvfcxga 1700,1823,1824,1880,1883,1939,1941,1944,2001,2004,2061,2172,2231,2234,2295 23,29,26,19,33,18,12,13,9,16,45,3,2,29,5 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+254069 div:int (none) 247492 3 45 19 19 37.1429 0.511807 695 985 -1 25 0 heads_default wzcgcsmumzvvvfcxvga 1720,1779,1780 4,8,27 0,0,0 
+258508 div:int (none) 238445 1 1 19 11 30 0.366667 706 998 -1 18 0 heads_default wzcgcqcwbzvvvqcxvga 1937 21 0 
+253954 div:int (none) 212489 3 20 19 18.875 37 0.510135 680 984 -1 19 0 heads_default wzcgcecvzbzvvvfcxga 2008,2064,2065 36,24,28 0,0,0 
+257542 div:int (none) 233218 1 1 19 0 0 0 703 995 -1 18 0 heads_default wzcicacwbzvvvfcxvga 2115 162 0 
+259083 div:int (none) 238445 1 1 20 0 0 0 708 1000 -1 18 0 heads_default wzcgcqcwbzvvmvfcxvga 2180 15 0 
+257174 div:int (none) 225946 1 1 18 0 0 0 685 994 -1 24 0 heads_default wzcgcvzcyzvvvfcxga 2376 202 0 
+259198 div:int (none) 112560 1 1 19 0 0 0 684 1000 -1 15 0 heads_default wzcgcncwbzvvvfcxfga 2377 5 0 
+259060 div:int (none) 258253 1 1 19 0 0 0 707 1000 -1 20 0 heads_default wzcvcklwfzvvvfcxvga 2465 14 0 
+254000 div:int (none) 232468 3 42 19 19 34 0.558824 704 984 -1 22 0 heads_default wzcgcnyrzvvvvfcxvga 2533,2588,2648 13,5,2 0,0,0 
+252919 div:int (none) 212382 4 52 19 18.7812 36.7344 0.510435 691 981 -1 18 0 heads_default wzcgckwwtzvvvfcxvga 2542,2543,2602,2662 1,0,15,16 0,0,0,0 
+258531 div:int (none) 257258 1 1 18 0 0 0 704 998 -1 18 0 heads_default wzcgcnwzsvvvfcxvga 2558 74 0 
+256760 div:int (none) 256306 2 7 19 19 57 0.333333 701 993 -1 20 0 heads_default wzcgcwcwtzvycfcxvga 2614,2615 6,6 0,0 
+258784 div:int (none) 226199 1 1 17 0 0 0 702 999 -1 18 0 heads_default wcgcncwzzvvvfcxga 2623 47 0 
+259221 div:int (none) 238635 1 1 20 0 0 0 720 1000 -1 23 0 heads_default wzcgcotyzvvvvfctxvga 2757 3 0 
+257220 div:int (none) 239549 6 15 19 19 39 0.487179 683 994 -1 20 0 heads_default wzcgcfxvpkzvvvfcxga 3168,3169,3226,3228,3287,3346 4,18,23,4,24,23 0,0,0,0,0,0 
+258439 div:int (none) 200428 1 1 18 0 0 0 684 998 -1 16 0 heads_default wzcgcncmbzvvvfccga 3230 74 0 
+257795 div:int (none) 247764 1 1 19 18 36 0.5 682 996 -1 17 0 heads_default wzcgcncsbzvvvfcxgad 3466 6 0 
+258899 div:int (none) 186368 1 1 18 0 0 0 687 999 -1 20 0 heads_default wzsgcdcfxzvvvfcxga 3582 18 0 
+257841 div:int (none) 257402 1 3 18 18 52 0.346154 683 996 -1 19 0 heads_default wzcgclmsbzmvvfcxga 3594 28 0 
+240270 div:int (none) 236393 24 224 18 17.9641 37.9442 0.473282 644 941 -1 21 0 heads_default wzcgcjyfjzvvvfcxga 60,61,65,123,126,246,247,248,303,304,307,308,363,364,367,368,425,426,427,485,486,544,545,548 4,7,8,115,13,18,25,11,23,19,19,9,7,20,31,10,10,22,27,2,6,0,0,7 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+257267 div:int (none) 212382 1 1 19 0 0 0 706 995 -1 18 0 heads_default vxfcxvgawzcgckcwtzv 78 114 0 
+259015 div:int (none) 186368 1 1 19 0 0 0 687 1000 -1 20 0 heads_default wzcgcdcfxzvvvrfcxga 99 15 0 
+256669 div:int (none) 245201 1 6 18 17 80 0.2125 676 993 -1 19 0 heads_default wzcgcodwdzevvfcxga 229 48 0 
+258578 div:int (none) 252348 1 1 17 0 0 0 680 998 -1 21 0 heads_default wzcgcomizvvvfcxga 276 61 0 
+256278 div:int (none) 245758 2 10 18 18 37 0.486486 677 992 -1 20 0 heads_default wzcgcdcwnzvvvfcxga 297,358 9,11 0,0 
+259222 div:int (none) 112560 1 1 17 0 0 0 682 1000 -1 15 0 heads_default wzccncwbzvvvfcxga 374 2 0 
+259130 div:int (none) 258919 1 1 19 0 0 0 682 1000 -1 16 0 heads_default zvvvxfcxgawzcgcncwb 375 3 0 
+259176 div:int (none) 112560 1 1 18 0 0 0 680 1000 -1 15 0 heads_default zvvvfqxgawzcgcncwb 413 0 0 
+259153 div:int (none) 222559 1 1 19 0 0 0 692 1000 -1 19 0 heads_default wzcgnpcvwbzvvvfcxga 445 12 0 
+257129 div:int (none) 250143 1 1 20 0 0 0 690 994 -1 18 0 heads_default zvvvfmxgawizcgcncvrb 501 103 0 
+258003 div:int (none) 245305 1 1 18 0 0 0 685 997 -1 18 0 heads_default wzcghycybzvvvfcxga 536 96 0 
+255496 div:int (none) 230364 4 13 18 18 37 0.486486 677 989 -1 22 0 heads_default wzcgcnczxzvvvfcxga 752,811,870,929 5,7,19,32 0,0,0,0 
+259061 div:int (none) 251605 1 1 19 0 0 0 689 1000 -1 19 0 heads_default wzcgcryvwbzvvvfcxga 796 14 0 
+257359 div:int (none) 237367 3 11 18 18 37 0.486486 680 995 -1 16 0 heads_default wzcgcncwtzvvvfcxga 886,946,947 0,0,32 0,0,0 
+258601 div:int (none) 258290 1 1 18 0 0 0 676 999 -1 22 0 heads_default zvvvfkxgawzcgctswt 979 36 0 
+257083 div:int (none) 249243 3 9 18 18 36 0.5 681 994 -1 19 0 heads_default wzcgckbzbzvvvfcxga 1237,1238,1299 22,30,20 0,0,0 
+258348 div:int (none) 241697 1 1 17 9 24 0.375 683 998 -1 20 0 heads_default wzcgcncsozvvvcxga 1291 30 0 
+258624 div:int (none) 233897 1 1 18 0 0 0 680 999 -1 19 0 heads_default wzcgcxdzbzvcvfcxga 1316 43 0 
+258486 div:int (none) 258186 1 1 17 0 0 0 684 998 -1 20 0 heads_default vfxgawzcgcwwsczvv 1400 43 0 
+244778 div:int (none) 228699 6 200 19 18.9958 37.2958 0.51095 667 955 -1 18 0 heads_default wzcgcnfxpzvvvfcxvga 1431,1492,1493,1558,1559,1618 7,6,35,20,15,18 0,0,0,0,0,0 
+259199 div:int (none) 243998 1 1 20 0 0 0 711 1000 -1 21 0 heads_default wzcgcocflzvxvvfcxvga 1569 6 0 
+232174 div:int (none) 206415 4 255 18 17.9694 37.9524 0.473349 613 915 -1 18 0 heads_default wzcgcnptozvvvfcxga 1595,1656,1715,1717 21,17,16,37 0,0,0,0 
+247492 div:int (none) 224116 1 190 19 18.9664 36.9538 0.513134 677 964 -1 24 0 heads_default wzcgcsyumzvvvfcxvga 1667 135 0 
+257037 div:int (none) 229592 1 10 19 18.8 39 0.482051 676 994 -1 20 0 heads_default wzcgcvtkkjzvvvfcxga 1771 17 0 
+255703 div:int (none) 233218 5 25 19 19 36 0.527778 699 990 -1 18 0 heads_default wzcicgcwbzvvvfcxvga 1932,1934,1935,1936,1994 15,28,39,35,27 0,0,0,0,0 
+258785 div:int (none) 257747 1 1 18 0 0 0 707 999 -1 20 0 heads_default wzcgcxwczvvvfcxvga 1960 49 0 
+258900 div:int (none) 251589 1 1 20 0 0 0 712 999 -1 21 0 heads_default wzcgcoczlzvvvdfcxvga 1986 27 0 
+258647 div:int (none) 253088 1 1 19 0 0 0 707 999 -1 19 0 heads_default wzcgcxcwczvvtfcxvga 2023 57 0 
+258693 div:int (none) 258442 1 2 18 0 0 0 707 999 -1 27 0 heads_default vvfxvgawzcgcfyuszv 2155 39 0 
+249631 div:int (none) 240787 12 108 19 19 37 0.513514 686 971 -1 19 0 heads_default wzcgcnyypzvvvfcxvga 2191,2250,2251,2311,2369,2370,2371,2431,2490,2491,2492,2552 16,31,25,36,0,0,17,30,16,0,21,5 0,0,0,0,0,0,0,0,0,0,0,0 
+258394 div:int (none) 251967 1 1 19 19 36 0.527778 709 998 -1 19 0 heads_default wzcgcscktzvvvfcxvga 2539 11 0 
+258095 div:int (none) 257868 1 1 18 0 0 0 685 997 -1 19 0 heads_default zvvvfcxgawzcacnczb 2668 48 0 
+258118 div:int (none) 231596 1 1 19 0 0 0 683 997 -1 20 0 heads_default wzcgcdbubzvvvfcxgfa 2901 111 0 
+258831 div:int (none) 198089 1 1 18 0 0 0 684 999 -1 18 0 heads_default xzcgczcubzvvvfcxga 2964 32 0 
+258325 div:int (none) 165804 1 1 19 9 24 0.375 710 998 -1 17 0 heads_default wzcgcncwtzvvvfcxxga 2967 21 0 
+257244 div:int (none) 244567 1 1 19 0 0 0 688 994 -1 22 0 heads_default wtcgcecvwlzvvvfcxga 3201 217 0 
+259084 div:int (none) 187358 1 1 18 0 0 0 687 1000 -1 17 0 heads_default wzcgqnbsbzvvvfcxga 3232 13 0 
+258992 div:int (none) 229320 1 1 19 0 0 0 694 1000 -1 20 0 heads_default awzcgclcvwlzvvvfcxg 3269 20 0 
+258923 div:int (none) 228999 1 1 17 0 0 0 682 1000 -1 19 0 heads_default wzcgctcwpzvvvcxya 3355 18 0 
+258969 div:int (none) 228630 1 1 19 10 25 0.4 689 1000 -1 19 0 heads_default wzcgcecvutzvvvhcxga 3384 6 0 
+258509 div:int (none) 249763 1 1 19 0 0 0 692 998 -1 24 0 heads_default wzzcgcecwnzvvvfcxga 3562 74 0 
+159794 div:int (none) 137822 20 4657 19 18.938 38.1352 0.497698 431 680 -1 16 0 heads_default wzcgcicvwbzvvvfcxga 17,21,76,80,81,137,139,321,441,500,503,559,3441,3494,3495,3504,3553,3555,3556,3559 23,7,13,36,2,10,10,37,32,18,68,17,18,2,2,34,23,26,10,3 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258717 div:int (none) 258515 1 1 17 0 0 0 681 999 -1 17 0 heads_default zvvvcxgawzcccnclj 63 18 0 
+258464 div:int (none) 257665 1 1 18 0 0 0 680 998 -1 17 0 heads_default vvfvxgawzcgcnctjzv 64 38 0 
+257889 div:int (none) 245201 1 1 19 0 0 0 678 996 -1 19 0 heads_default wzcgcokdwdzvvvfcxga 162 126 0 
+258625 div:int (none) 239591 1 1 20 19 38 0.5 684 999 -1 20 0 heads_default wzcgcncvopzvvvfcxgab 230 33 0 
+254692 div:int (none) 252348 2 15 18 18 38 0.473684 670 986 -1 21 0 heads_default wzcgcomwkzvvvfcxga 402,461 2,1 0,0 
+254669 div:int (none) 246311 4 26 18 17.64 37.56 0.46807 673 986 -1 17 0 heads_default wzcgcplwnzvvvfcxga 420,481,539,599 33,32,14,31 0,0,0,0 
+259108 div:int (none) 248970 1 1 19 0 0 0 680 1000 -1 19 0 heads_default wzcgcvorwdzvvvfcxga 460 8 0 
+258878 div:int (none) 246473 1 1 19 0 0 0 703 999 -1 22 0 heads_default wecgcttzzzvvvfcxvga 606 34 0 
+256233 div:int (none) 254292 2 14 18 18 37 0.486486 675 991 -1 17 0 heads_default wzcgcwckbzvvvfcxga 642,703 4,4 0,0 
+258947 div:int (none) 220522 1 1 19 0 0 0 705 1000 -1 21 0 heads_default hzcgcznwtzvvvfcxvga 671 18 0 
+259062 div:int (none) 252486 1 1 19 0 0 0 691 1000 -1 20 0 heads_default wzrgcicvwnzvvvfcxga 806 26 0 
+259039 div:int (none) 251726 1 1 19 0 0 0 706 1000 -1 21 0 heads_default vvucxvgawzcgcbdwtzv 950 10 0 
+241697 div:int (none) 240120 24 431 18 17.9644 37.0198 0.485365 640 946 -1 19 0 heads_default wzcgcncsozvvvfcxga 984,985,986,1045,1046,1106,1167,1229,1235,1288,1293,1294,1347,1348,1349,1353,1354,1406,1408,1414,1469,1471,1473,1530 0,31,19,5,7,8,4,25,6,14,13,6,0,7,21,9,9,2,23,9,34,24,36,28 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258786 div:int (none) 248032 1 1 18 0 0 0 692 999 -1 20 0 heads_default zcgcwmvwbzvvvfcxga 995 40 0 
+258763 div:int (none) 193469 1 1 18 0 0 0 705 999 -1 20 0 heads_default wzcgcbnwzvvvfcxvga 1011 58 0 
+258671 div:int (none) 219784 1 1 20 0 0 0 709 999 -1 23 0 heads_default wzcgctslubzvvvfcxvga 1137 59 0 
+258096 div:int (none) 251248 2 3 19 19 36 0.527778 701 997 -1 22 0 heads_default wzcgcpcwfzvvvfcxvga 1185,1246 4,5 0,0 
+258372 div:int (none) 256957 1 1 20 0 0 0 671 998 -1 31 0 heads_default wnjatcgcjpzkzvvfcxga 1537 110 0 
+254370 div:int (none) 243998 9 45 19 19 37 0.513514 697 985 -1 21 0 heads_default wzcgcorflzvvvfcxvga 1687,1688,1689,1747,1748,1751,1810,1929,1988 5,18,31,5,15,18,13,19,8 0,0,0,0,0,0,0,0,0 
+256509 div:int (none) 254069 1 1 20 0 0 0 701 992 -1 26 0 heads_default wzcgcsmumzvvsvfcxvga 1721 243 0 
+258441 div:int (none) 252420 1 1 20 0 0 0 709 998 -1 27 0 heads_default wzcgcjydszvvvfcxvgna 1733 88 0 
+259154 div:int (none) 257775 1 1 21 0 0 0 705 1000 -1 29 0 heads_default wzcgcqvgcszzvvvfcxvga 1851 8 0 
+251173 div:int (none) 224116 5 52 19 19 37 0.513514 687 975 -1 24 0 heads_default wzcgcsyuyzvvvfcxvga 1970,1971,2030,2031,2154 24,0,0,24,28 0,0,0,0,0 
+258901 div:int (none) 251274 1 1 20 0 0 0 712 999 -1 20 0 heads_default wzcgciprbzvvvfcxvgna 2045 28 0 
+257912 div:int (none) 257186 1 4 20 18 48 0.375 702 997 -1 19 0 heads_default wzcgcncwczvvnfcxvgta 2079 20 0 
+258073 div:int (none) 257163 1 1 20 0 0 0 709 997 -1 20 0 heads_default swzcgcbcqbzvvvfcxvga 2104 127 0 
+256049 div:int (none) 243105 5 12 18 18 38 0.473684 702 991 -1 18 0 heads_default wzcgcidwbzvvvfcxga 2108,2109,2110,2111,2169 32,21,13,7,24 0,0,0,0,0 
+254462 div:int (none) 252458 4 42 20 18.8269 42.6923 0.442641 697 986 -1 21 0 heads_default awzcgcevcrbzvvfcxvga 2232,2286,2291,2349 7,27,9,39 0,0,0,0 
+258533 div:int (none) 224116 1 1 20 0 0 0 709 998 -1 24 0 heads_default wzcgcpsyubzvvvfcxvga 2271 79 0 
+256923 div:int (none) 254399 7 11 18 18 37 0.486486 705 994 -1 21 0 heads_default wzcgcbrkbzvvvfcxga 2402,2460,2461,2462,2463,2521,2522 9,30,6,10,6,27,9 0,0,0,0,0,0,0 
+258050 div:int (none) 212382 1 1 18 0 0 0 708 997 -1 18 0 heads_default wzcgckcwtzvvvfcxva 2476 99 0 
+254761 div:int (none) 247076 6 36 18 17.775 37.725 0.470175 693 987 -1 21 0 heads_default wzcgcutjzzvvvfcxga 2681,2682,2683,2742,2743,2744 24,15,10,5,8,54 0,0,0,0,0,0 
+198089 div:int (none) 182091 11 2239 18 17.9265 35.9821 0.498464 527 807 -1 17 0 heads_default wzcgczcubzvvvfcxga 2723,2784,2846,2847,2904,3085,3143,3144,3204,3383,3385 22,22,7,10,28,1,3,9,28,20,27 0,0,0,0,0,0,0,0,0,0,0 
+258165 div:int (none) 245713 1 2 19 0 0 0 705 997 -1 18 0 heads_default wzcgcrcwzzzvvfcxvga 2751 27 0 
+259223 div:int (none) 232468 1 1 20 0 0 0 720 1000 -1 22 0 heads_default wzcgcgnyqzvvvvfcxvga 2882 1 0 
+238477 div:int (none) 225041 6 143 18 17.9176 36.9824 0.484369 638 936 -1 27 0 heads_default wzcgckbkrzvvvfcxga 2923,2980,2981,3041,3042,3101 25,14,22,12,15,11 0,0,0,0,0,0 
+258970 div:int (none) 258120 1 1 20 0 0 0 716 1000 -1 23 0 heads_default qcxvgawzcgcnyqzvvvrv 3079 18 0 
+258510 div:int (none) 232468 1 1 19 9 23 0.391304 715 998 -1 22 0 heads_default wzcgcnyqzvvvvftxvga 3136 27 0 
+251403 div:int (none) 233267 5 42 18 18 37 0.486486 662 976 -1 16 0 heads_default wzcgcnbljzvvvfcxga 3246,3307,3362,3422,3424 27,20,31,35,16 0,0,0,0,0 
+258855 div:int (none) 258622 1 1 19 0 0 0 682 999 -1 21 0 heads_default zvvvfctxgawzcgcecwp 3361 16 0 
+259177 div:int (none) 228999 1 1 17 0 0 0 682 1000 -1 19 0 heads_default wzgctcwpzvvvfcxga 3480 9 0 
+259200 div:int (none) 212382 1 1 18 0 0 0 713 1000 -1 18 0 heads_default wzcgckcwtzvvvcxvga 3496 7 0 
+258832 div:int (none) 247764 1 1 17 0 0 0 685 999 -1 17 0 heads_default wzcgcncszvvvfcxga 3527 39 0 
+258925 div:int (none) 245758 1 1 19 0 0 0 683 1000 -1 20 0 heads_default wzcgctcwenzvvvfcxga 55 31 0 
+257223 div:int (none) 233267 6 12 18 18 37 0.486486 676 994 -1 16 0 heads_default wzcgcncyjzvvvfcxga 62,121,122,240,298,359 25,29,22,4,1,2 0,0,0,0,0,0 
+259109 div:int (none) 257224 1 1 18 0 0 0 682 1000 -1 20 0 heads_default wzcgcpwtlbzvvfcxga 124 7 0 
+248276 div:int (none) 190897 13 89 18 17.9182 35.9273 0.498398 665 966 -1 17 0 heads_default wzcgcncybzvvvfcxga 327,329,387,388,389,446,449,450,510,626,627,628,686 27,1,2,2,11,20,34,10,35,14,18,29,35 0,0,0,0,0,0,0,0,0,0,0,0,0 
+258672 div:int (none) 253467 1 1 17 9 23 0.391304 680 999 -1 22 0 heads_default wzcgczcwpzvvvfxga 444 17 0 
+257844 div:int (none) 159794 1 1 19 0 0 0 689 996 -1 17 0 heads_default zvvvflxgawzcgcicvwb 502 64 0 
+253244 div:int (none) 251047 3 19 19 19 53 0.358491 676 982 -1 20 0 heads_default wzcgcpcvwbzvivfcxga 508,566,567 2,10,41 0,0,0 
+257982 div:int (none) 248970 1 3 18 18 38 0.473684 678 997 -1 19 0 heads_default wzcgcorwqzvvvfcxga 520 8 0 
+257292 div:int (none) 200428 3 4 18 18 37 0.486486 681 995 -1 16 0 heads_default wzcgcncmozvvvfcxga 528,588,648 15,15,92 0,0,0 
+258396 div:int (none) 245342 1 1 20 0 0 0 704 998 -1 22 0 heads_default wzcgcznwfzvvlvfcxvga 789 84 0 
+251726 div:int (none) 193469 7 126 19 18.9384 37.6164 0.510221 689 977 -1 20 0 heads_default wzcgcbdwtzvvvfcxvga 890,951,953,1008,1012,1069,1071 11,24,20,32,17,25,16 0,0,0,0,0,0,0 
+252945 div:int (none) 249414 12 55 19 19 37 0.513514 690 981 -1 23 0 heads_default wzcgcmywtzvvvfcxvga 901,961,962,964,1020,1021,1022,1023,1024,1025,1080,1081 28,24,63,25,5,1,36,25,24,22,33,3 0,0,0,0,0,0,0,0,0,0,0,0 
+256648 div:int (none) 221882 1 1 18 0 0 0 680 993 -1 19 0 heads_default wzcgcwwsczvvvfcmgr 1037 219 0 
+256924 div:int (none) 229102 3 10 19 19 37 0.513514 701 994 -1 22 0 heads_default wzcgcuowtzvvvfcxvga 1086,1087,1145 25,11,28 0,0,0 
+258764 div:int (none) 217218 1 1 19 0 0 0 677 999 -1 16 0 heads_default wzcgctcwbczvvvfcxga 1161 49 0 
+258626 div:int (none) 233897 1 1 19 0 0 0 679 999 -1 19 0 heads_default wzcglcxdzbzvvvfcxga 1192 53 0 
+259132 div:int (none) 252847 1 1 19 0 0 0 708 1000 -1 21 0 heads_default vvocxvgawzcgcbcwlzv 1390 1 0 
+243998 div:int (none) 219808 24 392 19 19 36.0258 0.527454 669 953 -1 20 0 heads_default wzcgcocflzvvvfcxvga 1451,1509,1510,1511,1512,1570,1571,1629,1630,1634,1692,1695,1752,1753,1754,1755,1812,1813,1814,1815,1816,1873,1875,1876 17,1,9,4,29,7,31,6,9,33,6,1,0,2,3,5,0,3,32,12,1,3,20,5 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+257384 div:int (none) 255509 1 1 20 0 0 0 703 995 -1 19 0 heads_default wzcgcnxtwzfvvvfcxvga 1539 178 0 
+258603 div:int (none) 252634 1 1 17 0 0 0 683 999 -1 21 0 heads_default wzcgcncpzvvvfcxga 1579 62 0 
+258534 div:int (none) 237536 1 1 18 0 0 0 707 998 -1 18 0 heads_default zcgcntwzzvvvfcxvga 1664 69 0 
+258235 div:int (none) 229592 1 1 18 0 0 0 678 997 -1 20 0 heads_default ezcgctkkjzvvvfcxga 1710 93 0 
+255314 div:int (none) 254965 17 54 19 19 37 0.513514 698 988 -1 19 0 heads_default wzcgcqcwczvvvfcxvga 1772,1832,1833,1835,1893,1897,1955,1956,2017,2077,2078,2136,2137,2138,2139,2196,2199 2,2,3,7,1,11,13,8,24,27,24,34,16,11,12,27,7 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+257775 div:int (none) 254684 1 1 21 20 134 0.149254 704 996 -1 28 0 heads_default wzcgcqvycszzvvvfcxvga 1790 9 0 
+258718 div:int (none) 221882 1 2 18 18 37 0.486486 684 999 -1 19 0 heads_default wzcgcdwsczvvvfcxga 1872 19 0 
+257430 div:int (none) 242586 3 7 19 18 36 0.5 701 995 -1 20 0 heads_default wzcgcwewpzvvvfcxvga 1888,1948,1949 22,25,21 0,0,0 
+244113 div:int (none) 212382 21 325 19 18.9798 37.101 0.512442 669 953 -1 18 0 heads_default wzcgcklwtzvvvfcxvga 1931,1990,1992,2050,2051,2649,2704,2707,2708,2709,2711,2764,2767,2769,2770,2827,2828,2948,3007,3008,3009 10,21,9,34,27,20,141,1,17,17,34,30,27,18,33,36,27,4,16,2,72 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259086 div:int (none) 249077 1 1 19 0 0 0 690 1000 -1 19 0 heads_default awzcxcgcibzvvvfcxga 2002 12 0 
+254417 div:int (none) 224116 2 21 19 19 37.7576 0.514625 697 986 -1 24 0 heads_default wzcgcoylbzvvvfcxvga 2027,2028 8,2 0,0 
+259040 div:int (none) 243105 1 1 19 0 0 0 710 1000 -1 18 0 heads_default wzcgcidibzvvvfcxvga 2112 24 0 
+258212 div:int (none) 256821 1 1 19 0 0 0 709 997 -1 19 0 heads_default wbcgcktwtzvvvfcxvga 2355 108 0 
+259201 div:int (none) 249450 1 1 18 0 0 0 695 1000 -1 20 0 heads_default wzcgclcpbzvvvfcxga 2373 1 0 
+258833 div:int (none) 258455 1 1 20 11 29 0.37931 711 999 -1 18 0 heads_default wzcgcncwtzvvvfhcxvga 2426 5 0 
+245148 div:int (none) 235551 7 84 20 19.8526 38.2526 0.521342 670 957 -1 20 0 heads_default wzcgcxkvqzzvvvfcxvga 2502,2503,2504,2561,2562,2563,2564 13,36,2,13,18,18,10 0,0,0,0,0,0,0 
+259155 div:int (none) 249631 1 1 19 0 0 0 711 1000 -1 20 0 heads_default wzcgcnyypzvvvfjxvga 2551 5 0 
+255866 div:int (none) 255378 1 6 18 16.7143 47.8571 0.346856 679 990 -1 21 0 heads_default wzcgcdbnbzvvffcxga 2725 38 0 
+258281 div:int (none) 255866 1 1 17 0 0 0 684 998 -1 22 0 heads_default zvvffcxgazcgcdbhb 2785 44 0 
+258879 div:int (none) 255779 1 1 18 0 0 0 686 999 -1 21 0 heads_default wzcgcxbubzivvfcxga 2839 37 0 
+258971 div:int (none) 225041 1 1 19 0 0 0 690 1000 -1 27 0 heads_default zwzcgckbkxzvvvfcxga 2917 22 0 
+259178 div:int (none) 238635 1 1 19 0 0 0 723 1000 -1 23 0 heads_default wzcgcotyzvvvvfcxsga 2930 2 0 
+259224 div:int (none) 228630 1 1 19 0 0 0 690 1000 -1 19 0 heads_default wzcgcecvutzvrvfcxga 3145 2 0 
+258994 div:int (none) 232468 1 1 19 0 0 0 716 1000 -1 22 0 heads_default wzcgcnyqzlvvvfcxvga 3191 20 0 
+248207 div:int (none) 200428 5 64 18 18 36 0.5 657 966 -1 16 0 heads_default wzcgcmcmbzvvvfcxga 3284,3285,3343,3344,3464 31,33,35,19,11 0,0,0,0,0 
+254302 div:int (none) 212382 6 26 19 19 36 0.527778 698 985 -1 18 0 heads_default wzcgckcwwzvvvfcxvga 3317,3378,3379,3380,3439,3440 1,1,26,18,25,17 0,0,0,0,0,0 
+258580 div:int (none) 254077 1 2 18 18 52 0.346154 681 998 -1 20 0 heads_default wzcgcecwpzrvvfcxga 3479 11 0 
+208418 div:int (none) 207349 8 1828 19 18.9741 37.0692 0.512484 567 840 -1 20 0 heads_default wzcgctyzzzvvvfcxvga 6,3178,3245,3485,3486,3545,3546,3547 32,197,34,1,0,34,0,25 0,0,0,0,0,0,0,0 
+257500 div:int (none) 255251 1 1 20 0 0 0 709 995 -1 20 0 heads_default wzcgckdcylzvvvfcxvga 18 153 0 
+227922 div:int (none) 214530 15 500 19 18.9603 38.0281 0.498998 610 902 -1 18 0 heads_default wzcgcicvwlzvvvfcxga 26,30,87,88,89,147,149,208,3388,3448,3449,3509,3569,3570,3571 28,36,0,28,26,2,18,25,24,22,28,8,11,29,18 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+246851 div:int (none) 239591 11 104 19 18.9213 38.378 0.496378 653 962 -1 20 0 heads_default wzcgcncvojzvvvfcxga 46,106,107,166,167,168,227,284,286,289,290 31,36,126,71,21,6,11,23,18,11,9 0,0,0,0,0,0,0,0,0,0,0 
+258788 div:int (none) 239591 1 1 20 0 0 0 685 999 -1 20 0 heads_default wzcgcnacvopzvvvfcxga 51 34 0 
+252348 div:int (none) 248752 12 69 18 18 38 0.473684 665 979 -1 20 0 heads_default wzcgcomwizvvvfcxga 104,163,164,220,222,281,339,341,398,400,457,458 8,9,11,24,14,21,28,4,30,0,18,20 0,0,0,0,0,0,0,0,0,0,0,0 
+257224 div:int (none) 233871 4 9 18 18 37 0.486486 678 994 -1 19 0 heads_default wzcgcpwtbzvvvfcxga 125,185,244,245 12,25,36,21 0,0,0,0 
+258443 div:int (none) 237920 2 3 18 18 37 0.486486 687 998 -1 21 0 heads_default wzcgcrcsxzvvvfcxga 158,3577 65,34 0,0 
+258328 div:int (none) 233267 1 1 18 0 0 0 679 998 -1 16 0 heads_default wzcgcnclezvvvfcxga 181 85 0 
+257132 div:int (none) 112560 1 1 17 0 0 0 676 994 -1 15 0 heads_default wzcgncwbzvvvfcxga 430 208 0 
+258903 div:int (none) 193469 1 1 19 0 0 0 707 999 -1 20 0 heads_default wzcgmbnwtzvvvfcxvga 542 25 0 
+252486 div:int (none) 227922 6 64 19 18.9167 37.8611 0.499504 674 980 -1 19 0 heads_default wzcgcicvwnzvvvfcxga 631,690,749,809,867,868 5,5,3,6,20,4 0,0,0,0,0,0 
+257247 div:int (none) 248276 1 3 17 17 71 0.239437 689 994 -1 18 0 heads_default wzcgccybzvvvfcxga 653 6 0 
+259202 div:int (none) 250143 1 1 19 0 0 0 695 1000 -1 18 0 heads_default wzcgcncirbzvvvfcxga 676 5 0 
+252003 div:int (none) 248908 4 34 18 17.7632 37.6579 0.470693 666 978 -1 17 0 heads_default wzcgctmwbzvvvfcxga 705,766,767,827 19,25,26,33 0,0,0,0 
+258834 div:int (none) 248752 1 1 18 0 0 0 680 999 -1 20 0 heads_default wzcgcodwizvvvfcxaa 708 40 0 
+259064 div:int (none) 258804 1 1 18 0 0 0 706 1000 -1 22 0 heads_default vvfxvgawzcgcznwtzv 734 9 0 
+255637 div:int (none) 190897 1 8 18 17.375 49.75 0.348458 685 989 -1 17 0 heads_default wzcgcncpbzvkvfcxga 918 40 0 
+259225 div:int (none) 251248 1 1 18 0 0 0 707 1000 -1 22 0 heads_default wzcgcgcwfzvvvfcxga 1003 1 0 
+249243 div:int (none) 237071 5 103 18 17.9256 36.124 0.496979 659 969 -1 18 0 heads_default wzcgckbnbzvvvfcxga 1060,1119,1176,1180,1240 21,26,5,16,20 0,0,0,0,0 
+259087 div:int (none) 220522 1 1 19 0 0 0 710 1000 -1 21 0 heads_default wzcgcznwtzvvvfhxvga 1098 14 0 
+223000 div:int (none) 213859 9 531 21 21 45.1159 0.46617 585 887 -1 28 0 heads_default wnjatcgcjiokzvvvfcxga 1297,1301,1357,1417,1418,1419,1476,1477,1478 43,33,34,39,35,36,11,14,9 0,0,0,0,0,0,0,0,0 
+259041 div:int (none) 258828 1 1 19 0 0 0 686 1000 -1 20 0 heads_default zvvvfcnxgawzcgcwwsc 1399 8 0 
+243930 div:int (none) 193469 5 102 19 19 37 0.513514 667 953 -1 20 0 heads_default wzcgcbmwtzvvvfcxvga 1441,1442,1500,1501,1561 17,15,23,3,5 0,0,0,0,0 
+258374 div:int (none) 191458 1 1 17 0 0 0 682 998 -1 17 0 heads_default wzcgcncozvvvfcxga 1466 92 0 
+257776 div:int (none) 257406 2 3 18 0 0 0 682 996 -1 22 0 heads_default zcvgcmcsozvvvfcxga 1472,1532 51,90 0,0 
+230751 div:int (none) 200356 7 687 18 16.9708 37.0401 0.45828 614 911 -1 17 0 heads_default wzcgckewbzvvvfcxga 1533,1592,1593,1594,1652,1653,1654 20,18,18,15,14,12,25 0,0,0,0,0,0,0 
+257339 div:int (none) 250687 2 5 19 19 36.1667 0.5254 701 995 -1 23 0 heads_default wzcgczcwczvvvfcxvga 1566,1626 20,23 0,0 
+237536 div:int (none) 200439 4 214 19 18.9844 37.3268 0.511208 648 933 -1 17 0 heads_default wzcgcntwzzvvvfcxvga 1600,1601,1603,1662 13,11,22,28 0,0,0,0 
+258995 div:int (none) 257339 1 1 19 0 0 0 705 1000 -1 24 0 heads_default wzcgczkwczvvvfcxvga 1686 29 0 
+258972 div:int (none) 255414 1 1 19 0 0 0 706 1000 -1 28 0 heads_default wzcgczycmzvvvfcxvga 1798 17 0 
+251589 div:int (none) 219808 10 59 19 19 36 0.527778 691 977 -1 20 0 heads_default wzcgcoczlzvvvfcxvga 1865,1868,1925,1926,1928,1985,1987,1989,2048,2049 41,16,33,2,4,4,5,2,12,2 0,0,0,0,0,0,0,0,0,0 
+249450 div:int (none) 212489 27 192 18 17.9598 35.942 0.499515 668 970 -1 19 0 heads_default wzcgclczbzvvvfcxga 1892,1950,1951,1953,1954,2010,2011,2012,2015,2016,2071,2072,2073,2075,2130,2132,2133,2134,2135,2189,2190,2192,2254,2256,2313,2314,2315 27,25,0,14,19,28,17,9,35,32,25,18,19,3,29,12,7,18,2,5,10,14,6,1,2,33,7 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259156 div:int (none) 249077 1 1 17 0 0 0 690 1000 -1 19 0 heads_default wzcxcgcibzvvvcxga 1945 10 0 
+258029 div:int (none) 256078 1 1 19 0 0 0 706 997 -1 27 0 heads_default wecgcfyupzvvvfcxvga 1972 105 0 
+258351 div:int (none) 257320 1 2 18 17 37 0.459459 690 998 -1 20 0 heads_default wzcygcesbzvvvfcxga 2007 4 0 
+212489 div:int (none) 183408 2 1027 18 17.9591 36.0377 0.498576 571 854 -1 18 0 heads_default wzcgceczbzvvvfcxga 2009,2068 21,21 0,0 
+258949 div:int (none) 224116 1 1 19 0 0 0 709 1000 -1 24 0 heads_default wzcgzcsyubzvvvcxvga 2092 31 0 
+216215 div:int (none) 154974 8 728 19 18.9824 36.1121 0.526838 591 865 -1 16 0 heads_default wzcgcicwbzvvvfcxvga 2113,2171,2173,2174,2233,2292,2294,2354 34,12,28,8,24,23,26,8 0,0,0,0,0,0,0,0 
+258857 div:int (none) 241384 1 1 19 0 0 0 713 999 -1 19 0 heads_default vvfqxvgawzcgcbcrbzv 2282 20 0 
+259018 div:int (none) 256663 1 1 19 0 0 0 704 1000 -1 19 0 heads_default wzcgcncwmznvvvfcxga 2326 16 0 
+257615 div:int (none) 220771 1 1 20 0 0 0 714 996 -1 21 0 heads_default wzcgcnyfzvvvvfcxvnga 2459 170 0 
+259110 div:int (none) 238505 1 1 19 0 0 0 705 1000 -1 18 0 heads_default wzcgwnmwzsvvvfcxvga 2508 14 0 
+258512 div:int (none) 200439 2 3 19 19 36 0.527778 707 998 -1 17 0 heads_default wzcgcncwpzvvvfcxvga 2630,2691 20,25 0,0 
+257868 div:int (none) 183408 1 1 19 9 23 0.391304 684 996 -1 18 0 heads_default wzcgcnczbzvvvfcsxga 2669 58 0 
+255430 div:int (none) 238635 8 26 19 19 41 0.463415 709 989 -1 23 0 heads_default wzcgcotyzvvvsfcxvga 2695,2753,2754,2755,2814,2876,2878,2937 1,15,1,21,17,39,3,4 0,0,0,0,0,0,0,0 
+255614 div:int (none) 128890 2 2 17 0 0 0 679 989 -1 16 0 heads_default wzgcncwozvvvfcxga 3034,3342 188,291 0,0 
+258880 div:int (none) 244046 1 1 19 0 0 0 685 999 -1 22 0 heads_default wzcgcfdjfxzvvvfcxga 3153 41 0 
+258811 div:int (none) 250674 1 1 20 0 0 0 711 999 -1 23 0 heads_default wzxcgcnyqzvvvkfcxvga 3187 29 0 
+258765 div:int (none) 231596 1 1 18 0 0 0 685 999 -1 20 0 heads_default wzcgcdbubzvvvfjxga 3320 32 0 
+256051 div:int (none) 244046 2 5 18 18 53 0.339623 676 991 -1 22 0 heads_default wzcgcdjfxzvvffcxga 3330,3391 11,12 0,0 
+256488 div:int (none) 240343 2 10 18 18 38 0.473684 684 992 -1 21 0 heads_default wzcgctkfxzvvvfcxga 3515,3574 35,30 0,0 
+259133 div:int (none) 159794 1 1 19 0 0 0 690 1000 -1 17 0 heads_default wzcgcicvwbzvvvfsxga 3561 7 0 
+258812 div:int (none) 228999 1 1 17 0 0 0 681 999 -1 19 0 heads_default zcgctcwpzvvvfcxga 0 35 0 
+240343 div:int (none) 186368 25 319 18 17.9235 36.8878 0.485639 640 942 -1 20 0 heads_default wzcgctcfxzvvvfcxga 32,94,153,154,215,274,3339,3395,3396,3397,3399,3454,3455,3456,3457,3458,3459,3512,3513,3517,3518,3519,3520,3576,3579 10,0,29,1,26,20,14,23,7,34,10,13,14,7,27,19,28,28,18,17,18,17,30,21,33 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+210742 div:int (none) 194564 10 1043 18 17.9743 37.1309 0.484601 559 848 -1 18 0 heads_default wzcgcncuozvvvfcxga 42,43,44,49,103,105,223,3528,3587,3588 121,20,11,17,27,53,18,31,19,13 0,0,0,0,0,0,0,0,0,0 
+258904 div:int (none) 237920 1 1 18 0 0 0 688 999 -1 21 0 heads_default wzcgcdcsxzvvvfcxia 218 25 0 
+258628 div:int (none) 246851 2 2 19 19 38 0.5 684 999 -1 21 0 heads_default wzcgcncvoxzvvvfcxga 224,283 14,22 0,0 
+257363 div:int (none) 112560 1 1 19 0 0 0 677 995 -1 15 0 heads_default wzcgcncwbzvvdvfcxga 316 169 0 
+193469 div:int (none) 186529 28 3565 19 18.9573 37.1974 0.511524 528 792 -1 19 0 heads_default wzcgcbnwtzvvvfcxvga 482,540,541,602,604,662,721,781,782,842,1073,1074,1131,1132,1133,1134,1136,1193,1196,1250,1251,1252,1309,1310,1319,1320,1432,1437 22,61,20,41,1,32,18,28,16,29,9,28,12,11,7,16,34,28,23,2,1,10,1,2,1,0,16,26 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259180 div:int (none) 248752 1 1 19 0 0 0 680 1000 -1 20 0 heads_default wzcgcodwizvvvfcvxga 524 7 0 
+258651 div:int (none) 198969 2 2 18 18 52 0.346154 683 999 -1 18 0 heads_default wzcgcocwdzvvifcxga 575,576 5,7 0,0 
+257892 div:int (none) 181663 2 2 17 17 75 0.226667 679 996 -1 18 0 heads_default wzcgcncwpzvvfcxga 657,716 43,31 0,0 
+256581 div:int (none) 255460 1 1 18 0 0 0 699 993 -1 22 0 heads_default xvgawzcgcznwtzvvfl 791 188 0 
+256834 div:int (none) 253931 4 6 20 19.4 73 0.265753 690 993 -1 21 0 heads_default wzcgcdccvdbzvvvfcxga 873,932,933,934 4,0,0,6 0,0,0,0 
+258306 div:int (none) 248032 1 1 19 0 0 0 691 998 -1 20 0 heads_default wzlgcwmvwbzvvvfcxga 874 91 0 
+259019 div:int (none) 255391 1 1 18 0 0 0 682 1000 -1 16 0 heads_default wzcgckcwxzvvvfcxga 943 18 0 
+259203 div:int (none) 252945 1 1 19 0 0 0 707 1000 -1 24 0 heads_default wzcgcmywtzvvvcexvga 960 3 0 
+247795 div:int (none) 245615 6 62 19 19 37.2 0.519658 677 965 -1 18 0 heads_default wzcgcucwbzvvvfcxvga 1147,1208,1267,1268,1387,1448 35,30,35,27,13,22 0,0,0,0,0,0 
+258490 div:int (none) 210329 1 1 27 0 0 0 672 998 -1 21 0 heads_default wzcagcvvpcvxpacvzvvfccxvgab 1226 95 0 
+257478 div:int (none) 195119 1 1 19 0 0 0 682 995 -1 16 0 heads_default wzcgcqycwbzvvvfcxga 1287 130 0 
+258444 div:int (none) 234645 1 1 18 0 0 0 679 998 -1 21 0 heads_default wzcgrlccwzvvvfcxga 1300 67 0 
+257570 div:int (none) 257345 1 1 17 0 0 0 702 995 -1 22 0 heads_default zvvvcxgawzcgcbnwt 1313 82 0 
+259134 div:int (none) 229102 1 1 20 0 0 0 703 1000 -1 22 0 heads_default wqzcgczowtzvvvfcxvga 1323 11 0 
+251774 div:int (none) 244442 15 102 19 19 36 0.527778 687 977 -1 26 0 heads_default wzcgcqycszvvvfcxvga 1435,1436,1494,1495,1555,1614,1615,1616,1617,1675,1676,1677,1736,1857,1916 1,2,5,2,15,30,19,12,31,26,30,28,21,0,1 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258375 div:int (none) 221882 1 1 18 0 0 0 684 998 -1 19 0 heads_default wwcgcwwsczvvvfcrga 1523 86 0 
+258973 div:int (none) 232174 1 1 19 0 0 0 681 1000 -1 19 0 heads_default wzjcgcnptozvvvfcxga 1535 27 0 
+259042 div:int (none) 256538 1 1 18 0 0 0 708 1000 -1 20 0 heads_default wzcgcucwqzvvfcxvga 1568 11 0 
+255753 div:int (none) 191458 2 6 17 17 75 0.226667 675 990 -1 17 0 heads_default wzcgcnckozvvfcxga 1705,1765 43,30 0,0 
+259226 div:int (none) 247876 1 1 20 0 0 0 707 1000 -1 18 0 heads_default wzcgcncwczvvvfcxvgna 1776 0 0 
+258076 div:int (none) 165804 2 4 18 0 0 0 706 997 -1 17 0 heads_default wzcgcncwzvvvfcxvga 2141,2617 5,99 0,0 
+258122 div:int (none) 224116 1 1 18 11 25 0.44 707 997 -1 24 0 heads_default wzcgcsyubzvvvfxvga 2151 46 0 
+251291 div:int (none) 241384 4 30 19 19 36 0.527778 690 976 -1 19 0 heads_default wzcgcbcmbzvvvfcxvga 2167,2228,2348,2409 6,4,4,3 0,0,0,0 
+241746 div:int (none) 212382 14 327 19 18.9531 37.2161 0.51182 661 946 -1 18 0 heads_default wzcgcwcwtzvvvfcxvga 2194,2200,2255,2319,2380,2381,2438,2441,2550,2611,2621,2670,2671,2730 9,86,25,0,0,7,6,2,19,23,30,24,32,19 0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258996 div:int (none) 200439 1 1 19 0 0 0 705 1000 -1 17 0 heads_default wzcgancwzzvvvfcxvga 2206 23 0 
+259157 div:int (none) 238636 1 1 18 0 0 0 683 1000 -1 22 0 heads_default wzcgcpkmrzvvvfcxga 2235 6 0 
+256696 div:int (none) 212382 1 1 18 11 24 0.458333 705 993 -1 18 0 heads_default wzcgckcwtzvvvfxvga 2304 145 0 
+258352 div:int (none) 251967 1 1 19 0 0 0 708 998 -1 19 0 heads_default wzctcscwtzvvvfcxvga 2420 107 0 
+259088 div:int (none) 258394 1 1 19 0 0 0 711 1000 -1 20 0 heads_default wzcgcscktzvuvfcxvga 2599 18 0 
+258030 div:int (none) 236372 1 1 20 0 0 0 707 997 -1 18 0 heads_default wzcgcncwrzvbvvfcxvga 2609 115 0 
+253775 div:int (none) 248898 3 17 19 19 36 0.527778 695 984 -1 18 0 heads_default wzcgckcitzvvvfcxvga 2663,2722,2724 59,80,37 0,0,0 
+258513 div:int (none) 232468 1 2 19 19 34 0.558824 715 998 -1 22 0 heads_default wzcgcuyqzvvvvfcxvga 2775 32 0 
+257662 div:int (none) 165804 1 4 19 19 36 0.527778 709 996 -1 17 0 heads_default wzcgcncwyzvvvfcxvga 2792 19 0 
+257961 div:int (none) 255700 3 4 18 18 42 0.428571 703 997 -1 18 0 heads_default wzcgcncwzpvvvfcxga 2859,2861,2920 36,30,39 0,0,0 
+258697 div:int (none) 257986 1 1 19 11 27 0.407407 705 999 -1 18 0 heads_default wzcgcncmzzvvvfwxvga 2922 18 0 
+258329 div:int (none) 231596 1 1 18 0 0 0 684 998 -1 20 0 heads_default wzcgcdbubkvvvfcxga 3029 86 0 
+244046 div:int (none) 241566 12 260 18 17.9414 37.9136 0.472975 647 953 -1 21 0 heads_default wzcgcdjfxzvvvfcxga 3154,3213,3271,3272,3274,3275,3333,3334,3335,3394,3452,3453 36,35,8,9,3,3,2,4,2,6,8,12 0,0,0,0,0,0,0,0,0,0,0,0 
+258099 div:int (none) 232468 1 4 19 19 33 0.575758 715 997 -1 22 0 heads_default wzcgcncqzvvvvfcxvga 3196 16 0 
+258398 div:int (none) 257518 1 1 19 0 0 0 684 998 -1 18 0 heads_default ncwozvwvvfexgawzcsc 3220 77 0 
+257823 div:int (none) 238635 1 1 19 0 0 0 717 996 -1 23 0 heads_default izcgcotyzvvvvfcxvga 3298 144 0 
+259111 div:int (none) 200428 1 1 19 0 0 0 686 1000 -1 16 0 heads_default wyzcgcncmbzvvvfcxga 3347 18 0 
+259065 div:int (none) 257079 1 1 19 0 0 0 718 1000 -1 23 0 heads_default vvvvfhxvgawzcgcnysz 3368 7 0 
+258927 div:int (none) 210742 1 1 18 0 0 0 679 1000 -1 19 0 heads_default wzcgancuozvvvfcxga 3589 40 0 
+258950 div:int (none) 247529 1 1 18 0 0 0 686 1000 -1 18 0 heads_default pzcgcnmsbzvvvfcxga 3597 21 0 
+258836 div:int (none) 247529 1 1 18 0 0 0 685 999 -1 18 0 heads_default wzcgcnmsbzvvlfcxga 177 26 0 
+257433 div:int (none) 198969 1 1 17 0 0 0 680 995 -1 18 0 heads_default wzcdocwdzvvvfcxga 516 199 0 
+258629 div:int (none) 248752 1 1 18 0 0 0 679 999 -1 20 0 heads_default wzcgcodwizvvvgcxga 584 54 0 
+258790 div:int (none) 240122 1 1 21 0 0 0 670 999 -1 30 0 heads_default wnjatcgcjiowzqvvfcxga 695 40 0 
+259181 div:int (none) 237367 1 1 18 0 0 0 685 1000 -1 16 0 heads_default wzcgcncwhzvuvfcxga 832 6 0 
+258399 div:int (none) 256477 4 4 18 18 38 0.473684 684 998 -1 17 0 heads_default wzcgcyswbzvvvfcxga 1168,1227,1286,1346 10,10,20,26 0,0,0,0 
+254811 div:int (none) 253670 5 11 20 19.0833 71 0.276173 683 987 -1 21 0 heads_default wzcgcymvowbzvvvfcxga 1169,1228,1289,1290,1350 28,24,16,23,21 0,0,0,0,0 
+210329 div:int (none) 205738 8 612 27 23.8838 50.959 0.469174 554 847 -1 20 0 heads_default wzcagcvvpcvxpacvzvvfcaxvgab 1224,1284,1285,1344,1345,1405,1585,1645 12,49,15,48,37,41,12,9 0,0,0,0,0,0,0,0 
+258330 div:int (none) 237071 1 1 19 18 27 0.666667 683 998 -1 18 0 heads_default wzcgckbihbzvvvfcxga 1420 4 0 
+258744 div:int (none) 219784 1 1 19 19 42 0.452381 709 999 -1 23 0 heads_default wzcgcsltbzvvvfcxvga 1439 13 0 
+200439 div:int (none) 154974 60 6002 19 18.966 36.1606 0.525962 546 815 -1 16 0 heads_default wzcgcncwzzvvvfcxvga 1538,1597,1658,2026,2086,2266,2269,2270,2321,2322,2325,2382,2383,2388,2391,2393,2442,2443,2451,2452,2453,2501,2509,2510,2555,2560,2567,2572,2616,2618,2619,2620,2628,2629,2631,2632,2677,2678,2679,2680,2692,2693,2736,2738,2739,2740,2741,2797,2798,2799,2800,2801,2856,2857,2858,2860,2915,2916,2919,2977 10,11,3,32,29,31,208,18,28,1,81,0,33,17,3,20,0,1,1,21,20,20,29,21,13,31,7,32,6,215,28,30,29,33,13,8,11,28,29,29,9,7,30,28,23,10,7,6,5,26,7,2,6,11,14,3,2,2,20,21 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258261 div:int (none) 253237 1 1 19 0 0 0 696 997 -1 19 0 heads_default wzcgcnfxbzdvvvfcxga 1861 93 0 
+258928 div:int (none) 258730 1 1 20 0 0 0 704 1000 -1 21 0 heads_default vvfcxxvgawzcgcbcptzv 1978 20 0 
+220771 div:int (none) 192388 56 1305 19 18.9479 34.2053 0.556422 608 880 -1 20 0 heads_default wzcgcnyfzvvvvfcxvga 1983,2041,2042,2100,2102,2275,2276,2334,2335,2338,2339,2394,2397,2398,2399,2454,2455,2456,2457,2458,2464,2514,2515,2518,2519,2523,2575,2576,2577,2578,2579,2635,2636,2638,2639,2642,2697,2701,2702,2703,2756,2759,2760,2761,2762,2763,2817,2818,2819,2821,2822,2879,2939,2998,3059,3119 26,0,17,20,0,31,9,5,8,28,17,6,10,67,12,1,13,8,33,3,23,8,0,3,1,21,16,7,2,5,19,2,7,28,23,2,15,5,6,1,12,16,8,6,3,0,10,12,2,5,6,0,0,0,1,2 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259112 div:int (none) 202883 1 1 19 0 0 0 698 1000 -1 20 0 heads_default wzfcgcbcwtzvvvfcxga 2047 7 0 
+226199 div:int (none) 200439 16 305 18 17.9656 37.1175 0.484496 618 896 -1 17 0 heads_default wzcgcncwzzvvvfcxga 2145,2147,2202,2207,2261,2262,2263,2264,2624,2626,2627,2684,2685,2686,2687,2745 15,14,9,25,9,22,22,17,16,12,17,11,14,17,35,8 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+225946 div:int (none) 220518 3 962 19 18.9516 38.0442 0.498372 603 896 -1 23 0 heads_default wzcgcvzcyxzvvvfcxga 2197,2375,2434 37,29,23 0,0,0 
+259020 div:int (none) 213001 1 1 19 0 0 0 714 1000 -1 21 0 heads_default vvncxvgawzcgcrcqkzv 2215 15 0 
+258882 div:int (none) 202883 1 1 18 0 0 0 696 999 -1 20 0 heads_default wzcgqbcwtzvvvfcxga 2229 33 0 
+255892 div:int (none) 238445 1 3 19 19 36 0.527778 699 990 -1 18 0 heads_default wzcgcecwbzvvvfcxvga 2236 222 0 
+257985 div:int (none) 212382 1 1 19 0 0 0 708 997 -1 18 0 heads_default wzcgckcwtzvfvfcxvga 2244 129 0 
+258951 div:int (none) 251274 1 1 18 0 0 0 712 1000 -1 20 0 heads_default wzcgcirbzvvvfcxvga 2285 26 0 
+258859 div:int (none) 236372 1 1 18 0 0 0 709 999 -1 18 0 heads_default wzcgcncrzvvvfcxvga 2547 33 0 
+259066 div:int (none) 200439 1 1 18 0 0 0 705 1000 -1 17 0 heads_default wzcgcnczzvvvfcxvga 2570 17 0 
+257525 div:int (none) 232468 2 5 20 19.8 35 0.565714 715 995 -1 22 0 heads_default wzcgcvnyqzvvvvfcxvga 2592,2593 25,27 0,0 
+258560 div:int (none) 241746 1 2 19 19 64 0.296875 706 998 -1 19 0 heads_default wzcgcwcwtzvvzfcxvga 2622 9 0 
+258583 div:int (none) 220771 1 1 19 10 24 0.416667 717 998 -1 21 0 heads_default wzcgcnyfzvvxvfcxvga 2637 18 0 
+241540 div:int (none) 200439 13 177 19 19 36 0.527778 659 945 -1 17 0 heads_default wzcgcncdzzvvvfcxvga 2747,2803,2804,2805,2806,2809,2863,2864,2865,2866,2868,2870,2929 26,13,16,34,20,20,32,20,8,10,25,14,14 0,0,0,0,0,0,0,0,0,0,0,0,0 
+258767 div:int (none) 258489 1 1 20 0 0 0 712 999 -1 21 0 heads_default vvvfjxvgawzcgcmcwtzn 2774 18 0 
+258376 div:int (none) 255430 1 1 19 11 29 0.37931 716 998 -1 24 0 heads_default wzcgcotyzvvvslcxvga 2815 28 0 
+257134 div:int (none) 220771 1 1 20 14 35 0.4 713 994 -1 21 0 heads_default wzcgcnyfzvvvvfqcxvga 2820 118 0 
+259204 div:int (none) 232468 1 1 20 0 0 0 718 1000 -1 22 0 heads_default wqzcgcnyqzvvvvfcxvga 2825 8 0 
+258422 div:int (none) 256818 1 1 20 0 0 0 705 998 -1 20 0 heads_default wzcgcwmwtzvvvfcxvgma 2854 80 0 
+259043 div:int (none) 258683 1 1 20 0 0 0 713 1000 -1 19 0 heads_default wzcgcncbyzvvvfcxqvga 2913 10 0 
+258514 div:int (none) 245713 1 1 19 0 0 0 707 998 -1 18 0 heads_default wzcgcrcwzzvvvfcxvgf 2993 73 0 
+254926 div:int (none) 232468 4 34 19 17.7619 32.6905 0.541991 705 987 -1 22 0 heads_default wzcgcneqzvvvvfcxvga 3065,3125,3126,3185 7,5,31,25 0,0,0,0 
+258721 div:int (none) 258510 1 1 19 0 0 0 716 999 -1 23 0 heads_default vvvvftxvgawzcgcnyqz 3137 28 0 
+257847 div:int (none) 244046 1 1 19 0 0 0 682 996 -1 22 0 heads_default wzcgcdjfxzvvvfcxgma 3219 136 0 
+253500 div:int (none) 187358 5 31 18 16.625 35.4 0.468001 672 983 -1 17 0 heads_default wzcgcebsbzvvvfcxga 3233,3293,3294,3352,3354 3,4,23,31,42 0,0,0,0,0 
+259227 div:int (none) 258907 1 1 19 0 0 0 702 1000 -1 22 0 heads_default vefcxvgawzcgctyzzzv 3423 0 0 
+257962 div:int (none) 233267 1 1 19 0 0 0 677 997 -1 16 0 heads_default wzcqgcncljzvvvfcxga 3428 87 0 
+259158 div:int (none) 258969 1 1 19 0 0 0 690 1000 -1 20 0 heads_default zvvvhcxgawzcgcecvut 3444 5 0 
+255340 div:int (none) 165804 4 14 19 19 37 0.513514 701 989 -1 17 0 heads_default wzcgcnpwtzvvvfcxvga 3450,3451,3510,3511 8,7,12,4 0,0,0,0 
+257249 div:int (none) 255495 1 2 18 18 76 0.236842 678 995 -1 21 0 heads_default wzcgcecvutzhvfcxga 3543 25 0 
+258974 div:int (none) 159794 1 1 20 0 0 0 690 1000 -1 17 0 heads_default wzcgcicnvwwzvvvfcxga 3554 29 0 
+257640 div:int (none) 159794 1 1 19 0 0 0 689 996 -1 17 0 heads_default wzcgcicvwbzvvvfcxfa 3563 148 0 
+258170 div:int (none) 212382 1 1 20 11 29 0.37931 710 997 -1 18 0 heads_default wzcgckcwtzvvvfscxvga 131 49 0 
+259205 div:int (none) 220522 1 1 19 0 0 0 708 1000 -1 21 0 heads_default nscgcznwtzvvvfcxvga 311 3 0 
+258377 div:int (none) 257956 1 1 20 0 0 0 704 998 -1 22 0 heads_default vvfckxvgawzcgcznwtzv 377 66 0 
+250143 div:int (none) 177739 26 136 19 18.9375 36.9375 0.512466 670 972 -1 17 0 heads_default wzcgcncvrbzvvvfcxga 379,380,438,439,440,494,498,499,553,558,561,562,614,617,618,620,621,679,681,737,738,740,799,858,859,919 27,8,5,13,3,2,15,9,4,12,3,2,32,15,15,4,0,4,2,7,6,6,9,16,6,6 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+256514 div:int (none) 200428 8 22 18 18 37 0.486486 680 992 -1 16 0 heads_default wzcgcnjmbzvvvfcxga 407,465,466,467,525,527,585,587 5,17,3,15,7,2,12,27 0,0,0,0,0,0,0,0 
+248970 div:int (none) 198969 5 51 18 18 38 0.473684 657 969 -1 18 0 heads_default wzcgcorwdzvvvfcxga 459,518,578,579,639 12,5,14,5,6 0,0,0,0,0 
+258561 div:int (none) 248276 1 1 18 0 0 0 692 998 -1 18 0 heads_default wzcgcncybzgvvfcxga 507 54 0 
+177739 div:int (none) 175269 2 4406 18 17.9594 36.0113 0.498824 474 740 -1 16 0 heads_default wzcgcncrbzvvvfcxga 613,672 5,7 0,0 
+258699 div:int (none) 253244 1 1 19 0 0 0 686 999 -1 21 0 heads_default wzcgczcvwbzvivfcxga 623 49 0 
+255479 div:int (none) 190897 5 27 18 18 37 0.486486 684 989 -1 17 0 heads_default wzcgcncprzvvvfcxga 683,741,801,802,862 2,31,4,55,6 0,0,0,0,0 
+207777 div:int (none) 154974 8 694 19 18.9323 37.0933 0.51148 564 838 -1 16 0 heads_default wzcgcnmwbzvvvfcxvga 838,840,841,899,1019,1078,1079,1139 19,9,4,29,4,14,4,7 0,0,0,0,0,0,0,0 
+257595 div:int (none) 254707 1 1 18 0 0 0 680 996 -1 19 0 heads_default zvvvicxgawzcgcocfd 993 62 0 
+259136 div:int (none) 217218 1 1 19 0 0 0 678 1000 -1 16 0 heads_default zvvvhcxgawzcgctcwab 1217 1 0 
+253869 div:int (none) 247904 1 14 19 19 36 0.527778 674 984 -1 19 0 heads_default wzcgckxibzvvvfcxvga 1302 98 0 
+252420 div:int (none) 250355 6 47 19 19 37 0.513514 693 979 -1 26 0 heads_default wzcgcjydszvvvfcxvga 1376,1551,1556,1611,1612,1674 7,6,25,10,10,20 0,0,0,0,0,0 
+245198 div:int (none) 237071 3 196 18 18 37.0893 0.485601 649 957 -1 18 0 heads_default wzcgckbiizvvvfcxga 1484,1544,1722 36,31,31 0,0,0 
+258584 div:int (none) 248016 1 1 19 0 0 0 701 998 -1 21 0 heads_default pzcgcbcqfzvvvfcxvga 1489 75 0 
+259113 div:int (none) 244040 1 1 20 0 0 0 713 1000 -1 19 0 heads_default wzcgcpcsbazvvvfcxvga 1513 13 0 
+258285 div:int (none) 248016 1 1 20 0 0 0 700 998 -1 21 0 heads_default awzcgchcqfzvvvfcxvga 1548 88 0 
+259182 div:int (none) 248016 1 1 19 0 0 0 702 1000 -1 21 0 heads_default wzcgcbcqfzvvvhcxvga 1610 2 0 
+254444 div:int (none) 241384 4 17 19 19 38.2105 0.512821 698 986 -1 19 0 heads_default wzcgcbzrbzvvvfcxvga 1805,1806,1866,1867 10,9,4,4 0,0,0,0 
+258814 div:int (none) 258588 1 1 17 0 0 0 680 999 -1 23 0 heads_default zvvvfxgawzcgcpkmj 1881 21 0 
+258768 div:int (none) 258392 1 1 19 0 0 0 707 999 -1 28 0 heads_default vvflxvgawzcgcqycszv 1915 23 0 
+259159 div:int (none) 165804 1 1 19 0 0 0 712 1000 -1 17 0 heads_default wzcgcncwtzvvvfcxfga 2246 5 0 
+256836 div:int (none) 165804 6 16 19 19 36 0.527778 705 993 -1 17 0 heads_default wzcgcncctzvvvfcxvga 2249,2309,2310,2427,2428,2487 41,17,17,10,35,18 0,0,0,0,0,0 
+238505 div:int (none) 200439 9 319 19 18.9337 37.0239 0.51197 650 936 -1 17 0 heads_default wzcgcnmwzzvvvfcxvga 2268,2324,2327,2328,2329,2389,2507,2568,2569 16,26,4,7,10,12,6,4,33 0,0,0,0,0,0,0,0,0 
+258538 div:int (none) 112560 1 1 19 9 26 0.346154 682 998 -1 15 0 heads_default wzcgcncwbzxvvvfcxga 2317 16 0 
+257089 div:int (none) 200439 2 5 19 19 40 0.475 702 994 -1 17 0 heads_default wzcgcncwzzvvvfexvga 2330,2390 21,21 0,0 
+259090 div:int (none) 256821 1 1 18 0 0 0 711 1000 -1 19 0 heads_default wzcgcktwtzvvvfcxva 2356 16 0 
+256422 div:int (none) 232468 5 13 19 19 34 0.558824 710 992 -1 22 0 heads_default wzcgcjyqzvvvvfcxvga 2473,2534,2652,2713,2772 11,8,19,5,6 0,0,0,0,0 
+258906 div:int (none) 251967 1 1 20 0 0 0 710 999 -1 19 0 heads_default wzcgcscwtzvvvfcxvgla 2480 35 0 
+258929 div:int (none) 247158 1 1 19 0 0 0 713 1000 -1 20 0 heads_default wzcgcijqbzvbvfcxvga 2532 33 0 
+257480 div:int (none) 236372 1 1 18 0 0 0 706 995 -1 18 0 heads_default wzgcncwrzvvvfcxvga 2548 172 0 
+259228 div:int (none) 252919 1 1 19 0 0 0 708 1000 -1 19 0 heads_default wzcgcmwwtzvvvfcxvga 2603 1 0 
+258837 div:int (none) 258583 1 1 19 0 0 0 718 999 -1 22 0 heads_default vxvfcxvgawzcgcnyfzv 2696 23 0 
+257986 div:int (none) 200439 2 3 19 19 36 0.527778 703 997 -1 17 0 heads_default wzcgcncmzzvvvfcxvga 2802,2862 22,18 0,0 
+257549 div:int (none) 232468 1 4 19 19 41 0.463415 715 995 -1 22 0 heads_default wzcgcnyqzvrvvfcxvga 2885 22 0 
+258676 div:int (none) 241540 1 1 20 19 36 0.527778 705 999 -1 18 0 heads_default wzcgcncdzzvvvfcxvgaf 2989 21 0 
+258998 div:int (none) 229320 1 1 20 0 0 0 693 1000 -1 20 0 heads_default bzbcgclcvwlzvvvfcxga 3032 21 0 
+256261 div:int (none) 128890 6 12 18 18 52 0.346154 681 991 -1 16 0 heads_default wzcgcncwozvtvfcxga 3037,3097,3098,3159,3217,3218 12,30,6,32,23,18 0,0,0,0,0,0 
+259021 div:int (none) 252497 1 1 18 0 0 0 712 1000 -1 24 0 heads_default wcgcfyqzvvvufcxvga 3359 12 0 
+258745 div:int (none) 187358 1 1 18 18 37 0.486486 688 999 -1 17 0 heads_default wzcgcnbsqzvvvfcxga 3426 2 0 
+258791 div:int (none) 258517 1 1 17 0 0 0 685 999 -1 19 0 heads_default zvvvcxgawzcgcnmsb 3596 18 0 
+259206 div:int (none) 159794 1 1 18 0 0 0 691 1000 -1 17 0 heads_default wzcgcicvwbzvvfcxga 19 5 0 
+257481 div:int (none) 246473 1 1 19 0 0 0 699 995 -1 22 0 heads_default wzcucttzzzvvvfcxvga 130 165 0 
+257872 div:int (none) 240270 2 4 18 18 38 0.473684 687 996 -1 22 0 heads_default wzcgcjyljzvvvfcxga 305,365 6,3 0,0 
+259229 div:int (none) 112560 1 1 18 0 0 0 684 1000 -1 15 0 heads_default wzcgcncwbfvvvfcxga 356 1 0 
+257412 div:int (none) 112560 1 5 18 18 52 0.346154 678 995 -1 15 0 heads_default wzcgcncwbzvpvfcxga 360 4 0 
+255986 div:int (none) 228551 1 4 17 17 75 0.226667 673 991 -1 21 0 heads_default wzcgczcwxzvvfcxga 378 69 0 
+258516 div:int (none) 254692 1 1 17 0 0 0 679 998 -1 22 0 heads_default wzcgcmwkzvvvfcxga 401 63 0 
+258723 div:int (none) 256514 1 2 18 18 37 0.486486 686 999 -1 17 0 heads_default wzcgcnpmbzvvvfcxga 408 11 0 
+259183 div:int (none) 253244 1 1 20 0 0 0 687 1000 -1 21 0 heads_default wzcgcpcvwbzvivfcxgoa 505 5 0 
+258700 div:int (none) 222559 1 1 19 0 0 0 692 999 -1 19 0 heads_default wzwgcpcvwbzvvvfcxga 569 55 0 
+198969 div:int (none) 181438 10 1875 18 17.9505 36.9857 0.485303 529 810 -1 17 0 heads_default wzcgcocwdzvvvfcxga 577,637,697,698,816,819,820,876,1233,1295 2,2,7,34,27,28,36,35,5,15 0,0,0,0,0,0,0,0,0,0 
+250949 div:int (none) 233267 1 65 18 17.9167 36.875 0.485682 663 975 -1 16 0 heads_default wzcgcnclhzvvvfcxga 600 24 0 
+257780 div:int (none) 220522 1 1 20 0 0 0 705 996 -1 21 0 heads_default wzcgciznwtzvvvfcxvga 731 162 0 
+258447 div:int (none) 220522 1 1 18 0 0 0 703 998 -1 21 0 heads_default wzcgcnwtzvvvfcxvga 797 76 0 
+258585 div:int (none) 220522 2 2 18 18 38 0.473684 708 998 -1 21 0 heads_default wzcgcznwtzvvvfcxga 854,914 14,21 0,0 
+251248 div:int (none) 236850 10 51 19 18.8644 39.1525 0.509766 686 976 -1 21 0 heads_default wzcgcgcwfzvvvfcxvga 1004,1005,1006,1064,1065,1125,1183,1243,1244,1304 1,0,2,14,3,5,26,20,30,25 0,0,0,0,0,0,0,0,0,0 
+257711 div:int (none) 257367 1 1 19 0 0 0 703 996 -1 21 0 heads_default wzcgckcwlavvvfcxvga 1089 149 0 
+219784 div:int (none) 207784 11 752 19 18.9686 36.2962 0.525118 601 877 -1 22 0 heads_default wzcgcslubzvvvfcxvga 1195,1197,1199,1200,1254,1255,1256,1315,1322,1379,1381 7,26,24,18,13,14,10,4,3,13,1 0,0,0,0,0,0,0,0,0,0,0 
+257044 div:int (none) 223000 5 9 21 21 44.9 0.467727 668 994 -1 29 0 heads_default wnjatcgcjiodzvvvfcxga 1296,1355,1356,1412,1413 4,3,1,28,20 0,0,0,0,0 
+256538 div:int (none) 247795 1 11 19 19 36 0.527778 701 992 -1 19 0 heads_default wzcgcucwqzvvvfcxvga 1507 27 0 
+257918 div:int (none) 246153 3 4 18 18 38 0.473684 678 997 -1 19 0 heads_default wzcgcspkxzvvvfcxga 1775,1834,1895 8,1,1 0,0,0 
+258769 div:int (none) 237506 1 1 20 0 0 0 711 999 -1 25 0 heads_default wzcgcsydbzvvvfcxbvga 1789 42 0 
+253088 div:int (none) 247876 5 55 19 18.7808 36.726 0.510622 692 981 -1 18 0 heads_default wzcgcxcwczvvvfcxvga 1838,1899,2019,2020,2080 4,0,15,14,24 0,0,0,0,0 
+258654 div:int (none) 237506 1 1 19 0 0 0 711 999 -1 25 0 heads_default xvgawzcgcsydbzvvvfc 1848 43 0 
+256078 div:int (none) 249782 5 15 19 19 37 0.513514 700 991 -1 26 0 heads_default wzcgcfyupzvvvfcxvga 1854,1914,2034,2093,2094 17,14,19,26,30 0,0,0,0,0 
+257803 div:int (none) 251173 1 1 20 0 0 0 706 996 -1 25 0 heads_default wnzcgcsyuyzvvvfcxvga 1969 140 0 
+259045 div:int (none) 249450 1 1 18 0 0 0 694 1000 -1 20 0 heads_default wzcgclczczvvvfcxga 2076 17 0 
+259160 div:int (none) 216215 1 1 20 0 0 0 711 1000 -1 17 0 heads_default wzcgcicawbzvvvfcxvga 2114 12 0 
+259091 div:int (none) 249450 1 1 17 0 0 0 695 1000 -1 20 0 heads_default wzcgclczbzvvfcxga 2195 18 0 
+254399 div:int (none) 247969 6 52 19 19 36 0.527778 698 986 -1 20 0 heads_default wzcgcbrkbzvvvfcxvga 2221,2280,2341,2400,2582,2583 1,5,20,23,0,0 0,0,0,0,0,0 
+258861 div:int (none) 213001 1 1 19 0 0 0 710 999 -1 21 0 heads_default wzcgcrcqkzvavfcxvga 2281 51 0 
+258010 div:int (none) 226199 2 3 18 18 52 0.346154 700 997 -1 18 0 heads_default wzcgcncwzzwvvfcxga 2323,2384 19,12 0,0 
+257895 div:int (none) 220771 1 3 19 19 41 0.463415 715 997 -1 21 0 heads_default wzcgcnyfzvvcvfcxvga 2340 32 0 
+257619 div:int (none) 251369 1 1 20 11 25 0.44 705 996 -1 19 0 heads_default wzcdcgclbzvvvfcsxvga 2413 68 0 
+258079 div:int (none) 200439 1 1 20 0 0 0 705 997 -1 17 0 heads_default wzjcgcncwzzvvvfcxvga 2556 116 0 
+258148 div:int (none) 238635 2 3 19 19 41 0.463415 717 997 -1 23 0 heads_default wzcgcotyzvvvofcxvga 2580,2641 27,30 0,0 
+259114 div:int (none) 241746 1 1 19 0 0 0 707 1000 -1 19 0 heads_default wzcgcwcwtzvvvfcjvga 2610 8 0 
+255779 div:int (none) 231596 3 11 18 18 38.0714 0.476463 679 990 -1 20 0 heads_default wzcgcxbubzvvvfcxga 2720,2779,2780 13,9,27 0,0,0 
+256354 div:int (none) 244113 1 9 19 19 37 0.513514 701 992 -1 19 0 heads_default wzcgckpwtzvvvfcxvga 2768 31 0 
+256032 div:int (none) 212382 2 7 19 18 36 0.5 701 991 -1 18 0 heads_default wzcgckhwtzvvvfcxvga 2788,2849 5,28 0,0 
+258631 div:int (none) 258325 1 1 19 0 0 0 711 999 -1 18 0 heads_default zvvvfcxxgawzcgcncwt 2908 35 0 
+250926 div:int (none) 165804 5 100 19 19 36.0508 0.527139 690 975 -1 17 0 heads_default wzcgcncwhzvvvfcxvga 2909,2970,2971,3030,3332 16,9,4,2,27 0,0,0,0,0 
+259022 div:int (none) 252497 1 1 19 0 0 0 712 1000 -1 24 0 heads_default wzcgcfykzvvvufcxvga 3182 23 0 
+254077 div:int (none) 228999 5 25 18 18 37 0.486486 670 985 -1 19 0 heads_default wzcgcecwpzvvvfcxga 3240,3300,3360,3416,3420 4,2,3,34,4 0,0,0,0,0 
+258976 div:int (none) 229320 1 1 18 0 0 0 693 1000 -1 20 0 heads_default wzcgclcwlzvvvfcxga 3447 26 0 
+257826 div:int (none) 239591 1 1 19 0 0 0 682 996 -1 20 0 heads_default wzcbbncvopzvvvfcxga 3470 112 0 
+258838 div:int (none) 187358 1 1 17 0 0 0 688 999 -1 17 0 heads_default wzcgcnbbzvvvfcxga 3483 37 0 
+258907 div:int (none) 208418 1 1 19 11 34 0.323529 701 999 -1 21 0 heads_default wzcgctyzzzvvefcxvga 3484 0 0 
+258171 div:int (none) 239591 1 1 19 0 0 0 683 997 -1 20 0 heads_default wzcgcncvopzvvvfcxgt 3529 115 0 
+259115 div:int (none) 255420 1 1 18 0 0 0 683 1000 -1 20 0 heads_default wzcgclwrjzvvvfcxga 15 10 0 
+238461 div:int (none) 226377 9 257 19 19 39 0.487179 634 936 -1 19 0 heads_default wzcgcnyvpdzvvvfcxga 34,36,37,95,96,155,156,216,3575 19,25,1,27,0,22,17,26,16 0,0,0,0,0,0,0,0,0 
+258517 div:int (none) 247529 1 1 17 9 24 0.375 684 998 -1 18 0 heads_default wzcgcnmsbzvvvcxga 57 19 0 
+255251 div:int (none) 253631 2 26 19 19 36 0.527778 703 988 -1 19 0 heads_default wzcgckcylzvvvfcxvga 79,138 19,15 0,0 
+258287 div:int (none) 239591 1 1 19 0 0 0 683 998 -1 20 0 heads_default wzcgcncvopzvvvfcxna 108 77 0 
+259046 div:int (none) 246473 1 1 19 0 0 0 705 1000 -1 22 0 heads_default wzcgcttzyzvvvfcxvga 129 16 0 
+258793 div:int (none) 227922 1 1 18 10 24 0.416667 689 999 -1 19 0 heads_default wzcgcicvwlzvvvfxga 146 11 0 
+257275 div:int (none) 233267 1 3 17 17 75 0.226667 677 995 -1 16 0 heads_default wzcgcncljzvvfcxga 180 27 0 
+258885 div:int (none) 246311 1 1 18 0 0 0 684 999 -1 17 0 heads_default wzcgcplwbzvvvfcxgt 361 33 0 
+258747 div:int (none) 255899 1 1 18 0 0 0 692 999 -1 20 0 heads_default wzcgcmcvwbzvvfcxga 517 44 0 
+190897 div:int (none) 166732 20 2414 18 17.9467 35.9897 0.498919 510 784 -1 16 0 heads_default wzcgcncpbzvvvfcxga 560,864,921,922,923,980,981,982,983,1040,1041,1042,1043,1102,1103,1104,1160,1162,1163,1164 20,7,2,2,6,5,21,20,26,12,25,20,7,24,24,15,29,24,35,25 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258011 div:int (none) 217218 1 1 19 0 0 0 679 997 -1 16 0 heads_default wzcgctcwrzvvvfcaxga 580 118 0 
+258839 div:int (none) 112560 1 1 18 0 0 0 680 999 -1 15 0 heads_default zvvvrcxgawzcgcncwb 651 12 0 
+256792 div:int (none) 233267 2 6 18 17.1429 36.7143 0.465128 675 993 -1 16 0 heads_default wzcgcxcljzvvvfcxga 729,730 20,17 0,0 
+258632 div:int (none) 255637 1 1 18 0 0 0 690 999 -1 18 0 heads_default fcxgawzcgcncpbzvkv 857 42 0 
+258333 div:int (none) 248032 1 1 20 19 39 0.487179 690 998 -1 20 0 heads_default wzcgcwmvwbzvvvfcxgas 935 20 0 
+219808 div:int (none) 216269 8 1260 19 18.9614 36.1184 0.525943 600 877 -1 19 0 heads_default wzcgcocwlzvvvfcxvga 1029,1088,1090,1148,1149,1209,1328,1388 5,31,2,3,3,43,0,3 0,0,0,0,0,0,0,0 
+256240 div:int (none) 252945 1 1 18 0 0 0 699 991 -1 24 0 heads_default wzcgcmywtzvvfcxvga 1084 282 0 
+259161 div:int (none) 254707 1 1 18 0 0 0 684 1000 -1 19 0 heads_default wzcgcecfgzvvvfcxga 1231 3 0 
+258862 div:int (none) 241697 1 1 17 0 0 0 684 999 -1 20 0 heads_default wzcgcncsozvvvfcxg 1234 30 0 
+258724 div:int (none) 241697 1 1 17 0 0 0 684 999 -1 20 0 heads_default wzcgncsozvvvfcxga 1292 52 0 
+256378 div:int (none) 247904 1 1 20 0 0 0 681 992 -1 19 0 heads_default wzcgckbiabzvvvfcxvga 1303 278 0 
+215806 div:int (none) 210845 1 796 18 17.9282 38.0687 0.472011 571 864 -1 21 0 heads_default wzcgcnxcjzvvvfcxga 1404 35 0 
+253917 div:int (none) 241697 5 44 18 18 37 0.486486 672 984 -1 20 0 heads_default wzcgcmcsozvvvfcxga 1410,1529,1531,1591,1596 33,18,18,8,113 0,0,0,0,0 
+258931 div:int (none) 252420 1 1 19 0 0 0 711 1000 -1 27 0 heads_default wzrgcjydszvvvfcxvga 1496 24 0 
+258264 div:int (none) 241697 1 2 18 18 52 0.346154 683 998 -1 20 0 heads_default wzcgcncsozivvfcxga 1534 25 0 
+214518 div:int (none) 183408 17 932 18 17.989 37.0559 0.485653 577 860 -1 18 0 heads_default wzcgcnnzbzvvvfcxga 1582,1641,1643,1644,1699,1701,1760,1761,1817,1818,1820,1821,1877,1878,1879,1938,2000 3,0,0,1,30,36,31,9,1,9,32,4,0,24,20,46,30 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+165804 div:int (none) 154974 47 5405 19 18.9559 36.1981 0.525462 448 700 -1 16 0 heads_default wzcgcncwtzvvvfcxvga 2003,2062,2122,2123,2126,2181,2183,2184,2187,2245,2247,2248,2252,2306,2366,2553,2554,2613,2673,2674,2675,2732,2735,2791,2851,2969,2972,2973,2974,2975,3026,3028,3031,3086,3087,3088,3089,3090,3146,3147,3148,3207,3208,3387,3564,3565,3566 35,31,34,27,11,30,31,34,11,3,4,68,62,3,29,42,15,8,20,103,12,35,301,35,32,14,9,11,16,9,23,8,29,2,3,5,23,19,11,11,11,0,3,26,24,31,17 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258977 div:int (none) 258778 1 1 19 0 0 0 710 1000 -1 25 0 heads_default zxvvfcxvgawzcgmsyub 2090 8 0 
+258655 div:int (none) 199912 1 2 19 19 36 0.527778 712 999 -1 21 0 heads_default wzcgcsycnzvvvfcxvga 2162 18 0 
+258172 div:int (none) 251173 1 1 18 18 37 0.486486 706 997 -1 25 0 heads_default wzcgcsyuyzvvvfcxvg 2214 27 0 
+257114 div:int (none) 225946 2 12 19 19 38 0.5 686 994 -1 24 0 heads_default wzcgcvzcytzvvvfcxga 2440,2500 9,9 0,0 
+259138 div:int (none) 220771 1 1 19 0 0 0 717 1000 -1 21 0 heads_default wzcgcnyfzvvvlfcxvga 2517 6 0 
+258954 div:int (none) 238635 1 1 19 0 0 0 719 1000 -1 23 0 heads_default wzcgcotlzvvvvfcxvga 2520 22 0 
+259184 div:int (none) 200439 1 1 18 0 0 0 707 1000 -1 17 0 heads_default wzgcncwzzvvvfcxvga 2566 6 0 
+244142 div:int (none) 212382 9 283 19 18.975 37.1469 0.511925 671 954 -1 18 0 heads_default wzcgcxcwtzvvvfcxvga 2656,2715,2836,2837,3022,3081,3082,3083,3084 1,0,5,8,12,5,8,1,1 0,0,0,0,0,0,0,0,0 
+259023 div:int (none) 258735 1 1 18 0 0 0 713 1000 -1 19 0 heads_default vvfxvgawzcgcncwyzv 2672 16 0 
+259230 div:int (none) 244113 1 1 19 0 0 0 707 1000 -1 19 0 heads_default uzcgcklwtzvvvfcxvga 2706 2 0 
+258770 div:int (none) 258018 1 1 18 0 0 0 706 999 -1 18 0 heads_default wzccncwzzvvvfcxvga 2737 35 0 
+251249 div:int (none) 238635 4 28 19 19 34 0.558824 697 976 -1 23 0 heads_default wzcgcoyyzvvvvfcxvga 2877,2935,2997,3058 3,27,5,2 0,0,0,0 
+259092 div:int (none) 232468 1 1 18 0 0 0 718 1000 -1 22 0 heads_default wzccnyqovvvvfcxvga 2894 12 0 
+251065 div:int (none) 231596 4 19 18 18 51 0.352941 666 975 -1 20 0 heads_default wzcgcdbubzvlvfcxga 2905,2965,3023,3024 15,12,3,6 0,0,0,0 
+258471 div:int (none) 251065 1 1 18 0 0 0 679 998 -1 21 0 heads_default wzcgndbubzvlvfcxga 2963 66 0 
+256608 div:int (none) 236904 1 1 17 17 37 0.459459 704 993 -1 19 0 heads_default wzcgckcwtzvvvfcxg 3012 35 0 
+257827 div:int (none) 251065 1 1 18 0 0 0 678 996 -1 21 0 heads_default wzcgcdbubzvlvfcxgj 3025 124 0 
+250674 div:int (none) 232468 2 121 19 18.9407 40.8889 0.463116 691 974 -1 22 0 heads_default wzcgcnyqzvvvkfcxvga 3074,3310 38,27 0,0 
+255297 div:int (none) 208418 1 6 19 19 85 0.223529 692 988 -1 21 0 heads_default wzcgctyzzzvivfcxvga 3304 38 0 
+256447 div:int (none) 255529 1 1 20 0 0 0 705 992 -1 24 0 heads_default wzscgcnyqzvwwvfcxvga 3306 251 0 
+258494 div:int (none) 128890 1 1 17 0 0 0 686 998 -1 16 0 heads_default zcgcncwozvvvfcxga 3522 60 0 
+258334 div:int (none) 250358 1 1 18 0 0 0 680 998 -1 22 0 heads_default yzcgczcwczvvvfcxga 142 77 0 
+112560 div:int (none) 109542 52 33906 18 17.9488 37.0295 0.485036 305 518 -1 14 0 heads_default wzcgcncwbzvvvfcxga 198,233,257,258,291,292,299,309,310,314,315,317,319,348,349,352,353,355,376,409,410,411,412,415,416,417,428,429,474,475,477,530,538,589,597,706,711,1186,1190,1247,1249,1308,1427,1428,1488,2318,2435,2436,2437,2494,2496,2497 17,27,9,9,19,27,13,0,1,0,30,6,10,8,12,11,18,29,8,35,36,1,0,11,14,1,16,12,11,13,0,21,2,27,5,268,19,11,22,10,20,9,8,46,11,32,15,28,9,28,11,36 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+256379 div:int (none) 254349 2 4 18 18 76 0.236842 682 992 -1 20 0 heads_default wzcgcpcvwbzvcfcxga 209,210 23,30 0,0 
+245201 div:int (none) 198969 7 138 18 17.9444 37.9321 0.472818 647 957 -1 18 0 heads_default wzcgcodwdzvvvfcxga 228,287,288,346,347,405,3523 26,13,10,5,13,9,29 0,0,0,0,0,0,0 
+259116 div:int (none) 250358 1 1 17 0 0 0 682 1000 -1 22 0 heads_default wzcgczcczvvvfcxga 261 11 0 
+220522 div:int (none) 193469 44 1690 19 18.9551 37.1847 0.511528 603 879 -1 20 0 heads_default wzcgcznwtzvvvfcxvga 371,432,434,435,436,493,495,554,611,615,616,674,675,677,732,736,790,792,793,849,850,851,853,910,911,912,915,916,971,974,975,1034,1157,1215,1216,1278,1337,1503,1562,1623,1682,1743,1744,1804 4,1,10,11,31,8,12,28,181,28,8,31,17,7,29,9,19,26,22,36,17,25,23,16,18,9,2,7,16,17,2,11,9,18,24,22,23,52,10,8,23,22,18,27 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+259231 div:int (none) 112560 1 1 17 0 0 0 684 1000 -1 15 0 heads_default wzcgcncwbzvvvfcxg 537 1 0 
+246972 div:int (none) 241924 18 129 19 18.9467 36.9267 0.512911 675 962 -1 23 0 heads_default wzcgcczwbzvvvfcxvga 821,825,880,881,883,887,888,940,942,944,948,949,1001,1007,1009,1010,1128,1189 16,35,28,24,20,11,13,10,25,20,33,22,14,21,28,23,23,23 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258403 div:int (none) 245342 1 1 18 0 0 0 705 998 -1 22 0 heads_default wzcgcznwfzvvvfcvga 846 86 0 
+258679 div:int (none) 246972 1 1 19 0 0 0 706 999 -1 24 0 heads_default wzzgcczwbzvvvfcxvga 884 76 0 
+256448 div:int (none) 207777 1 1 18 0 0 0 698 992 -1 17 0 heads_default wzccnmwbzvvvfcxvga 959 274 0 
+258702 div:int (none) 220522 1 1 19 0 0 0 709 999 -1 21 0 heads_default wzcgczswtzvvvfcxvga 973 33 0 
+259208 div:int (none) 219808 1 1 19 0 0 0 709 1000 -1 20 0 heads_default wzcgcocwlzvvvfcxvgc 1028 6 0 
+259093 div:int (none) 251248 1 1 20 0 0 0 706 1000 -1 22 0 heads_default wzcgcgcwfizvvvfcxvga 1124 13 0 
+258104 div:int (none) 257277 1 1 17 12 28 0.428571 678 997 -1 20 0 heads_default wzcgcjdzbzvvvfxga 1253 37 0 
+259162 div:int (none) 229102 1 1 20 0 0 0 704 1000 -1 22 0 heads_default wzcgczowtazvvvfcxvga 1377 3 0 
+257299 div:int (none) 248016 1 1 19 0 0 0 697 995 -1 21 0 heads_default wzcgjbcqfzvvvfcxvga 1429 176 0 
+259185 div:int (none) 221882 1 1 18 0 0 0 684 1000 -1 19 0 heads_default wzcgcwwsczvvffcxga 1811 3 0 
+233218 div:int (none) 198245 10 469 19 18.9768 36.2656 0.525382 637 919 -1 17 0 heads_default wzcdcgcwbzvvvfcxvga 1997,2055,2057,2058,2059,2116,2117,2118,2237,2296 20,21,22,30,34,11,2,2,8,9 0,0,0,0,0,0,0,0,0,0 
+258863 div:int (none) 165804 1 1 19 11 27 0.407407 709 999 -1 17 0 heads_default wzcgcncwtzvvvfkxvga 2124 3 0 
+213001 div:int (none) 211861 12 1175 19 18.9378 36.2325 0.525139 587 855 -1 20 0 heads_default wzcgcrcqkzvvvfcxvga 2153,2216,2217,2277,2278,2336,2337,2395,2396,2511,2512,2571 25,3,2,31,31,12,17,17,29,5,1,27 0,0,0,0,0,0,0,0,0,0,0,0 
+258840 div:int (none) 254462 1 1 19 0 0 0 707 999 -1 22 0 heads_default awgcgcevrbzvvfcxvga 2351 41 0 
+258794 div:int (none) 183408 1 1 18 0 0 0 686 999 -1 18 0 heads_default wzcgcnbzbzvvvfcxga 2372 29 0 
+258564 div:int (none) 258378 1 1 18 0 0 0 709 998 -1 20 0 heads_default vvfxvgawzcgcscwtzv 2423 36 0 
+258127 div:int (none) 220771 1 1 20 0 0 0 715 997 -1 21 0 heads_default wzcgctnyfzvvvvfcxvga 2516 106 0 
+259024 div:int (none) 226199 1 1 19 0 0 0 706 1000 -1 18 0 heads_default wzcgcvncwzzvvvfcxga 2746 19 0 
+259139 div:int (none) 256032 1 1 20 0 0 0 709 1000 -1 19 0 heads_default wzcgckhwtzvvjvfcxvga 2787 5 0 
+247409 div:int (none) 228630 4 72 19 18.9875 38.0875 0.498632 656 964 -1 19 0 heads_default wzcgcecvupzvvvfcxga 2957,2958,3015,3075 1,28,15,12 0,0,0,0 
+128890 div:int (none) 112560 25 7771 18 17.9463 37.0074 0.485054 350 575 -1 15 0 heads_default wzcgcncwozvvvfcxga 2983,3044,3095,3096,3104,3155,3156,3215,3221,3222,3276,3277,3278,3281,3282,3283,3336,3338,3398,3400,3401,3402,3460,3461,3462 29,1,17,26,4,32,10,7,19,13,5,21,11,6,34,0,25,19,13,9,7,14,8,30,22 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258886 div:int (none) 232468 1 1 19 0 0 0 714 999 -1 22 0 heads_default wzcgcnyqzvvvvfgxvga 3005 31 0 
+259070 div:int (none) 244113 1 1 18 0 0 0 709 1000 -1 19 0 heads_default wzcgcklwtzvvvfxvga 3068 16 0 
+259001 div:int (none) 257549 1 1 20 0 0 0 718 1000 -1 23 0 heads_default wzcgcnyqzvrvvfcxvgaa 3124 24 0 
+257575 div:int (none) 252016 1 1 20 0 0 0 711 995 -1 23 0 heads_default wizcgcnyqzvvwvfcxvga 3186 146 0 
+258081 div:int (none) 257816 1 1 20 0 0 0 683 997 -1 20 0 heads_default zvvvfcexgawzcgcecvut 3263 44 0 
+258012 div:int (none) 251137 1 1 18 0 0 0 683 997 -1 22 0 heads_default wzcgzdpxxzvvvfcxga 3349 110 0 
+258426 div:int (none) 244046 1 1 17 0 0 0 682 998 -1 22 0 heads_default wzcgcdjfxvvvfcxga 3392 77 0 
+256471 div:int (none) 253500 2 7 18 18 36 0.5 680 992 -1 18 0 heads_default wzcgcmbsbzvvvfcxga 3413,3475 5,21 0,0 
+252400 div:int (none) 247754 2 46 18 18 38 0.473684 664 979 -1 20 0 heads_default wzcgcfzwuzvvvfcxga 3591,3592 36,0 0,0 
+186368 div:int (none) 183718 11 2101 18 17.9561 37.0971 0.484853 501 769 -1 19 0 heads_default wzcgcdcfxzvvvfcxga 39,40,41,98,100,101,102,160,161,221,3580 16,25,3,16,31,5,12,33,0,1,35 0,0,0,0,0,0,0,0,0,0,0 
+259163 div:int (none) 159794 1 1 20 0 0 0 690 1000 -1 17 0 heads_default wzcgxcicvwbzvvvfcxga 140 8 0 
+259117 div:int (none) 229320 1 1 19 0 0 0 693 1000 -1 20 0 heads_default wzcgclcvrlzvvvfcxga 205 6 0 
+258910 div:int (none) 248276 2 2 18 18 37 0.486486 693 999 -1 18 0 heads_default wzcgctnybzvvvfcxga 267,268 1,3 0,0 
+259071 div:int (none) 229320 1 1 20 0 0 0 693 1000 -1 20 0 heads_default wzchgclcvwlzvvvfcxga 331 23 0 
+259186 div:int (none) 253467 1 1 17 0 0 0 681 1000 -1 22 0 heads_default wzcgczcwpzvvvfcga 442 8 0 
+258956 div:int (none) 249998 1 1 19 0 0 0 691 1000 -1 21 0 heads_default vicxgawzcgcimvxczvv 447 20 0 
+256840 div:int (none) 251074 1 1 17 0 0 0 682 993 -1 22 0 heads_default wzcgczcsxvvvfcxga 452 211 0 
+258243 div:int (none) 198969 1 1 18 0 0 0 682 997 -1 18 0 heads_default wzctcocwdzvvvfcxga 515 79 0 
+257484 div:int (none) 220522 2 2 19 19 85 0.223529 702 995 -1 21 0 heads_default wzcgcznwtzvvnfcxvga 552,612 1,3 0,0 
+257139 div:int (none) 193469 1 2 18 0 0 0 702 994 -1 20 0 heads_default wzcgcbnwtzvvfcxvga 601 195 0 
+258818 div:int (none) 254292 1 1 17 0 0 0 681 999 -1 17 0 heads_default wzcgcwcwzvvvfcxga 702 29 0 
+259048 div:int (none) 249675 1 1 18 0 0 0 705 1000 -1 23 0 heads_default vvcocxgawzcgcsnwtz 733 8 0 
+257714 div:int (none) 251836 1 1 18 0 0 0 693 996 -1 21 0 heads_default wzcgcpcdbnvvvfcxga 753 117 0 
+255391 div:int (none) 112560 2 14 18 18 37 0.486486 672 989 -1 15 0 heads_default wzcgckcwbzvvvfcxga 822,882 15,23 0,0 
+234645 div:int (none) 212409 16 619 18 17.9497 37.0344 0.484868 618 923 -1 20 0 heads_default wzcgclccwzvvvfcxga 885,941,1061,1121,1122,1181,1360,1363,1365,1423,1424,1482,1483,1542,1543,1604 202,328,4,3,2,29,30,18,4,15,2,61,13,35,3,1 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258496 div:int (none) 237071 1 1 17 0 0 0 684 998 -1 18 0 heads_default zcgckbibzvvvfcxga 1055 72 0 
+258841 div:int (none) 237071 1 1 19 0 0 0 683 999 -1 18 0 heads_default wzcgckbibzvvvufcxga 1063 33 0 
+229102 div:int (none) 220522 21 985 19 18.9539 37.237 0.510941 626 905 -1 21 0 heads_default wzcgczowtzvvvfcxvga 1082,1083,1085,1142,1144,1146,1201,1202,1203,1204,1205,1260,1261,1262,1265,1318,1321,1378,1498,1499,1565 32,14,36,29,31,28,15,19,96,0,34,33,13,10,1,5,29,10,15,19,29 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+258979 div:int (none) 190897 1 1 19 0 0 0 695 1000 -1 17 0 heads_default wzcgcncpbzvvcvfcxga 1101 22 0 
+259025 div:int (none) 193469 1 1 20 0 0 0 707 1000 -1 20 0 heads_default wzcngcbnwtzvvvfcxvga 1135 16 0 
+258680 div:int (none) 207777 1 1 19 0 0 0 704 999 -1 17 0 heads_default wscgcnmwbzvvvfcxvga 1140 40 0 
+257277 div:int (none) 233897 2 4 18 16.2 34.6 0.461189 676 995 -1 19 0 heads_default wzcgcjdzbzvvvfcxga 1191,1312 25,10 0,0 
+259209 div:int (none) 257813 1 1 20 0 0 0 708 1000 -1 20 0 heads_default wzcgcgcdbznvvvfcxvga 1380 3 0 
+259094 div:int (none) 258744 1 1 19 0 0 0 710 1000 -1 24 0 heads_default wzcgcsltbzvpvfcxvga 1438 9 0 
+255414 div:int (none) 251774 9 28 19 19 36 0.527778 697 989 -1 27 0 heads_default wzcgczycszvvvfcxvga 1622,1680,1681,1683,1737,1738,1741,1796,1855 7,21,19,9,8,6,10,2,1 0,0,0,0,0,0,0,0,0 
+256771 div:int (none) 237536 3 11 19 19 37 0.513514 702 993 -1 18 0 heads_default wzcgcntwxzvvvfcxvga 1659,1660,1719 7,1,2 0,0,0 
+241384 div:int (none) 225373 31 525 19 18.9316 36.0879 0.526085 663 945 -1 18 0 heads_default wzcgcbcrbzvvvfcxvga 1684,1690,1740,1745,1749,1750,1801,1802,1808,1809,1862,1863,1864,1869,1921,1922,1924,2101,2159,2160,2219,2222,2225,2284,2342,2343,2344,2345,2346,2404,2406 14,5,9,4,4,36,6,3,18,10,15,3,32,6,21,11,34,11,0,0,11,20,24,28,24,29,58,1,4,26,25 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 
+218890 div:int (none) 200555 9 243 21 20.959 46.2491 0.454647 573 874 -1 28 0 heads_default wnjawqgcctilzvvvfcxga 1778,1837,1839,1896,1898,1957,1958,1959,2018 41,19,42,21,39,32,43,21,41 0,0,0,0,0,0,0,0,0 
+258588 div:int (none) 238636 1 1 17 9 24 0.375 679 998 -1 22 0 heads_default wzcgcpkmjzvvvfxga 1822 16 0 
+259002 div:int (none) 191458 1 1 18 0 0 0 683 1000 -1 17 0 heads_default kzcgcnckozvvvfcxga 1826 15 0 
+257990 div:int (none) 253088 1 1 19 0 0 0 705 997 -1 19 0 heads_default wzcgcacwczvvvfcxvga 1903 125 0 
+258266 div:int (none) 255703 1 1 19 0 0 0 706 998 -1 19 0 heads_default wmicgcwbzvvvfcxvrga 1996 69 0 
+251274 div:int (none) 244603 12 59 19 19 36 0.527778 691 976 -1 19 0 heads_default wzcgciprbzvvvfcxvga 2046,2105,2165,2166,2168,2170,2224,2226,2227,2230,2289,2290 16,1,22,26,0,34,26,22,0,25,25,31 0,0,0,0,0,0,0,0,0,0,0,0 
+258703 div:int (none) 258351 1 1 17 0 0 0 691 999 -1 21 0 heads_default wzcygcesbzvvfcxga 2066 46 0 
+258197 div:int (none) 199912 1 1 18 0 0 0 711 997 -1 21 0 heads_default wzcgcscnzvvvfcxvga 2163 103 0 
+256449 div:int (none) 216215 1 1 20 0 0 0 704 992 -1 17 0 heads_default wzcpcicwbzvvsvfcxvga 2175 268 0 
+258151 div:int (none) 256836 1 1 20 0 0 0 709 997 -1 18 0 heads_default wzcgcsncctzvvvfcxvga 2188 97 0 
+258933 div:int (none) 212382 1 1 20 0 0 0 710 1000 -1 18 0 heads_default wzcgckcowtzvvvfcxvga 2477 31 0 
+258427 div:int (none) 232468 1 1 19 0 0 0 718 998 -1 22 0 heads_default wzcgcnqquvvvvfcxvga 2883 70 0 
+259140 div:int (none) 254361 1 1 19 0 0 0 707 1000 -1 19 0 heads_default wzcgcrcyzuvvvfcxvga 2985 12 0 
+257967 div:int (none) 200428 3 3 17 17 74 0.22973 682 997 -1 16 0 heads_default wzcgcncmbzvvfcxga 2994,2995,3295 48,49,7 0,0,0 
+258565 div:int (none) 246313 1 3 19 19 34 0.558824 717 998 -1 23 0 heads_default wzcgcnpqzvvvvfcxvga 3195 33 0 
+256610 div:int (none) 208418 1 1 20 0 0 0 696 993 -1 21 0 heads_default wzccctyxzzzvvvfcxvga 3237 234 0 
+254448 div:int (none) 128890 4 23 18 18 38 0.473684 676 986 -1 16 0 heads_default wzcgcbcwozvvvfcxga 3403,3463,3525,3584 18,18,11,16 0,0,0,0 
+258253 div:int (none) 244113 0 3 19 19 37 0.513514 705 997 1000 19 0 heads_default wzcgcklwfzvvvfcxvga 
+257746 div:int (none) 238635 0 1 18 9 21 0.428571 717 996 1000 23 0 heads_default wzcgcotyzvvvvfxvga 
+258919 div:int (none) 112560 0 1 19 9 23 0.391304 681 1000 1000 15 0 heads_default wzcgcncwbzvvvxfcxga 
+258592 div:int (none) 237506 0 1 18 18 37 0.486486 710 998 1000 25 0 heads_default wzcgcsydbzvvvfcxga 
+231204 div:int (none) 186529 0 169 19 18.9615 37.4375 0.509946 630 912 1000 19 0 heads_default wzcgcbcptzvvvfcxvga 
+258423 div:int (none) 220771 0 1 19 19 34 0.558824 717 998 1000 21 0 heads_default wzcgcqyfzvvvvfcxvga 
+258445 div:int (none) 249450 0 1 19 9 26 0.346154 693 998 1000 20 0 heads_default wzcgclczbzvvvfscxga 
+252536 div:int (none) 251249 0 33 19 19 41 0.463415 701 980 1000 24 0 heads_default wzcgcoyyzkvvvfcxvga 
+256325 div:int (none) 244040 0 7 19 19 36 0.527778 706 992 1000 19 0 heads_default wzcgcpcszzvvvfcxvga 
+258622 div:int (none) 254077 0 1 19 9 24 0.375 681 999 1000 20 0 heads_default wzcgcecwpzvvvfctxga 
+258018 div:int (none) 200439 0 1 18 18 36 0.5 704 997 1000 17 0 heads_default wzcgcncwzzvvvfcxvg 
+251074 div:int (none) 237920 0 55 18 18 37 0.486486 668 975 1000 21 0 heads_default wzcgczcsxzvvvfcxga 
+256295 div:int (none) 222559 0 1 20 19 38 0.5 686 992 1000 19 0 heads_default wzcgcpcvwbzvvvfcxgaj 
+225810 div:int (none) 223417 0 310 18 17.9663 38.1685 0.471407 602 895 1000 17 0 heads_default wzcgcnnwwzvvvfcxga 
+199912 div:int (none) 187140 0 940 19 18.993 36.0382 0.527315 547 813 1000 20 0 heads_default wzcgcsycbzvvvfcxvga 
+258120 div:int (none) 232468 0 1 20 16.5 37 0.44359 714 997 1000 22 0 heads_default wzcgcnyqzvvvrvfcxvga 
+258778 div:int (none) 224116 0 1 19 9 26 0.346154 709 999 1000 24 0 heads_default wzcgcsyubzxvvfcxvga 
+258186 div:int (none) 221882 0 1 17 12 28 0.428571 683 997 1000 19 0 heads_default wzcgcwwsczvvvfxga 
+258455 div:int (none) 165804 0 1 18 18 36 0.5 710 998 1000 17 0 heads_default wzcgcncwtzvvvfcxvg 
+243105 div:int (none) 216215 0 245 19 19 37.2305 0.511859 668 950 1000 17 0 heads_default wzcgcidwbzvvvfcxvga 
+258732 div:int (none) 244567 0 1 18 10 24 0.416667 692 999 1000 22 0 heads_default wzcgcecvwlzvvvfxga 
+258262 div:int (none) 221882 0 1 18 9 24 0.375 682 997 1000 19 0 heads_default wzcgcwwsczvvvlcxga 
+257406 div:int (none) 253917 0 1 19 18 38 0.473684 681 995 1000 21 0 heads_default wzcvgcmcsozvvvfcxga 
+253494 div:int (none) 207777 0 31 19 19 38.6829 0.508692 689 983 1000 17 0 heads_default wzcgcnmlbzvvvfcxvga 
+258442 div:int (none) 249782 0 2 18 11 26 0.423077 706 998 1000 26 0 heads_default wzcgcfyuszvvvfxvga 
+258489 div:int (none) 253210 0 1 20 11 30 0.366667 711 998 1000 20 0 heads_default wzcgcmcwtznvvvfjxvga 
+257518 div:int (none) 255628 0 1 19 18 62 0.290323 683 995 1000 17 0 heads_default wzcgcncwozvwvvfexga 
+256477 div:int (none) 195119 0 7 18 18 38 0.473684 680 992 999 16 0 heads_default wzcgcyqwbzvvvfcxga 
+256677 div:int (none) 227922 0 1 20 19 39 0.487179 685 993 999 19 0 heads_default wvzcgcicvwlzvvvfcxga 
+258052 div:int (none) 249675 0 1 18 18 53 0.339623 702 997 999 23 0 heads_default wzcgcsnwtzvkvfcxga 
+255628 div:int (none) 128890 0 11 18 18 42 0.428571 679 989 999 16 0 heads_default wzcgcncwozvvvfexga 
+255144 div:int (none) 244353 0 13 18 18 38 0.473684 673 988 999 19 0 heads_default wzcgcntwdzvvvfcxga 
+257919 div:int (none) 238635 0 1 19 19 61 0.311475 716 997 999 23 0 heads_default wzcgcotyzvvvzfcxvga 
+230364 div:int (none) 189846 0 567 18 17.9249 37.039 0.48507 611 909 999 21 0 heads_default wzcgcnclxzvvvfcxga 
+258515 div:int (none) 233267 0 1 17 9 24 0.375 680 998 999 16 0 heads_default wzcgcncljzvvvcxga 
+256730 div:int (none) 229320 0 6 18 18 37 0.486486 686 993 999 20 0 heads_default wzcgclcwlzvvvfcxga 
+257816 div:int (none) 228630 0 1 20 10 25 0.4 682 996 999 19 0 heads_default wzcgcecvutzvvvfcexga 
+247891 div:int (none) 194457 0 38 18 18 52 0.346154 656 965 999 18 0 heads_default wzcgcecwuzvivfcxga 
+254035 div:int (none) 238635 0 23 19 18.6429 35.0714 0.539945 706 984 999 23 0 heads_default wzcgcbtyzvvvvfcxvga 
+257956 div:int (none) 220522 0 1 20 11 27 0.407407 703 997 998 21 0 heads_default wzcgcznwtzvvvfckxvga 
+258037 div:int (none) 198969 0 1 19 9 24 0.375 682 997 998 18 0 heads_default wzcgcocwdzvvvfcyxga 
+257320 div:int (none) 212489 0 3 18 15.75 33.75 0.458615 687 995 998 19 0 heads_default wzcygcecbzvvvfcxga 
+258378 div:int (none) 251967 0 1 18 11 24 0.458333 708 998 998 19 0 heads_default wzcgcscwtzvvvfxvga 
+257186 div:int (none) 247876 0 1 19 18 48 0.375 701 994 998 18 0 heads_default wzcgcncwczvvnfcxvgt 
+257665 div:int (none) 233267 0 4 18 15.6667 33.3333 0.46535 678 996 998 16 0 heads_default wzcgcnctjzvvvfcxga 
+245276 div:int (none) 198089 0 72 18 18 36.0538 0.499344 649 957 998 18 0 heads_default wzcgcscubzvvvfcxga 
+242586 div:int (none) 241746 0 128 19 17.8933 36.6133 0.495751 663 949 998 19 0 heads_default wzcgcwewtzvvvfcxvga 
+236850 div:int (none) 228842 0 116 19 18.9424 35.9281 0.527025 646 930 997 20 0 heads_default wzcgcecwfzvvvfcxvga 
+254467 div:int (none) 223000 0 22 21 21 45 0.466667 662 986 997 29 0 heads_default wnjatcgcjizkzvvvfcxga 
+257680 div:int (none) 229102 0 1 18 11 26 0.423077 700 996 997 22 0 heads_default wzcgczowtzvvvfxvga 
+257561 div:int (none) 231596 0 1 19 9 26 0.346154 684 995 997 20 0 heads_default wzcgcdbubzvvvfkcxga 
+256306 div:int (none) 241746 0 1 19 19 54 0.352941 700 992 996 19 0 heads_default wzcgcwcwtzvyvfcxvga 
+257345 div:int (none) 251945 0 1 17 9 25 0.36 701 995 996 21 0 heads_default wzcgcbnwtzvvvcxga 
+257367 div:int (none) 219808 0 1 19 19 36 0.527778 702 995 996 20 0 heads_default wzcgckcwlzvvvfcxvga 
+256543 div:int (none) 236372 0 2 19 19 36 0.527778 704 992 996 18 0 heads_default wzcgcncwfzvvvfcxvga 
+253931 div:int (none) 244106 0 20 19 19 37 0.513514 682 984 996 20 0 heads_default wzcgcdcvdbzvvvfcxga 
+255460 div:int (none) 220522 0 1 18 14 122 0.114754 698 989 995 21 0 heads_default wzcgcznwtzvvfcxvga 
+255495 div:int (none) 255000 0 2 19 19 98 0.193878 676 989 995 20 0 heads_default wzcgcecvutzhsvfcxga 
+254965 div:int (none) 247876 0 1 20 19 37 0.513514 697 987 994 18 0 heads_default wzcgcqcwczvvvfcxvgax 
+256814 div:int (none) 200428 0 1 17 9 25 0.36 680 993 994 16 0 heads_default wzcgcncbzvvvfhxga 
+245615 div:int (none) 198245 0 115 19 18.938 36.9302 0.512578 671 958 994 17 0 heads_default wzcgcwcwbzvvvfcxvga 
+251627 div:int (none) 230364 0 24 19 18.9655 38 0.499093 667 977 994 22 0 heads_default wzcgcnclvxzvvvfcxga 
+256656 div:int (none) 229320 0 1 19 10 25 0.4 689 993 994 20 0 heads_default wzcgclcvwlzvvvmcxga 
+241305 div:int (none) 226619 0 203 18 17.9627 36.9419 0.486092 639 945 994 18 0 heads_default wzcgcfwrbzvvvfcxga 
+256568 div:int (none) 250926 0 1 20 11 29 0.37931 706 992 994 18 0 heads_default wzcgcncwhzvvvficxvga 
+254349 div:int (none) 222559 0 2 18 18 197 0.0913706 681 985 993 19 0 heads_default wzcgcpcvwbzvvfcxga 
+255529 div:int (none) 252016 0 2 19 19 97 0.195876 704 989 993 23 0 heads_default wzcgcnyqzvwwvfcxvga 
+214530 div:int (none) 159794 0 490 19 18.9258 38.3946 0.497469 577 860 993 17 0 heads_default wzcgcicvwszvvvfcxga 
+219132 div:int (none) 209394 0 603 19 18.9154 37.0355 0.511409 601 875 993 18 0 heads_default wzcgcntwfzvvvfcxvga 
+218582 div:int (none) 210552 0 1010 19 18.9521 38.1388 0.497756 582 873 992 18 0 heads_default wzcgcnxvpbzvvvfcxga 
+255378 div:int (none) 231596 0 1 18 18 51 0.352941 678 989 992 20 0 heads_default wzcgcdbubzvvffcxga 
+235789 div:int (none) 181663 0 295 18 17.9774 37.0198 0.485689 623 927 992 18 0 heads_default wzcgcncopzvvvfcxga 
+203862 div:int (none) 159794 0 1511 19 18.9334 38.9978 0.4857 547 826 992 17 0 heads_default wzcgciyvwbzvvvfcxga 
+240120 div:int (none) 237914 0 149 18 17.9489 36.9773 0.485358 636 941 992 18 0 heads_default wzcgcncdozvvvfcxga 
+255579 div:int (none) 226199 0 1 18 18 37 0.486486 695 989 991 18 0 heads_default wzcgcncwqzvvvfcxga 
+228849 div:int (none) 198089 0 524 18 17.9419 35.9629 0.498806 607 905 991 18 0 heads_default wzcgczbubzvvvfcxga 
+255000 div:int (none) 228630 0 1 19 19 53 0.358491 675 987 990 19 0 heads_default wzcgcecvutzvsvfcxga 
+248898 div:int (none) 165804 0 33 19 19 36 0.527778 681 968 990 17 0 heads_default wzcgcncitzvvvfcxvga 
+244603 div:int (none) 225373 0 98 19 19 36 0.527778 672 955 989 18 0 heads_default wzcgcikrbzvvvfcxvga 
+253631 div:int (none) 212382 0 7 19 19 36 0.527778 698 983 989 18 0 heads_default wzcgckcwlzvvvfcxvga 
+236515 div:int (none) 159794 0 184 19 18.8841 39.133 0.483883 635 929 989 17 0 heads_default wzcgcidvwbzvvvfcxga 
+246300 div:int (none) 200439 0 38 19 19 37.1333 0.511921 673 960 989 17 0 heads_default wzcgcnowzzvvvfcxvga 
+247754 div:int (none) 239590 0 38 18 18 38 0.473684 653 965 988 19 0 heads_default wzcgcfzwozvvvfcxga 
+225373 div:int (none) 216215 0 837 19 18.9202 35.2124 0.539468 617 894 988 17 0 heads_default wzcgcicrbzvvvfcxvga 
+206415 div:int (none) 191458 0 808 18 17.924 37.9385 0.472262 549 834 988 17 0 heads_default wzcgcnpkozvvvfcxga 
+244442 div:int (none) 238783 0 116 19 18.9403 37.7239 0.509492 668 954 987 25 0 heads_default wzcgcqyuszvvvfcxvga 
+250355 div:int (none) 237506 0 27 19 19 37 0.513514 687 973 987 25 0 heads_default wzcgcsydszvvvfcxvga 
+251646 div:int (none) 241384 0 1 19 18 41 0.439024 691 977 986 19 0 heads_default awzcgcebcrbzvvfcxvg 
+246675 div:int (none) 234045 0 34 18 18 37 0.486486 658 961 986 17 0 heads_default wzcxcgcdbzvvvfcxga 
+238783 div:int (none) 224116 0 174 19 19 37 0.513514 653 937 986 24 0 heads_default wzcgcsyuszvvvfcxvga 
+228842 div:int (none) 186529 0 590 19 18.9556 36.9569 0.512864 624 905 986 19 0 heads_default wzcgcbcwfzvvvfcxvga 
+250372 div:int (none) 232468 0 1 19 19 41 0.463415 692 973 985 22 0 heads_default wzcgcnyqzvvvufcxvga 
+249008 div:int (none) 212382 0 27 19 18 35 0.514286 682 969 985 18 0 heads_default wzcgcfcwtzvvvfcxvga 
+223820 div:int (none) 112560 0 244 18 18 38.0173 0.473494 593 889 985 15 0 heads_default wzcgcnlwbzvvvfcxga 
+236064 div:int (none) 212507 0 111 19 18.8831 38.8182 0.486056 632 928 983 18 0 heads_default wzcgckmvwbzvvvfcxga 
+251047 div:int (none) 222559 0 6 19 19 56 0.339286 672 975 983 19 0 heads_default wzcgcpcvwbzvfvfcxga 
+230468 div:int (none) 209106 0 439 20 19.9241 38.0095 0.524685 627 910 982 18 0 heads_default wzcgcnvqwtzvvvfcxvga 
+235551 div:int (none) 234423 0 113 19 18.9407 37.2296 0.509374 643 926 981 19 0 heads_default wzcgcxkwzzvvvfcxvga 
+241566 div:int (none) 186368 0 53 18 18 38 0.473684 641 945 980 20 0 heads_default wzcgcdqfxzvvvfcxga 
+236393 div:int (none) 226118 0 128 18 18 38 0.473684 634 929 980 20 0 heads_default wzcgcjywjzvvvfcxga 
+211301 div:int (none) 208733 0 541 18 17.9263 38.1444 0.471744 559 850 980 18 0 heads_default wzcgctywbzvvvfcxga 
+248908 div:int (none) 217218 0 3 18 18 38 0.473684 658 968 979 16 0 heads_default wzcgctjwbzvvvfcxga 
+222850 div:int (none) 112560 0 364 18 17.9664 36.3498 0.4956 596 886 979 15 0 heads_default wzcgcncdbzvvvfcxga 
+249224 div:int (none) 247797 0 10 19 19 39 0.487179 669 969 979 21 0 heads_default wzcgcppvwkzvvvfcxga 
+238444 div:int (none) 236850 0 123 19 19 36.1277 0.526307 651 936 979 21 0 heads_default wzcgcecwbzvvvfcxvga 
+239590 div:int (none) 210978 0 91 18 16.9167 35.8704 0.471217 633 939 978 18 0 heads_default wzcgcfbwozvvvfcxga 
+189846 div:int (none) 183072 0 1603 18 17.9419 36.9472 0.485482 508 781 978 20 0 heads_default wzcgcnccxzvvvfcxga 
+169869 div:int (none) 112560 0 2952 18 16.9499 35.9842 0.471019 456 714 978 15 0 heads_default wzcgcfcwbzvvvfcxga 
+246750 div:int (none) 220522 0 8 18 18 38 0.473684 675 962 976 21 0 heads_default wzcgcznwtzvvvfcxga 
+240787 div:int (none) 235556 0 49 19 19 37 0.513514 663 943 976 18 0 heads_default wzcgcnyytzvvvfcxvga 
+247797 div:int (none) 239642 0 11 19 19 39 0.487179 665 965 976 20 0 heads_default wzcgcppvwmzvvvfcxga 
+235048 div:int (none) 224396 0 102 19 18.8806 39.291 0.494128 630 925 975 18 0 heads_default wzcgcicvxuzvvvfcxga 
+194457 div:int (none) 167231 0 1233 18 17.9408 37.1291 0.484285 518 795 975 17 0 heads_default wzcgcecwuzvvvfcxga 
+231032 div:int (none) 194457 0 180 18 17.9953 37.0233 0.486091 615 912 973 18 0 heads_default wzcgcecwrzvvvfcxga 
+248575 div:int (none) 244567 0 5 18 18 37 0.486486 666 967 972 22 0 heads_default wzcgcecwlzvvvfcxga 
+248971 div:int (none) 235048 0 2 19 19 38 0.5 666 969 972 19 0 heads_default wzcgcicvxczvvvfcxga 
+179977 div:int (none) 177070 0 2072 19 18.9492 36.0916 0.52606 488 748 970 17 0 heads_default wzcgcnyzbzvvvfcxvga 
+234045 div:int (none) 222850 0 193 18 17.9595 35.973 0.499114 625 921 970 16 0 heads_default wzcgcgcdbzvvvfcxga 
+212409 div:int (none) 209534 0 867 18 17.9518 37.1233 0.484289 563 853 970 19 0 heads_default wzcgcoccwzvvvfcxga 
+248459 div:int (none) 228551 0 3 18 18 52 0.346154 654 967 970 21 0 heads_default wzcgczcwxzvlvfcxga 
+200356 div:int (none) 146704 0 2002 18 17.9355 37.0444 0.484871 538 815 969 16 0 heads_default wzcgckbwbzvvvfcxga 
+244469 div:int (none) 243399 0 31 19 19 37 0.513514 667 955 969 19 0 heads_default wzcgcjtjzzvvvfcxvga 
+231007 div:int (none) 195119 0 303 18 17.9545 36.2219 0.49665 610 912 968 16 0 heads_default wzcgcyckbzvvvfcxga 
+242534 div:int (none) 229320 0 26 19 19 38.8788 0.488733 650 948 965 20 0 heads_default wzcgcxcvwlzvvvfcxga 
+246243 div:int (none) 225373 0 6 19 19 36 0.527778 677 960 965 18 0 heads_default wzcgcijrbzvvvfcxvga 
+239642 div:int (none) 222559 0 55 19 19 38.0154 0.499803 644 939 965 19 0 heads_default wzcgcpcvwmzvvvfcxga 
+221686 div:int (none) 198245 0 428 19 18.9414 34.9746 0.541529 607 883 963 17 0 heads_default wzcgcgcsbzvvvfcxvga 
+226118 div:int (none) 220340 0 256 18 17.8864 37.0158 0.483736 607 896 963 19 0 heads_default wzcgcjcwjzvvvfcxga 
+241924 div:int (none) 238444 0 22 19 19 37 0.513514 661 947 963 22 0 heads_default wzcgcccwbzvvvfcxvga 
+235556 div:int (none) 165804 0 159 19 18.9786 35.9679 0.527629 647 926 962 17 0 heads_default wzcgcncytzvvvfcxvga 
+226619 div:int (none) 177739 0 254 18 17.9707 37.0782 0.485112 601 898 959 17 0 heads_default wzcgcnwrbzvvvfcxga 
+243399 div:int (none) 237536 0 3 19 19 37 0.513514 664 951 957 18 0 heads_default wzcgcntjzzvvvfcxvga 
+176368 div:int (none) 168776 0 2861 21 20.9166 45.2594 0.463763 470 736 956 25 0 heads_default wnjatugcziakzvvvfcxga 
+210552 div:int (none) 165436 0 398 19 18.929 38.0394 0.498326 562 847 954 17 0 heads_default wzcgcnyvpbzvvvfcxga 
+208117 div:int (none) 198812 0 690 18 17.919 36.9523 0.485022 556 839 953 22 0 heads_default wzcgcdbyxzvvvfcxga 
+210978 div:int (none) 189688 0 497 18 17.9659 37.0392 0.485227 562 849 953 17 0 heads_default wzcgcrbwozvvvfcxga 
+186529 div:int (none) 184578 0 1683 19 18.9462 37.1411 0.511809 509 770 950 18 0 heads_default wzcgcbcwtzvvvfcxvga 
+233600 div:int (none) 229592 0 37 18 18 38 0.473684 618 920 950 20 0 heads_default wzcgctkmjzvvvfcxga 
+230267 div:int (none) 211301 0 45 18 18 38 0.473684 606 909 947 19 0 heads_default wzcgctswbzvvvfcxga 
+154974 div:int (none) 112560 0 4344 19 18.948 36.1123 0.525947 418 664 946 15 0 heads_default wzcgcncwbzvvvfcxvga 
+212507 div:int (none) 159794 0 752 19 18.9476 38.1126 0.498228 570 854 946 17 0 heads_default wzcgckcvwbzvvvfcxga 
+226751 div:int (none) 200439 0 128 19 18.9747 37.2278 0.511598 619 898 944 17 0 heads_default wzcgcbcwzzvvvfcxvga 
+237914 div:int (none) 191458 0 7 18 18 37 0.486486 630 934 943 17 0 heads_default wzcgcncqozvvvfcxga 
+209394 div:int (none) 206121 0 393 19 18.9745 37.2021 0.512177 574 843 943 17 0 heads_default wzcgcnrwfzvvvfcxvga 
+200555 div:int (none) 186341 0 838 21 20.9152 46.1371 0.454313 529 815 943 27 0 heads_default wnjawqgcckilzvvvfcxga 
+152215 div:int (none) 146704 0 3761 18 17.9416 38.0237 0.47208 409 655 942 16 0 heads_default wzcgcnxwbzvvvfcxga 
+192055 div:int (none) 150413 0 918 18 17.9425 36.9504 0.485496 515 788 941 17 0 heads_default wzcgcwwsbzvvvfcxga 
+238523 div:int (none) 223000 0 4 21 21 45 0.466667 623 936 940 29 0 heads_default wajatcgcjiokzvvvfcxga 
+224396 div:int (none) 159794 0 177 19 18.9571 37.9429 0.499451 602 891 940 17 0 heads_default wzcgcicvxbzvvvfcxga 
+218275 div:int (none) 215360 0 487 19 18.9423 34.2428 0.555864 601 872 939 21 0 heads_default wzcgcotfzvvvvfcxvga 
+197696 div:int (none) 112560 0 474 18 17.9686 37.9669 0.473232 528 806 939 15 0 heads_default wzcgcxcwbzvvvfcxga 
+202358 div:int (none) 167231 0 954 18 17.9496 37.1991 0.484144 542 821 938 17 0 heads_default wzcgcecutzvvvfcxga 
+167231 div:int (none) 154211 0 1429 18 17.9467 37.0669 0.484609 448 705 937 16 0 heads_default wzcgcecwtzvvvfcxga 
+226377 div:int (none) 210552 0 100 19 19 39 0.487179 603 897 936 18 0 heads_default wzcgcnyvpqzvvvfcxga 
+234423 div:int (none) 226751 0 2 19 19 37 0.513514 640 923 928 18 0 heads_default wzcgcbkwzzvvvfcxvga 
+223987 div:int (none) 223207 0 108 19 18.8188 37.942 0.495972 600 890 927 18 0 heads_default wzcgclcvwfzvvvfcxga 
+232526 div:int (none) 198245 0 7 19 19 35 0.542857 636 917 923 17 0 heads_default wzcgcgckbzvvvfcxvga 
+227437 div:int (none) 205715 0 44 18 18 37 0.486486 601 900 922 17 0 heads_default wzcgcxdkbzvvvfcxga 
+211201 div:int (none) 176368 0 196 21 20.8776 43.8481 0.475787 555 849 922 26 0 heads_default wnjatcgcziakzvvvfcxga 
+225206 div:int (none) 154974 0 42 19 18.8261 36.7826 0.511207 613 893 918 16 0 heads_default wzcgcnfwbzvvvfcxvga 
+182091 div:int (none) 181693 0 1841 18 17.9561 37.0157 0.485313 486 755 918 16 0 heads_default wzcgczcwbzvvvfcxga 
+203232 div:int (none) 159794 0 490 19 18.9694 38.0034 0.499142 546 824 918 17 0 heads_default wzcgcicvwjzvvvfcxga 
+205715 div:int (none) 197696 0 377 18 17.9802 38.0945 0.472444 548 832 918 16 0 heads_default wzcgcxdwbzvvvfcxga 
+219167 div:int (none) 213819 0 184 18 18 38 0.473684 583 875 915 18 0 heads_default wzcgctkkozvvvfcxga 
+213859 div:int (none) 211201 0 305 21 20.9763 43.9658 0.47705 562 858 914 27 0 heads_default wnjatcgcjiakzvvvfcxga 
+209106 div:int (none) 165804 0 181 19 18.9276 37.2353 0.510088 572 843 911 17 0 heads_default wzcgcnqwtzvvvfcxvga 
+215360 div:int (none) 192388 0 105 19 18.8361 33.7951 0.556558 592 863 911 20 0 heads_default wzcgcntzzvvvvfcxvga 
+220340 div:int (none) 203232 0 27 19 19 38 0.5 592 878 908 18 0 heads_default wzcgcjcvwjzvvvfcxga 
+190137 div:int (none) 183621 0 1403 18 17.9499 37.9777 0.472731 505 781 908 18 0 heads_default wzcgcnxfizvvvfcxga 
+225718 div:int (none) 214506 0 16 18 18 38 0.473684 595 895 907 19 0 heads_default wzcgcxcwxzvvvfcxga 
+189688 div:int (none) 128890 0 609 18 17.9645 37.6494 0.484018 507 780 904 16 0 heads_default wzcgcnbwozvvvfcxga 
+223417 div:int (none) 128890 0 6 18 17.4 36.6667 0.472226 596 888 903 16 0 heads_default wzcgcncwwzvvvfcxga 
+214506 div:int (none) 181663 0 125 18 17.9295 36.9359 0.485206 568 860 903 18 0 heads_default wzcgcncwxzvvvfcxga 
+194564 div:int (none) 170544 0 690 18 17.9661 36.0206 0.498867 519 796 899 17 0 heads_default wzcgcncuczvvvfcxga 
+220518 div:int (none) 198812 0 22 18 18 37 0.486486 589 879 899 22 0 heads_default wzcgczcyxzvvvfcxga 
+210845 div:int (none) 209088 0 124 18 17.8854 37.8471 0.472066 559 848 897 20 0 heads_default wzcgcnxfjzvvvfcxga 
+207784 div:int (none) 199912 0 231 19 19 36.0178 0.527524 569 838 897 21 0 heads_default wzcgcszubzvvvfcxvga 
+218963 div:int (none) 218161 0 26 18 18 37 0.486486 585 874 895 25 0 heads_default wzcgcdbkxzvvvfcxga 
+198812 div:int (none) 197544 0 460 18 17.9541 37.1156 0.484686 532 810 894 21 0 heads_default wzcgcdcyxzvvvfcxga 
+146704 div:int (none) 112560 0 2839 18 17.96 37.1282 0.48458 394 636 893 15 0 heads_default wzcgcnbwbzvvvfcxga 
+223207 div:int (none) 159794 0 2 19 19 38 0.5 598 887 893 17 0 heads_default wzcgcicvwfzvvvfcxga 
+198949 div:int (none) 167796 0 324 19 18.9584 36.2104 0.526282 548 810 885 18 0 heads_default wzcgcncmkzvvvfcxvga 
+192388 div:int (none) 180928 0 369 19 18.8534 34.0197 0.554633 523 789 884 19 0 heads_default wzcgcnyzzvvvvfcxvga 
+216269 div:int (none) 186818 0 12 19 19 36.0526 0.527027 591 866 884 18 0 heads_default wzcgcncwlzvvvfcxvga 
+213819 div:int (none) 191458 0 63 18 17.8714 37.8143 0.47206 569 858 883 17 0 heads_default wzcgcnkkozvvvfcxga 
+218161 div:int (none) 217885 0 1 19 18 37 0.486486 583 872 875 24 0 heads_default wzcgcdbkxzvvvfcxgak 
+217885 div:int (none) 208117 0 1 18 18 37 0.486486 582 871 872 23 0 heads_default wzcgcdbkxzvvvfcxga 
+167796 div:int (none) 167099 0 1326 19 18.9678 35.3348 0.539923 455 707 871 17 0 heads_default wzcgcncmbzvvvfcxvga 
+186818 div:int (none) 165804 0 490 19 18.9064 36.0411 0.525578 508 771 870 17 0 heads_default wzcgcncwmzvvvfcxvga 
+180928 div:int (none) 179977 0 465 19 18.8887 37.0718 0.510525 491 751 870 18 0 heads_default wzcgcnyzzzvvvfcxvga 
+205738 div:int (none) 201983 0 72 27 23.6897 51.5172 0.459197 542 832 867 19 0 heads_default wzcagcvvpcvxpwcvzvvfcaxvgab 
+211861 div:int (none) 198949 0 27 19 19 36.0385 0.527229 584 852 867 19 0 heads_default wzcgcncqkzvvvfcxvga 
+187140 div:int (none) 185844 0 337 19 18.9705 36.0713 0.526695 510 772 862 19 0 heads_default wzcgcsyzbzvvvfcxvga 
+186341 div:int (none) 183203 0 504 21 20.9554 45.9752 0.455705 494 769 862 26 0 heads_default wnjawqgcciilzvvvfcxga 
+208733 div:int (none) 152215 0 30 18 18 38 0.473684 552 841 859 17 0 heads_default wzcgctxwbzvvvfcxga 
+207349 div:int (none) 180928 0 32 19 18.025 36.025 0.500338 564 837 858 19 0 heads_default wzcgchyzzzvvvfcxvga 
+209534 div:int (none) 198969 0 19 18 18 37 0.486486 556 844 858 18 0 heads_default wzcgcocwwzvvvfcxga 
+165436 div:int (none) 137822 0 414 19 18.9096 39.1231 0.483862 444 699 855 16 0 heads_default wzcgcnyvwbzvvvfcxga 
+206121 div:int (none) 154974 0 26 19 19 37 0.513514 565 833 851 16 0 heads_default wzcgcnrwbzvvvfcxvga 
+209088 div:int (none) 190137 0 8 18 18 38 0.473684 554 843 849 19 0 heads_default wzcgcnxfxzvvvfcxga 
+166732 div:int (none) 112560 0 678 18 17.9656 36.0834 0.498252 447 703 849 15 0 heads_default wzcgcncubzvvvfcxga 
+200594 div:int (none) 197567 0 87 26 23 51.198 0.449723 530 816 848 17 0 heads_default wzcagcvtcvxpwcvzvvfcaxvgab 
+169993 div:int (none) 158868 0 292 21 20.9272 45.4286 0.463025 453 714 843 23 0 heads_default wnjatqgcciaazvvvfcxga 
+170544 div:int (none) 128890 0 1251 18 17.9336 37.1275 0.483529 457 716 841 16 0 heads_default wzcgcncwczvvvfcxga 
+201983 div:int (none) 200594 0 13 27 24 52 0.461538 533 820 836 18 0 heads_default wzcagcvvtcvxpwcvzvvfcaxvgab 
+181029 div:int (none) 128890 0 267 18 17.9726 37.0793 0.484967 487 751 835 16 0 heads_default wzcgcscwxzvvvfcxga 
+197567 div:int (none) 179583 0 24 26 23 51 0.45098 523 806 832 16 0 heads_default wzcagcvtcvrpwcvzvvfcaxvgab 
+145395 div:int (none) 139754 0 1774 18 17.9379 36.9935 0.484939 392 632 832 16 0 heads_default wzcgcncwtzvvvfcxga 
+179583 div:int (none) 161678 0 218 26 22.8982 49.8836 0.458827 479 747 828 15 0 heads_default wzcagcvtcvrcwcvzvvfcaxvgab 
+150413 div:int (none) 144260 0 1296 18 17.9632 37.1266 0.484828 406 649 823 16 0 heads_default wzcgcnwsbzvvvfcxga 
+161678 div:int (none) 157198 0 604 26 22.8905 49.8488 0.459092 435 687 819 14 0 heads_default wzcagcvkcvrcwcvzvvfcaxvgab 
+181438 div:int (none) 128890 0 182 18 17.9498 36.9582 0.485543 486 753 817 16 0 heads_default wzcgcocwozvvvfcxga 
+197544 div:int (none) 186368 0 3 18 17.6667 36.6667 0.481732 529 806 813 20 0 heads_default wzcgcdcexzvvvfcxga 
+144260 div:int (none) 112560 0 806 18 17.9408 35.9553 0.498913 390 628 795 15 0 heads_default wzcgcncsbzvvvfcxga 
+183072 div:int (none) 175581 0 72 18 17.8 36.8353 0.482526 490 758 786 19 0 heads_default wzcgcnczxzvvvfcxga 
+183621 div:int (none) 152215 0 18 18 18 38 0.473684 489 760 783 17 0 heads_default wzcgcnxwizvvvfcxga 
+185844 div:int (none) 179977 0 32 19 19 36.0303 0.527346 506 768 781 18 0 heads_default wzcgcfyzbzvvvfcxvga 
+184578 div:int (none) 165804 0 1 19 19 36.4444 0.521438 503 763 774 17 0 heads_default wzcgchcwtzvvvfcxvga 
+183203 div:int (none) 180417 0 15 21 21 45.0526 0.466133 486 759 773 25 0 heads_default wnjawqgccialzvvvfcxga 
+183718 div:int (none) 183334 0 10 18 18 37 0.486486 494 761 772 18 0 heads_default wzcgcycfxzvvvfcxga 
+175581 div:int (none) 174799 0 121 18 17.9571 37.092 0.484341 471 733 772 18 0 heads_default wzcgcnczwzvvvfcxga 
+183334 div:int (none) 181029 0 1 18 18 37 0.486486 493 759 761 17 0 heads_default wzcgcycwxzvvvfcxga 
+180417 div:int (none) 169993 0 7 21 21 45 0.466667 479 749 761 24 0 heads_default wnjawqgcciaazvvvfcxga 
+154211 div:int (none) 112560 0 336 18 17.933 37.0918 0.48406 414 661 755 15 0 heads_default wzcgcecwbzvvvfcxga 
+181693 div:int (none) 112560 0 1 19 18 37 0.486486 485 754 755 15 0 heads_default wzcgczcwbzvvvfcxgax 
+177070 div:int (none) 154974 0 15 19 19 37 0.513514 480 738 750 16 0 heads_default wzcgcnywbzvvvfcxvga 
+168776 div:int (none) 167704 0 37 21 21 45.0588 0.46607 450 710 749 24 0 heads_default wnjatugcsiakzvvvfcxga 
+175269 div:int (none) 112560 0 24 18 18 36.8529 0.488474 468 732 747 15 0 heads_default wzcgcncqbzvvvfcxga 
+167704 div:int (none) 158868 0 71 21 21 45 0.466667 447 707 746 23 0 heads_default wnjatqgcsiakzvvvfcxga 
+168923 div:int (none) 137822 0 83 19 19 37 0.513514 453 711 741 16 0 heads_default wzcgcncvzbzvvvfcxga 
+174799 div:int (none) 168923 0 7 19 18.3333 37 0.494253 469 731 741 17 0 heads_default wzcgcncvzwzvvvfcxga 
+158868 div:int (none) 140007 0 132 21 20.6973 45.1135 0.460483 426 677 737 22 0 heads_default wnjatqgcciakzvvvfcxga 
+93309 div:int (none) 86736 0 2241 18 17.9503 44.1139 0.407792 259 449 733 12 0 heads_default wzcdgcncwbzvvfcxga 
+140007 div:int (none) 132708 0 796 21 20.9392 44.9493 0.465702 377 613 730 21 0 heads_default wjjatqgcciakzvvvfcxga 
+104295 div:int (none) 102386 0 1596 20 19.8851 49.9408 0.398064 292 488 728 14 0 heads_default wijatcgccrapzvvfcxga 
+137822 div:int (none) 112560 0 380 19 18.9824 38.1344 0.498729 373 605 716 15 0 heads_default wzcgcncvwbzvvvfcxga 
+167099 div:int (none) 154974 0 1 18 18 35 0.514286 453 705 709 16 0 heads_default wzcgcncmbzvvvfcxvg 
+157198 div:int (none) 125193 0 22 25 22 49 0.44898 424 672 692 13 0 heads_default wzcagcvkcrcwcvzvvfcaxvgab 
+125193 div:int (none) 124355 0 343 25 21.9131 48.8545 0.44835 348 561 677 12 0 heads_default wzcagcvkcpcwcvzvvfcaxvgab 
+86736 div:int (none) 65264 0 1798 18 17.9496 44.1388 0.407383 243 424 665 11 0 heads_default wzcdgcncwmzvvfcxga 
+139754 div:int (none) 112560 0 156 18 17.9494 36.9382 0.485698 377 612 663 15 0 heads_default wzcgcncwjzvvvfcxga 
+85952 div:int (none) 57927 0 1006 24 20.9206 49.0116 0.427316 251 421 635 9 0 heads_default wzcagckcacwcvzvvfcaxvgab 
+65264 div:int (none) 64331 0 2333 18 17.9314 44.0114 0.407593 189 344 632 10 0 heads_default wzcdgcncwfzvvfcxga 
+132708 div:int (none) 130906 0 154 21 20.9106 43.8827 0.476287 358 587 631 20 0 heads_default wjjatcgcciakzvvvfcxga 
+47659 div:int (none) 46832 0 1974 20 19.917 51.018 0.390616 159 277 619 9 0 heads_default wnjagcgcccaczvvfcxga 
+123088 div:int (none) 120252 0 88 21 21 44.5714 0.473852 334 554 600 18 0 heads_default wljatcgcciafzvvvfcxga 
+130906 div:int (none) 123088 0 11 21 21 44 0.477273 354 582 595 19 0 heads_default wljatcgcciakzvvvfcxga 
+110320 div:int (none) 104295 0 202 20 19.8269 49.8615 0.397476 304 510 594 15 0 heads_default wijatcgcciapzvvfcxga 
+117856 div:int (none) 85952 0 97 24 20.8319 47.8067 0.435221 330 536 588 10 0 heads_default wzcagckclcwcvzvvfcaxvgab 
+124355 div:int (none) 117856 0 24 25 22 49 0.44898 346 559 576 11 0 heads_default wzcagcvkclcwcvzvvfcaxvgab 
+120252 div:int (none) 119757 0 9 21 20.7 44 0.470455 327 545 555 17 0 heads_default wijatcgcciafzvvvfcxga 
+119757 div:int (none) 110320 0 1 20 20 50 0.4 326 543 546 16 0 heads_default wijatcgcciafzvvfcxga 
+102386 div:int (none) 93026 0 61 20 20 50.038 0.399702 288 481 534 13 0 heads_default wxjatcgccrapzvvfcxga 
+109542 div:int (none) 93309 0 7 17 17 75 0.226667 299 507 530 13 0 heads_default wzcgcncwbzvvfcxga 
+93026 div:int (none) 69168 0 47 20 19.8148 50.6111 0.390972 267 448 493 12 0 heads_default wxjatcgcccapzvvfcxga 
+69168 div:int (none) 68354 0 554 20 19.851 50.9034 0.390261 211 359 481 11 0 heads_default wxjatcgcccaczvvfcxga 
+57927 div:int (none) 31071 0 905 24 20.9547 49.5124 0.426237 183 316 480 8 0 heads_default wzcagcscacwcvzvvfcaxvgab 
+58909 div:int (none) 46932 0 202 20 16.8038 47.0615 0.358311 175 320 416 8 0 heads_default wzcagcncwfzvvfcaxgab 
+8332 div:int (none) 5827 0 2294 20 16.9218 47.9714 0.352955 50 110 400 5 0 heads_default wzcagcccwuzvvfcaxgab 
+1422 div:int (none) 1147 0 7739 22 18.922 53.1169 0.356929 28 64 399 2 0 heads_default wzcagcgccccczvvfcaxgab 
+31071 div:int (none) 26900 0 705 23 19.9556 54.5611 0.368565 120 211 384 7 0 heads_default wzcagcscacwcvzvvfcaxgab 
+68354 div:int (none) 47659 0 7 20 19 49.2 0.383244 209 356 367 10 0 heads_default wnjatcgcccaczvvfcxga 
+64331 div:int (none) 58909 0 1 19 18 44 0.409091 187 340 345 9 0 heads_default wzcdgcncwfzvvfcxgab 
+46932 div:int (none) 44459 0 167 20 16.9899 46.9798 0.361637 148 274 334 7 0 heads_default wzcagcncwuzvvfcaxgab 
+28642 div:int (none) 27356 0 231 22 19.8973 54.0205 0.368844 113 201 311 4 0 heads_default wzjagcgcccaczvvfcaxgab 
+34780 div:int (none) 33872 0 244 22 19.9934 54.2664 0.369318 129 226 295 7 0 heads_default wnjagcgcccaczvvfcaxgab 
+46832 div:int (none) 34780 0 1 21 20 51 0.392157 157 274 278 8 0 heads_default wnjagcgcccaczvvfcxgab 
+44459 div:int (none) 8332 0 5 20 17 47 0.361702 142 264 276 6 0 heads_default wzcagcycwuzvvfcaxgab 
+1 div:ext (none) (none) 0 8383 20 16.8928 68.7691 0.245774 0 -1 268 0 0 heads_default wzcagcccccczvfcaxgab 
+16647 div:int (none) 11534 0 309 23 19.9251 54.2171 0.369182 81 149 262 4 0 heads_default wzcagcrcccccvzvvfcaxgab 
+26900 div:int (none) 18983 0 54 23 20 54 0.37037 110 194 247 6 0 heads_default wzcagcscccwcvzvvfcaxgab 
+11534 div:int (none) 1422 0 199 23 19.9297 54.0469 0.36897 66 125 246 3 0 heads_default wzcagcgcccccvzvvfcaxgab 
+2246 div:int (none) 370 0 613 19 15.9284 64.7716 0.24581 30 73 233 3 0 heads_default wzcagccccuzvfcaxgab 
+33872 div:int (none) 33191 0 1 23 21 55 0.381818 127 223 230 6 0 heads_default vwnjagcgcccaczvvfcaxgab 
+33191 div:int (none) 28642 0 3 22 20 54 0.37037 125 220 225 5 0 heads_default wnjagcgcccaczvvfcaxgab 
+18983 div:int (none) 16647 0 72 23 19.8969 53.7835 0.369676 88 159 207 5 0 heads_default wzcagcrcccwcvzvvfcaxgab 
+27356 div:int (none) 1422 0 5 22 19.1667 53.1667 0.360471 110 196 204 3 0 heads_default wzcagcgcccaczvvfcaxgab 
+370 div:int (none) 149 0 821 19 15.904 64.8079 0.24575 17 42 183 2 0 heads_default wzcagcccclzvfcaxgab 
+5827 div:int (none) 2246 0 80 20 16.9184 47.8878 0.353035 42 97 137 4 0 heads_default wzcagccccuzvvfcaxgab 
+1147 div:int (none) 1 0 109 21 17.9244 71.6807 0.249922 26 60 119 1 0 heads_default wzcagcgccccczvfcaxgab 
+149 div:int (none) 1 0 29 20 16.8182 68.8409 0.244076 13 33 70 1 0 heads_default wzcagccccclzvfcaxgab 

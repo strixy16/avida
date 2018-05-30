@@ -1,0 +1,15 @@
+# Avida copy mutation rate data
+# Tue May 29 15:06:34 2018
+#  1: Update
+#  2: Average copy mutation rate
+#  3: Variance in copy mutation rate
+#  4: Standard Deviation in copy mutation rate
+#  5: Skew in copy mutation rate
+#  6: Kurtosis in copy mutation rate
+#  7: Average log(copy mutation rate)
+#  8: Variance in log(copy mutation rate)
+#  9: Standard Deviation in log(copy mutation rate)
+# 10: Skew in log(copy mutation rate)
+# 11: Kurtosis in log(copy mutation rate)
+
+30 0.00151606 1.49772e-06 0.00122382 -0.435687 1.18982 -nan -nan -nan -nan -nan 
