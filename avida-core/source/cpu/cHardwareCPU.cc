@@ -55,10 +55,13 @@
 #include <fstream>
 #include <cmath>
 
+#include <time.h> //added so can have better random
+
 using namespace std;
 using namespace Avida;
 using namespace AvidaTools;
 
+srand (time(NULL)); //inializes random seed
 
 tInstLib<cHardwareCPU::tMethod>* cHardwareCPU::s_inst_slib = cHardwareCPU::initInstLib();
 
