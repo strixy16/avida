@@ -1,4 +1,4 @@
-CONCENTRATION=20 #default concentration, can just change number here
+CONCENTRATION=50 #default concentration, can just change number here
 
 #setting concentration
 cd avida-core/source/cpu #get to directory with cHardwareCPU
@@ -22,7 +22,7 @@ cat temp > avida.cfg
 rm temp
 
 #load population line instead of inject
-sed "17s/Inject default-heads.org/LoadPopulation populations/detail.spop/" events.cfg > temp
+sed "17s/Inject default-heads.org/LoadPopulation populations\/detail.spop/" events.cfg > temp
 cat temp > events.cfg
 rm temp
 

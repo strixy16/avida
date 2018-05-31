@@ -61,7 +61,6 @@ using namespace std;
 using namespace Avida;
 using namespace AvidaTools;
 
-srand (time(NULL)); //inializes random seed
 
 tInstLib<cHardwareCPU::tMethod>* cHardwareCPU::s_inst_slib = cHardwareCPU::initInstLib();
 
@@ -2961,6 +2960,7 @@ bool cHardwareCPU::Inst_Log10(cAvidaContext&)
 
 bool cHardwareCPU::Inst_Add(cAvidaContext&)
 {
+  srand (time(NULL)); //inializes random seed
   const int r = rand() % 100 + 1;
   const int concentration = 20;
   if (r > concentration) {

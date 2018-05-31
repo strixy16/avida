@@ -8,10 +8,10 @@
 #stuff to chose
 POPUPDATES=100 #which detail file should be taken     
 POPCYCLES=1 #number of populations you are making
-ANTICYCLES=1 #number of antibiotic runs each version of population gets
+ANTICYCLES=2 #number of antibiotic runs each version of population gets
 
 #setting so saves data of multiple runs in different folders
-cd ../../../cbuild/workdefault    # go into correct directory
+cd cbuild/workdefault    # go into correct directory
 sed "40s/data/data1/" avida.cfg > temp  #change data to data1 for while loop
 cat temp > avida.cfg
 rm temp
