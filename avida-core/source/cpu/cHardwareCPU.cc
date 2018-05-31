@@ -2958,10 +2958,14 @@ bool cHardwareCPU::Inst_Log10(cAvidaContext&)
 
 bool cHardwareCPU::Inst_Add(cAvidaContext&)
 {
-  const int dst = FindModifiedRegister(REG_BX);
-  const int op1 = REG_BX;
-  const int op2 = REG_CX;
-  GetRegister(dst) = GetRegister(op1) + GetRegister(op2);
+  const int r = rand() % 100 + 1;
+  const int concentration = 20;
+  if (r > concentration) {
+    const int dst = FindModifiedRegister(REG_BX);
+    const int op1 = REG_BX;
+    const int op2 = REG_CX;
+    GetRegister(dst) = GetRegister(op1) + GetRegister(op2);
+  }
   return true;
 }
 
