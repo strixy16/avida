@@ -2961,7 +2961,10 @@ bool cHardwareCPU::Inst_Add(cAvidaContext&)
   const int dst = FindModifiedRegister(REG_BX);
   const int op1 = REG_BX;
   const int op2 = REG_CX;
-  GetRegister(dst) = GetRegister(op1) + GetRegister(op2);
+  const int conc = rand() % 100 + 1;
+  if(conc > 20){
+  	GetRegister(dst) = GetRegister(op1) + GetRegister(op2);
+  }
   return true;
 }
 
