@@ -6,7 +6,7 @@
 
 
 #stuff to chose
-POPUPDATES=100 #which detail file should be taken     
+POPUPDATES=100 #which detail file should be taken NOTE:need to change in event file    
 POPCYCLES=1 #number of populations you are making
 ANTICYCLES=2 #number of antibiotic runs each version of population gets
 

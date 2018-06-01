@@ -1,8 +1,8 @@
-CONCENTRATION=50 #default concentration, can just change number here
+CONCENTRATION=50 #default concentration is 20, can just change number here
 
 #setting concentration
 cd avida-core/source/cpu #get to directory with cHardwareCPU
-sed "2965s/20/$CONCENTRATION/" cHardwareCPU.cc > temp
+sed "2962s/20/$CONCENTRATION/" cHardwareCPU.cc > temp
 cat temp > cHardwareCPU.cc
 rm temp
 
@@ -29,6 +29,6 @@ rm temp
 
 #so next time run this it works
 cd ../../avida-core/source/cpu #get to directory with cHardwareCPU
-sed "2965s/$CONCENTRATION/20/" cHardwareCPU.cc > temp
+sed "2962s/$CONCENTRATION/20/" cHardwareCPU.cc > temp
 cat temp > cHardwareCPU.cc
 rm temp

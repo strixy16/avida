@@ -38,6 +38,11 @@
 #include "cStringUtil.h"
 #include "cWorld.h"
 
+//extra includes to get my random seed to work
+#include <time.h>
+#include <stdlib.h>
+#include <stdio.h>
+
 using namespace Avida;
 
 static const Apto::BasicString<Apto::ThreadSafe> s_prop_id_instset("instset");
@@ -123,6 +128,8 @@ bool cHardwareManager::LoadInstSets(cUserFeedback* feedback)
 
 bool cHardwareManager::loadInstSet(int hw_type, const Apto::String& name, int stack_size, int uops_per_cycle, cStringList& sl, cUserFeedback* feedback)
 {
+  //doing random seed here for my modified instruction
+  srand(time(NULL));
   // Current list in progress, create actual cInstSet instance and process it
   cInstSet* inst_set = NULL;
   switch (hw_type)
