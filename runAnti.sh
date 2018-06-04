@@ -9,6 +9,9 @@
 POPUPDATES=100 #which detail file should be taken NOTE:need to change in event file    
 POPCYCLES=1 #number of populations you are making
 ANTICYCLES=2 #number of antibiotic runs each version of population gets
+SEARCHINSTR='add' #instruction we want to exist so we can make it antibiotic
+#need to have workdefault having PrintDominantGenotype uncommented
+#make sure to change the number so it only happens at the end
 
 #setting so saves data of multiple runs in different folders
 cd cbuild/workdefault    # go into correct directory
@@ -38,14 +41,28 @@ wait
 
 #move data files into workantiadd labeled with which run
 CURR=1
+MOVED=1
 while ((CURR<=POPCYCLES))       # number of times to run avida
 do
 	cd data$CURR
-	cp detail-$POPUPDATES.spop ../../workantiadd/populations/detail-$POPUPDATES-$CURR.spop
+	#checking if instruction is actually in dominant
+	grep -qi $SEARCHINSTR archive/*.org
+	greprc=$?
+	if [[ $greprc -eg 0 ]]; then
+		cp detail-$POPUPDATES.spop ../../workantiadd/populations/detail-$POPUPDATES-$MOVED.spop
+		((MOVED=MOVED+1))	
+	elif [[ $greprc -eq 1 ]]; then
+		echo "population $CURR doesn't have instruction in dominant"
+	else
+		echo "something went wrong with grep"
+
 	cd ..
 	((CURR=CURR+1))
 done
 wait
+
+#this is how many got successfully moved
+((MOVED=MOVED-1)) 
 
 #prepare workantiadd to run multiple times
 cd ../workantiadd
