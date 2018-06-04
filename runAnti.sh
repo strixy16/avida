@@ -6,18 +6,26 @@
 
 
 #stuff to chose
-POPUPDATES=100 #which detail file should be taken NOTE:need to change in event file    
+#NOTE: if less than 500, won't save population, need to change by hand
+POPUPDATES=100 #which detail file should be taken and how event file should be configured    
 POPCYCLES=1 #number of populations you are making
+ANTIUPDATES=100 #how event should be configured for antibiotic run
 ANTICYCLES=2 #number of antibiotic runs each version of population gets
 SEARCHINSTR='add' #instruction we want to exist so we can make it antibiotic
 #need to have workdefault having PrintDominantGenotype uncommented
 #make sure to change the number so it only happens at the end
 
+#getting event file in antibiotic set to run enough updates
+cd cbuild/workantiadd
+sed -i "37s/100000/$ANTIUPDATES/" events.cfg
+
+#gettiing event file in default to have correct number of runs
+cd ../workdefault    # go into correct directory
+sed -i "40s/100000/$POPUPDATES/" events.cfg 
+
 #setting so saves data of multiple runs in different folders
-cd cbuild/workdefault    # go into correct directory
-sed "40s/data/data1/" avida.cfg > temp  #change data to data1 for while loop
-cat temp > avida.cfg
-rm temp
+sed -i "40s/data/data1/"  #change data to data1 for while loop
+
 
 
 #run normal avida
@@ -27,16 +35,15 @@ do
 	((NEXT = CURR + 1)) # index of next data file
 	./avida > "logfile$CURR" &           # run avida in the background
     sleep 2	
-	sed "40s/data$CURR/data$NEXT/" avida.cfg > temp # change data outputfile by 1
-	cat temp > avida.cfg
-	rm temp
+	sed -i "40s/data$CURR/data$NEXT/" # change data outputfile by 1
 	((CURR=CURR+1))
 done
 
 # reset data outputfile to 1
-sed "40s/data$NEXT/data/" avida.cfg > temp
-cat temp > avida.cfg
-rm temp
+sed -i "40s/data$NEXT/data/"
+
+#reset event file to 100000
+sed -i "40s/$POPUPDATES/100000/" events.cfg 
 wait
 
 #move data files into workantiadd labeled with which run
@@ -66,19 +73,13 @@ wait
 
 #prepare workantiadd to run multiple times
 cd ../workantiadd
-sed "40s/data/data1-1/" avida.cfg > temp  #change data to data1 for while loop
-cat temp > avida.cfg
-rm temp
+sed -i "40s/data/data1-1/"  #change data to data1 for while loop
 
 #get event files ready to load different populations
-sed "17s/detail.spop/detail-$POPUPDATES-1.spop/" events.cfg > temp
-cat temp > events.cfg
-rm temp
-
+sed -i "17s/detail.spop/detail-$POPUPDATES-1.spop/"
 
 CURR=1
-
-while ((CURR<=POPCYCLES))       # number of times to run avida
+while ((CURR<=MOVED))       # number of times to run avida
 do
 	((NEXT = CURR + 1)) # index of next data file
 
@@ -88,30 +89,22 @@ do
 		((SUBNEXT = SUBCURR + 1))
 		./avida > "logfile$CURR-$SUBCURR" &           # run avida in the background
 		sleep 2		
-		sed "40s/data$CURR-$SUBCURR/data$CURR-$SUBNEXT/" avida.cfg > temp # change data outputfile by 1
-		cat temp > avida.cfg
-		rm temp
+		sed -i "40s/data$CURR-$SUBCURR/data$CURR-$SUBNEXT/" # change data outputfile by 1
 		((SUBCURR=SUBCURR+1))
 	done
 
-	sed "40s/data$CURR-$SUBNEXT/data$NEXT-1/" avida.cfg > temp
-	cat temp > avida.cfg
-	rm temp
+	sed -i "40s/data$CURR-$SUBNEXT/data$NEXT-1/"
 
-	sed "17s/detail-$POPUPDATES-$CURR.spop/detail-$POPUPDATES-$NEXT.spop/" events.cfg > temp
-	cat temp > events.cfg
-	rm temp
+	sed -i "17s/detail-$POPUPDATES-$CURR.spop/detail-$POPUPDATES-$NEXT.spop/"
 
 	((CURR=CURR+1))
 done
 
 #reset events.cfg file
-sed "17s/detail-$POPUPDATES-$CURR.spop/detail.spop/" events.cfg > temp
-cat temp > events.cfg
-rm temp
+sed -i "17s/detail-$POPUPDATES-$CURR.spop/detail.spop/"
+#reset the event updates
+sed -i "40s/$ANTIUPDATES/100000/" events.cfg 
 
 # reset data outputfile to 1
-sed "40s/data$NEXT-1/data/" avida.cfg > temp
-cat temp > avida.cfg
-rm temp
+sed -i "40s/data$NEXT-1/data/"
 wait
