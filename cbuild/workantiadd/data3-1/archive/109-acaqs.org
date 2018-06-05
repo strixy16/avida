@@ -1,0 +1,130 @@
+# Tue Jun  5 11:28:12 2018
+# Filename........: archive/109-acaqs.org
+# Update Output...: 17000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 104.000000
+# Gestation Time..: 208
+# Fitness.........: 0.500000
+# Errors..........: 3
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+add
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nand
+nop-A
+if-n-equ
+nop-C
+mov-head
+nop-C
+shift-r
+if-less
+nop-B
+nop-B
+nop-C
+if-n-equ
+nop-C
+if-label
+shift-l
+if-n-equ
+nop-C
+nand
+nop-C
+nop-C
+if-label
+pop
+shift-l
+if-label
+nand
+swap
+nop-C
+add
+get-head
+push
+h-alloc
+nop-B
+dec
+nop-C
+nand
+shift-r
+shift-l
+if-less
+nop-C
+push
+h-alloc
+nop-A
+h-search
+nop-B
+get-head
+sub
+shift-l
+if-n-equ
+h-copy
+if-n-equ
+inc
+nop-C
+nop-C
+push
+if-n-equ
+if-less
+add
+nop-B
+h-copy
+swap
+h-copy
+pop
+IO
+IO
+swap
+nop-C
+if-n-equ
+nop-B
+h-copy
+h-copy
+nand
+IO
+nand
+nop-A
+get-head
+shift-r
+nop-A
+h-alloc
+h-copy
+nop-C
+set-flow
+h-copy
+get-head
+shift-l
+nop-C
+h-copy
+inc
+h-divide
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,128 @@
+# Tue Jun  5 11:43:13 2018
+# Filename........: archive/107-acppz.org
+# Update Output...: 24800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 102.000000
+# Gestation Time..: 209
+# Fitness.........: 0.488038
+# Errors..........: 2
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+IO
+shift-r
+swap-stk
+swap-stk
+shift-r
+nand
+nop-A
+IO
+sub
+shift-r
+nop-A
+h-alloc
+swap
+pop
+sub
+if-n-equ
+nop-C
+inc
+inc
+nop-C
+if-label
+h-divide
+h-search
+shift-r
+nand
+swap
+nop-A
+nop-C
+h-divide
+push
+pop
+shift-r
+nop-C
+jmp-head
+jmp-head
+shift-r
+shift-l
+if-less
+nop-C
+push
+set-flow
+add
+swap
+nop-B
+get-head
+if-less
+add
+h-copy
+push
+get-head
+h-alloc
+push
+nop-C
+swap-stk
+add
+nop-B
+h-copy
+add
+h-copy
+get-head
+pop
+IO
+swap
+nop-C
+if-n-equ
+nop-B
+h-copy
+h-copy
+nand
+IO
+nand
+if-less
+nop-C
+h-divide
+swap
+nop-A
+if-less
+sub
+IO
+push
+shift-l
+nop-C
+shift-l
+h-copy
+IO
+shift-r
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

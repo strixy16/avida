@@ -1,0 +1,132 @@
+# Tue Jun  5 11:08:39 2018
+# Filename........: archive/111-abrcm.org
+# Update Output...: 7000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 218
+# Fitness.........: 0.486239
+# Errors..........: 1
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+if-less
+nop-C
+if-less
+nop-C
+h-divide
+mov-head
+nop-C
+if-label
+nop-C
+if-label
+nop-C
+swap-stk
+shift-l
+pop
+swap
+inc
+nop-C
+push
+mov-head
+nop-C
+nop-B
+nop-C
+push
+set-flow
+nop-C
+nop-C
+shift-l
+sub
+nop-C
+nand
+set-flow
+inc
+nop-B
+shift-r
+inc
+add
+h-search
+if-label
+swap
+nop-B
+h-copy
+add
+h-copy
+set-flow
+h-copy
+h-copy
+nop-C
+shift-l
+nop-C
+push
+IO
+nop-C
+swap
+pop
+nop-C
+nop-C
+h-search
+nop-B
+if-n-equ
+h-copy
+h-alloc
+nop-B
+inc
+nand
+if-label
+nop-C
+push
+pop
+nop-C
+if-less
+nop-C
+swap-stk
+nop-C
+h-copy
+pop
+nop-C
+h-copy
+if-less
+nop-C
+set-flow
+nop-C
+set-flow
+nand
+IO
+h-copy
+push
+jmp-head
+nop-C
+nand
+h-divide
+IO
+inc
+nop-C
+shift-r
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

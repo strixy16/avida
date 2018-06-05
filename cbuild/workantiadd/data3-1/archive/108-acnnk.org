@@ -1,0 +1,129 @@
+# Tue Jun  5 11:26:16 2018
+# Filename........: archive/108-acnnk.org
+# Update Output...: 16000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 101.000000
+# Gestation Time..: 203
+# Fitness.........: 0.497537
+# Errors..........: 2
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+IO
+nop-C
+dec
+nop-C
+mov-head
+nop-C
+pop
+if-n-equ
+nop-C
+mov-head
+nop-C
+push
+h-alloc
+IO
+nop-A
+push
+set-flow
+nand
+nop-C
+swap-stk
+if-label
+nop-A
+nop-C
+if-label
+nand
+swap
+nop-C
+add
+shift-l
+nand
+sub
+nand
+nop-C
+nop-C
+inc
+swap-stk
+nop-C
+if-less
+nop-B
+push
+push
+nop-C
+sub
+nop-B
+shift-l
+nop-C
+IO
+if-label
+h-copy
+shift-l
+h-search
+nop-B
+nop-C
+if-label
+nop-C
+h-divide
+sub
+nop-B
+h-copy
+if-n-equ
+h-copy
+push
+h-divide
+IO
+swap
+nop-C
+if-n-equ
+nop-C
+h-copy
+h-copy
+nand
+IO
+nand
+nop-A
+add
+get-head
+sub
+shift-r
+h-copy
+IO
+dec
+IO
+shift-l
+add
+h-copy
+dec
+h-alloc
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

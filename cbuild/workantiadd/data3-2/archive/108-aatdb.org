@@ -1,0 +1,129 @@
+# Tue Jun  5 11:07:36 2018
+# Filename........: archive/108-aatdb.org
+# Update Output...: 6500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 105.000000
+# Gestation Time..: 207
+# Fitness.........: 0.507246
+# Errors..........: 3
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+nop-A
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+swap
+mov-head
+nop-C
+nop-C
+pop
+if-less
+nop-C
+dec
+if-n-equ
+nop-C
+get-head
+nop-C
+pop
+IO
+nop-C
+sub
+nand
+IO
+nop-C
+if-label
+push
+nop-C
+sub
+nop-C
+if-n-equ
+nop-C
+IO
+nop-C
+nop-C
+add
+nop-B
+get-head
+if-less
+nop-C
+nand
+shift-r
+push
+push
+swap
+inc
+h-alloc
+nop-A
+swap-stk
+sub
+nop-C
+mov-head
+nop-C
+nop-C
+nop-C
+h-copy
+nop-C
+if-less
+nop-C
+push
+nop-C
+dec
+h-alloc
+shift-l
+add
+h-copy
+nand
+h-copy
+shift-l
+nop-C
+IO
+swap
+get-head
+nop-A
+swap-stk
+h-copy
+nand
+add
+h-alloc
+if-n-equ
+if-less
+nop-C
+IO
+nop-C
+nop-C
+if-n-equ
+nop-C
+inc
+h-copy
+h-copy
+dec
+h-copy
+nop-A
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

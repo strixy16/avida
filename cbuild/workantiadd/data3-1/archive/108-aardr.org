@@ -1,0 +1,129 @@
+# Tue Jun  5 11:12:28 2018
+# Filename........: archive/108-aardr.org
+# Update Output...: 9100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 103.000000
+# Gestation Time..: 204
+# Fitness.........: 0.504902
+# Errors..........: 2
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+nop-C
+dec
+shift-r
+nop-C
+mov-head
+nop-C
+pop
+nop-B
+nop-C
+mov-head
+nop-C
+swap-stk
+nop-C
+shift-l
+nop-C
+if-n-equ
+nop-C
+nand
+nop-C
+nop-C
+if-label
+nop-C
+nop-C
+swap-stk
+pop
+if-less
+nop-C
+IO
+nop-C
+nop-C
+h-alloc
+nand
+swap
+nop-C
+nand
+shift-r
+nop-C
+if-less
+nop-C
+shift-r
+nop-A
+nop-C
+nop-C
+shift-l
+nop-C
+get-head
+if-n-equ
+h-copy
+push
+set-flow
+nand
+nop-C
+nop-C
+nop-C
+h-divide
+nop-C
+nop-C
+h-copy
+h-copy
+if-n-equ
+h-copy
+push
+nop-C
+IO
+swap
+nop-C
+push
+swap-stk
+h-copy
+nand
+nop-B
+nand
+inc
+sub
+add
+inc
+h-alloc
+h-copy
+nop-C
+set-flow
+nop-C
+shift-l
+add
+h-copy
+get-head
+set-flow
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

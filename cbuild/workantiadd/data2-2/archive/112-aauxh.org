@@ -1,0 +1,133 @@
+# Tue Jun  5 11:37:14 2018
+# Filename........: archive/112-aauxh.org
+# Update Output...: 21700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 218
+# Fitness.........: 0.486239
+# Errors..........: 3
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+nand
+set-flow
+nop-A
+nop-B
+mov-head
+nop-C
+add
+set-flow
+if-less
+mov-head
+nop-B
+h-copy
+set-flow
+if-n-equ
+pop
+swap
+nop-B
+shift-l
+add
+set-flow
+pop
+jmp-head
+nop-C
+pop
+nop-C
+nand
+if-n-equ
+if-less
+if-n-equ
+add
+h-copy
+pop
+pop
+inc
+nop-B
+pop
+shift-l
+h-alloc
+nand
+nop-C
+if-n-equ
+set-flow
+shift-r
+h-copy
+h-divide
+h-copy
+nop-B
+shift-r
+IO
+nand
+IO
+h-copy
+h-copy
+h-copy
+nop-A
+h-alloc
+h-copy
+dec
+h-search
+if-n-equ
+nop-B
+h-divide
+nop-C
+jmp-head
+swap
+nop-B
+inc
+nop-A
+h-copy
+shift-r
+nand
+swap
+h-copy
+nop-C
+pop
+if-less
+h-copy
+h-search
+swap-stk
+add
+shift-l
+h-alloc
+shift-l
+if-less
+swap
+set-flow
+if-n-equ
+h-copy
+nop-B
+shift-r
+h-search
+shift-l
+h-copy
+IO
+inc
+h-divide
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

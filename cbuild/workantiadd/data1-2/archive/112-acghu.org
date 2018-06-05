@@ -1,0 +1,133 @@
+# Tue Jun  5 11:16:08 2018
+# Filename........: archive/112-acghu.org
+# Update Output...: 10800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 220
+# Fitness.........: 0.481818
+# Errors..........: 1
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+dec
+nop-C
+if-n-equ
+nop-C
+shift-l
+nop-C
+if-n-equ
+sub
+nop-C
+pop
+shift-l
+if-less
+nop-C
+sub
+nop-C
+get-head
+nop-C
+swap
+mov-head
+nop-C
+swap-stk
+shift-r
+IO
+nop-C
+shift-l
+pop
+IO
+h-divide
+nop-C
+h-divide
+h-copy
+inc
+h-search
+nop-C
+nop-C
+nand
+dec
+nop-C
+swap
+nand
+h-copy
+if-label
+if-label
+h-copy
+h-copy
+set-flow
+pop
+nop-C
+nop-C
+push
+nop-B
+get-head
+dec
+dec
+h-alloc
+pop
+IO
+h-copy
+dec
+nop-B
+shift-l
+IO
+if-label
+nop-C
+mov-head
+get-head
+shift-r
+shift-l
+nop-C
+if-n-equ
+nop-C
+nop-C
+h-copy
+add
+swap
+if-label
+IO
+sub
+nand
+nop-C
+nop-C
+IO
+nop-C
+h-copy
+IO
+nop-C
+nop-C
+if-less
+swap-stk
+IO
+h-copy
+nop-B
+nop-C
+add
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

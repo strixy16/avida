@@ -1,0 +1,136 @@
+# Tue Jun  5 11:37:05 2018
+# Filename........: archive/115-adeyg.org
+# Update Output...: 21300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 112.000000
+# Gestation Time..: 211
+# Fitness.........: 0.530806
+# Errors..........: 3
+# Genome Size.....: 115
+# Copied Size.....: 115
+# Executed Size...: 112
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+sub
+pop
+pop
+h-copy
+nop-C
+pop
+push
+h-divide
+h-alloc
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+sub
+shift-r
+add
+dec
+IO
+nop-C
+add
+inc
+h-search
+nop-C
+h-copy
+dec
+IO
+pop
+nop-B
+h-copy
+nop-A
+shift-r
+swap
+h-divide
+sub
+pop
+set-flow
+h-copy
+shift-l
+inc
+swap
+h-copy
+nop-C
+add
+get-head
+dec
+shift-r
+sub
+if-less
+if-less
+nop-B
+h-copy
+nand
+dec
+h-copy
+h-alloc
+nand
+nop-C
+sub
+h-search
+h-copy
+nop-A
+IO
+nop-A
+h-copy
+if-less
+swap-stk
+sub
+nop-B
+add
+swap
+nop-C
+shift-r
+h-copy
+h-copy
+pop
+pop
+push
+if-n-equ
+push
+nand
+dec
+nop-A
+h-divide
+h-copy
+shift-l
+nop-B
+push
+nop-A
+nop-C
+set-flow
+nop-A
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

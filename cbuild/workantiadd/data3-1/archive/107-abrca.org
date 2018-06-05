@@ -1,0 +1,128 @@
+# Tue Jun  5 11:35:08 2018
+# Filename........: archive/107-abrca.org
+# Update Output...: 20600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 103.000000
+# Gestation Time..: 208
+# Fitness.........: 0.495192
+# Errors..........: 2
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+inc
+h-search
+nop-C
+nop-A
+inc
+nop-C
+add
+nop-A
+shift-r
+pop
+mov-head
+nop-C
+pop
+if-less
+push
+h-copy
+nop-C
+set-flow
+nop-C
+if-less
+swap
+shift-l
+if-label
+dec
+h-search
+nop-B
+nand
+h-search
+pop
+push
+nand
+nop-C
+shift-r
+IO
+push
+h-alloc
+nop-C
+add
+pop
+nop-C
+nand
+h-search
+nop-C
+set-flow
+nop-C
+nand
+push
+nop-A
+if-n-equ
+nop-B
+get-head
+sub
+shift-l
+if-n-equ
+swap
+if-n-equ
+inc
+get-head
+nop-C
+inc
+nop-C
+nop-C
+h-search
+nop-B
+h-copy
+sub
+h-copy
+sub
+if-label
+IO
+swap
+nop-C
+if-n-equ
+nop-C
+h-copy
+h-copy
+nand
+IO
+nand
+nop-A
+h-alloc
+shift-r
+if-label
+h-alloc
+h-copy
+IO
+set-flow
+get-head
+nop-C
+nop-C
+nop-B
+h-divide
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

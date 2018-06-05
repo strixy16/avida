@@ -1,0 +1,133 @@
+# Tue Jun  5 11:39:55 2018
+# Filename........: archive/112-aawdp.org
+# Update Output...: 23100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 110.000000
+# Gestation Time..: 219
+# Fitness.........: 0.502283
+# Errors..........: 1
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+shift-l
+set-flow
+nop-A
+nop-B
+mov-head
+nop-C
+h-search
+push
+h-copy
+nop-C
+IO
+set-flow
+nop-B
+h-search
+add
+swap-stk
+pop
+swap
+h-divide
+nand
+nop-C
+shift-r
+IO
+nop-C
+swap
+nop-C
+dec
+if-n-equ
+if-less
+swap
+pop
+nop-C
+inc
+set-flow
+h-alloc
+h-copy
+if-n-equ
+nop-B
+swap
+nop-C
+if-n-equ
+set-flow
+nop-C
+dec
+h-copy
+shift-r
+inc
+IO
+nand
+IO
+if-n-equ
+h-copy
+h-copy
+inc
+h-copy
+nop-A
+pop
+h-copy
+nop-C
+h-search
+dec
+set-flow
+nop-A
+push
+push
+add
+nop-A
+h-copy
+swap
+swap-stk
+nand
+nop-A
+shift-l
+nop-C
+dec
+nand
+h-copy
+push
+push
+h-divide
+set-flow
+swap-stk
+shift-l
+nop-C
+swap
+set-flow
+if-n-equ
+push
+h-copy
+push
+if-label
+swap-stk
+shift-r
+h-copy
+set-flow
+inc
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

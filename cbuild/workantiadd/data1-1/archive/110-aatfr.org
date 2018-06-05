@@ -1,0 +1,131 @@
+# Tue Jun  5 11:06:28 2018
+# Filename........: archive/110-aatfr.org
+# Update Output...: 6000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 104.000000
+# Gestation Time..: 214
+# Fitness.........: 0.485981
+# Errors..........: 0
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+if-less
+nop-C
+mov-head
+nop-C
+nop-A
+h-divide
+if-less
+shift-l
+nop-C
+nop-C
+nop-C
+swap
+nop-C
+push
+swap
+inc
+nop-C
+swap
+push
+nop-C
+nop-B
+nop-C
+get-head
+nop-C
+nop-C
+nop-C
+get-head
+inc
+nop-C
+pop
+nop-C
+inc
+nop-C
+shift-r
+push
+get-head
+shift-r
+pop
+swap-stk
+if-label
+h-copy
+shift-r
+h-copy
+if-n-equ
+h-copy
+dec
+pop
+nop-C
+IO
+nop-A
+shift-l
+shift-r
+if-n-equ
+nand
+nop-C
+nand
+h-search
+nop-C
+h-copy
+shift-r
+nop-C
+if-label
+h-alloc
+if-label
+nop-C
+mov-head
+pop
+nop-C
+if-less
+nop-C
+inc
+nop-C
+h-copy
+pop
+nop-C
+h-copy
+add
+nop-C
+nand
+nop-C
+swap-stk
+nand
+IO
+h-copy
+push
+push
+nop-C
+nand
+nop-C
+IO
+nop-C
+nop-B
+h-search
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

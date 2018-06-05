@@ -1,0 +1,131 @@
+# Tue Jun  5 11:26:23 2018
+# Filename........: archive/110-acoex.org
+# Update Output...: 15900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 107.000000
+# Gestation Time..: 208
+# Fitness.........: 0.514423
+# Errors..........: 1
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+shift-r
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-C
+nand
+h-copy
+shift-l
+h-search
+push
+nop-C
+jmp-head
+dec
+nop-C
+nand
+nop-A
+h-search
+IO
+nop-C
+get-head
+nop-C
+IO
+nop-C
+if-label
+swap
+nop-A
+shift-r
+if-n-equ
+nand
+if-less
+IO
+swap
+nop-C
+nop-B
+dec
+dec
+pop
+h-divide
+nop-A
+swap
+nop-C
+push
+nop-A
+inc
+get-head
+nop-B
+nand
+shift-r
+nop-C
+get-head
+nop-C
+h-copy
+shift-r
+nop-C
+h-copy
+h-copy
+nop-C
+swap
+nop-C
+inc
+shift-r
+nop-C
+set-flow
+shift-l
+nop-C
+h-copy
+swap
+h-copy
+swap
+pop
+push
+sub
+sub
+nand
+nop-B
+h-copy
+add
+h-search
+swap
+get-head
+h-alloc
+if-less
+dec
+nop-C
+h-copy
+nop-C
+inc
+nop-C
+swap-stk
+h-copy
+inc
+shift-r
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

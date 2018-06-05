@@ -1,0 +1,135 @@
+# Tue Jun  5 11:11:36 2018
+# Filename........: archive/114-aazir.org
+# Update Output...: 8300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 110.000000
+# Gestation Time..: 212
+# Fitness.........: 0.518868
+# Errors..........: 1
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+nop-B
+swap
+nop-C
+h-copy
+nop-C
+pop
+nop-C
+nop-A
+nop-A
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+add
+nop-B
+inc
+IO
+nop-C
+nop-C
+if-n-equ
+nop-B
+sub
+h-copy
+nop-C
+inc
+h-search
+h-divide
+h-copy
+swap-stk
+push
+h-alloc
+swap
+dec
+shift-l
+h-copy
+nop-C
+h-copy
+pop
+h-copy
+add
+nand
+nop-C
+inc
+nop-C
+pop
+get-head
+nop-A
+push
+nop-B
+h-copy
+inc
+h-copy
+nop-C
+h-copy
+h-divide
+nop-C
+shift-l
+swap-stk
+add
+nop-C
+h-search
+nop-C
+h-copy
+nop-C
+pop
+nop-C
+IO
+nop-C
+inc
+set-flow
+h-copy
+nop-B
+if-n-equ
+h-copy
+IO
+sub
+nop-B
+nop-C
+if-n-equ
+swap
+inc
+if-less
+add
+push
+nop-B
+nand
+pop
+shift-r
+nop-C
+nand
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

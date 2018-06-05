@@ -1,0 +1,136 @@
+# Tue Jun  5 11:25:14 2018
+# Filename........: archive/115-acfeg.org
+# Update Output...: 15200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 112.000000
+# Gestation Time..: 210
+# Fitness.........: 0.533333
+# Errors..........: 1
+# Genome Size.....: 115
+# Copied Size.....: 115
+# Executed Size...: 112
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+sub
+nop-B
+pop
+nop-C
+h-copy
+add
+pop
+push
+h-divide
+pop
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+sub
+shift-l
+sub
+sub
+IO
+nop-C
+swap-stk
+pop
+h-search
+h-divide
+h-copy
+shift-r
+h-alloc
+swap
+swap
+h-copy
+pop
+h-divide
+shift-r
+sub
+pop
+swap
+h-copy
+IO
+nop-C
+sub
+nop-B
+if-n-equ
+get-head
+h-search
+nop-C
+if-label
+h-copy
+h-divide
+set-flow
+push
+nop-A
+h-copy
+h-divide
+swap-stk
+h-copy
+if-label
+nand
+swap-stk
+set-flow
+get-head
+nop-C
+IO
+nop-A
+h-copy
+nop-A
+nand
+add
+IO
+nop-B
+nop-C
+h-copy
+shift-r
+h-copy
+h-copy
+swap-stk
+sub
+pop
+push
+if-n-equ
+nop-C
+shift-l
+dec
+nop-C
+nop-A
+h-copy
+swap-stk
+nop-B
+push
+if-n-equ
+nop-C
+push
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

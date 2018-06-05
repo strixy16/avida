@@ -1,0 +1,131 @@
+# Tue Jun  5 11:15:38 2018
+# Filename........: archive/110-abetp.org
+# Update Output...: 10400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 105.000000
+# Gestation Time..: 208
+# Fitness.........: 0.504808
+# Errors..........: 2
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+nop-A
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+swap
+nand
+nop-C
+h-copy
+shift-l
+pop
+pop
+nop-C
+dec
+if-n-equ
+nop-B
+nand
+nop-C
+nop-C
+pop
+nop-C
+sub
+nop-C
+IO
+nop-C
+if-label
+nop-C
+h-search
+swap-stk
+h-divide
+h-divide
+get-head
+IO
+swap
+h-copy
+nop-C
+pop
+sub
+dec
+nop-A
+nand
+nand
+swap
+nop-C
+push
+nop-A
+inc
+inc
+h-alloc
+nop-B
+shift-r
+nop-C
+sub
+nop-C
+h-copy
+nop-C
+pop
+h-copy
+h-copy
+nop-C
+if-less
+nop-C
+if-less
+nop-B
+nop-C
+push
+shift-l
+inc
+h-copy
+nand
+shift-r
+pop
+push
+inc
+shift-l
+nand
+nop-B
+h-copy
+add
+get-head
+nop-C
+push
+h-alloc
+swap-stk
+push
+nop-C
+h-copy
+pop
+shift-r
+nop-C
+shift-l
+h-copy
+set-flow
+get-head
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

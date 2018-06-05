@@ -1,0 +1,129 @@
+# Tue Jun  5 11:22:11 2018
+# Filename........: archive/108-abxoa.org
+# Update Output...: 13900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 104.000000
+# Gestation Time..: 206
+# Fitness.........: 0.504854
+# Errors..........: 2
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+swap
+h-alloc
+nop-B
+h-search
+nop-C
+nop-A
+IO
+nop-C
+mov-head
+nop-C
+nop-C
+mov-head
+nop-C
+add
+nop-C
+pop
+if-n-equ
+nop-C
+IO
+nop-C
+nop-C
+shift-l
+nop-C
+inc
+h-alloc
+jmp-head
+nop-C
+h-divide
+nop-B
+pop
+nop-C
+pop
+nop-C
+if-less
+nop-C
+IO
+swap
+dec
+h-alloc
+nand
+mov-head
+nop-C
+nand
+shift-r
+nop-C
+get-head
+nop-C
+set-flow
+get-head
+nop-C
+h-copy
+if-label
+nop-B
+jmp-head
+nop-C
+swap-stk
+h-copy
+nop-C
+if-less
+nand
+inc
+nop-B
+h-divide
+shift-r
+nop-A
+get-head
+swap-stk
+h-copy
+if-n-equ
+h-copy
+h-divide
+nop-C
+IO
+swap
+nop-C
+nop-C
+nop-C
+h-copy
+swap
+IO
+push
+if-label
+nop-B
+dec
+h-search
+h-copy
+nop-C
+set-flow
+nop-C
+shift-l
+set-flow
+h-copy
+swap
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

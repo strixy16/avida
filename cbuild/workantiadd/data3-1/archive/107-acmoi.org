@@ -1,0 +1,128 @@
+# Tue Jun  5 11:42:15 2018
+# Filename........: archive/107-acmoi.org
+# Update Output...: 24300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 104.000000
+# Gestation Time..: 208
+# Fitness.........: 0.500000
+# Errors..........: 4
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+jmp-head
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+sub
+nop-C
+if-less
+nop-C
+set-flow
+nop-C
+pop
+if-n-equ
+nop-B
+nop-C
+nop-A
+nand
+nand
+if-label
+if-less
+if-n-equ
+nop-B
+nand
+nop-B
+nop-C
+if-label
+IO
+nop-C
+shift-l
+swap-stk
+swap
+nop-C
+h-divide
+get-head
+h-alloc
+add
+nand
+nop-C
+nop-C
+push
+set-flow
+if-n-equ
+nop-B
+inc
+h-alloc
+sub
+if-n-equ
+nop-B
+get-head
+IO
+shift-l
+swap
+h-copy
+get-head
+if-n-equ
+h-search
+nop-A
+push
+nop-C
+h-divide
+swap
+nop-B
+h-alloc
+h-copy
+inc
+dec
+IO
+swap
+nop-C
+add
+nop-B
+h-copy
+h-copy
+shift-l
+IO
+nand
+IO
+swap
+get-head
+inc
+nop-B
+h-alloc
+h-copy
+inc
+add
+sub
+shift-r
+nop-C
+h-copy
+shift-l
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

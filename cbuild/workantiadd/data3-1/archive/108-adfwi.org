@@ -1,0 +1,129 @@
+# Tue Jun  5 11:31:17 2018
+# Filename........: archive/108-adfwi.org
+# Update Output...: 18600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 104.000000
+# Gestation Time..: 208
+# Fitness.........: 0.500000
+# Errors..........: 2
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+dec
+h-alloc
+get-head
+h-search
+nop-C
+nop-A
+IO
+nop-C
+swap-stk
+jmp-head
+nop-C
+mov-head
+nop-C
+push
+nop-B
+pop
+if-n-equ
+get-head
+IO
+sub
+get-head
+shift-l
+nop-C
+sub
+nop-C
+nop-A
+if-n-equ
+nop-C
+nop-B
+pop
+nop-C
+pop
+shift-l
+if-less
+nop-C
+IO
+swap
+shift-r
+h-alloc
+nand
+mov-head
+nop-C
+nand
+shift-r
+nop-C
+swap-stk
+nop-C
+set-flow
+get-head
+nop-C
+h-copy
+nop-C
+nop-B
+get-head
+nop-C
+swap-stk
+h-copy
+nop-C
+push
+nand
+nop-C
+nop-B
+h-copy
+h-divide
+shift-r
+nop-A
+nop-C
+IO
+h-copy
+if-n-equ
+h-copy
+push
+nop-A
+IO
+sub
+nop-C
+add
+h-alloc
+h-copy
+swap
+IO
+push
+if-label
+dec
+nop-A
+IO
+nop-C
+set-flow
+nop-C
+shift-l
+set-flow
+h-copy
+h-search
+swap
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

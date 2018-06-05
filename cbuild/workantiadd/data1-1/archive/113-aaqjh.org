@@ -1,0 +1,134 @@
+# Tue Jun  5 11:33:33 2018
+# Filename........: archive/113-aaqjh.org
+# Update Output...: 19900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 107.000000
+# Gestation Time..: 225
+# Fitness.........: 0.475556
+# Errors..........: 3
+# Genome Size.....: 113
+# Copied Size.....: 113
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+nop-C
+push
+mov-head
+nop-C
+set-flow
+h-divide
+if-n-equ
+inc
+nop-C
+sub
+sub
+h-alloc
+if-n-equ
+h-alloc
+nand
+nop-B
+swap-stk
+swap-stk
+sub
+inc
+swap
+set-flow
+jmp-head
+IO
+set-flow
+shift-r
+add
+nop-B
+set-flow
+nop-C
+shift-r
+sub
+nop-A
+swap-stk
+set-flow
+nop-C
+h-copy
+h-search
+nop-C
+h-copy
+nop-A
+swap-stk
+h-copy
+IO
+swap
+h-copy
+get-head
+shift-r
+get-head
+push
+nop-B
+shift-r
+nop-C
+if-n-equ
+nop-C
+inc
+swap-stk
+nand
+h-search
+nop-A
+h-copy
+shift-r
+h-divide
+h-copy
+jmp-head
+if-label
+nop-C
+h-alloc
+h-search
+nop-C
+nand
+if-label
+h-divide
+shift-r
+h-copy
+pop
+nop-C
+h-copy
+h-alloc
+swap
+nand
+if-label
+swap
+shift-l
+IO
+h-copy
+nop-C
+push
+nop-C
+nand
+nop-C
+IO
+nop-C
+add
+shift-l
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

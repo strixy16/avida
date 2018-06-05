@@ -1,0 +1,133 @@
+# Tue Jun  5 11:36:39 2018
+# Filename........: archive/112-aakxm.org
+# Update Output...: 21200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 107.000000
+# Gestation Time..: 211
+# Fitness.........: 0.507109
+# Errors..........: 1
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+nop-A
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+pop
+swap
+dec
+h-copy
+shift-l
+h-search
+push
+nop-C
+jmp-head
+set-flow
+nop-C
+nand
+nop-A
+h-search
+IO
+h-divide
+get-head
+nop-C
+IO
+nop-C
+if-label
+swap
+nop-A
+swap
+IO
+nand
+if-less
+IO
+push
+nop-C
+nop-B
+if-label
+dec
+if-less
+shift-r
+set-flow
+inc
+nop-C
+push
+nop-A
+add
+h-search
+nop-B
+h-alloc
+h-search
+nop-C
+get-head
+nop-C
+h-copy
+shift-l
+pop
+h-copy
+h-copy
+nop-C
+set-flow
+add
+inc
+nop-C
+nop-C
+inc
+h-search
+nop-C
+h-copy
+nop-A
+h-copy
+pop
+sub
+if-n-equ
+sub
+sub
+nand
+nop-B
+h-copy
+h-copy
+h-copy
+h-divide
+nop-B
+swap
+nop-C
+shift-r
+if-less
+nop-C
+shift-r
+h-copy
+pop
+dec
+nop-C
+swap-stk
+h-copy
+inc
+swap
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

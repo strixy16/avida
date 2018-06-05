@@ -1,0 +1,136 @@
+# Tue Jun  5 11:14:20 2018
+# Filename........: archive/115-abnfa.org
+# Update Output...: 9600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 111.000000
+# Gestation Time..: 214
+# Fitness.........: 0.518692
+# Errors..........: 1
+# Genome Size.....: 115
+# Copied Size.....: 115
+# Executed Size...: 111
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-B
+pop
+nop-C
+h-copy
+nop-C
+pop
+nop-C
+nop-A
+pop
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+add
+nop-C
+inc
+IO
+nop-C
+nop-C
+if-n-equ
+nop-B
+dec
+h-copy
+nop-C
+inc
+shift-r
+get-head
+h-copy
+swap-stk
+shift-l
+IO
+swap
+pop
+shift-l
+h-copy
+nop-C
+h-copy
+swap
+h-copy
+set-flow
+dec
+nop-C
+sub
+nop-C
+h-divide
+h-divide
+set-flow
+push
+nop-B
+h-copy
+nop-C
+h-copy
+nop-C
+h-copy
+nop-C
+h-divide
+push
+sub
+nop-C
+nop-C
+h-search
+nop-C
+h-copy
+nop-C
+inc
+nop-C
+IO
+nop-C
+inc
+nop-C
+h-copy
+nop-B
+if-n-equ
+h-copy
+nop-C
+pop
+h-alloc
+pop
+nop-C
+if-n-equ
+swap
+pop
+shift-r
+h-copy
+swap
+nop-B
+nand
+pop
+shift-r
+nop-C
+h-search
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

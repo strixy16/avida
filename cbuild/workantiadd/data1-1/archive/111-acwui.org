@@ -1,0 +1,132 @@
+# Tue Jun  5 11:19:48 2018
+# Filename........: archive/111-acwui.org
+# Update Output...: 12600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 107.000000
+# Gestation Time..: 218
+# Fitness.........: 0.490826
+# Errors..........: 0
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+shift-r
+nop-C
+mov-head
+nop-C
+set-flow
+nop-C
+if-n-equ
+shift-l
+nop-C
+pop
+nop-C
+swap
+nop-C
+push
+h-search
+shift-l
+nop-C
+swap-stk
+sub
+inc
+nop-B
+push
+IO
+inc
+nop-C
+push
+nop-A
+nop-C
+nop-C
+pop
+nop-C
+nand
+inc
+set-flow
+nop-C
+get-head
+if-label
+IO
+swap-stk
+h-copy
+IO
+h-search
+h-copy
+if-label
+inc
+h-copy
+get-head
+pop
+nop-A
+IO
+nop-A
+nand
+if-n-equ
+swap
+IO
+nand
+set-flow
+nop-A
+h-copy
+add
+h-divide
+h-copy
+shift-l
+if-label
+nop-C
+swap
+h-search
+nop-B
+nand
+nop-C
+IO
+nop-C
+h-copy
+pop
+nop-C
+h-copy
+shift-l
+push
+nand
+nop-C
+swap-stk
+sub
+IO
+h-copy
+swap-stk
+push
+push
+nand
+nop-C
+IO
+nop-C
+nop-C
+get-head
+h-search
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

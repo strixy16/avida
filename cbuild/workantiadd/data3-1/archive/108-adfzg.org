@@ -1,0 +1,129 @@
+# Tue Jun  5 11:31:04 2018
+# Filename........: archive/108-adfzg.org
+# Update Output...: 18500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 101.000000
+# Gestation Time..: 206
+# Fitness.........: 0.490291
+# Errors..........: 6
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+dec
+h-alloc
+get-head
+h-search
+nop-C
+nop-A
+IO
+nop-C
+get-head
+jmp-head
+nop-C
+mov-head
+nop-C
+push
+nop-B
+pop
+inc
+nop-C
+IO
+sub
+get-head
+shift-l
+nop-C
+sub
+nop-C
+nop-A
+if-less
+nop-C
+nop-B
+h-alloc
+nop-C
+pop
+shift-l
+if-less
+nop-C
+IO
+swap
+h-alloc
+h-alloc
+nand
+mov-head
+nop-C
+nand
+h-alloc
+h-alloc
+swap-stk
+nop-C
+set-flow
+get-head
+nop-C
+h-copy
+if-label
+nop-B
+get-head
+nop-C
+swap-stk
+h-copy
+nop-C
+if-less
+nand
+nop-C
+nop-B
+h-copy
+h-divide
+shift-r
+nop-A
+nop-C
+IO
+h-copy
+if-n-equ
+h-copy
+push
+nop-A
+IO
+sub
+nop-C
+add
+h-alloc
+h-copy
+swap
+IO
+push
+if-label
+dec
+get-head
+IO
+nop-C
+dec
+nop-C
+shift-l
+shift-r
+h-copy
+h-search
+inc
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,131 @@
+# Tue Jun  5 11:26:11 2018
+# Filename........: archive/110-acmut.org
+# Update Output...: 15800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 107.000000
+# Gestation Time..: 211
+# Fitness.........: 0.507109
+# Errors..........: 2
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+shift-r
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-C
+nand
+h-copy
+shift-l
+h-search
+push
+nop-C
+swap
+dec
+nop-C
+nop-C
+nop-A
+nop-C
+IO
+nop-C
+sub
+push
+IO
+nop-C
+if-label
+swap
+nop-A
+swap-stk
+if-n-equ
+if-n-equ
+if-less
+swap-stk
+swap
+nop-C
+nand
+add
+dec
+pop
+h-divide
+nand
+nop-C
+nop-C
+push
+nop-A
+inc
+nop-B
+nop-B
+h-alloc
+shift-r
+nop-C
+nop-C
+nop-C
+h-copy
+shift-r
+pop
+h-copy
+h-copy
+nop-C
+h-search
+nop-C
+pop
+nop-C
+nop-C
+inc
+shift-l
+nop-C
+h-copy
+swap-stk
+h-copy
+swap
+pop
+push
+pop
+pop
+nand
+nop-B
+h-copy
+add
+add
+swap
+get-head
+h-alloc
+if-less
+push
+nop-C
+h-copy
+nop-C
+inc
+nop-C
+swap-stk
+h-copy
+inc
+nop-A
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

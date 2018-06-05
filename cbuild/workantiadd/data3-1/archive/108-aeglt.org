@@ -1,0 +1,129 @@
+# Tue Jun  5 11:37:40 2018
+# Filename........: archive/108-aeglt.org
+# Update Output...: 21900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 103.000000
+# Gestation Time..: 207
+# Fitness.........: 0.497585
+# Errors..........: 3
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+shift-r
+nop-C
+add
+shift-l
+h-divide
+if-n-equ
+nop-B
+h-alloc
+nand
+nop-A
+nop-C
+if-label
+sub
+sub
+h-copy
+if-n-equ
+nop-C
+dec
+nop-C
+nop-C
+if-label
+if-label
+h-alloc
+pop
+nop-B
+pop
+nop-A
+swap-stk
+h-divide
+push
+pop
+shift-r
+nop-C
+h-search
+h-alloc
+shift-r
+shift-l
+if-less
+nop-C
+if-label
+nop-C
+h-search
+nop-B
+get-head
+if-less
+push
+push
+nop-C
+dec
+get-head
+nop-C
+nop-C
+swap-stk
+add
+nop-B
+h-copy
+shift-r
+h-copy
+h-divide
+nand
+nop-A
+if-n-equ
+nop-C
+if-n-equ
+swap
+h-copy
+h-copy
+sub
+IO
+nand
+nop-B
+nop-A
+shift-l
+pop
+nop-B
+pop
+h-copy
+inc
+nop-C
+if-label
+if-label
+nop-C
+sub
+h-copy
+h-search
+swap-stk
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

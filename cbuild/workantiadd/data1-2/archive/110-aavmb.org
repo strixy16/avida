@@ -1,0 +1,131 @@
+# Tue Jun  5 11:20:18 2018
+# Filename........: archive/110-aavmb.org
+# Update Output...: 12900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 217
+# Fitness.........: 0.488479
+# Errors..........: 1
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+jmp-head
+nop-C
+shift-l
+if-n-equ
+inc
+jmp-head
+nop-C
+nop-B
+nop-C
+if-label
+pop
+if-less
+nop-C
+shift-l
+nop-C
+if-label
+push
+if-less
+mov-head
+nop-C
+push
+nop-C
+shift-r
+nop-C
+shift-l
+nop-B
+IO
+get-head
+nop-C
+shift-r
+h-copy
+inc
+swap-stk
+shift-r
+nop-C
+nop-C
+shift-l
+nop-C
+inc
+add
+if-label
+if-label
+h-copy
+h-copy
+if-n-equ
+pop
+nop-C
+set-flow
+nop-A
+pop
+nop-C
+h-alloc
+dec
+dec
+IO
+pop
+inc
+h-copy
+shift-r
+nop-B
+shift-l
+add
+if-label
+nop-C
+mov-head
+shift-l
+nop-C
+swap-stk
+pop
+swap-stk
+shift-l
+nop-C
+set-flow
+h-copy
+IO
+if-n-equ
+sub
+nand
+nop-C
+nop-C
+nand
+nop-C
+h-copy
+IO
+nop-B
+nop-C
+shift-l
+inc
+IO
+nop-C
+dec
+nop-A
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

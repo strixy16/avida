@@ -1,0 +1,130 @@
+# Tue Jun  5 11:41:41 2018
+# Filename........: archive/109-aclow.org
+# Update Output...: 23800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 211
+# Fitness.........: 0.502370
+# Errors..........: 1
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+dec
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+swap
+swap
+nop-C
+h-search
+push
+nop-A
+jmp-head
+dec
+swap
+nand
+nop-A
+shift-r
+pop
+nop-C
+get-head
+pop
+IO
+nop-C
+if-label
+swap
+nop-A
+shift-r
+nop-A
+nand
+if-less
+IO
+push
+nop-C
+if-n-equ
+nop-B
+dec
+pop
+nop-C
+nop-A
+swap
+shift-r
+push
+get-head
+inc
+get-head
+if-n-equ
+h-alloc
+shift-r
+nop-C
+get-head
+nop-C
+h-copy
+if-n-equ
+get-head
+h-copy
+swap
+swap-stk
+nop-C
+inc
+shift-r
+nop-C
+sub
+shift-r
+nop-C
+h-copy
+swap
+h-copy
+swap
+if-n-equ
+push
+pop
+swap
+h-search
+nop-B
+h-copy
+shift-r
+h-search
+IO
+nop-C
+nop-B
+h-copy
+add
+get-head
+nop-C
+h-copy
+add
+inc
+shift-l
+swap-stk
+h-copy
+inc
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

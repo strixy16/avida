@@ -1,0 +1,135 @@
+# Tue Jun  5 11:40:41 2018
+# Filename........: archive/114-abzti.org
+# Update Output...: 23500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 109.000000
+# Gestation Time..: 220
+# Fitness.........: 0.495455
+# Errors..........: 2
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 109
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+nop-B
+mov-head
+nop-C
+h-divide
+pop
+IO
+swap
+nop-B
+h-copy
+dec
+nop-A
+pop
+h-copy
+swap
+set-flow
+nop-A
+nop-C
+h-alloc
+h-copy
+if-n-equ
+nop-A
+pop
+nop-C
+shift-l
+h-search
+if-less
+add
+set-flow
+pop
+shift-r
+shift-l
+h-divide
+h-divide
+h-copy
+IO
+nop-B
+nand
+nop-C
+if-n-equ
+if-label
+pop
+h-copy
+add
+h-copy
+nop-B
+shift-l
+IO
+nand
+IO
+if-n-equ
+h-copy
+h-copy
+inc
+h-copy
+nop-A
+get-head
+h-copy
+pop
+if-less
+nand
+h-copy
+pop
+sub
+nop-A
+push
+nop-B
+add
+shift-l
+swap-stk
+nop-A
+shift-l
+h-divide
+if-label
+nand
+IO
+push
+h-search
+add
+set-flow
+swap-stk
+shift-l
+h-search
+swap
+nop-C
+if-less
+shift-l
+h-copy
+inc
+swap
+h-search
+h-search
+h-alloc
+h-copy
+inc
+h-copy
+shift-l
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

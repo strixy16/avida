@@ -1,0 +1,128 @@
+# Tue Jun  5 11:43:48 2018
+# Filename........: archive/107-acqlm.org
+# Update Output...: 25100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 102.000000
+# Gestation Time..: 211
+# Fitness.........: 0.483412
+# Errors..........: 4
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+jmp-head
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+nop-C
+if-less
+if-less
+h-alloc
+nop-C
+pop
+if-n-equ
+nop-B
+nop-C
+if-n-equ
+h-divide
+nand
+h-search
+if-n-equ
+if-n-equ
+nop-B
+inc
+get-head
+nop-C
+if-less
+IO
+nop-C
+shift-l
+swap-stk
+swap
+nop-C
+h-divide
+get-head
+h-alloc
+swap-stk
+nand
+nop-C
+nop-C
+push
+set-flow
+if-n-equ
+get-head
+inc
+push
+sub
+if-n-equ
+nop-A
+get-head
+IO
+shift-r
+inc
+h-copy
+get-head
+nop-B
+h-search
+nop-A
+push
+nop-C
+h-divide
+nand
+nop-B
+h-alloc
+h-copy
+add
+swap-stk
+IO
+swap
+nop-C
+add
+nop-B
+h-copy
+h-copy
+shift-l
+IO
+add
+IO
+pop
+inc
+pop
+dec
+h-alloc
+h-copy
+inc
+add
+IO
+nop-B
+sub
+h-copy
+dec
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

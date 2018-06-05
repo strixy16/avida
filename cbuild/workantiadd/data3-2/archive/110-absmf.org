@@ -1,0 +1,131 @@
+# Tue Jun  5 11:20:39 2018
+# Filename........: archive/110-absmf.org
+# Update Output...: 12900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 212
+# Fitness.........: 0.500000
+# Errors..........: 6
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+swap
+nand
+nop-C
+h-copy
+shift-l
+pop
+push
+nop-C
+dec
+if-n-equ
+dec
+shift-r
+nop-C
+nop-C
+IO
+nop-C
+sub
+nop-C
+IO
+nop-C
+if-less
+add
+nop-A
+swap-stk
+h-divide
+if-n-equ
+add
+h-divide
+swap
+nop-C
+h-search
+sub
+dec
+h-alloc
+get-head
+if-label
+swap
+nand
+inc
+nop-A
+inc
+get-head
+h-alloc
+nop-A
+shift-r
+nop-C
+sub
+nop-C
+h-copy
+if-label
+push
+h-copy
+h-copy
+nop-C
+if-less
+nop-C
+nand
+nop-C
+nop-C
+push
+shift-l
+nop-C
+h-copy
+nand
+h-copy
+shift-r
+if-n-equ
+push
+swap
+pop
+nand
+push
+h-copy
+h-alloc
+get-head
+if-n-equ
+h-alloc
+h-alloc
+h-divide
+if-less
+nop-C
+h-copy
+pop
+shift-r
+nop-C
+shift-l
+h-copy
+shift-r
+add
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,130 @@
+# Tue Jun  5 11:28:08 2018
+# Filename........: archive/109-abxsy.org
+# Update Output...: 16800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 105.000000
+# Gestation Time..: 208
+# Fitness.........: 0.504808
+# Errors..........: 0
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+nop-A
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+shift-r
+inc
+push
+nop-A
+swap
+h-search
+jmp-head
+set-flow
+dec
+dec
+nop-C
+nand
+nop-A
+h-copy
+nop-C
+IO
+nop-C
+set-flow
+nop-C
+IO
+nop-C
+shift-r
+if-label
+nop-A
+if-n-equ
+add
+nop-C
+shift-r
+shift-l
+nand
+nand
+nop-C
+dec
+pop
+h-divide
+pop
+swap
+nop-C
+if-label
+shift-l
+nop-A
+pop
+push
+nop-B
+nop-B
+shift-r
+nop-A
+get-head
+nop-C
+nand
+push
+h-copy
+nop-B
+nop-C
+nand
+inc
+nop-C
+nop-B
+h-search
+nop-C
+h-copy
+nand
+h-copy
+h-search
+push
+nop-C
+pop
+pop
+sub
+h-divide
+h-copy
+h-search
+swap-stk
+h-search
+add
+sub
+h-copy
+push
+sub
+nop-C
+h-copy
+add
+shift-r
+nop-C
+swap-stk
+h-copy
+if-n-equ
+nop-A
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

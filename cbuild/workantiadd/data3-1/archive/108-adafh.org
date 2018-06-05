@@ -1,0 +1,129 @@
+# Tue Jun  5 11:30:19 2018
+# Filename........: archive/108-adafh.org
+# Update Output...: 18100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 103.000000
+# Gestation Time..: 208
+# Fitness.........: 0.495192
+# Errors..........: 2
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+IO
+inc
+dec
+nop-C
+mov-head
+nop-C
+pop
+if-n-equ
+nop-B
+mov-head
+nop-C
+push
+h-alloc
+IO
+nop-A
+push
+IO
+nand
+nop-C
+sub
+if-label
+h-search
+get-head
+if-label
+if-n-equ
+swap
+nop-C
+add
+shift-l
+nand
+sub
+nand
+swap
+nop-C
+inc
+swap-stk
+shift-l
+if-n-equ
+nop-C
+push
+push
+nop-C
+sub
+nop-B
+shift-l
+nop-C
+IO
+h-search
+h-copy
+h-search
+h-search
+nop-B
+nop-C
+if-label
+nop-C
+h-divide
+sub
+shift-l
+h-copy
+if-n-equ
+h-copy
+pop
+h-divide
+IO
+swap
+nop-C
+swap-stk
+nop-C
+h-copy
+h-copy
+nand
+IO
+nand
+nop-A
+nand
+get-head
+set-flow
+h-divide
+h-copy
+IO
+dec
+IO
+nop-B
+inc
+h-copy
+dec
+h-alloc
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

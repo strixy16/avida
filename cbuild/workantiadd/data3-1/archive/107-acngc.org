@@ -1,0 +1,128 @@
+# Tue Jun  5 11:42:26 2018
+# Filename........: archive/107-acngc.org
+# Update Output...: 24400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 103.000000
+# Gestation Time..: 209
+# Fitness.........: 0.492823
+# Errors..........: 2
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+jmp-head
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+nop-C
+if-less
+nop-C
+set-flow
+nop-C
+if-n-equ
+if-n-equ
+nop-B
+nop-C
+if-n-equ
+nand
+nand
+dec
+if-less
+if-n-equ
+nop-B
+nand
+if-less
+nop-C
+h-search
+IO
+nop-C
+nop-B
+swap-stk
+swap
+nop-C
+h-divide
+h-search
+swap-stk
+add
+nand
+nop-C
+nop-C
+push
+set-flow
+set-flow
+nop-B
+inc
+push
+sub
+if-n-equ
+h-divide
+get-head
+IO
+shift-l
+swap
+h-copy
+get-head
+nop-B
+h-search
+nop-A
+push
+nop-C
+h-divide
+swap
+nop-B
+h-alloc
+h-copy
+sub
+dec
+IO
+swap
+nop-C
+add
+nop-B
+h-copy
+h-copy
+nop-B
+IO
+nand
+IO
+pop
+if-label
+pop
+nop-B
+h-alloc
+h-copy
+inc
+add
+nop-C
+set-flow
+nop-C
+h-copy
+dec
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

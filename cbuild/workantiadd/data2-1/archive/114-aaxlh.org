@@ -1,0 +1,135 @@
+# Tue Jun  5 11:11:11 2018
+# Filename........: archive/114-aaxlh.org
+# Update Output...: 8100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 111.000000
+# Gestation Time..: 212
+# Fitness.........: 0.523585
+# Errors..........: 1
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 111
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+nop-C
+pop
+nop-C
+h-copy
+get-head
+pop
+push
+nop-B
+pop
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+sub
+shift-l
+inc
+IO
+nop-C
+nop-C
+push
+nop-C
+shift-l
+h-copy
+nop-C
+h-search
+nop-C
+shift-l
+h-copy
+pop
+nop-B
+shift-r
+nop-C
+pop
+h-divide
+h-copy
+IO
+nop-C
+h-copy
+nop-A
+add
+nop-C
+get-head
+nop-C
+add
+h-copy
+h-divide
+set-flow
+push
+IO
+h-copy
+nand
+shift-l
+h-copy
+h-divide
+nop-C
+swap-stk
+swap
+nop-A
+nop-C
+shift-l
+nop-C
+h-copy
+nop-A
+inc
+add
+IO
+swap
+nop-B
+nop-C
+h-copy
+nop-B
+nop-C
+h-copy
+swap-stk
+sub
+nop-C
+push
+if-less
+nop-C
+swap
+nop-C
+if-n-equ
+h-copy
+h-alloc
+nop-B
+push
+pop
+shift-r
+nop-C
+h-search
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

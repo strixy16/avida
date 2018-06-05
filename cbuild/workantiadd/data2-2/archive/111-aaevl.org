@@ -1,0 +1,132 @@
+# Tue Jun  5 11:18:43 2018
+# Filename........: archive/111-aaevl.org
+# Update Output...: 11900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 205
+# Fitness.........: 0.517073
+# Errors..........: 1
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+push
+nop-B
+shift-l
+nop-B
+h-copy
+if-label
+if-n-equ
+h-search
+nop-C
+push
+nop-B
+nop-C
+jmp-head
+shift-l
+h-copy
+if-less
+swap
+if-n-equ
+nop-C
+nop-C
+dec
+nop-C
+if-less
+nop-C
+push
+h-copy
+nand
+nop-C
+inc
+nop-C
+swap-stk
+h-copy
+shift-l
+nop-C
+swap
+nop-B
+nand
+if-less
+nop-C
+h-copy
+shift-r
+sub
+nop-C
+IO
+nop-B
+pop
+inc
+shift-l
+h-copy
+h-divide
+shift-r
+shift-l
+nop-C
+h-copy
+if-label
+nop-C
+IO
+nop-C
+shift-r
+if-n-equ
+h-search
+if-label
+inc
+nop-B
+nand
+nop-C
+nand
+nop-C
+pop
+pop
+IO
+shift-r
+h-copy
+h-alloc
+get-head
+h-copy
+nop-A
+add
+shift-r
+push
+nop-C
+add
+nand
+if-n-equ
+nop-A
+h-copy
+shift-l
+get-head
+nop-C
+nop-A
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

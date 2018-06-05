@@ -1,0 +1,131 @@
+# Tue Jun  5 11:06:31 2018
+# Filename........: archive/110-abfbo.org
+# Update Output...: 5900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 107.000000
+# Gestation Time..: 208
+# Fitness.........: 0.514423
+# Errors..........: 2
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+jmp-head
+h-search
+nop-C
+nop-A
+if-less
+nop-C
+nop-C
+shift-r
+nop-C
+nop-C
+nop-A
+pop
+mov-head
+nop-C
+pop
+jmp-head
+nop-C
+mov-head
+nop-C
+nop-C
+shift-l
+inc
+sub
+inc
+inc
+nop-C
+nop-C
+nop-B
+nop-C
+nop-C
+swap-stk
+nop-C
+sub
+inc
+nop-C
+nop-C
+nop-C
+IO
+nop-C
+get-head
+mov-head
+nop-C
+pop
+nop-C
+nop-C
+if-less
+swap
+nop-C
+h-alloc
+inc
+swap
+nop-B
+mov-head
+nop-C
+sub
+sub
+nop-C
+nand
+nop-C
+nop-C
+nop-C
+h-copy
+nop-C
+h-alloc
+shift-l
+nop-C
+h-copy
+h-copy
+h-copy
+IO
+h-copy
+shift-l
+IO
+nop-C
+nop-C
+swap
+nop-C
+h-copy
+nop-A
+shift-l
+nop-C
+if-n-equ
+if-n-equ
+nop-C
+inc
+nop-C
+h-copy
+nop-C
+if-less
+nop-C
+nop-C
+nop-C
+h-copy
+h-copy
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

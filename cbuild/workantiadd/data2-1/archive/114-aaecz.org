@@ -1,0 +1,135 @@
+# Tue Jun  5 10:59:00 2018
+# Filename........: archive/114-aaecz.org
+# Update Output...: 2200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 110.000000
+# Gestation Time..: 211
+# Fitness.........: 0.521327
+# Errors..........: 2
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-C
+nop-B
+nop-C
+h-copy
+nop-C
+pop
+nop-C
+nop-C
+nand
+IO
+set-flow
+nop-A
+shift-l
+nop-C
+add
+nop-C
+nop-C
+inc
+nop-C
+nop-C
+nop-C
+if-less
+nop-C
+inc
+h-copy
+h-copy
+add
+IO
+nop-C
+swap
+h-copy
+h-copy
+nop-C
+nop-C
+nand
+nop-C
+h-alloc
+shift-l
+h-copy
+nop-C
+h-copy
+h-alloc
+h-copy
+nop-C
+IO
+nop-C
+sub
+nop-C
+pop
+h-copy
+nop-C
+get-head
+nop-C
+set-flow
+h-copy
+h-copy
+nand
+nop-C
+push
+nop-C
+nop-C
+if-n-equ
+nop-C
+push
+h-search
+dec
+set-flow
+if-n-equ
+nop-C
+IO
+nop-C
+if-label
+nop-C
+h-copy
+nop-C
+swap-stk
+h-copy
+nop-C
+nand
+IO
+push
+nop-C
+if-n-equ
+nop-C
+nop-C
+h-copy
+nop-C
+nop-C
+h-divide
+get-head
+nop-C
+nop-C
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

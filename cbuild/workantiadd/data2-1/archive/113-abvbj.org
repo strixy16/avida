@@ -1,0 +1,134 @@
+# Tue Jun  5 11:36:53 2018
+# Filename........: archive/113-abvbj.org
+# Update Output...: 21200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 109.000000
+# Gestation Time..: 209
+# Fitness.........: 0.521531
+# Errors..........: 2
+# Genome Size.....: 113
+# Copied Size.....: 113
+# Executed Size...: 109
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+nand
+h-copy
+pop
+nop-C
+nop-A
+nop-B
+shift-l
+push
+h-copy
+sub
+IO
+h-alloc
+nop-C
+nand
+nop-C
+h-copy
+sub
+nand
+sub
+dec
+dec
+nop-C
+swap-stk
+swap
+h-search
+h-divide
+swap-stk
+shift-r
+nop-A
+swap
+swap
+h-copy
+h-divide
+shift-l
+h-copy
+IO
+pop
+swap
+h-copy
+if-n-equ
+nop-B
+sub
+nop-B
+if-n-equ
+nop-B
+h-search
+nop-B
+if-label
+h-copy
+inc
+set-flow
+push
+nop-B
+h-copy
+pop
+swap
+if-label
+nop-C
+IO
+nop-C
+nand
+sub
+nop-A
+nop-A
+h-copy
+nand
+nand
+add
+IO
+shift-r
+h-search
+shift-r
+h-copy
+h-copy
+h-alloc
+IO
+nop-C
+dec
+if-n-equ
+sub
+shift-l
+dec
+pop
+swap
+h-copy
+swap-stk
+set-flow
+set-flow
+shift-l
+nop-C
+shift-r
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

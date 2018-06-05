@@ -1,0 +1,133 @@
+# Tue Jun  5 11:36:11 2018
+# Filename........: archive/112-acrow.org
+# Update Output...: 21300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 109.000000
+# Gestation Time..: 222
+# Fitness.........: 0.490991
+# Errors..........: 3
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 109
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+shift-r
+h-alloc
+mov-head
+nop-C
+set-flow
+nop-C
+IO
+if-less
+nop-C
+if-n-equ
+nop-C
+h-divide
+nop-B
+push
+h-alloc
+nand
+nop-A
+h-search
+sub
+swap
+swap
+pop
+nop-B
+h-alloc
+sub
+nop-B
+nand
+nop-B
+h-search
+shift-r
+dec
+nop-A
+nop-A
+nop-C
+IO
+nop-C
+h-search
+get-head
+h-copy
+swap
+h-search
+h-copy
+pop
+add
+h-copy
+h-search
+jmp-head
+nop-A
+push
+IO
+nop-A
+add
+if-n-equ
+nop-C
+inc
+h-divide
+IO
+if-label
+nand
+h-copy
+if-n-equ
+nop-C
+h-copy
+if-n-equ
+if-label
+nop-C
+nand
+push
+nop-C
+nop-A
+inc
+IO
+swap-stk
+h-copy
+swap
+nop-C
+h-copy
+shift-r
+swap
+nand
+nop-C
+push
+shift-l
+IO
+h-copy
+h-copy
+swap-stk
+nand
+nop-A
+nand
+nop-C
+IO
+nop-C
+nop-C
+h-search
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

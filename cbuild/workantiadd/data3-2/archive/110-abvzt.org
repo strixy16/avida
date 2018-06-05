@@ -1,0 +1,131 @@
+# Tue Jun  5 11:21:25 2018
+# Filename........: archive/110-abvzt.org
+# Update Output...: 13300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 209
+# Fitness.........: 0.507177
+# Errors..........: 3
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+pop
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-C
+nop-C
+h-copy
+shift-l
+h-search
+push
+nop-C
+dec
+dec
+nop-C
+h-alloc
+nop-A
+nop-C
+IO
+nop-C
+sub
+nop-C
+IO
+nop-C
+if-label
+swap
+nop-A
+swap-stk
+if-n-equ
+h-divide
+h-alloc
+h-divide
+swap
+nop-C
+nand
+add
+dec
+pop
+h-divide
+nand
+swap
+nop-C
+push
+nop-A
+inc
+add
+nop-B
+nop-B
+shift-r
+set-flow
+get-head
+nop-C
+h-copy
+shift-r
+pop
+h-copy
+h-copy
+nop-C
+h-search
+nop-C
+inc
+nop-C
+nop-C
+swap
+shift-l
+nop-C
+h-copy
+add
+h-copy
+shift-r
+pop
+push
+pop
+pop
+nand
+nop-B
+h-copy
+if-less
+h-search
+inc
+get-head
+h-alloc
+shift-l
+push
+nop-C
+h-copy
+nand
+shift-r
+nop-C
+swap-stk
+h-copy
+inc
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,130 @@
+# Tue Jun  5 11:44:46 2018
+# Filename........: archive/109-ackwm.org
+# Update Output...: 25600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 105.000000
+# Gestation Time..: 213
+# Fitness.........: 0.492958
+# Errors..........: 2
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+jmp-head
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+add
+nop-C
+if-less
+nop-C
+if-label
+nop-C
+if-n-equ
+nop-B
+nop-C
+h-search
+nand
+nand
+nop-C
+IO
+if-n-equ
+nop-B
+sub
+if-less
+nop-C
+get-head
+IO
+nop-C
+shift-l
+swap
+swap
+nop-C
+h-divide
+get-head
+h-alloc
+add
+nop-B
+nop-C
+nop-C
+push
+set-flow
+if-n-equ
+nop-B
+inc
+if-label
+inc
+if-n-equ
+h-search
+get-head
+IO
+shift-l
+swap
+h-copy
+get-head
+nop-B
+nop-B
+nop-A
+push
+nop-C
+h-divide
+IO
+nop-B
+h-alloc
+h-copy
+inc
+h-search
+dec
+swap-stk
+swap
+nand
+add
+nop-B
+h-copy
+h-copy
+h-copy
+inc
+IO
+h-copy
+nand
+IO
+pop
+push
+pop
+nop-B
+pop
+h-copy
+inc
+add
+sub
+set-flow
+IO
+h-copy
+dec
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

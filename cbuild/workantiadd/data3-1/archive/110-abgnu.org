@@ -1,0 +1,131 @@
+# Tue Jun  5 11:06:44 2018
+# Filename........: archive/110-abgnu.org
+# Update Output...: 6000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 104.000000
+# Gestation Time..: 208
+# Fitness.........: 0.500000
+# Errors..........: 2
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+jmp-head
+h-search
+nop-C
+nop-A
+if-less
+nop-C
+nop-C
+dec
+jmp-head
+nop-C
+nop-A
+pop
+mov-head
+nop-C
+pop
+jmp-head
+h-alloc
+mov-head
+nop-C
+nop-C
+shift-l
+if-label
+sub
+inc
+inc
+nop-C
+shift-l
+push
+nop-C
+nop-C
+swap-stk
+nop-C
+sub
+inc
+nop-C
+IO
+nop-C
+IO
+h-alloc
+get-head
+mov-head
+nop-C
+pop
+nop-C
+nop-C
+if-less
+swap
+nop-C
+push
+inc
+swap
+shift-r
+mov-head
+nop-C
+sub
+sub
+nop-C
+nand
+nop-C
+nop-C
+nop-C
+h-copy
+nop-C
+h-alloc
+shift-l
+nop-C
+h-copy
+h-copy
+h-copy
+IO
+h-copy
+shift-l
+IO
+nop-C
+shift-l
+swap
+nop-C
+h-copy
+sub
+shift-l
+nop-C
+if-n-equ
+if-n-equ
+nop-C
+inc
+nop-C
+h-copy
+nop-C
+if-less
+nop-C
+nop-C
+nop-C
+h-copy
+h-copy
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

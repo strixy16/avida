@@ -1,0 +1,135 @@
+# Tue Jun  5 11:15:09 2018
+# Filename........: archive/114-abfue.org
+# Update Output...: 10000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 109.000000
+# Gestation Time..: 214
+# Fitness.........: 0.509346
+# Errors..........: 0
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 109
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+h-search
+pop
+nop-C
+h-copy
+nop-C
+nop-A
+nop-C
+nop-B
+pop
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+nop-A
+nand
+nand
+IO
+if-less
+dec
+if-n-equ
+nop-B
+pop
+h-copy
+nop-C
+nop-B
+nop-C
+get-head
+h-copy
+swap-stk
+IO
+nand
+shift-r
+pop
+nop-B
+h-copy
+nop-C
+h-copy
+push
+h-copy
+add
+IO
+h-search
+sub
+dec
+IO
+h-copy
+if-n-equ
+set-flow
+push
+nop-B
+h-copy
+inc
+nop-C
+h-copy
+push
+nop-C
+shift-l
+sub
+add
+nop-B
+h-search
+nop-C
+nop-C
+pop
+nop-C
+if-less
+nop-C
+nop-C
+nop-C
+h-copy
+pop
+if-n-equ
+h-copy
+swap-stk
+sub
+nop-C
+sub
+nop-C
+push
+swap
+shift-r
+IO
+h-copy
+push
+inc
+push
+nop-B
+shift-r
+IO
+nop-B
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

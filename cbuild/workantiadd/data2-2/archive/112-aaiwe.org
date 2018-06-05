@@ -1,0 +1,133 @@
+# Tue Jun  5 11:16:33 2018
+# Filename........: archive/112-aaiwe.org
+# Update Output...: 10900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 108.000000
+# Gestation Time..: 215
+# Fitness.........: 0.502326
+# Errors..........: 1
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 108
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+pop
+h-divide
+nop-B
+swap-stk
+h-copy
+inc
+h-divide
+set-flow
+if-less
+h-copy
+IO
+shift-l
+nop-C
+if-less
+h-copy
+nop-C
+nop-C
+h-divide
+nop-C
+IO
+pop
+shift-r
+nop-B
+dec
+if-less
+nand
+nop-C
+inc
+inc
+shift-r
+h-copy
+nop-B
+set-flow
+nop-C
+nop-C
+h-alloc
+h-divide
+nop-C
+h-copy
+nop-C
+nop-C
+IO
+IO
+nand
+IO
+nop-B
+h-divide
+shift-r
+nop-C
+pop
+h-copy
+push
+nop-C
+h-copy
+nop-A
+push
+nop-C
+pop
+nop-C
+nand
+h-search
+nop-A
+h-copy
+shift-r
+h-search
+nop-C
+shift-l
+if-label
+if-label
+nand
+h-copy
+nop-C
+shift-l
+h-copy
+add
+push
+get-head
+push
+h-search
+push
+get-head
+nop-C
+nop-C
+h-copy
+nand
+nand
+nop-B
+h-copy
+nand
+inc
+nop-C
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

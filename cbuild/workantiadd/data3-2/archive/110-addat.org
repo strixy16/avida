@@ -1,0 +1,131 @@
+# Tue Jun  5 11:31:13 2018
+# Filename........: archive/110-addat.org
+# Update Output...: 18400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 105.000000
+# Gestation Time..: 209
+# Fitness.........: 0.502392
+# Errors..........: 1
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+dec
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+add
+nop-C
+nand
+h-copy
+shift-l
+h-search
+push
+nop-C
+jmp-head
+dec
+nop-C
+nand
+nop-A
+IO
+IO
+nop-C
+get-head
+push
+IO
+nop-C
+if-label
+nop-A
+shift-r
+shift-r
+if-n-equ
+get-head
+if-less
+nop-C
+swap
+nop-C
+nop-B
+dec
+h-search
+nop-A
+h-divide
+nop-A
+swap
+nop-C
+push
+nop-A
+inc
+get-head
+nand
+h-alloc
+shift-r
+nop-C
+nop-C
+nop-C
+h-copy
+shift-r
+pop
+h-copy
+h-copy
+nop-C
+swap
+nop-C
+nop-C
+shift-r
+if-n-equ
+inc
+shift-l
+nop-C
+h-copy
+swap
+h-copy
+swap
+shift-r
+push
+sub
+nop-B
+swap
+sub
+h-copy
+add
+h-search
+swap
+get-head
+IO
+pop
+IO
+nop-C
+h-copy
+nop-C
+inc
+nop-C
+swap-stk
+h-copy
+inc
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

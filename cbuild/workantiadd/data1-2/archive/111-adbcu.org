@@ -1,0 +1,132 @@
+# Tue Jun  5 11:27:32 2018
+# Filename........: archive/111-adbcu.org
+# Update Output...: 16700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 105.000000
+# Gestation Time..: 222
+# Fitness.........: 0.472973
+# Errors..........: 1
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+dec
+nop-C
+sub
+shift-l
+inc
+nop-C
+if-less
+nop-B
+shift-l
+nop-C
+nop-C
+if-less
+nop-C
+h-divide
+nop-C
+get-head
+nop-C
+dec
+mov-head
+nop-C
+inc
+nop-C
+shift-l
+jmp-head
+sub
+nop-B
+sub
+if-label
+if-label
+nop-A
+get-head
+nop-C
+set-flow
+dec
+shift-l
+add
+get-head
+nop-C
+shift-r
+nop-C
+set-flow
+h-copy
+set-flow
+h-copy
+shift-l
+nop-C
+push
+nop-B
+h-divide
+nop-B
+dec
+h-search
+push
+add
+sub
+h-copy
+h-search
+jmp-head
+if-n-equ
+h-divide
+set-flow
+add
+shift-l
+nand
+sub
+if-n-equ
+nop-C
+h-alloc
+push
+inc
+h-copy
+add
+h-copy
+IO
+if-n-equ
+h-divide
+nand
+IO
+nop-C
+nand
+nop-C
+h-copy
+shift-l
+add
+pop
+nop-A
+shift-l
+swap-stk
+IO
+nop-C
+set-flow
+h-copy
+h-search
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

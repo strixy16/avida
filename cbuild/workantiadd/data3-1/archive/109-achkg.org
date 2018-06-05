@@ -1,0 +1,130 @@
+# Tue Jun  5 11:36:07 2018
+# Filename........: archive/109-achkg.org
+# Update Output...: 21100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 105.000000
+# Gestation Time..: 209
+# Fitness.........: 0.502392
+# Errors..........: 4
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+inc
+h-search
+nop-C
+nop-A
+inc
+nop-C
+add
+nop-A
+shift-r
+pop
+mov-head
+nop-C
+pop
+if-less
+push
+h-copy
+nop-C
+set-flow
+nop-C
+if-less
+swap
+shift-l
+if-label
+set-flow
+h-search
+nop-B
+shift-l
+h-search
+get-head
+push
+nand
+nop-C
+IO
+nop-A
+push
+h-alloc
+h-copy
+add
+pop
+nop-C
+nand
+get-head
+nop-C
+set-flow
+nop-C
+nand
+push
+nop-A
+if-n-equ
+nop-B
+get-head
+sub
+shift-l
+if-n-equ
+h-alloc
+if-n-equ
+inc
+nop-C
+inc
+nop-C
+nop-A
+h-search
+nop-B
+h-copy
+sub
+h-copy
+sub
+if-label
+IO
+swap
+nop-C
+if-n-equ
+nop-C
+h-copy
+h-copy
+nand
+IO
+nand
+nop-A
+h-alloc
+shift-r
+if-label
+h-alloc
+h-copy
+h-divide
+set-flow
+set-flow
+get-head
+nop-C
+nop-C
+h-copy
+nop-B
+h-divide
+inc
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

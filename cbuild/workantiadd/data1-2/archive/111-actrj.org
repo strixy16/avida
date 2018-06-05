@@ -1,0 +1,132 @@
+# Tue Jun  5 11:23:36 2018
+# Filename........: archive/111-actrj.org
+# Update Output...: 14600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 105.000000
+# Gestation Time..: 222
+# Fitness.........: 0.472973
+# Errors..........: 0
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+nop-A
+nop-B
+inc
+nop-C
+inc
+nop-C
+if-label
+nop-B
+h-search
+inc
+pop
+if-less
+nop-C
+h-divide
+nop-C
+get-head
+nop-C
+push
+mov-head
+nop-C
+shift-r
+nop-C
+shift-r
+shift-r
+swap
+sub
+nop-B
+IO
+jmp-head
+h-search
+swap-stk
+h-copy
+inc
+nop-C
+nop-C
+dec
+nop-C
+nand
+sub
+IO
+nand
+dec
+if-label
+h-copy
+h-copy
+if-n-equ
+IO
+nop-C
+nop-C
+push
+shift-r
+if-label
+nop-B
+get-head
+h-search
+push
+pop
+shift-r
+h-copy
+h-search
+jmp-head
+set-flow
+if-label
+nop-C
+shift-l
+if-less
+sub
+if-n-equ
+swap-stk
+IO
+swap-stk
+h-copy
+add
+h-copy
+IO
+set-flow
+sub
+nop-C
+nop-C
+nop-C
+nand
+nop-C
+h-copy
+IO
+nop-C
+swap-stk
+shift-l
+swap-stk
+IO
+nop-C
+nop-C
+h-copy
+swap-stk
+nop-A
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

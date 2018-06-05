@@ -1,0 +1,130 @@
+# Tue Jun  5 11:04:40 2018
+# Filename........: archive/109-aambx.org
+# Update Output...: 5000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 102.000000
+# Gestation Time..: 203
+# Fitness.........: 0.502463
+# Errors..........: 0
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+nop-A
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+nop-C
+nop-C
+shift-l
+jmp-head
+swap
+nop-C
+pop
+if-n-equ
+nop-C
+mov-head
+nop-C
+nop-C
+shift-l
+nop-C
+if-n-equ
+nop-C
+jmp-head
+nop-C
+nop-C
+push
+pop
+nop-C
+swap-stk
+nop-C
+if-less
+nop-C
+IO
+nop-C
+nop-C
+nop-B
+nand
+mov-head
+nop-C
+nand
+shift-r
+nop-C
+if-less
+nop-C
+nop-C
+if-less
+shift-r
+nop-C
+nop-C
+mov-head
+nop-C
+nop-C
+if-n-equ
+h-copy
+set-flow
+if-less
+nand
+nop-C
+nop-C
+nop-C
+h-divide
+shift-l
+nop-C
+h-copy
+h-copy
+if-n-equ
+h-copy
+shift-r
+nop-C
+IO
+nand
+nop-C
+push
+add
+h-copy
+h-copy
+if-label
+nop-B
+nand
+if-n-equ
+nop-C
+add
+inc
+shift-l
+h-copy
+nop-C
+set-flow
+nop-C
+shift-l
+nop-C
+h-copy
+nop-C
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,133 @@
+# Tue Jun  5 11:39:43 2018
+# Filename........: archive/112-aeadt.org
+# Update Output...: 23200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 110.000000
+# Gestation Time..: 229
+# Fitness.........: 0.480349
+# Errors..........: 1
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+pop
+set-flow
+nop-A
+swap
+swap
+jmp-head
+get-head
+nop-C
+nop-C
+shift-r
+nop-B
+h-alloc
+inc
+nop-C
+h-divide
+sub
+if-label
+pop
+get-head
+nop-C
+push
+mov-head
+nop-C
+inc
+nop-C
+IO
+nop-A
+nand
+shift-r
+push
+h-search
+nop-B
+inc
+nop-A
+dec
+get-head
+h-copy
+nop-C
+nop-B
+if-n-equ
+nand
+nop-C
+nop-A
+h-copy
+IO
+h-copy
+if-n-equ
+nop-C
+swap
+set-flow
+h-search
+nop-A
+swap-stk
+swap-stk
+get-head
+if-n-equ
+swap-stk
+get-head
+if-label
+h-copy
+h-search
+nop-B
+push
+IO
+h-divide
+h-copy
+nop-A
+push
+shift-l
+if-label
+if-less
+shift-r
+pop
+swap
+inc
+h-copy
+add
+h-divide
+if-n-equ
+set-flow
+nand
+IO
+nop-C
+nand
+swap-stk
+nop-B
+h-divide
+swap-stk
+nop-A
+swap
+push
+IO
+nop-C
+nop-C
+set-flow
+h-copy
+h-copy
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

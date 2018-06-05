@@ -13,6 +13,7 @@ mv work workantiadd
 
 cd workantiadd
 mkdir populations #folder to hold populations that can be loaded
+touch concentration$CONCENTRATION
 
 #make default copy mutation 0.0025
 sed -i "49s/0.0075/0.0025/" avida.cfg
@@ -30,7 +31,7 @@ sed -i "28s/#/ /" events.cfg
 sed -i "/REACTION/s/^/#/" environment.cfg
 sed -i "15s/#//" environment.cfg
 #inflow/outflow on not line
-sed -i "15s/process/:resource=resNOT/" environment.cfg
+sed -i "15s/process/process:resource=resNOT/" environment.cfg
 
 #get inflow and outflow for resource not
 sed -i "13 a RESOURCE  resNOT:inflow=10:outflow=0.01" environment.cfg

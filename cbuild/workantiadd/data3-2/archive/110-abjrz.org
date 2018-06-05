@@ -1,0 +1,131 @@
+# Tue Jun  5 11:17:28 2018
+# Filename........: archive/110-abjrz.org
+# Update Output...: 11300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 212
+# Fitness.........: 0.500000
+# Errors..........: 5
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+nop-A
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+swap
+nand
+nop-C
+h-copy
+shift-l
+pop
+push
+nop-B
+nop-A
+set-flow
+shift-l
+nand
+nop-C
+nop-C
+IO
+nop-C
+sub
+nop-C
+IO
+swap-stk
+if-label
+push
+nop-A
+swap-stk
+h-divide
+shift-r
+h-alloc
+h-divide
+swap
+nop-C
+nand
+sub
+dec
+sub
+h-alloc
+nand
+swap
+nop-C
+inc
+nop-A
+inc
+h-alloc
+h-alloc
+nop-B
+shift-r
+shift-r
+nop-B
+nop-C
+h-copy
+nop-C
+pop
+h-copy
+h-copy
+nop-C
+if-less
+nop-C
+if-less
+IO
+nop-C
+push
+shift-l
+nop-C
+h-copy
+nop-C
+h-copy
+shift-r
+pop
+push
+swap
+set-flow
+nand
+inc
+h-copy
+add
+IO
+nop-C
+get-head
+h-alloc
+swap-stk
+push
+nop-C
+h-copy
+pop
+shift-r
+nop-C
+nand
+h-copy
+shift-r
+nop-B
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,134 @@
+# Tue Jun  5 11:24:48 2018
+# Filename........: archive/113-aaqob.org
+# Update Output...: 15100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 110.000000
+# Gestation Time..: 219
+# Fitness.........: 0.502283
+# Errors..........: 4
+# Genome Size.....: 113
+# Copied Size.....: 113
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+nand
+set-flow
+IO
+nop-B
+IO
+if-less
+add
+pop
+swap
+h-copy
+h-alloc
+shift-l
+push
+set-flow
+nop-C
+dec
+nop-C
+sub
+nop-C
+get-head
+if-n-equ
+if-n-equ
+if-less
+nop-C
+swap
+h-copy
+shift-l
+nand
+inc
+inc
+nop-C
+nop-C
+h-copy
+if-less
+h-alloc
+nand
+nop-C
+sub
+set-flow
+nop-C
+h-copy
+h-divide
+h-copy
+nop-B
+shift-r
+IO
+nand
+IO
+swap
+nop-B
+set-flow
+sub
+nop-A
+h-copy
+nop-C
+h-copy
+nand
+nand
+nop-C
+nop-A
+swap-stk
+nop-B
+h-search
+dec
+h-copy
+shift-l
+add
+pop
+h-divide
+h-divide
+set-flow
+h-divide
+h-copy
+push
+add
+h-copy
+nop-A
+h-alloc
+shift-l
+swap
+swap
+set-flow
+set-flow
+shift-l
+nop-C
+h-copy
+IO
+h-divide
+h-search
+h-copy
+nop-C
+h-alloc
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

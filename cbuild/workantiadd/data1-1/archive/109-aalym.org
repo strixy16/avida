@@ -1,0 +1,130 @@
+# Tue Jun  5 11:11:34 2018
+# Filename........: archive/109-aalym.org
+# Update Output...: 8400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 103.000000
+# Gestation Time..: 217
+# Fitness.........: 0.474654
+# Errors..........: 0
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+shift-l
+push
+mov-head
+nop-C
+set-flow
+get-head
+nop-C
+swap
+pop
+nop-A
+nop-C
+swap
+nop-C
+swap-stk
+add
+inc
+nop-C
+swap
+push
+get-head
+nop-B
+nop-C
+get-head
+nop-C
+nop-C
+nop-C
+get-head
+inc
+if-n-equ
+h-copy
+shift-r
+if-less
+get-head
+nop-C
+h-divide
+h-search
+h-copy
+pop
+dec
+inc
+swap-stk
+if-label
+h-copy
+shift-r
+shift-r
+h-copy
+add
+shift-l
+nop-C
+swap
+add
+nop-C
+set-flow
+nand
+nop-C
+swap
+h-search
+nop-A
+shift-r
+nop-B
+if-label
+h-alloc
+h-search
+if-label
+nop-C
+if-label
+pop
+nop-C
+if-less
+nop-C
+inc
+nop-C
+h-copy
+pop
+nop-C
+set-flow
+swap-stk
+nand
+nop-C
+if-label
+nand
+IO
+h-copy
+set-flow
+push
+nop-C
+nand
+nop-C
+IO
+nop-C
+swap-stk
+h-search
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

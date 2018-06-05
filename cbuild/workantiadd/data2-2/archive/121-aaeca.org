@@ -1,0 +1,142 @@
+# Tue Jun  5 11:38:12 2018
+# Filename........: archive/121-aaeca.org
+# Update Output...: 22200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 118.000000
+# Gestation Time..: 236
+# Fitness.........: 0.500000
+# Errors..........: 4
+# Genome Size.....: 121
+# Copied Size.....: 121
+# Executed Size...: 118
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+nop-B
+h-alloc
+set-flow
+set-flow
+nop-A
+nop-B
+mov-head
+nop-C
+h-search
+h-copy
+pop
+set-flow
+swap-stk
+set-flow
+IO
+h-search
+push
+pop
+pop
+jmp-head
+if-n-equ
+set-flow
+IO
+get-head
+nop-C
+push
+pop
+nand
+if-n-equ
+get-head
+h-divide
+h-search
+h-copy
+get-head
+nop-C
+inc
+nand
+h-alloc
+h-copy
+nand
+nop-B
+nop-B
+nop-C
+if-n-equ
+IO
+nop-C
+h-copy
+h-divide
+nop-C
+nop-B
+if-less
+if-n-equ
+nand
+IO
+get-head
+h-copy
+h-copy
+inc
+h-copy
+h-copy
+h-copy
+dec
+h-copy
+h-alloc
+h-copy
+set-flow
+nop-C
+nop-A
+push
+if-n-equ
+h-search
+nop-A
+h-copy
+h-copy
+nand
+nop-A
+shift-l
+nop-C
+swap
+nand
+shift-l
+push
+swap-stk
+IO
+set-flow
+add
+shift-l
+h-search
+shift-r
+set-flow
+if-n-equ
+nop-A
+h-search
+h-copy
+push
+shift-r
+jmp-head
+shift-r
+h-alloc
+h-copy
+set-flow
+inc
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

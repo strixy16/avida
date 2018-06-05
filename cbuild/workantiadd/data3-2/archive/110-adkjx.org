@@ -1,0 +1,131 @@
+# Tue Jun  5 11:35:29 2018
+# Filename........: archive/110-adkjx.org
+# Update Output...: 20600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 107.000000
+# Gestation Time..: 212
+# Fitness.........: 0.504717
+# Errors..........: 1
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-divide
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+swap
+swap
+nand
+h-copy
+shift-l
+h-search
+push
+jmp-head
+h-search
+dec
+nop-C
+nand
+nop-A
+h-search
+IO
+nop-C
+get-head
+nop-C
+IO
+nop-C
+if-label
+swap
+nop-A
+shift-r
+if-n-equ
+nand
+if-less
+IO
+push
+nop-C
+nop-B
+nand
+dec
+pop
+h-divide
+nop-A
+swap
+nop-C
+push
+swap
+inc
+get-head
+nop-B
+h-alloc
+add
+shift-r
+if-label
+pop
+nop-C
+h-copy
+if-n-equ
+pop
+h-copy
+nop-C
+swap
+nop-C
+inc
+nop-C
+inc
+shift-l
+nop-C
+h-copy
+swap
+h-copy
+swap
+sub
+push
+sub
+sub
+nand
+sub
+h-copy
+h-copy
+h-search
+h-search
+swap
+nop-C
+nop-B
+IO
+dec
+nop-C
+h-copy
+pop
+inc
+nop-C
+nand
+h-copy
+IO
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

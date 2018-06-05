@@ -1,0 +1,130 @@
+# Tue Jun  5 11:15:13 2018
+# Filename........: archive/109-aayud.org
+# Update Output...: 10200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 212
+# Fitness.........: 0.500000
+# Errors..........: 4
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+IO
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+if-n-equ
+sub
+nop-C
+h-copy
+shift-l
+pop
+shift-l
+nop-C
+dec
+if-n-equ
+nop-C
+nand
+nop-C
+nop-C
+IO
+nop-C
+sub
+nop-C
+IO
+nop-C
+if-label
+push
+nop-C
+nop-A
+h-divide
+h-divide
+h-alloc
+inc
+nop-C
+shift-r
+inc
+sub
+dec
+nop-A
+push
+nand
+inc
+nop-C
+nop-A
+shift-l
+inc
+h-alloc
+inc
+h-divide
+h-divide
+nop-B
+sub
+nop-C
+swap
+pop
+h-copy
+h-copy
+swap-stk
+if-less
+nop-C
+nop-C
+nop-C
+nop-C
+push
+shift-l
+nop-C
+nand
+h-copy
+IO
+pop
+push
+pop
+get-head
+get-head
+nop-B
+h-copy
+add
+get-head
+h-alloc
+swap
+h-alloc
+swap-stk
+push
+swap
+h-copy
+inc
+shift-r
+nop-C
+shift-l
+h-copy
+shift-r
+h-copy
+get-head
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

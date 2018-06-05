@@ -1,0 +1,130 @@
+# Tue Jun  5 11:02:09 2018
+# Filename........: archive/109-aaayp.org
+# Update Output...: 4000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 101.000000
+# Gestation Time..: 212
+# Fitness.........: 0.476415
+# Errors..........: 2
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+shift-r
+swap-stk
+dec
+if-n-equ
+nop-C
+jmp-head
+nop-C
+nop-C
+nop-C
+if-less
+nop-B
+shift-r
+add
+nop-C
+nop-C
+shift-l
+mov-head
+nop-C
+mov-head
+nop-C
+mov-head
+nop-C
+nop-C
+nop-C
+IO
+nop-C
+inc
+pop
+inc
+nop-C
+pop
+nop-C
+if-label
+nop-A
+push
+swap
+nop-A
+h-copy
+IO
+if-label
+h-copy
+h-copy
+jmp-head
+pop
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+h-alloc
+shift-r
+nop-C
+push
+nop-C
+h-copy
+pop
+swap-stk
+if-less
+IO
+if-label
+nop-C
+nop-B
+shift-l
+nop-C
+shift-r
+nop-A
+swap-stk
+shift-r
+nop-C
+nop-C
+h-alloc
+h-copy
+dec
+set-flow
+nand
+h-divide
+nop-C
+nand
+inc
+h-copy
+push
+nop-C
+set-flow
+IO
+nop-C
+IO
+nop-C
+nand
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,135 @@
+# Tue Jun  5 11:21:43 2018
+# Filename........: archive/114-abxrs.org
+# Update Output...: 13400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 111.000000
+# Gestation Time..: 214
+# Fitness.........: 0.518692
+# Errors..........: 1
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 111
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-B
+shift-r
+h-copy
+IO
+h-copy
+h-copy
+h-copy
+nop-C
+pop
+nop-B
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+add
+nand
+nand
+inc
+IO
+nop-C
+shift-r
+if-n-equ
+nop-C
+inc
+nop-C
+h-divide
+set-flow
+get-head
+h-copy
+swap-stk
+shift-l
+sub
+nop-C
+push
+shift-l
+h-copy
+shift-r
+h-copy
+IO
+h-copy
+swap-stk
+IO
+add
+sub
+nop-C
+pop
+h-copy
+if-n-equ
+h-search
+nop-B
+push
+shift-r
+h-copy
+nop-C
+shift-l
+nop-C
+push
+swap-stk
+add
+nop-C
+h-search
+nop-A
+h-alloc
+IO
+pop
+pop
+IO
+nop-C
+sub
+nop-C
+swap-stk
+if-n-equ
+h-copy
+nop-A
+sub
+nop-C
+get-head
+swap-stk
+get-head
+shift-r
+nop-B
+if-less
+push
+dec
+h-copy
+nand
+swap
+shift-r
+nop-C
+nop-C
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

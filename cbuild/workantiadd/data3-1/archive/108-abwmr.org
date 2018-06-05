@@ -1,0 +1,129 @@
+# Tue Jun  5 11:21:58 2018
+# Filename........: archive/108-abwmr.org
+# Update Output...: 13800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 103.000000
+# Gestation Time..: 203
+# Fitness.........: 0.507389
+# Errors..........: 3
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+get-head
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+nop-C
+shift-r
+nop-C
+mov-head
+nop-C
+pop
+if-n-equ
+nop-C
+mov-head
+nop-C
+push
+nop-C
+shift-l
+nop-C
+if-n-equ
+nop-C
+nand
+nop-C
+nop-C
+if-label
+nop-A
+nop-C
+if-label
+nand
+swap
+nop-C
+add
+if-n-equ
+push
+h-alloc
+nand
+nop-C
+nop-C
+nand
+swap-stk
+nop-C
+if-less
+nop-C
+push
+nop-C
+nop-A
+dec
+nop-B
+shift-l
+nop-C
+pop
+if-n-equ
+h-copy
+swap-stk
+sub
+nop-B
+nop-C
+h-search
+nop-C
+h-divide
+sub
+nop-B
+h-copy
+if-n-equ
+h-copy
+push
+h-divide
+IO
+swap
+nop-C
+if-n-equ
+swap-stk
+h-copy
+h-copy
+nand
+inc
+nand
+h-search
+add
+nop-C
+swap-stk
+h-alloc
+h-copy
+nop-C
+sub
+nop-C
+shift-l
+nop-C
+h-copy
+dec
+h-alloc
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

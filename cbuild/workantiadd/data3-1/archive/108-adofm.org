@@ -1,0 +1,129 @@
+# Tue Jun  5 11:32:49 2018
+# Filename........: archive/108-adofm.org
+# Update Output...: 19400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 102.000000
+# Gestation Time..: 206
+# Fitness.........: 0.495146
+# Errors..........: 2
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+nop-C
+shift-r
+nop-C
+set-flow
+nop-C
+pop
+if-n-equ
+nop-B
+sub
+if-n-equ
+h-search
+nand
+if-label
+if-less
+if-n-equ
+dec
+nand
+nop-C
+nop-C
+if-label
+nop-A
+swap-stk
+if-less
+nand
+swap
+nop-C
+h-divide
+get-head
+push
+pop
+nand
+pop
+nop-C
+h-alloc
+set-flow
+if-n-equ
+if-less
+nop-C
+push
+swap
+if-label
+nop-B
+nand
+IO
+shift-l
+swap
+h-copy
+if-n-equ
+nop-B
+set-flow
+swap-stk
+push
+nop-C
+swap-stk
+swap
+nop-B
+h-copy
+swap
+h-copy
+push
+dec
+IO
+swap
+nop-C
+if-n-equ
+nop-B
+h-copy
+h-copy
+nand
+nop-B
+nand
+IO
+swap-stk
+get-head
+get-head
+nop-A
+h-alloc
+h-copy
+inc
+push
+sub
+set-flow
+nop-C
+h-copy
+dec
+h-divide
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

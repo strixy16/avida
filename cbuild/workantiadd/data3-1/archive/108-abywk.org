@@ -1,0 +1,129 @@
+# Tue Jun  5 11:22:34 2018
+# Filename........: archive/108-abywk.org
+# Update Output...: 14100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 104.000000
+# Gestation Time..: 204
+# Fitness.........: 0.509804
+# Errors..........: 3
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+add
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+nop-C
+shift-r
+nop-C
+mov-head
+nop-C
+pop
+if-n-equ
+nop-C
+mov-head
+nop-C
+push
+nop-C
+shift-l
+nop-C
+if-n-equ
+nop-C
+nand
+nop-C
+nop-C
+if-label
+pop
+nop-C
+if-label
+nand
+swap
+nop-C
+add
+if-n-equ
+push
+h-alloc
+nand
+nop-C
+nop-C
+nand
+if-n-equ
+nop-C
+if-less
+nop-C
+push
+push
+nop-A
+push
+nop-B
+shift-l
+swap-stk
+pop
+h-divide
+h-copy
+IO
+sub
+nop-B
+nop-C
+h-search
+nop-C
+h-divide
+sub
+nop-B
+h-copy
+if-n-equ
+h-copy
+push
+h-divide
+IO
+swap
+nop-C
+if-n-equ
+swap-stk
+h-copy
+h-copy
+nand
+if-label
+nand
+IO
+add
+swap-stk
+swap-stk
+h-alloc
+h-copy
+nop-C
+sub
+nop-C
+shift-l
+nop-C
+h-copy
+dec
+h-alloc
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

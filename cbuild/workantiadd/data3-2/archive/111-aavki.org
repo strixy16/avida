@@ -1,0 +1,132 @@
+# Tue Jun  5 11:17:03 2018
+# Filename........: archive/111-aavki.org
+# Update Output...: 11100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 107.000000
+# Gestation Time..: 214
+# Fitness.........: 0.500000
+# Errors..........: 2
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+pop
+if-label
+push
+nop-A
+push
+jmp-head
+h-divide
+if-label
+h-search
+pop
+swap-stk
+sub
+nop-C
+inc
+shift-r
+swap-stk
+add
+nop-C
+dec
+h-alloc
+if-n-equ
+nop-C
+nop-A
+shift-l
+pop
+h-divide
+nand
+dec
+nop-C
+if-n-equ
+nop-C
+set-flow
+nop-A
+nop-C
+push
+nop-A
+nop-A
+nop-B
+mov-head
+nop-C
+if-less
+shift-r
+inc
+get-head
+nop-A
+IO
+dec
+mov-head
+nop-C
+get-head
+mov-head
+nop-C
+swap
+swap
+shift-r
+sub
+add
+nop-C
+if-less
+nop-C
+get-head
+h-alloc
+shift-l
+nop-C
+h-copy
+h-copy
+h-copy
+if-n-equ
+h-copy
+nand
+if-n-equ
+IO
+swap
+h-copy
+nop-C
+nand
+nand
+h-copy
+nand
+shift-l
+h-search
+nop-C
+sub
+h-copy
+pop
+inc
+sub
+h-copy
+h-alloc
+sub
+nop-C
+get-head
+nop-C
+h-copy
+nand
+h-copy
+pop
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

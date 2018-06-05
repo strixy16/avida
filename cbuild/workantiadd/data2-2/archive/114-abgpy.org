@@ -1,0 +1,135 @@
+# Tue Jun  5 11:22:19 2018
+# Filename........: archive/114-abgpy.org
+# Update Output...: 13800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 111.000000
+# Gestation Time..: 220
+# Fitness.........: 0.504545
+# Errors..........: 4
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 111
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+nop-C
+set-flow
+IO
+nop-B
+nop-B
+h-copy
+nand
+add
+pop
+swap
+add
+nand
+nop-B
+nop-C
+if-less
+nop-C
+IO
+inc
+pop
+nop-C
+h-divide
+nand
+push
+if-less
+get-head
+swap
+h-copy
+nand
+h-search
+inc
+nop-C
+h-alloc
+h-copy
+if-less
+h-alloc
+nand
+nop-C
+sub
+push
+nop-C
+h-copy
+h-divide
+h-copy
+nop-A
+shift-r
+IO
+nand
+IO
+swap
+h-copy
+if-label
+set-flow
+if-n-equ
+nop-A
+h-copy
+push
+nop-C
+h-copy
+nand
+nand
+add
+nop-A
+swap
+nop-B
+h-search
+nop-A
+h-copy
+shift-r
+if-n-equ
+inc
+get-head
+if-less
+push
+nand
+h-copy
+swap-stk
+swap-stk
+h-copy
+inc
+h-alloc
+sub
+pop
+swap
+get-head
+shift-l
+h-alloc
+h-copy
+push
+swap-stk
+h-search
+h-copy
+nop-C
+inc
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,129 @@
+# Tue Jun  5 11:31:40 2018
+# Filename........: archive/108-adivy.org
+# Update Output...: 18800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 102.000000
+# Gestation Time..: 207
+# Fitness.........: 0.492754
+# Errors..........: 3
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+IO
+inc
+dec
+nop-C
+mov-head
+nop-C
+pop
+if-n-equ
+nop-B
+mov-head
+nop-C
+push
+h-alloc
+IO
+nop-A
+swap-stk
+IO
+mov-head
+nop-C
+sub
+if-label
+h-search
+get-head
+nop-B
+h-search
+swap
+nop-C
+add
+shift-l
+nand
+sub
+nand
+swap
+nop-C
+inc
+swap-stk
+shift-l
+if-n-equ
+nop-B
+push
+if-n-equ
+nop-C
+sub
+nop-B
+shift-l
+nop-C
+get-head
+h-search
+h-copy
+h-search
+h-search
+nop-B
+nop-C
+if-label
+nop-C
+h-divide
+sub
+shift-l
+h-copy
+if-n-equ
+h-copy
+h-alloc
+h-divide
+IO
+swap
+nop-C
+add
+nop-B
+h-copy
+h-copy
+nand
+IO
+nand
+nop-A
+nand
+get-head
+IO
+get-head
+h-copy
+IO
+inc
+IO
+shift-l
+if-n-equ
+h-copy
+dec
+h-alloc
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

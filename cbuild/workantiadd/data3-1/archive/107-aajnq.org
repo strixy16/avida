@@ -1,0 +1,128 @@
+# Tue Jun  5 11:14:04 2018
+# Filename........: archive/107-aajnq.org
+# Update Output...: 9900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 103.000000
+# Gestation Time..: 203
+# Fitness.........: 0.507389
+# Errors..........: 0
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+pop
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+shift-l
+nop-C
+add
+shift-l
+nop-C
+mov-head
+nop-C
+sub
+if-n-equ
+nop-C
+mov-head
+nop-C
+nop-C
+jmp-head
+nop-C
+if-n-equ
+nop-C
+jmp-head
+nop-C
+nop-C
+if-label
+nand
+nop-C
+if-n-equ
+nop-C
+nand
+inc
+IO
+nop-C
+if-less
+nop-B
+nand
+mov-head
+nop-C
+nand
+inc
+nop-C
+if-less
+nop-C
+add
+get-head
+h-divide
+nop-C
+nop-C
+push
+nop-C
+nop-C
+if-n-equ
+h-copy
+h-divide
+swap-stk
+nand
+nop-C
+nop-B
+nop-C
+h-divide
+nop-A
+nop-C
+h-copy
+h-copy
+nop-C
+h-copy
+push
+nop-C
+IO
+swap
+push
+push
+sub
+h-copy
+IO
+if-n-equ
+nop-B
+h-copy
+nand
+nop-C
+add
+h-divide
+pop
+nop-C
+set-flow
+nop-C
+shift-l
+swap
+nand
+sub
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

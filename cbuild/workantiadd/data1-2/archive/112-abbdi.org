@@ -1,0 +1,133 @@
+# Tue Jun  5 11:05:46 2018
+# Filename........: archive/112-abbdi.org
+# Update Output...: 5800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 218
+# Fitness.........: 0.486239
+# Errors..........: 0
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+get-head
+nop-C
+if-n-equ
+nop-C
+inc
+nop-C
+nop-C
+nop-C
+nop-C
+h-divide
+pop
+if-less
+nop-C
+pop
+nop-C
+nop-C
+nop-C
+push
+mov-head
+nop-C
+dec
+nop-C
+if-less
+nop-C
+if-n-equ
+nop-B
+IO
+inc
+nop-C
+swap-stk
+h-copy
+inc
+nop-C
+shift-r
+nop-C
+nop-C
+swap
+nop-C
+swap
+nand
+h-copy
+if-label
+if-label
+h-copy
+h-copy
+nop-C
+pop
+nop-C
+nop-C
+push
+pop
+nop-C
+if-label
+dec
+h-search
+IO
+pop
+nop-C
+h-copy
+shift-r
+nop-B
+shift-l
+IO
+if-label
+nop-C
+mov-head
+shift-l
+nop-C
+shift-l
+swap
+swap-stk
+nop-C
+nop-C
+h-copy
+add
+h-copy
+if-n-equ
+if-n-equ
+sub
+nand
+if-label
+nop-C
+nand
+nop-C
+h-copy
+push
+nop-C
+nop-C
+shift-l
+IO
+IO
+nop-C
+nop-C
+nop-C
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

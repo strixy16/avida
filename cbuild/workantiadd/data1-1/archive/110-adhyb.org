@@ -1,0 +1,131 @@
+# Tue Jun  5 11:43:50 2018
+# Filename........: archive/110-adhyb.org
+# Update Output...: 25200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 110.000000
+# Gestation Time..: 215
+# Fitness.........: 0.511628
+# Errors..........: 3
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+IO
+set-flow
+nop-A
+sub
+h-copy
+mov-head
+nop-C
+set-flow
+if-n-equ
+nand
+nand
+nop-C
+set-flow
+h-alloc
+jmp-head
+nop-B
+shift-l
+dec
+pop
+nop-A
+shift-l
+sub
+if-n-equ
+if-label
+mov-head
+nop-B
+nop-A
+sub
+nop-B
+nop-C
+nop-B
+nand
+nand
+dec
+nop-B
+nop-A
+shift-r
+IO
+nop-B
+h-search
+inc
+h-copy
+swap
+push
+h-copy
+inc
+nop-A
+h-copy
+h-search
+h-divide
+nop-A
+set-flow
+IO
+get-head
+nop-C
+if-n-equ
+nop-C
+h-alloc
+h-divide
+nop-B
+get-head
+if-label
+h-copy
+if-n-equ
+if-n-equ
+h-copy
+if-n-equ
+if-label
+h-alloc
+nand
+nop-B
+sub
+push
+h-copy
+nand
+nop-C
+h-copy
+nop-C
+nop-B
+h-copy
+set-flow
+shift-r
+nop-C
+nand
+nop-C
+nop-C
+sub
+IO
+h-copy
+h-copy
+push
+if-n-equ
+nand
+nop-C
+IO
+nop-C
+nop-B
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A

@@ -1,0 +1,132 @@
+# Tue Jun  5 11:30:44 2018
+# Filename........: archive/111-adgqo.org
+# Update Output...: 18400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 108.000000
+# Gestation Time..: 225
+# Fitness.........: 0.480000
+# Errors..........: 0
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 108
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+nand
+push
+nand
+dec
+inc
+inc
+push
+nop-B
+IO
+dec
+nop-A
+IO
+get-head
+dec
+IO
+nop-C
+add
+pop
+mov-head
+nop-C
+swap
+nop-B
+nand
+nop-C
+shift-r
+swap
+nand
+inc
+set-flow
+if-less
+h-copy
+inc
+nop-A
+shift-r
+get-head
+IO
+get-head
+swap
+nop-C
+swap
+nop-C
+h-copy
+if-label
+if-label
+h-copy
+h-copy
+set-flow
+dec
+nop-C
+sub
+nop-A
+pop
+nop-C
+get-head
+h-divide
+inc
+h-divide
+nop-C
+h-copy
+get-head
+h-search
+shift-l
+push
+nop-A
+nop-C
+dec
+inc
+nop-B
+inc
+jmp-head
+jmp-head
+dec
+push
+h-divide
+h-copy
+pop
+shift-r
+if-label
+nand
+nop-C
+nop-C
+h-copy
+IO
+nop-C
+if-n-equ
+shift-r
+IO
+push
+IO
+IO
+shift-r
+nop-B
+nand
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

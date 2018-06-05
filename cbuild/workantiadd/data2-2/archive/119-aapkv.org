@@ -1,0 +1,140 @@
+# Tue Jun  5 11:42:02 2018
+# Filename........: archive/119-aapkv.org
+# Update Output...: 24200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 116.000000
+# Gestation Time..: 234
+# Fitness.........: 0.495726
+# Errors..........: 4
+# Genome Size.....: 119
+# Copied Size.....: 119
+# Executed Size...: 116
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+nop-B
+h-alloc
+h-search
+set-flow
+nop-A
+nop-B
+mov-head
+nop-C
+shift-r
+h-copy
+if-label
+IO
+set-flow
+nop-B
+h-copy
+add
+add
+h-alloc
+swap
+shift-r
+nop-A
+nop-C
+IO
+shift-l
+inc
+add
+nand
+nand
+inc
+if-less
+shift-r
+swap
+h-copy
+get-head
+nop-C
+IO
+h-divide
+sub
+h-copy
+inc
+nop-B
+nand
+nop-C
+h-divide
+nand
+shift-r
+h-divide
+h-copy
+nop-A
+dec
+IO
+nand
+IO
+if-n-equ
+h-copy
+inc
+h-copy
+nop-A
+h-alloc
+nop-A
+inc
+h-search
+nop-B
+set-flow
+nop-C
+swap
+push
+push
+h-copy
+add
+nop-A
+h-copy
+swap
+if-n-equ
+swap-stk
+pop
+dec
+nop-C
+dec
+nand
+h-copy
+push
+swap-stk
+if-less
+nop-B
+shift-r
+h-alloc
+h-divide
+h-search
+swap
+nop-C
+if-label
+push
+h-copy
+push
+IO
+shift-r
+h-copy
+set-flow
+inc
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

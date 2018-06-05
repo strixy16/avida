@@ -1,0 +1,131 @@
+# Tue Jun  5 11:36:58 2018
+# Filename........: archive/110-acmbw.org
+# Update Output...: 21700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 110.000000
+# Gestation Time..: 213
+# Fitness.........: 0.516432
+# Errors..........: 3
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+push
+mov-head
+nop-C
+h-search
+h-alloc
+dec
+if-n-equ
+nop-C
+set-flow
+nop-C
+inc
+nop-B
+shift-l
+pop
+swap
+nop-A
+swap-stk
+sub
+pop
+h-alloc
+pop
+nop-B
+h-search
+sub
+if-label
+nand
+nop-B
+set-flow
+if-less
+dec
+swap
+nop-A
+nop-C
+IO
+nop-B
+h-search
+h-divide
+h-copy
+swap
+h-search
+h-copy
+pop
+add
+h-copy
+h-search
+jmp-head
+nop-A
+set-flow
+IO
+nop-A
+nop-C
+if-n-equ
+nop-C
+inc
+h-divide
+h-divide
+IO
+if-label
+h-copy
+nop-A
+if-n-equ
+h-copy
+if-n-equ
+if-label
+h-alloc
+nand
+nop-B
+sub
+dec
+nop-C
+h-copy
+nand
+nop-C
+h-copy
+pop
+nop-B
+h-copy
+shift-r
+inc
+nand
+nop-C
+push
+shift-l
+IO
+h-copy
+h-copy
+swap-stk
+push
+nop-A
+nand
+nop-C
+IO
+nop-C
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A

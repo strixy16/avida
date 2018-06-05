@@ -1,0 +1,131 @@
+# Tue Jun  5 11:18:14 2018
+# Filename........: archive/110-aatih.org
+# Update Output...: 11800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 105.000000
+# Gestation Time..: 218
+# Fitness.........: 0.481651
+# Errors..........: 2
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+shift-l
+nop-C
+if-n-equ
+nop-C
+shift-l
+mov-head
+nop-C
+IO
+nop-C
+pop
+sub
+if-less
+nop-C
+pop
+nop-C
+get-head
+nop-C
+push
+mov-head
+nop-C
+dec
+nop-C
+shift-r
+pop
+nop-C
+swap
+IO
+set-flow
+shift-l
+push
+h-copy
+inc
+nop-B
+shift-r
+nop-C
+nand
+nand
+nop-C
+swap
+shift-r
+swap-stk
+swap-stk
+h-copy
+set-flow
+pop
+nop-C
+h-search
+push
+pop
+jmp-head
+sub
+jmp-head
+h-search
+IO
+dec
+nop-C
+h-copy
+dec
+nop-B
+shift-l
+IO
+if-label
+nand
+dec
+shift-l
+nop-C
+shift-l
+nop-C
+if-n-equ
+nop-C
+nop-C
+h-copy
+add
+h-copy
+if-label
+h-alloc
+if-n-equ
+nand
+nop-C
+h-alloc
+add
+IO
+h-copy
+if-less
+nop-C
+nop-C
+h-search
+swap-stk
+IO
+sub
+nop-C
+add
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

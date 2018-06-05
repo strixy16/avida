@@ -1,0 +1,130 @@
+# Tue Jun  5 11:10:46 2018
+# Filename........: archive/109-aakfy.org
+# Update Output...: 8000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 104.000000
+# Gestation Time..: 216
+# Fitness.........: 0.481481
+# Errors..........: 1
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+get-head
+nop-C
+mov-head
+nop-C
+set-flow
+nop-C
+nand
+shift-l
+nop-C
+inc
+swap-stk
+h-divide
+nop-C
+pop
+swap
+inc
+nop-C
+swap
+push
+IO
+h-search
+nop-C
+get-head
+nop-C
+nand
+inc
+get-head
+inc
+nop-C
+pop
+nop-C
+nand
+nop-C
+shift-r
+push
+nop-C
+inc
+pop
+swap-stk
+if-label
+shift-r
+h-copy
+if-label
+h-copy
+dec
+pop
+nop-C
+IO
+nop-A
+nop-C
+shift-r
+if-n-equ
+swap-stk
+nop-C
+h-search
+dec
+nop-C
+h-copy
+shift-r
+nop-B
+if-label
+h-alloc
+if-label
+nop-C
+mov-head
+nop-A
+IO
+nop-C
+h-alloc
+nand
+inc
+nop-C
+h-copy
+pop
+pop
+h-copy
+nop-B
+inc
+nand
+nop-C
+set-flow
+dec
+IO
+h-copy
+nop-B
+set-flow
+nop-C
+nand
+nop-C
+IO
+nop-C
+get-head
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

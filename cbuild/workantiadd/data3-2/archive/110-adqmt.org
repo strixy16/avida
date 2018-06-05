@@ -1,0 +1,131 @@
+# Tue Jun  5 11:39:33 2018
+# Filename........: archive/110-adqmt.org
+# Update Output...: 22700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 107.000000
+# Gestation Time..: 213
+# Fitness.........: 0.502347
+# Errors..........: 3
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+nop-A
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+pop
+swap
+nand
+h-copy
+if-less
+if-label
+push
+nop-C
+shift-r
+set-flow
+nop-C
+nand
+nop-A
+h-search
+h-alloc
+nop-C
+push
+nop-C
+IO
+nop-C
+if-label
+swap
+nop-A
+sub
+IO
+nand
+if-less
+dec
+push
+if-n-equ
+nop-B
+if-label
+dec
+if-less
+shift-r
+set-flow
+inc
+nop-C
+dec
+nop-A
+inc
+shift-l
+shift-r
+h-alloc
+h-search
+nop-C
+get-head
+swap
+h-copy
+shift-l
+pop
+h-copy
+IO
+if-label
+add
+inc
+nop-C
+shift-l
+inc
+h-search
+nop-C
+h-copy
+nop-A
+h-copy
+push
+sub
+h-alloc
+swap
+sub
+nand
+nop-B
+h-copy
+h-copy
+h-copy
+h-divide
+nop-B
+swap
+nop-C
+shift-r
+dec
+nop-C
+shift-r
+h-copy
+pop
+IO
+nop-C
+inc
+dec
+swap
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

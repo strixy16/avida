@@ -1,0 +1,134 @@
+# Tue Jun  5 11:35:19 2018
+# Filename........: archive/113-abrlg.org
+# Update Output...: 20400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 111.000000
+# Gestation Time..: 210
+# Fitness.........: 0.528571
+# Errors..........: 2
+# Genome Size.....: 113
+# Copied Size.....: 113
+# Executed Size...: 111
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+jmp-head
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+sub
+pop
+nop-C
+h-copy
+add
+inc
+h-divide
+h-divide
+inc
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+nop-A
+shift-l
+IO
+dec
+IO
+nop-C
+nop-B
+pop
+h-copy
+if-less
+h-copy
+nop-B
+h-alloc
+swap
+nop-A
+h-copy
+if-n-equ
+shift-r
+if-less
+pop
+h-search
+shift-l
+IO
+nop-C
+sub
+add
+add
+pop
+pop
+nop-C
+h-search
+h-copy
+h-divide
+set-flow
+nand
+nop-B
+h-copy
+shift-l
+nop-A
+nop-C
+IO
+shift-r
+sub
+nop-B
+nop-B
+IO
+nop-A
+h-copy
+nop-A
+nand
+add
+swap-stk
+nop-B
+nop-C
+shift-r
+if-label
+IO
+h-copy
+h-copy
+nop-B
+sub
+shift-l
+push
+if-n-equ
+inc
+swap-stk
+nand
+nop-C
+h-alloc
+h-copy
+if-less
+nop-C
+pop
+if-n-equ
+sub
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

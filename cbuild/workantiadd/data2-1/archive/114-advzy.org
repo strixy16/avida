@@ -1,0 +1,135 @@
+# Tue Jun  5 11:44:07 2018
+# Filename........: archive/114-advzy.org
+# Update Output...: 24900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 112.000000
+# Gestation Time..: 208
+# Fitness.........: 0.538462
+# Errors..........: 0
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 112
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+add
+h-copy
+pop
+nop-C
+shift-r
+nop-B
+shift-r
+push
+h-copy
+sub
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+push
+set-flow
+inc
+set-flow
+IO
+nop-C
+push
+h-divide
+h-search
+h-divide
+swap-stk
+shift-r
+nop-A
+swap
+push
+h-copy
+push
+shift-r
+nop-C
+IO
+h-copy
+nop-C
+swap
+h-copy
+inc
+inc
+get-head
+nop-B
+push
+nop-B
+h-search
+nop-A
+swap-stk
+h-copy
+add
+swap-stk
+push
+nop-B
+h-copy
+set-flow
+swap
+nop-C
+nop-C
+IO
+nop-C
+swap
+sub
+nop-A
+if-label
+h-copy
+add
+nand
+if-label
+swap
+h-search
+h-search
+shift-r
+h-copy
+h-copy
+set-flow
+sub
+nop-C
+dec
+add
+inc
+nand
+dec
+nop-A
+swap-stk
+h-copy
+swap-stk
+pop
+set-flow
+shift-l
+nop-A
+shift-r
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

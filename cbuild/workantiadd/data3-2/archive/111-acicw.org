@@ -1,0 +1,132 @@
+# Tue Jun  5 11:43:36 2018
+# Filename........: archive/111-acicw.org
+# Update Output...: 24800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 108.000000
+# Gestation Time..: 212
+# Fitness.........: 0.509434
+# Errors..........: 1
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 108
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+nop-A
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+pop
+swap
+dec
+nop-A
+shift-l
+swap-stk
+if-less
+nop-C
+jmp-head
+jmp-head
+nop-C
+nand
+nop-A
+h-search
+IO
+h-divide
+h-divide
+sub
+IO
+nop-C
+if-label
+swap
+nop-A
+swap
+swap
+nand
+if-less
+IO
+push
+nop-C
+if-label
+shift-l
+add
+if-less
+shift-r
+set-flow
+inc
+nop-C
+push
+swap
+add
+h-search
+nop-B
+h-alloc
+h-search
+nop-C
+get-head
+nop-C
+h-copy
+shift-l
+pop
+h-copy
+h-copy
+nop-C
+swap-stk
+add
+inc
+nop-C
+dec
+nop-C
+IO
+nop-C
+h-copy
+nop-A
+h-copy
+pop
+swap
+if-n-equ
+sub
+nop-B
+nand
+nop-B
+h-copy
+h-copy
+h-copy
+h-divide
+nop-B
+set-flow
+nop-C
+h-divide
+if-less
+nop-B
+jmp-head
+h-copy
+pop
+dec
+add
+swap-stk
+h-copy
+swap
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,133 @@
+# Tue Jun  5 11:38:47 2018
+# Filename........: archive/112-aanuf.org
+# Update Output...: 22300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 108.000000
+# Gestation Time..: 213
+# Fitness.........: 0.507042
+# Errors..........: 1
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 108
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+inc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-B
+swap
+nand
+h-copy
+shift-l
+h-search
+push
+nop-C
+jmp-head
+set-flow
+nop-C
+nand
+nop-A
+h-search
+IO
+nop-C
+h-search
+nop-C
+IO
+nop-C
+if-label
+swap
+nop-A
+shift-r
+if-n-equ
+nand
+if-less
+dec
+swap
+nop-C
+nop-B
+h-search
+sub
+if-label
+nand
+nand
+h-divide
+sub
+push
+nop-A
+inc
+shift-l
+nop-B
+h-alloc
+h-search
+nop-C
+if-n-equ
+nop-C
+h-copy
+swap-stk
+pop
+h-copy
+h-copy
+nop-C
+swap
+add
+pop
+nop-C
+nop-C
+shift-l
+h-search
+nop-C
+h-copy
+nop-A
+h-copy
+pop
+sub
+if-n-equ
+add
+sub
+nand
+nop-B
+h-copy
+h-copy
+h-copy
+h-divide
+nop-B
+swap
+nop-C
+if-label
+if-less
+nop-C
+shift-r
+h-copy
+IO
+inc
+if-n-equ
+inc
+h-copy
+push
+push
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

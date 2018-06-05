@@ -1,0 +1,130 @@
+# Tue Jun  5 11:26:51 2018
+# Filename........: archive/109-abyqi.org
+# Update Output...: 16300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 209
+# Fitness.........: 0.507177
+# Errors..........: 2
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+dec
+mov-head
+nop-C
+jmp-head
+nop-C
+dec
+nop-C
+mov-head
+nop-C
+pop
+if-n-equ
+nop-C
+mov-head
+nop-C
+push
+swap-stk
+IO
+nop-A
+if-less
+nop-C
+nand
+nop-C
+swap
+IO
+nop-A
+nop-C
+if-label
+nand
+swap
+nop-C
+add
+if-n-equ
+set-flow
+nop-C
+nand
+nop-C
+nop-C
+if-n-equ
+swap-stk
+nop-C
+if-less
+nop-C
+push
+push
+set-flow
+get-head
+nop-B
+shift-l
+nop-C
+nop-A
+add
+h-copy
+h-copy
+shift-l
+h-search
+nop-B
+h-search
+h-search
+nop-C
+h-divide
+push
+nop-B
+h-copy
+if-n-equ
+h-copy
+if-less
+IO
+swap
+h-alloc
+if-n-equ
+swap-stk
+h-copy
+h-copy
+nand
+add
+nand
+nop-A
+swap
+get-head
+sub
+pop
+h-copy
+add
+dec
+shift-r
+shift-l
+add
+h-copy
+dec
+h-alloc
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,131 @@
+# Tue Jun  5 11:44:14 2018
+# Filename........: archive/110-adjnu.org
+# Update Output...: 25400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 109.000000
+# Gestation Time..: 210
+# Fitness.........: 0.519048
+# Errors..........: 3
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 109
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+swap
+set-flow
+nop-A
+sub
+push
+mov-head
+nop-C
+set-flow
+h-search
+nop-A
+nand
+nop-C
+set-flow
+h-alloc
+inc
+nop-B
+shift-l
+set-flow
+pop
+nop-A
+if-n-equ
+nop-A
+if-n-equ
+h-alloc
+mov-head
+nop-B
+nop-A
+sub
+nop-B
+nand
+nop-B
+nand
+nand
+mov-head
+nop-B
+dec
+shift-r
+add
+nop-B
+h-search
+h-divide
+h-copy
+swap
+nop-C
+h-copy
+pop
+nop-A
+h-copy
+h-search
+h-copy
+nop-B
+pop
+IO
+swap
+get-head
+nop-C
+if-n-equ
+shift-l
+inc
+h-divide
+if-less
+get-head
+if-label
+h-copy
+if-n-equ
+if-n-equ
+h-copy
+if-n-equ
+if-label
+h-alloc
+nand
+if-n-equ
+sub
+nop-C
+h-copy
+nand
+nop-C
+h-copy
+pop
+nop-B
+h-copy
+shift-r
+nop-C
+nand
+nop-C
+nop-C
+nop-C
+IO
+h-copy
+h-copy
+push
+nop-A
+nand
+nop-C
+IO
+nop-C
+inc
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A

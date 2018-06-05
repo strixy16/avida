@@ -1,0 +1,136 @@
+# Tue Jun  5 11:09:57 2018
+# Filename........: archive/115-abkxj.org
+# Update Output...: 7700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 111.000000
+# Gestation Time..: 216
+# Fitness.........: 0.513889
+# Errors..........: 0
+# Genome Size.....: 115
+# Copied Size.....: 115
+# Executed Size...: 111
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-B
+nop-B
+nop-B
+h-search
+h-copy
+inc
+pop
+IO
+nop-C
+h-copy
+IO
+nop-B
+nop-C
+nand
+IO
+if-less
+nand
+pop
+nop-C
+nop-C
+dec
+nop-C
+inc
+nand
+get-head
+inc
+h-copy
+nand
+nop-C
+if-less
+nop-C
+IO
+shift-l
+h-copy
+h-search
+nop-C
+nand
+nop-C
+dec
+swap-stk
+nop-C
+h-copy
+nop-A
+h-copy
+nop-C
+IO
+nop-B
+if-n-equ
+nop-C
+pop
+h-copy
+h-copy
+h-divide
+set-flow
+pop
+swap-stk
+push
+nop-C
+h-copy
+inc
+h-copy
+nop-C
+if-n-equ
+h-search
+get-head
+h-search
+push
+h-copy
+shift-r
+nop-C
+pop
+nop-C
+nop-C
+nop-C
+h-copy
+swap
+h-divide
+h-copy
+sub
+nand
+if-n-equ
+get-head
+nop-C
+if-n-equ
+nop-C
+shift-l
+nop-C
+h-copy
+shift-r
+h-search
+pop
+swap-stk
+nop-C
+nop-C
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,134 @@
+# Tue Jun  5 11:26:08 2018
+# Filename........: archive/113-aasuo.org
+# Update Output...: 15900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 108.000000
+# Gestation Time..: 227
+# Fitness.........: 0.475771
+# Errors..........: 0
+# Genome Size.....: 113
+# Copied Size.....: 113
+# Executed Size...: 108
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+dec
+nop-C
+inc
+shift-l
+inc
+nop-C
+if-label
+nop-B
+h-search
+push
+push
+if-less
+sub
+h-divide
+if-n-equ
+get-head
+nop-C
+add
+mov-head
+nop-C
+h-divide
+h-copy
+if-label
+inc
+sub
+nop-B
+swap-stk
+jmp-head
+nop-B
+swap-stk
+h-copy
+inc
+nop-C
+shift-r
+add
+nop-C
+swap-stk
+sub
+push
+dec
+nop-C
+if-label
+h-copy
+h-copy
+nop-C
+h-copy
+nop-C
+dec
+push
+pop
+if-label
+swap-stk
+dec
+h-search
+push
+pop
+nop-C
+h-copy
+h-copy
+h-search
+jmp-head
+set-flow
+if-label
+inc
+shift-l
+pop
+if-less
+add
+if-n-equ
+push
+IO
+jmp-head
+IO
+add
+h-copy
+h-search
+IO
+nand
+h-divide
+dec
+nop-C
+nop-A
+nand
+nop-C
+h-copy
+IO
+nop-B
+set-flow
+h-divide
+swap-stk
+IO
+nop-C
+set-flow
+h-copy
+get-head
+nop-A
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

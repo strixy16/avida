@@ -1,0 +1,128 @@
+# Tue Jun  5 11:41:29 2018
+# Filename........: archive/107-ackii.org
+# Update Output...: 23900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 102.000000
+# Gestation Time..: 207
+# Fitness.........: 0.492754
+# Errors..........: 2
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+jmp-head
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+h-divide
+shift-r
+nop-C
+set-flow
+nop-C
+pop
+if-n-equ
+nop-B
+nop-C
+if-n-equ
+nand
+nand
+if-label
+if-less
+if-n-equ
+nop-B
+nand
+push
+nop-C
+if-label
+IO
+get-head
+nop-C
+swap-stk
+swap
+nop-C
+h-divide
+if-less
+h-alloc
+pop
+nand
+nop-C
+nop-C
+push
+set-flow
+if-n-equ
+nop-B
+inc
+push
+if-less
+pop
+nop-B
+get-head
+IO
+shift-l
+pop
+h-copy
+get-head
+nop-B
+h-search
+nop-A
+push
+nop-C
+h-divide
+dec
+nop-B
+h-alloc
+h-copy
+inc
+dec
+IO
+swap
+nop-C
+add
+nop-B
+h-copy
+h-copy
+shift-l
+IO
+nand
+nop-C
+pop
+get-head
+sub
+nop-B
+h-alloc
+h-copy
+inc
+add
+sub
+set-flow
+nop-C
+h-copy
+dec
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

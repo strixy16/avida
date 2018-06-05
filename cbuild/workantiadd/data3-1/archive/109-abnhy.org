@@ -1,0 +1,130 @@
+# Tue Jun  5 11:15:18 2018
+# Filename........: archive/109-abnhy.org
+# Update Output...: 10500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 104.000000
+# Gestation Time..: 205
+# Fitness.........: 0.507317
+# Errors..........: 2
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+add
+shift-r
+nop-C
+mov-head
+nop-C
+pop
+if-n-equ
+nop-C
+mov-head
+nop-C
+sub
+nop-C
+shift-l
+nop-C
+if-n-equ
+nop-C
+nand
+nop-C
+nop-C
+if-label
+nop-A
+sub
+if-label
+nand
+swap
+push
+IO
+nop-C
+h-alloc
+if-less
+nand
+shift-l
+nop-C
+nand
+shift-r
+nop-C
+if-less
+nop-C
+push
+push
+nop-A
+nop-C
+nop-B
+shift-l
+nop-C
+push
+if-less
+h-copy
+dec
+set-flow
+nand
+nop-C
+h-search
+nop-C
+h-divide
+sub
+nop-C
+h-copy
+h-copy
+if-n-equ
+h-copy
+push
+h-divide
+IO
+swap
+nop-C
+push
+swap-stk
+h-copy
+h-copy
+nand
+IO
+nand
+inc
+sub
+shift-l
+inc
+h-alloc
+h-copy
+nop-C
+set-flow
+nop-C
+shift-l
+nop-C
+h-copy
+nand
+set-flow
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

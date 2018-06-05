@@ -1,0 +1,129 @@
+# Tue Jun  5 11:30:30 2018
+# Filename........: archive/108-addci.org
+# Update Output...: 18200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 102.000000
+# Gestation Time..: 206
+# Fitness.........: 0.495146
+# Errors..........: 5
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+h-alloc
+nop-C
+shift-r
+nand
+add
+nop-C
+pop
+if-n-equ
+nop-B
+if-less
+nop-C
+h-alloc
+nop-C
+if-label
+if-less
+shift-r
+shift-r
+nand
+nop-C
+if-label
+nop-A
+nop-C
+swap
+nand
+swap
+nop-C
+add
+get-head
+push
+pop
+nand
+nop-C
+if-n-equ
+h-alloc
+shift-r
+shift-l
+if-less
+nop-C
+push
+nop-B
+h-search
+nop-B
+get-head
+sub
+shift-l
+swap
+h-copy
+push
+nop-C
+dec
+h-alloc
+push
+nop-C
+swap-stk
+add
+nop-B
+h-copy
+inc
+h-copy
+if-label
+inc
+set-flow
+IO
+swap
+nop-C
+if-n-equ
+nop-B
+h-copy
+h-copy
+nand
+IO
+nand
+add
+nop-A
+get-head
+shift-r
+nop-A
+h-alloc
+h-copy
+inc
+inc
+nop-B
+shift-l
+nop-C
+h-copy
+dec
+h-divide
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

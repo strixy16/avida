@@ -1,0 +1,131 @@
+# Tue Jun  5 11:15:29 2018
+# Filename........: archive/110-abkcz.org
+# Update Output...: 10400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 224
+# Fitness.........: 0.473214
+# Errors..........: 3
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+shift-r
+nop-C
+mov-head
+nop-C
+set-flow
+h-divide
+if-n-equ
+shift-l
+nop-C
+push
+nop-C
+swap
+nop-C
+push
+swap
+shift-l
+nop-C
+swap-stk
+sub
+nop-C
+nand
+nop-C
+nop-B
+inc
+nop-C
+add
+get-head
+nop-C
+nop-C
+shift-l
+nop-C
+nop-B
+inc
+nop-A
+nop-C
+get-head
+nop-C
+pop
+swap-stk
+h-copy
+dec
+h-search
+h-copy
+set-flow
+inc
+h-copy
+get-head
+pop
+nop-A
+IO
+nop-A
+nop-C
+if-n-equ
+nop-C
+nand
+nop-C
+h-divide
+set-flow
+nand
+h-copy
+shift-r
+h-divide
+h-copy
+h-alloc
+if-label
+nop-C
+h-copy
+h-search
+nop-C
+nand
+nop-C
+nand
+nop-C
+h-copy
+if-n-equ
+nop-C
+h-copy
+h-alloc
+h-alloc
+nand
+nop-C
+if-less
+shift-l
+IO
+h-copy
+push
+push
+nop-C
+nand
+nop-C
+IO
+nop-C
+nop-C
+h-search
+h-search
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

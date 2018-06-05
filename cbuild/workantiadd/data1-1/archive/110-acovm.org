@@ -1,0 +1,131 @@
+# Tue Jun  5 11:37:46 2018
+# Filename........: archive/110-acovm.org
+# Update Output...: 22100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 110.000000
+# Gestation Time..: 213
+# Fitness.........: 0.516432
+# Errors..........: 3
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+nop-B
+set-flow
+nop-A
+IO
+shift-r
+mov-head
+nop-C
+set-flow
+nop-C
+nop-A
+nand
+nop-C
+set-flow
+nop-C
+inc
+nop-B
+shift-l
+pop
+swap
+nop-A
+swap-stk
+sub
+if-n-equ
+h-alloc
+pop
+h-alloc
+h-search
+sub
+add
+nop-B
+nand
+nop-B
+set-flow
+add
+swap-stk
+swap
+nop-A
+sub
+IO
+nop-B
+h-search
+IO
+h-copy
+swap
+h-search
+h-copy
+nop-A
+add
+h-copy
+h-search
+jmp-head
+nop-A
+inc
+IO
+nop-C
+if-n-equ
+nop-C
+push
+h-divide
+h-divide
+if-label
+push
+h-copy
+nop-A
+if-n-equ
+h-copy
+if-n-equ
+if-label
+h-alloc
+if-less
+nop-B
+sub
+nand
+nop-C
+h-copy
+nand
+nop-C
+h-copy
+pop
+nop-B
+h-copy
+shift-r
+inc
+nand
+nop-C
+push
+shift-l
+h-copy
+h-copy
+swap-stk
+if-n-equ
+nop-A
+nand
+nop-C
+IO
+nop-C
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A

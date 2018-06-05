@@ -1,0 +1,137 @@
+# Tue Jun  5 11:18:22 2018
+# Filename........: archive/116-abiaw.org
+# Update Output...: 11700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 113.000000
+# Gestation Time..: 218
+# Fitness.........: 0.518349
+# Errors..........: 0
+# Genome Size.....: 116
+# Copied Size.....: 116
+# Executed Size...: 113
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-B
+shift-r
+h-copy
+IO
+h-copy
+h-copy
+h-copy
+nop-C
+pop
+sub
+nop-B
+nop-B
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+add
+nand
+inc
+IO
+nop-C
+add
+if-n-equ
+nop-C
+inc
+h-copy
+nop-C
+nop-A
+set-flow
+get-head
+h-copy
+swap-stk
+shift-l
+nop-C
+nop-C
+push
+shift-l
+h-copy
+swap-stk
+h-copy
+swap
+h-copy
+swap-stk
+IO
+nop-C
+sub
+nop-C
+pop
+h-copy
+set-flow
+h-search
+push
+push
+nop-C
+h-copy
+nop-C
+h-divide
+if-label
+push
+swap-stk
+add
+nop-C
+inc
+nop-C
+h-copy
+nop-C
+pop
+h-search
+IO
+nop-C
+add
+nop-C
+swap-stk
+if-n-equ
+h-copy
+nop-A
+sub
+nop-C
+get-head
+swap-stk
+get-head
+swap
+nop-C
+if-less
+push
+dec
+h-copy
+nand
+pop
+nop-B
+nop-C
+nop-C
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,133 @@
+# Tue Jun  5 11:17:12 2018
+# Filename........: archive/112-aagar.org
+# Update Output...: 11100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 108.000000
+# Gestation Time..: 214
+# Fitness.........: 0.504673
+# Errors..........: 0
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 108
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-B
+pop
+pop
+h-copy
+h-copy
+add
+if-less
+nop-C
+sub
+IO
+dec
+nop-C
+nand
+nop-C
+h-copy
+add
+dec
+inc
+IO
+swap-stk
+nop-C
+h-divide
+nop-C
+inc
+h-copy
+nop-C
+inc
+if-less
+pop
+h-divide
+shift-l
+nop-C
+nop-C
+push
+inc
+h-copy
+pop
+h-copy
+dec
+h-copy
+dec
+IO
+inc
+sub
+nop-C
+nand
+pop
+h-copy
+h-divide
+push
+dec
+push
+h-copy
+inc
+nop-C
+dec
+nop-C
+push
+swap-stk
+add
+nop-C
+h-search
+shift-r
+dec
+if-label
+if-less
+h-search
+IO
+nop-C
+get-head
+nop-C
+nop-B
+nop-A
+h-copy
+nop-A
+sub
+nop-C
+get-head
+inc
+get-head
+nop-A
+if-less
+if-less
+nop-B
+h-copy
+nand
+pop
+shift-r
+nop-C
+pop
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

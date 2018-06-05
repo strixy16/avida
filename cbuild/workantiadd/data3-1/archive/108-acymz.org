@@ -1,0 +1,129 @@
+# Tue Jun  5 11:30:07 2018
+# Filename........: archive/108-acymz.org
+# Update Output...: 18000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 101.000000
+# Gestation Time..: 208
+# Fitness.........: 0.485577
+# Errors..........: 6
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+sub
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+if-less
+shift-r
+nop-C
+add
+nop-C
+pop
+if-n-equ
+nop-B
+sub
+nop-C
+h-alloc
+nop-C
+if-label
+if-less
+if-n-equ
+nop-C
+nand
+nop-C
+nop-C
+if-label
+nop-A
+IO
+dec
+nand
+swap
+nop-C
+add
+get-head
+push
+pop
+IO
+mov-head
+nop-C
+h-alloc
+shift-r
+shift-l
+if-less
+nop-C
+get-head
+push
+h-search
+nop-B
+get-head
+sub
+shift-l
+swap
+h-copy
+push
+nop-C
+dec
+h-alloc
+push
+shift-l
+h-alloc
+add
+nop-B
+h-copy
+if-label
+h-copy
+push
+set-flow
+IO
+swap
+nop-C
+if-n-equ
+nop-B
+h-copy
+h-copy
+nand
+IO
+nand
+IO
+nop-A
+h-alloc
+shift-r
+nop-A
+h-alloc
+h-copy
+inc
+push
+push
+shift-l
+nop-C
+h-copy
+dec
+h-divide
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B
