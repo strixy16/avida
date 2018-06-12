@@ -2,17 +2,18 @@
 
 #SBATCH -c 3
 #SBATCH --mem=4096
-#SBATCH --time=0-2:0:00
+#SBATCH --time=0-4:0:00
 
 
-POPUPDATES=50000 #which detail file should be taken and how event file should be configured    
-POPCYCLES=3 #number of populations you are making
+POPUPDATES=99500 #which detail file should be taken and how event file should be configured    
+# POPCYCLES=3 #number of populations you are making
 ANTIUPDATES=50000 #how event should be configured for antibiotic run
-ANTICYCLES=2 #number of antibiotic runs each version of population gets
-SEARCHINSTR='add' #instruction we want to exist so we can make it antibiotic
-MOVED=3
+ANTICYCLES=3 #number of antibiotic runs each version of population gets
+# SEARCHINSTR='h-alloc' #instruction we want to exist so we can make it antibiotic
+MOVED=1
 #prepare workantiadd to run multiple times
-cd cbuild/workantiadd
+cd cbuild/worknand20
+
 sed -i "40s/data/data1-1/" avida.cfg  #change data to data1 for while loop
 
 #getting event file in antibiotic set to run enough updates

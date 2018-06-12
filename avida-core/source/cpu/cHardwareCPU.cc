@@ -2959,7 +2959,7 @@ bool cHardwareCPU::Inst_Log10(cAvidaContext&)
 bool cHardwareCPU::Inst_Add(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 20;
+  const int concentration = 0;
   if (r > concentration) {
     const int dst = FindModifiedRegister(REG_BX);
     const int op1 = REG_BX;
@@ -2971,10 +2971,14 @@ bool cHardwareCPU::Inst_Add(cAvidaContext&)
 
 bool cHardwareCPU::Inst_Sub(cAvidaContext&)
 {
-  const int dst = FindModifiedRegister(REG_BX);
-  const int op1 = REG_BX;
-  const int op2 = REG_CX;
-  GetRegister(dst) = GetRegister(op1) - GetRegister(op2);
+  const int r = rand() % 100 + 1;
+  const int concentration = 220;
+  if (r > concentration) {
+    const int dst = FindModifiedRegister(REG_BX);
+    const int op1 = REG_BX;
+    const int op2 = REG_CX;
+    GetRegister(dst) = GetRegister(op1) - GetRegister(op2);
+  }
   return true;
 }
 
@@ -3021,10 +3025,14 @@ bool cHardwareCPU::Inst_Mod(cAvidaContext&)
 
 bool cHardwareCPU::Inst_Nand(cAvidaContext&)
 {
-  const int dst = FindModifiedRegister(REG_BX);
-  const int op1 = REG_BX;
-  const int op2 = REG_CX;
+  const int r = rand() % 100 + 1;
+  const int concentration = 0;
+  if (r > concentration) {
+    const int dst = FindModifiedRegister(REG_BX);
+    const int op1 = REG_BX;
+    const int op2 = REG_CX;
   GetRegister(dst) = ~(GetRegister(op1) & GetRegister(op2));
+  }
   return true;
 }
 
@@ -3124,25 +3132,29 @@ bool cHardwareCPU::Inst_Clearbit(cAvidaContext&)
 
 bool cHardwareCPU::Inst_Copy(cAvidaContext& ctx)
 {
-  const int op1 = REG_BX;
-  const int op2 = REG_AX;
-  
-  const cHeadCPU from(this, GetRegister(op1));
-  cHeadCPU to(this, GetRegister(op2) + GetRegister(op1));
-  
-  //checkNoMutList is for head to head kaboom experiments
-  if (m_organism->TestCopyMut(ctx) && !(checkNoMutList(from))) {
-    to.SetInst(m_inst_set->GetRandomInst(ctx));
-    to.SetFlagMutated();  // Mark this instruction as mutated...
-    to.SetFlagCopyMut();  // Mark this instruction as copy mut...
-  } else {
-    to.SetInst(from.GetInst());
-    to.ClearFlagMutated();  // UnMark
-    to.ClearFlagCopyMut();  // UnMark
+  const int r = rand() % 100 + 1;
+  const int concentration = 0;
+  if (r > concentration) {
+    const int op1 = REG_BX;
+    const int op2 = REG_AX;
+    
+    const cHeadCPU from(this, GetRegister(op1));
+    cHeadCPU to(this, GetRegister(op2) + GetRegister(op1));
+    
+    //checkNoMutList is for head to head kaboom experiments
+    if (m_organism->TestCopyMut(ctx) && !(checkNoMutList(from))) {
+      to.SetInst(m_inst_set->GetRandomInst(ctx));
+      to.SetFlagMutated();  // Mark this instruction as mutated...
+      to.SetFlagCopyMut();  // Mark this instruction as copy mut...
+    } else {
+      to.SetInst(from.GetInst());
+      to.ClearFlagMutated();  // UnMark
+      to.ClearFlagCopyMut();  // UnMark
+    }
+    
+    to.SetFlagCopied();  // Set the copied flag.
+    //  cpu_stats.mut_stats.copies_exec++;
   }
-  
-  to.SetFlagCopied();  // Set the copied flag.
-  //  cpu_stats.mut_stats.copies_exec++;
   return true;
 }
 
@@ -3266,8 +3278,12 @@ bool cHardwareCPU::Inst_Allocate(cAvidaContext& ctx)   // Allocate bx more space
 
 bool cHardwareCPU::Inst_Divide(cAvidaContext& ctx)  
 { 
-  const int src = REG_AX;
-  return Divide_Main(ctx, GetRegister(src));    
+  const int r = rand() % 100 + 1;
+  const int concentration = 0;
+  if (r > concentration) {
+    const int src = REG_AX;
+    return Divide_Main(ctx, GetRegister(src));    
+  }
 }
 
 /*

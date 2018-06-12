@@ -1,8 +1,34 @@
-CONCENTRATION=50 #default concentration is 20, can just change number here
+#settings to set
+#more than one antibiotic on at once will probably have exact same random pattern
+CONCENTRATION=20 #default concentration is 0, can just change number here
+ADD=false
+SUB=true
+NAND=false
+COPY=false
+DIVIDE=false #as in divide avidian, not content of registers
+#this arrangment works for only not, change environment file if want different
 
 #setting concentration
 cd avida-core/source/cpu #get to directory with cHardwareCPU
-sed -i "2962s/20/$CONCENTRATION/" cHardwareCPU.cc 
+if $ADD; then
+	sed -i "2962s/0/$CONCENTRATION/" cHardwareCPU.cc 
+fi
+
+if $SUB; then
+	sed -i "2975s/0/$CONCENTRATION/" cHardwareCPU.cc
+fi
+
+if $NAND; then
+	sed -i "3029s/0/$CONCENTRATION/" cHardwareCPU.cc
+fi
+
+if $COPY; then
+	sed -i "3136s/0/$CONCENTRATION/" cHardwareCPU.cc
+fi
+
+if $DIVIDE; then
+	sed -i "3282s/0/$CONCENTRATION/" cHardwareCPU.cc
+fi
 
 cd ../../.. #get back into avida
 ./build_avida #compiles new concentration
@@ -13,7 +39,28 @@ mv work workantiadd
 
 cd workantiadd
 mkdir populations #folder to hold populations that can be loaded
+
+#file so can keep track of concentrations
 touch concentration$CONCENTRATION
+if $ADD; then
+	echo "add is affected" >> concentration$CONCENTRATION
+fi
+
+if $SUB; then
+	echo "sub is affected" >> concentration$CONCENTRATION
+fi
+
+if $NAND; then
+	echo "nand is affected" >> concentration$CONCENTRATION
+fi
+
+if $COPY; then
+	echo "copy is affected" >> concentration$CONCENTRATION
+fi
+
+if $DIVIDE; then
+	echo "divide is affected" >> concentration$CONCENTRATION
+fi
 
 #make default copy mutation 0.0025
 sed -i "49s/0.0075/0.0025/" avida.cfg
@@ -38,5 +85,23 @@ sed -i "13 a RESOURCE  resNOT:inflow=10:outflow=0.01" environment.cfg
 
 #so next time run this it works
 cd ../../avida-core/source/cpu #get to directory with cHardwareCPU
-sed -i "2962s/$CONCENTRATION/20/" cHardwareCPU.cc
+if $ADD; then
+	sed -i "2962s/0/$CONCENTRATION/" cHardwareCPU.cc 
+fi
+
+if $SUB; then
+	sed -i "2975s/0/$CONCENTRATION/" cHardwareCPU.cc
+fi
+
+if $NAND; then
+	sed -i "3029s/0/$CONCENTRATION/" cHardwareCPU.cc
+fi
+
+if $COPY; then
+	sed -i "3136s/0/$CONCENTRATION/" cHardwareCPU.cc
+fi
+
+if $DIVIDE; then
+	sed -i "3282s/0/$CONCENTRATION/" cHardwareCPU.cc
+fi
 

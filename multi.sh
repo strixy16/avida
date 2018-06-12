@@ -4,27 +4,32 @@
 #SBATCH --mem=3072
 #SBATCH --time=0-4:0:00
 
-cd cbuild/work          # go into correct directory
-
-sed "40s/data/data1/" avida.cfg > temp  #change data to data1 for while loop
-cat temp > avida.cfg
-
 CURR=1                  #version of data file you start with
-TIMESRUN=6             #number of times you run avida
+TIMESRUN=3             #number of times you run avida
+POPUPDATES=50000		#how many updates
+
+cd cbuild/workdefault          # go into correct directory
+
+#change updates in event file
+sed -i "40s/100000/$POPUPDATES/" events.cfg 
+sed -i "30s/100000/$POPUPDATES/" events.cfg
+
+sed -i "40s/data/data1/" avida.cfg
+
 while ((CURR<=TIMESRUN))
 do
     ((NEXT = CURR + 1)) # index of next data file
     ./avida > "logfile$CURR" &           # run avida in the background
     sleep 2                              #stop avida overiding itself when change config
-    sed "40s/data$CURR/data$NEXT/" avida.cfg > temp # change data outputfile by 1
-    cat temp > avida.cfg
-    rm temp
+    sed -i "40s/data$CURR/data$NEXT/" avida.cfg # change data outputfile by 1
     ((CURR=CURR+1))
     #put any changes to the config here
 done
 
+#reset event file to 100000
+sed -i "40s/$POPUPDATES/100000/" events.cfg 
+sed -i "30s/$POPUPDATES/100000/" events.cfg 
+
 # reset data outputfile to 1
-sed "40s/data$NEXT/data/" avida.cfg > temp
-cat temp > avida.cfg
-rm temp
+sed -i "40s/data$NEXT/data/" avida.cfg
 wait
