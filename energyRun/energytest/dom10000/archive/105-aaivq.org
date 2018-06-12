@@ -1,0 +1,130 @@
+# Wed Jun  6 12:28:19 2018
+# Filename........: archive/105-aaivq.org
+# Update Output...: 10000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 102.000000
+# Gestation Time..: 231
+# Fitness.........: 0.441558
+# Errors..........: 0
+# Genome Size.....: 105
+# Copied Size.....: 105
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# echo 34 (34.000000)
+# nand 3 (3.000000)
+# not 0 (0.000000)
+# and 0 (0.000000)
+# orn 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nand
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+swap-stk
+nand
+IO
+nop-C
+IO
+nop-C
+IO
+set-flow
+IO
+nop-C
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+IO
+nop-C
+IO
+nop-C
+IO
+shift-l
+IO
+nop-C
+IO
+nop-C
+h-copy
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+nop-C
+IO
+nop-C
+IO
+nop-C
+nop-C
+shift-l
+IO
+nop-C
+IO
+nand
+IO
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+nop-C
+nop-C
+h-search
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

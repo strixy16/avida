@@ -1,0 +1,21 @@
+# Avida tasks execution data
+# Tue Jun  5 10:17:29 2018
+# First column gives the current update, all further columns give the number
+# of times the particular task has been executed this update.
+#  1: Update
+#  2: Echo
+#  3: Nand
+#  4: Not
+#  5: And
+#  6: OrNot
+
+100 125632 75 8 0 1 
+200 123780 278 17 0 0 
+300 120714 434 55 0 7 
+400 117553 615 72 0 39 
+500 114661 824 90 0 46 
+600 112034 998 140 0 57 
+700 109513 1337 177 0 48 
+800 109392 1411 248 0 37 
+900 107201 1783 199 0 31 
+1000 105336 2146 167 0 47 

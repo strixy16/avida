@@ -1,0 +1,126 @@
+# Thu Jun  7 13:29:09 2018
+# Filename........: 105-aaaux
+# Update Output...: N/A
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 102.000000
+# Gestation Time..: 230
+# Fitness.........: 0.443478
+# Errors..........: 0
+# Genome Size.....: 105
+# Copied Size.....: 105
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 6 (6.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+IO
+nop-C
+set-flow
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+nand
+nop-C
+IO
+push
+nop-C
+IO
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+nand
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+pop
+nop-C
+nop-A
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+nand
+IO
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+nand
+IO
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+nand
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+IO
+nop-C
+nop-C
+nop-C
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+mov-head
+nop-A
+nop-B

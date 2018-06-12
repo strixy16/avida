@@ -1,0 +1,18 @@
+# Avida resource data
+# Wed Jun  6 10:34:48 2018
+# First column gives the current update, all further columns give the quantity
+# of the particular resource at that update.
+#  1: Update
+#  2: sun_light
+
+0 10.3904 
+100 94.9105 
+200 94.9127 
+300 94.9127 
+400 94.9127 
+500 94.9127 
+600 94.9127 
+700 94.9127 
+800 94.9127 
+900 94.9127 
+1000 94.9127 
