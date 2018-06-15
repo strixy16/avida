@@ -1,12 +1,33 @@
 #settings to set
 #more than one antibiotic on at once will probably have exact same random pattern
+#assuming only one on at a time, may be bugs if try (particularly if combine with nop)
 CONCENTRATION=100 #default concentration is 0, can just change number here
+NOPA=(false ) #nop only in sense of switching which registers get used, not label reading
+NOPB=false #1663 so swap registers too- later
+NOPC=false
+IFNEQ=false
+IFLESS=false
+IFLABEL=false
+MOVHEAD=false
+JMPHEAD=false
+GETHEAD=false
+SETFLOW=false
+SHIFTR=false
+SHIFTL=false
+INC=false
+DEC=false
+PUSH=false
+POP=false
+SWAPSTK=false
+SWAP=false
 ADD=false
 SUB=false
-NAND=true
-COPY=false
-DIVIDE=false #as in divide avidian, not content of registers
-#this arrangment works for only not, change environment file if want different
+NAND=false
+HCOPY=false
+HALLOC=false #added a return true
+HDIVIDE=false #as in divide avidian, not content of registers #added a return true
+IO=false 
+HSEARCH=false 
 
 #setting concentration
 cd avida-core/source/cpu #get to directory with cHardwareCPU
