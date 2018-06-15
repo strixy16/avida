@@ -1,8 +1,8 @@
 #settings to set
 #more than one antibiotic on at once will probably have exact same random pattern
-CONCENTRATION=20 #default concentration is 0, can just change number here
+CONCENTRATION=0 #default concentration is 0, can just change number here
 ADD=false
-SUB=true
+SUB=false
 NAND=false
 COPY=false
 DIVIDE=false #as in divide avidian, not content of registers
@@ -86,22 +86,22 @@ sed -i "13 a RESOURCE  resNOT:inflow=10:outflow=0.01" environment.cfg
 #so next time run this it works
 cd ../../avida-core/source/cpu #get to directory with cHardwareCPU
 if $ADD; then
-	sed -i "2962s/0/$CONCENTRATION/" cHardwareCPU.cc 
+	sed -i "2962s/$CONCENTRATION/0/" cHardwareCPU.cc 
 fi
 
 if $SUB; then
-	sed -i "2975s/0/$CONCENTRATION/" cHardwareCPU.cc
+	sed -i "2975s/$CONCENTRATION/0/" cHardwareCPU.cc
 fi
 
 if $NAND; then
-	sed -i "3029s/0/$CONCENTRATION/" cHardwareCPU.cc
+	sed -i "3029s/$CONCENTRATION/0/" cHardwareCPU.cc
 fi
 
 if $COPY; then
-	sed -i "3136s/0/$CONCENTRATION/" cHardwareCPU.cc
+	sed -i "3136s/$CONCENTRATION/0/" cHardwareCPU.cc
 fi
 
 if $DIVIDE; then
-	sed -i "3282s/0/$CONCENTRATION/" cHardwareCPU.cc
+	sed -i "3282s/$CONCENTRATION/0/" cHardwareCPU.cc
 fi
 
