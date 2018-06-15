@@ -5,14 +5,14 @@
 #SBATCH --time=0-4:0:00
 
 CURR=1                  #version of data file you start with
-TIMESRUN=3             #number of times you run avida
-POPUPDATES=50000		#how many updates
+TIMESRUN=5             #number of times you run avida
+POPUPDATES=100000		#how many updates
 
-cd cbuild/workdefault          # go into correct directory
+cd cbuild/work_all          # go into correct directory
 
 #change updates in event file
-sed -i "40s/100000/$POPUPDATES/" events.cfg 
-sed -i "30s/100000/$POPUPDATES/" events.cfg
+sed -i "37s/100000/$POPUPDATES/" events.cfg 
+sed -i "28s/100000/$POPUPDATES/" events.cfg
 
 sed -i "40s/data/data1/" avida.cfg
 
@@ -27,8 +27,8 @@ do
 done
 
 #reset event file to 100000
-sed -i "40s/$POPUPDATES/100000/" events.cfg 
-sed -i "30s/$POPUPDATES/100000/" events.cfg 
+sed -i "37s/$POPUPDATES/100000/" events.cfg 
+sed -i "28s/$POPUPDATES/100000/" events.cfg 
 
 # reset data outputfile to 1
 sed -i "40s/data$NEXT/data/" avida.cfg
