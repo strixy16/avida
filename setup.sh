@@ -7,16 +7,16 @@ do
 	for CONC in ${CONC[*]}
 	do
 		cd work$INSTR$CONC   #go into the specific work folder
-		sed - i "49s/0.0075/0.0025/" avida.cfg  #change its copy mutation
+		sed -i "49s/0.0075/0.0025/" avida.cfg  #change its copy mutation
 		mkdir run 
 		mv * run/    #move all the files into run
 		CNTR=0
-		for TASKS in ${RXNS[*]}
+		for RXN in ${RXNS[*]}
 		do
 			CNTR=$((CNTR+1))	#gonna need this for the environment file
-			cp run run$RXNS		#make folder for specific task
+			cp run run$RXN		#make folder for specific task
 			LINE=$((14+CNTR))	#same as CNTR
-			cd run$RXNS
+			cd run$RXN
 			sed -i "153s/-1/$RXN/" avida.cfg	#change the required reaction
 			sed -i "17s/Inject default-heads.cfg/LoadPopulation ../work$RXN/data/detail-50000.spop/" events.cfg	#get the events file to load the population
 			for I in 15 16 17 18 19 20 21 22 23 
