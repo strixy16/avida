@@ -1,0 +1,127 @@
+# Fri Jun 15 12:09:16 2018
+# Filename........: archive/106-aabey.org
+# Update Output...: 9500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 824.000000
+# Gestation Time..: 274
+# Fitness.........: 3.007299
+# Errors..........: 5
+# Genome Size.....: 106
+# Copied Size.....: 106
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# andn 1 (1.000000)
+
+
+pop
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+sub
+nop-A
+IO
+h-alloc
+nop-C
+push
+nop-A
+nop-C
+IO
+nop-C
+nop-C
+nop-C
+add
+nop-A
+h-copy
+if-n-equ
+nop-C
+nop-C
+nop-C
+if-n-equ
+h-copy
+nand
+add
+nop-C
+nop-A
+if-less
+nop-C
+nop-A
+IO
+inc
+nop-C
+nop-C
+nop-C
+inc
+IO
+nop-C
+set-flow
+sub
+nop-C
+h-copy
+dec
+nop-C
+inc
+nop-B
+h-search
+nand
+push
+nop-C
+inc
+nop-C
+nop-B
+nop-C
+sub
+nop-C
+h-copy
+pop
+nop-B
+if-less
+nop-C
+nop-C
+h-search
+IO
+nop-C
+h-alloc
+pop
+nop-C
+nop-C
+nop-C
+inc
+nop-C
+add
+sub
+shift-r
+nop-C
+pop
+nop-B
+h-copy
+h-alloc
+h-alloc
+nand
+h-alloc
+nop-C
+nand
+nop-C
+get-head
+pop
+shift-l
+dec
+h-search
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

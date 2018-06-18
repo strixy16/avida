@@ -1,0 +1,121 @@
+# Fri Jun 15 12:06:49 2018
+# Filename........: archive/100-aahxj.org
+# Update Output...: 6700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 98.000000
+# Gestation Time..: 234
+# Fitness.........: 0.418803
+# Errors..........: 0
+# Genome Size.....: 100
+# Copied Size.....: 100
+# Executed Size...: 98
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# andn 0 (0.000000)
+
+
+nop-B
+h-alloc
+nop-C
+set-flow
+nop-A
+mov-head
+nop-C
+nand
+nop-C
+swap-stk
+inc
+push
+sub
+sub
+nop-C
+IO
+if-label
+if-label
+nand
+swap-stk
+nop-C
+shift-l
+nop-C
+nop-C
+swap-stk
+if-n-equ
+nop-C
+h-copy
+pop
+h-divide
+nop-C
+nop-C
+if-n-equ
+nop-C
+nop-C
+if-less
+nop-C
+nop-C
+shift-r
+nand
+swap
+nop-C
+nop-C
+inc
+nop-C
+IO
+nop-B
+nop-C
+nop-C
+sub
+nop-C
+sub
+nop-C
+nop-C
+IO
+swap-stk
+nop-C
+if-label
+push
+nop-C
+nop-C
+h-search
+nop-C
+if-label
+nop-B
+IO
+dec
+IO
+dec
+dec
+nop-C
+nop-C
+swap
+h-copy
+IO
+if-n-equ
+swap
+nop-C
+swap-stk
+nop-C
+swap
+nop-C
+nop-C
+nop-C
+nop-C
+nand
+nop-C
+add
+IO
+h-copy
+nop-C
+h-search
+h-copy
+if-label
+nop-C
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A

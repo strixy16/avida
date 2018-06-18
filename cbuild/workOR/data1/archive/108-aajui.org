@@ -1,0 +1,129 @@
+# Fri Jun 15 12:07:15 2018
+# Filename........: archive/108-aajui.org
+# Update Output...: 7600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 102.000000
+# Gestation Time..: 246
+# Fitness.........: 0.414634
+# Errors..........: 1
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+pop
+nop-C
+get-head
+nop-C
+add
+nop-C
+nop-A
+nop-C
+nand
+nop-C
+if-n-equ
+nop-C
+if-n-equ
+nop-C
+pop
+add
+nop-A
+swap
+nop-C
+nop-C
+nop-C
+h-search
+nop-C
+swap-stk
+get-head
+nop-C
+nop-C
+if-n-equ
+add
+nop-C
+nop-C
+nop-C
+swap-stk
+get-head
+inc
+swap
+nop-C
+swap
+get-head
+h-divide
+nop-C
+nop-C
+nop-C
+h-copy
+nop-B
+set-flow
+nop-C
+h-copy
+inc
+nop-C
+nop-C
+h-alloc
+nand
+nop-C
+nop-C
+nop-C
+nop-C
+pop
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+shift-r
+nop-C
+h-search
+nop-C
+set-flow
+nop-C
+nop-C
+swap-stk
+if-n-equ
+nop-A
+if-less
+shift-r
+sub
+nop-C
+swap-stk
+nop-B
+nop-C
+nop-B
+h-copy
+sub
+nop-C
+if-label
+shift-r
+shift-r
+nand
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+mov-head
+nand
+nop-A
+nop-B

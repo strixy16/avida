@@ -1,0 +1,124 @@
+# Mon Jun 18 09:39:35 2018
+# Filename........: archive/102-aadlf.org
+# Update Output...: 3200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 98.000000
+# Gestation Time..: 274
+# Fitness.........: 0.357664
+# Errors..........: 1
+# Genome Size.....: 102
+# Copied Size.....: 102
+# Executed Size...: 98
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 0 (0.000000)
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+sub
+nop-C
+nop-C
+nop-C
+shift-r
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+pop
+nop-C
+dec
+nop-C
+swap
+nop-C
+push
+nop-C
+shift-r
+nop-C
+add
+nop-C
+nop-C
+nop-C
+nop-C
+h-copy
+nop-C
+nop-C
+set-flow
+push
+nop-C
+nop-C
+nop-C
+nop-A
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+set-flow
+nop-C
+nop-C
+shift-r
+add
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+shift-r
+nop-C
+nop-C
+shift-l
+nop-C
+if-less
+nop-C
+shift-r
+h-alloc
+nop-C
+nop-C
+nop-C
+swap
+nop-C
+nop-C
+nop-C
+add
+nop-A
+push
+nop-C
+nop-C
+nop-C
+dec
+nop-C
+h-search
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

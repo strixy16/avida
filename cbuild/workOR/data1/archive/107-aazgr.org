@@ -1,0 +1,128 @@
+# Fri Jun 15 12:06:19 2018
+# Filename........: archive/107-aazgr.org
+# Update Output...: 6400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 101.000000
+# Gestation Time..: 243
+# Fitness.........: 0.415638
+# Errors..........: 0
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+set-flow
+nop-C
+nop-C
+pop
+nop-C
+add
+nop-C
+nop-A
+get-head
+add
+nop-C
+nop-C
+nop-C
+nop-C
+shift-r
+swap
+nop-C
+nop-A
+set-flow
+nop-C
+nop-C
+swap-stk
+h-search
+nop-C
+h-search
+get-head
+nop-C
+nop-C
+if-n-equ
+add
+nop-C
+nop-C
+nop-C
+swap-stk
+get-head
+if-less
+nop-C
+nop-C
+nop-C
+if-less
+nand
+nop-C
+get-head
+nop-C
+h-copy
+set-flow
+if-less
+nop-C
+h-copy
+swap
+nop-C
+swap
+nop-C
+nand
+nop-C
+nop-C
+sub
+nop-C
+pop
+push
+push
+nop-C
+nop-C
+nop-C
+h-divide
+nop-C
+h-search
+h-search
+add
+nop-C
+nop-C
+add
+set-flow
+nop-A
+if-less
+pop
+sub
+nop-C
+dec
+set-flow
+pop
+nop-B
+add
+nop-C
+h-search
+inc
+nand
+inc
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+mov-head
+add
+nop-A
+nop-B

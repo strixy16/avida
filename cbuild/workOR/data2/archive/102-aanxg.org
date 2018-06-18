@@ -1,0 +1,124 @@
+# Mon Jun 18 09:41:25 2018
+# Filename........: archive/102-aanxg.org
+# Update Output...: 5800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 98.000000
+# Gestation Time..: 272
+# Fitness.........: 0.360294
+# Errors..........: 1
+# Genome Size.....: 102
+# Copied Size.....: 102
+# Executed Size...: 98
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 0 (0.000000)
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+nop-C
+shift-l
+nop-C
+add
+add
+nop-C
+nop-C
+nop-C
+if-less
+add
+if-n-equ
+shift-l
+nop-C
+dec
+nop-C
+add
+h-copy
+nop-C
+nand
+nop-C
+nop-C
+add
+get-head
+shift-l
+pop
+if-less
+nop-C
+swap
+nop-B
+get-head
+nop-C
+nop-B
+nop-C
+if-less
+nop-A
+nop-C
+nop-C
+shift-r
+add
+push
+nop-B
+nop-C
+h-alloc
+h-divide
+nop-C
+nop-C
+add
+nop-C
+nop-C
+nop-C
+IO
+nop-C
+nop-C
+if-n-equ
+nop-B
+nop-C
+nop-C
+nop-C
+shift-l
+nop-C
+shift-l
+shift-r
+dec
+nop-C
+if-n-equ
+nop-C
+nop-C
+sub
+swap-stk
+get-head
+dec
+nop-C
+nop-A
+dec
+nop-C
+set-flow
+nop-B
+add
+nop-C
+nop-C
+nop-C
+h-search
+swap
+IO
+IO
+h-search
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

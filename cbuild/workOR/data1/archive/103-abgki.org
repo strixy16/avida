@@ -1,0 +1,125 @@
+# Mon Jun 18 09:46:14 2018
+# Filename........: archive/103-abgki.org
+# Update Output...: 11500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 100.000000
+# Gestation Time..: 218
+# Fitness.........: 0.458716
+# Errors..........: 0
+# Genome Size.....: 103
+# Copied Size.....: 103
+# Executed Size...: 100
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 0 (0.000000)
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+shift-l
+nop-C
+h-copy
+shift-r
+shift-r
+sub
+nop-C
+IO
+shift-l
+shift-r
+IO
+IO
+if-n-equ
+nop-B
+sub
+h-copy
+get-head
+nop-C
+swap-stk
+nop-B
+nop-B
+nop-A
+sub
+nop-A
+nop-C
+inc
+swap-stk
+pop
+if-label
+if-less
+nop-B
+h-copy
+nop-C
+nop-A
+h-divide
+nop-C
+sub
+nop-C
+nop-C
+shift-l
+nop-B
+pop
+h-search
+swap
+nop-C
+nop-C
+nop-C
+nop-A
+nop-C
+nop-C
+inc
+set-flow
+swap
+nop-C
+nop-C
+get-head
+set-flow
+nop-C
+swap-stk
+IO
+if-n-equ
+nop-B
+if-n-equ
+nop-C
+h-search
+h-copy
+get-head
+nand
+nop-C
+get-head
+nop-C
+IO
+nop-A
+dec
+nop-C
+swap
+nop-C
+if-n-equ
+get-head
+h-search
+h-search
+nop-A
+pop
+nop-C
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,125 @@
+# Mon Jun 18 09:51:10 2018
+# Filename........: archive/103-acivp.org
+# Update Output...: 17600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 3168.000000
+# Gestation Time..: 222
+# Fitness.........: 14.270270
+# Errors..........: 3
+# Genome Size.....: 103
+# Copied Size.....: 103
+# Executed Size...: 99
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 1 (1.000000)
+# or 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-C
+h-copy
+inc
+swap
+nop-A
+nop-C
+nop-C
+shift-r
+add
+nop-C
+IO
+h-alloc
+nop-C
+dec
+h-copy
+pop
+nop-C
+if-label
+h-divide
+nand
+swap-stk
+shift-l
+add
+nop-C
+inc
+nop-A
+sub
+nop-C
+inc
+shift-r
+h-copy
+pop
+swap-stk
+inc
+nop-C
+swap
+nop-C
+get-head
+sub
+IO
+inc
+swap-stk
+nop-B
+get-head
+if-less
+h-divide
+nop-C
+set-flow
+nop-C
+if-n-equ
+set-flow
+get-head
+get-head
+inc
+add
+swap
+sub
+nop-C
+IO
+inc
+nop-C
+push
+nand
+swap-stk
+h-copy
+swap
+nand
+IO
+inc
+inc
+nop-B
+nand
+IO
+nop-C
+swap-stk
+h-alloc
+shift-l
+add
+h-search
+h-search
+shift-l
+push
+nop-C
+h-alloc
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,128 @@
+# Fri Jun 15 12:05:21 2018
+# Filename........: archive/107-aabku.org
+# Update Output...: 5000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 100.000000
+# Gestation Time..: 248
+# Fitness.........: 0.403226
+# Errors..........: 1
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 100
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# andn 0 (0.000000)
+
+
+nop-C
+h-alloc
+set-flow
+nop-A
+nop-B
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+nop-C
+nop-C
+nop-C
+h-divide
+push
+nop-C
+nop-B
+nop-C
+nop-C
+if-label
+IO
+nop-C
+nop-C
+nop-C
+nand
+shift-l
+if-label
+nop-C
+nop-C
+pop
+nop-C
+if-less
+nop-C
+dec
+pop
+nop-C
+nop-C
+IO
+nop-A
+nop-C
+nop-C
+nop-C
+swap
+nop-C
+nop-C
+swap
+nop-C
+sub
+nop-C
+nop-C
+nop-B
+nop-C
+inc
+nop-C
+nop-C
+shift-l
+IO
+nop-C
+nop-A
+nand
+nop-C
+nop-C
+nop-C
+get-head
+dec
+nop-C
+if-less
+shift-l
+mov-head
+nop-C
+shift-l
+nop-C
+dec
+nop-B
+nop-C
+add
+push
+nop-C
+shift-r
+nop-C
+nop-C
+nop-C
+nop-C
+push
+nop-C
+nop-C
+nand
+swap-stk
+add
+shift-r
+nop-C
+nop-C
+nop-C
+h-search
+h-copy
+h-copy
+if-label
+nop-C
+h-divide
+h-copy
+mov-head
+nop-A
+nop-C
+h-alloc
+set-flow
+nop-A

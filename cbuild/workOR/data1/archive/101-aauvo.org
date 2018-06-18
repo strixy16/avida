@@ -1,0 +1,123 @@
+# Mon Jun 18 09:49:37 2018
+# Filename........: archive/101-aauvo.org
+# Update Output...: 15700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 97.000000
+# Gestation Time..: 213
+# Fitness.........: 0.455399
+# Errors..........: 1
+# Genome Size.....: 101
+# Copied Size.....: 101
+# Executed Size...: 97
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 0 (0.000000)
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+inc
+nop-C
+shift-r
+nop-C
+set-flow
+nop-B
+sub
+shift-r
+sub
+nop-C
+set-flow
+nop-C
+nop-C
+sub
+inc
+nop-C
+add
+if-less
+swap-stk
+get-head
+push
+get-head
+nop-C
+inc
+add
+pop
+nop-C
+push
+sub
+h-copy
+nop-C
+h-alloc
+if-n-equ
+swap-stk
+inc
+swap
+nop-C
+add
+pop
+pop
+nop-A
+if-less
+IO
+nop-C
+if-label
+dec
+nop-C
+nop-C
+push
+nop-B
+swap
+nop-B
+nand
+IO
+nop-C
+sub
+nop-C
+pop
+nop-C
+if-label
+sub
+inc
+swap
+h-copy
+inc
+add
+get-head
+get-head
+sub
+push
+nop-A
+swap
+nop-C
+swap-stk
+nop-C
+h-search
+nop-A
+h-search
+inc
+nop-A
+h-search
+nop-C
+shift-l
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B
