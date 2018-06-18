@@ -1,102 +1,4 @@
 ls
-cmake --version
-cd .
-cd ../..
-cd ..
-ls
-cd ..
-ls
-cd bin
-ls
-:q
-cd ..
-ls
-cd -name "cmake"
-cd -name "cmake.*"
-find -name "cmake.*"
-cd
-ls
-cd cmake-3.11.1/
-ls
-use
-module load
-module avail
-module spider
-module spider CMake
-squeue --start
-g++ --version
-update g++
-wget g++ 8
-module spider
-module load gcc/4.8.3
-module load gcc/7.3.0
-./build_avida
-cd avida
-./build_avida
-module load gcc/4.8.3
-cd ..
-rm -R avida
-gcc --version
-g++ --version
-module load nixpkgs/16.09
-module load gcc/7.3.0
-g++ --version
-git clone https://github.com/devosoft/avida.git
-ls
-cd avida
-ls
-cd ..
-rmdir avida
-rm -R avida
-rmdir avida
-ls
-git clone https://github.com/devosoft/avida.git
-cd avida 
-./build_avida 
-git submodule init
-git submodule update
-vim .gitmodules
-git submodule sync
-git submodule update
-./build_avida 
-cmake --version
-./build_avida 
-clear
-./build_avida 
-cxx
-module spider
-module spider gcc
-module load gcc/6.4.0
-./build_avida 
-module load g++/7.3.0
-module load gcc/7.3.0
-./build_avida 
-GNU --version
-gcc --version
-module load spider gcc
-module spider gcc
-module load gcc/5.4.0
-git submodule init
-git submodule update
-./build_avida 
-./build_avida -DAVD_GUI_NCURSES=1
-ls
-cd avida-core/source/actions/
-ls
-vim PopulationActions.cc
-cd ..
-cd include/public/avida/core/
-vim Types.h 
-cd ..
-cd..
-cd ..
-cd avida 
-./build_avida 
-ls
-cd cbuild
-ls
-cd work
-ls
 ./avida
 ./avida-viewer
 cd ..
@@ -998,3 +900,101 @@ vim slurm-1471673_1
 vim slurm-1471673_1.out 
 vim slurm-1471673_2.out 
 vim runAvida.sh 
+cd cbuild/
+ls
+cd work
+ls
+cd data
+ls
+cd ..
+vim avida.cfg
+./avida-viewer 
+vim avida.cfg 
+vim events.cfg 
+vim instset-heads
+vim instset-heads.cfg 
+cd
+cd avida-core/source/cpu/
+vim cHardwareCPU.cc
+ls
+cd
+ls
+git fetch origin testingInstr
+ls
+git branch
+git checkout testingInstr
+git branch -a
+git update
+git checkout testingInstr
+git fetch
+git branch -a
+git checkout testingInstr
+git status
+git branch
+git add .
+git add ./*
+git status
+git stash
+git status
+git checkout testingInstr 
+git branch
+ls
+cd cbuild/
+ls
+cd ..
+cd avida-core/source/cpu/
+ls
+vim cHardwareCPU.cc
+cd
+./build_avida 
+ls
+cd cbuild/
+cd work
+ls
+vim avida.cfg 
+cd ..
+cp work workORN
+cp -R work workORN
+cp -R work workANDN
+cp -R work workOR
+ls
+cd workANDN
+ls
+vim environment.cfg 
+cd ..
+cd workOR
+vim environment.cfg 
+vim events.cfg 
+cd ..
+workORN
+cd workORN
+vim environment.cfg 
+vim events.cfg 
+cd ../workANDN/
+vim events.cfg 
+cd
+vim runAnti.sh 
+mv runAnti.sh runAntiANDN.sh 
+vim runAntiANDN.sh 
+cp runAntiANDN.sh runAntiORN.sh 
+cp runAntiANDN.sh runAntiOR.sh 
+vim runAntiOR.sh 
+vim runAntiORN.sh 
+sbatch runAntiORN.sh 
+sbatch runAntiOR.sh 
+sbatch runAntiANDN.sh 
+cd cbuild/
+running
+cd workORN
+ls
+cd logfile1
+vim logfile1
+vim logfile2
+cd ../workOR
+ls
+vim logfile1
+vim logfile2
+cd ../workANDN
+vim logfile1
+vim logfile2
+running

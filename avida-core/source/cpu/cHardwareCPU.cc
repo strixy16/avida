@@ -3026,7 +3026,7 @@ bool cHardwareCPU::Inst_Mod(cAvidaContext&)
 bool cHardwareCPU::Inst_Nand(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 100;
+  const int concentration = 0;
   if (r > concentration) {
     const int dst = FindModifiedRegister(REG_BX);
     const int op1 = REG_BX;

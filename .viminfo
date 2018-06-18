@@ -11,13 +11,13 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/UD: 1000
+~MSle0~/Inst_Nand
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1527188040,,"q"
 :x
-|2,0,1527188011,,"x"
+|2,0,1529329683,,"x"
+:q
+|2,0,1529329575,,"q"
 :s
 |2,0,1527184562,,"s"
 :Q
@@ -28,6 +28,8 @@
 |2,0,1527000465,,"w"
 
 # Search String History (newest to oldest):
+?/Inst_Nand
+|2,1,1529077450,47,"Inst_Nand"
 ?/UD: 1000
 |2,1,1527186911,47,"UD: 1000"
 ?/1000
@@ -80,230 +82,421 @@
 |3,1,36,0,1,0,1527187955,"U"
 
 # File marks:
-'0  9954  0  ~/cbuild/work/slurm-1472711.out
-|4,48,9954,0,1527188042,"~/cbuild/work/slurm-1472711.out"
-'1  9954  0  ~/cbuild/work/slurm-1472711.out
-|4,49,9954,0,1527188019,"~/cbuild/work/slurm-1472711.out"
-'2  11  6  ~/cbuild/work_2/runAvida.sh
-|4,50,11,6,1527187580,"~/cbuild/work_2/runAvida.sh"
-'3  4  20  ~/cbuild/work/runAvida.sh
-|4,51,4,20,1527187337,"~/cbuild/work/runAvida.sh"
-'4  37  2  ~/cbuild/work/events.cfg
-|4,52,37,2,1527187312,"~/cbuild/work/events.cfg"
-'5  6  13  ~/cbuild/work/runAvida.sh
-|4,53,6,13,1527187287,"~/cbuild/work/runAvida.sh"
-'6  6  13  ~/cbuild/work/runAvida.sh
-|4,54,6,13,1527187287,"~/cbuild/work/runAvida.sh"
-'7  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,55,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
-'8  30167  0  ~/cbuild/work/slurm-1472172.out
-|4,56,30167,0,1527186736,"~/cbuild/work/slurm-1472172.out"
-'9  30167  0  ~/cbuild/work/slurm-1472172.out
-|4,57,30167,0,1527186736,"~/cbuild/work/slurm-1472172.out"
+'0  12  13  ~/.gitignore
+|4,48,12,13,1529329685,"~/.gitignore"
+'1  8  0  ~/.gitignore
+|4,49,8,0,1529329575,"~/.gitignore"
+'2  8  0  ~/.gitignore
+|4,50,8,0,1529329575,"~/.gitignore"
+'3  18  0  ~/cbuild/workOR/environment.cfg
+|4,51,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+'4  37  2  ~/cbuild/workOR/events.cfg
+|4,52,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+'5  39  0  ~/cbuild/workOR/avida.cfg
+|4,53,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+'6  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,54,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+'7  108  0  ~/cbuild/workORN/data1/tasks.dat
+|4,55,108,0,1529328753,"~/cbuild/workORN/data1/tasks.dat"
+'8  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,56,108,0,1529328697,"~/cbuild/workANDN/data2/tasks.dat"
+'9  108  0  ~/cbuild/workANDN/data1/tasks.dat
+|4,57,108,0,1529328676,"~/cbuild/workANDN/data1/tasks.dat"
 
 # Jumplist (newest first):
--'  9954  0  ~/cbuild/work/slurm-1472711.out
-|4,39,9954,0,1527188042,"~/cbuild/work/slurm-1472711.out"
--'  9954  0  ~/cbuild/work/slurm-1472711.out
-|4,39,9954,0,1527188019,"~/cbuild/work/slurm-1472711.out"
--'  1  0  ~/cbuild/work/slurm-1472711.out
-|4,39,1,0,1527187928,"~/cbuild/work/slurm-1472711.out"
--'  1  0  ~/cbuild/work/slurm-1472711.out
-|4,39,1,0,1527187928,"~/cbuild/work/slurm-1472711.out"
--'  11  6  ~/cbuild/work_2/runAvida.sh
-|4,39,11,6,1527187580,"~/cbuild/work_2/runAvida.sh"
--'  11  6  ~/cbuild/work_2/runAvida.sh
-|4,39,11,6,1527187580,"~/cbuild/work_2/runAvida.sh"
--'  11  6  ~/cbuild/work_2/runAvida.sh
-|4,39,11,6,1527187580,"~/cbuild/work_2/runAvida.sh"
--'  11  6  ~/cbuild/work_2/runAvida.sh
-|4,39,11,6,1527187580,"~/cbuild/work_2/runAvida.sh"
--'  4  20  ~/cbuild/work/runAvida.sh
-|4,39,4,20,1527187337,"~/cbuild/work/runAvida.sh"
--'  4  20  ~/cbuild/work/runAvida.sh
-|4,39,4,20,1527187337,"~/cbuild/work/runAvida.sh"
--'  4  20  ~/cbuild/work/runAvida.sh
-|4,39,4,20,1527187337,"~/cbuild/work/runAvida.sh"
--'  4  20  ~/cbuild/work/runAvida.sh
-|4,39,4,20,1527187337,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187322,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187322,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187322,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187322,"~/cbuild/work/runAvida.sh"
--'  37  2  ~/cbuild/work/events.cfg
-|4,39,37,2,1527187312,"~/cbuild/work/events.cfg"
--'  37  2  ~/cbuild/work/events.cfg
-|4,39,37,2,1527187312,"~/cbuild/work/events.cfg"
--'  37  2  ~/cbuild/work/events.cfg
-|4,39,37,2,1527187312,"~/cbuild/work/events.cfg"
--'  37  2  ~/cbuild/work/events.cfg
-|4,39,37,2,1527187312,"~/cbuild/work/events.cfg"
--'  37  2  ~/cbuild/work/events.cfg
-|4,39,37,2,1527187312,"~/cbuild/work/events.cfg"
--'  37  2  ~/cbuild/work/events.cfg
-|4,39,37,2,1527187312,"~/cbuild/work/events.cfg"
--'  37  2  ~/cbuild/work/events.cfg
-|4,39,37,2,1527187312,"~/cbuild/work/events.cfg"
--'  37  2  ~/cbuild/work/events.cfg
-|4,39,37,2,1527187312,"~/cbuild/work/events.cfg"
--'  36  0  ~/cbuild/work/events.cfg
-|4,39,36,0,1527187295,"~/cbuild/work/events.cfg"
--'  36  0  ~/cbuild/work/events.cfg
-|4,39,36,0,1527187295,"~/cbuild/work/events.cfg"
--'  36  0  ~/cbuild/work/events.cfg
-|4,39,36,0,1527187295,"~/cbuild/work/events.cfg"
--'  36  0  ~/cbuild/work/events.cfg
-|4,39,36,0,1527187295,"~/cbuild/work/events.cfg"
--'  36  0  ~/cbuild/work/events.cfg
-|4,39,36,0,1527187295,"~/cbuild/work/events.cfg"
--'  36  0  ~/cbuild/work/events.cfg
-|4,39,36,0,1527187295,"~/cbuild/work/events.cfg"
--'  36  0  ~/cbuild/work/events.cfg
-|4,39,36,0,1527187295,"~/cbuild/work/events.cfg"
--'  36  0  ~/cbuild/work/events.cfg
-|4,39,36,0,1527187295,"~/cbuild/work/events.cfg"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187287,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187287,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187287,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187287,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187287,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187287,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187287,"~/cbuild/work/runAvida.sh"
--'  6  13  ~/cbuild/work/runAvida.sh
-|4,39,6,13,1527187287,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  15  3  ~/cbuild/work/runAvida.sh
-|4,39,15,3,1527187273,"~/cbuild/work/runAvida.sh"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  35306  0  ~/cbuild/work/slurm-1472172.out
-|4,39,35306,0,1527186926,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
--'  38276  0  ~/cbuild/work/slurm-1472172.out
-|4,39,38276,0,1527186924,"~/cbuild/work/slurm-1472172.out"
+-'  12  13  ~/.gitignore
+|4,39,12,13,1529329685,"~/.gitignore"
+-'  8  0  ~/.gitignore
+|4,39,8,0,1529329657,"~/.gitignore"
+-'  8  0  ~/.gitignore
+|4,39,8,0,1529329575,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1529329563,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1529329563,"~/.gitignore"
+-'  18  0  ~/cbuild/workOR/environment.cfg
+|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+-'  18  0  ~/cbuild/workOR/environment.cfg
+|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+-'  18  0  ~/cbuild/workOR/environment.cfg
+|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+-'  18  0  ~/cbuild/workOR/environment.cfg
+|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+-'  23  0  ~/cbuild/workOR/environment.cfg
+|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
+-'  23  0  ~/cbuild/workOR/environment.cfg
+|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
+-'  23  0  ~/cbuild/workOR/environment.cfg
+|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
+-'  23  0  ~/cbuild/workOR/environment.cfg
+|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1529329682	0
+	"	12	13
+	^	12	14
+	.	12	13
+	+	12	13
+
+> ~/cbuild/workOR/environment.cfg
+	*	1529329009	0
+	"	18	0
+	^	18	0
+	.	18	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	18	0
+
+> ~/cbuild/workOR/events.cfg
+	*	1529328990	0
+	"	37	2
+	^	37	3
+	.	37	3
+	+	28	0
+	+	37	3
+
+> ~/cbuild/workOR/avida.cfg
+	*	1529328959	0
+	"	39	0
+
+> ~/cbuild/workORN/data2/tasks.dat
+	*	1529328768	0
+	"	108	0
+
+> ~/cbuild/workORN/data1/tasks.dat
+	*	1529328752	0
+	"	108	0
+
+> ~/cbuild/workANDN/data2/tasks.dat
+	*	1529328693	0
+	"	108	0
+
+> ~/cbuild/workANDN/data1/tasks.dat
+	*	1529328661	0
+	"	108	0
+
+> ~/cbuild/workOR/data2/tasks.dat
+	*	1529328638	0
+	"	108	0
+
+> ~/cbuild/workOR/data1/tasks.dat
+	*	1529328616	0
+	"	1	0
+
+> ~/cbuild/workOR/logfile2
+	*	1529328588	0
+	"	10022	0
+
+> ~/cbuild/workOR/logfile1
+	*	1529328579	0
+	"	10022	0
+
+> ~/cbuild/workANDN/logfile1
+	*	1529328338	0
+	"	10022	0
+
+> ~/cbuild/workANDN/logfile2
+	*	1529078562	0
+	"	1385	0
+
+> ~/cbuild/workORN/logfile2
+	*	1529078517	0
+	"	1132	0
+
+> ~/cbuild/workORN/logfile1
+	*	1529078511	0
+	"	996	0
+
+> ~/runAntiORN.sh
+	*	1529078453	0
+	"	19	16
+	^	19	17
+	.	19	16
+	+	19	16
+
+> ~/runAntiOR.sh
+	*	1529078438	0
+	"	19	15
+	^	19	16
+	.	19	15
+	+	19	15
+
+> ~/runAntiANDN.sh
+	*	1529078397	0
+	"	13	0
+
+> ~/runAnti.sh
+	*	1529078357	0
+	"	1	2
+	^	1	3
+	.	1	3
+	+	20	0
+	+	21	0
+	+	19	17
+	+	11	10
+	+	40	2
+	+	1	3
+
+> ~/cbuild/workANDN/events.cfg
+	*	1529078175	0
+	"	37	11
+	^	37	12
+	.	37	3
+	+	28	0
+	+	37	3
+
+> ~/cbuild/workORN/events.cfg
+	*	1529078116	0
+	"	37	2
+	^	37	3
+	.	37	3
+	+	28	0
+	+	37	3
+
+> ~/cbuild/workORN/environment.cfg
+	*	1529078065	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+
+> ~/cbuild/workANDN/environment.cfg
+	*	1529077968	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	21	0
+	+	22	0
+	+	23	0
+
+> ~/cbuild/work/avida.cfg
+	*	1529077806	0
+	"	94	13
+	^	94	14
+	.	94	13
+	+	10	10
+	+	4	0
+	+	3	42
+	+	4	0
+	+	6	0
+	+	8	0
+	+	5	12
+	+	5	13
+	+	40	16
+	+	279	1
+	+	743	82
+	+	5	0
+	+	743	80
+	+	743	79
+	+	5	0
+	+	10	10
+	+	40	15
+	+	85	16
+	+	510	26
+	+	40	14
+	+	49	19
+	+	94	13
+
+> ~/avida-core/source/cpu/cHardwareCPU.cc
+	*	1529077522	0
+	"	3029	27
+	^	3029	28
+	.	3029	28
+	+	3029	28
 
 > ~/cbuild/work/slurm-1472711.out
 	*	1527188038	0
@@ -378,32 +571,6 @@
 > ~/cbuild/work/runAvida
 	*	1527186371	0
 	"	1	0
-
-> ~/cbuild/work/avida.cfg
-	*	1527186341	0
-	"	40	14
-	^	40	15
-	.	40	14
-	+	10	10
-	+	4	0
-	+	3	42
-	+	4	0
-	+	6	0
-	+	8	0
-	+	5	12
-	+	5	13
-	+	40	16
-	+	279	1
-	+	743	82
-	+	5	0
-	+	743	80
-	+	743	79
-	+	5	0
-	+	10	10
-	+	40	15
-	+	85	16
-	+	510	26
-	+	40	14
 
 > ~/cbuild/work/slurm-1472126.out
 	*	1527184960	0
@@ -847,15 +1014,3 @@
 > ~/avida/avida-core/CMakeFiles/avida-core.dir/build.make
 	*	1527003184	0
 	"	68	0
-
-> ~/avida/avida-core/source/actions/PopulationActions.h
-	*	1527002538	0
-	"	26	0
-
-> ~/avida/avida-core/source/actions/PopulationActions.
-	*	1527002528	0
-	"	1	0
-
-> ~/avida/README
-	*	1527001177	0
-	"	163	0
