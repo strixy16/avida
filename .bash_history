@@ -1,183 +1,4 @@
 ls
-./avida
-./avida-viewer
-cd ..
-cd avida 
-cd ..
-rm -R avida
-y
-yy
-y
-cd avida
-ls
-git remote
-git pull
-git init
-git remote
-git remote -v
-git push origin master
-git branch
-git pull origin master
-git pull https://github.com/strixy16/avida master
-ls
-git branch
-rm -R cmake-3.11.1/
-ls
-git submodule init
-git submodule update
-./build_avida 
-cd cbuild
-cd work
-cd ..
-./build_avida -DAVD_GUI_NCURSES=1
-cd cbuild/work
-./avida-viewer 
-ls
-cp analyze.cfg work
-ls
-mv analyze.cfg analyzeOriginal
-ls
-mv analyzeOriginal analyze.cfg
-ls
-vim analyze.cfg 
-mv analyze.cfg original_analyze.cfg
-ls
-mv avida.cfg original_avida.cfg
-mv default-heads-sex.org original_default-heads-sex.org 
-mv default-heads-transsmt.org original_default-heads-transsmt.org 
-mv default-transsmt.org original_default-transsmt.org 
-mv environment.cfg original_environment.cfg
-mv events.cfg original_events.cfg
-mv instset-heads-sex.cfg original_instset-heads-sex.cfg 
-mv instset-headscfg original_instset-headscfg 
-mv instset-heads.cfg original_instset-headscfg 
-mv original_instset-headscfg original_instset-heads.cfg
-mv instset-transsmt.cfg original_instset-transsmt.cfg
-ls
-vim work 
-rm work
-ls
-mv default-heads.org original_default-heads.org 
-ls
-cd ..
-./build_avida 
-cd cbuild/work/
-ls
-cd ..
-git pull https://github.com/strixy16/avida master
-ls
-cd cbuild
-l
-ls
-cd work
-ls
-cd ..
-ls
-cd copywork/
-ls
-vim avida
-vim avida.cfg 
-vim events.cfg 
-vim environment.cfg 
-vim avida
-vim avida.cfg
-sinfo
-squeue
-cd cbuild/work
-srun ./avida
-
-ls
-cd ..
-sinfo
-srun -c 2 --500 --partition=sse3 ./avida
-srun -c 2 --mem=500 --partition=sse3 ./avida
-sbatch job.sh
-vim job.sh
-ls
-sbatch job.sh
-squeue
-squeue --start
-scancel 
-1462340
-scancel 1462340
-squeue
-srun ./avida
-vim job.sh 
-sbatch job.sh 
-cd data
-ls
-rm *
-ls
-squeue
-ls
-squeue
-
-squeue hpc4256
-squeue -A hpc4256
-cd ..
-srun job.sh 
-sbatch job.sh 
-squeue -A hpc4256
-squeue
-squeue -u hpc4256
-vim job.sh 
-vim avida.cfg 
-vim events.cfg 
-vim job.sh 
-sbatch -array=1-30 job.sh 
-vim job.sh 
-sbatch job.sh 
-squeue -u hbc4256
-squeue
-squeue -u hpc4256
-ls
-squeue -u hpc4256
-ls
-cd data
-ls
-cd ..
-ls
-vim myprog14627550.out 
-vim job.sh 
-vim slurm-1462340.out 
-vim slurm-1462554.out 
-vim myprog14627550.out 
-vim myprog14627551.out 
-vim events.cfg 
-./avida
-vim events.cfg 
-ls
-rm slurm-*
-ls
-vim avida
-vim avida.cfg 
-./avida
-vim avida.cfg 
-./avida
-vim avida.cfg 
-vim analyze.cfg 
-echo $PATH
-vim analyze.cfg 
-cd ..
-ls
-cd hpc4256
-cd cbuild
-cd work
-vim analyze.cfg 
-cd data
-ls
-cd ..
-./avida -a
-cd data
-ls
-cd ..
-ls
-cd ..
-ls
-cp -R work work_2
-ls
-cd work_2
-ls
 cd ..
 ls
 mv work work_1
@@ -998,3 +819,182 @@ cd ../workANDN
 vim logfile1
 vim logfile2
 running
+ls
+cd cbuild/
+ls
+cd workANDN
+ls
+vim logfile1
+workOR
+work OR
+ls
+cd ../workOR
+vim logfile1
+vim logfile2
+cd data1
+ls
+vim tasks.dat 
+cd ../daat2
+cd ../data2
+vim tasks.dat 
+cd ..
+cd workANDN/
+cd data1
+vim tasks.dat 
+vim ../data2/tasks.dat 
+cd ..
+ls
+cd workORN
+cd data1
+vim tasks.dat 
+vim ../data2/tasks.dat 
+cd ..
+ls
+cd workOR
+ls
+vim avida.cfg 
+vim events.cfg 
+vim environment.cfg 
+cd ..
+ls
+sbatch runAntiOR.sh 
+running
+ls
+cd cbuild
+ls
+cd workOR
+ls
+cd
+vim .gitignore
+git push origin testingInstr 
+git pull origin
+cd cbuild/
+ls
+cd ..
+git push origin testingInstr 
+git pull
+git add .
+git commit -m "ORN and ANDN completed"
+status
+git add .
+git add --all
+git status
+git commit -m "ANDN and ORN completed"
+git config --global user.email "16sek@queensu.ca"
+git config --global user.name "Spencer Kelly"
+git status
+git commit -m "ANDN and ORN completed"
+git status 
+git pull origin testingInstr 
+git push origin testingInstr 
+git pull
+cd cbuild/
+mv work/ workDefault/
+ls
+cd
+git pull
+vim .gitignore
+git pull
+git pull origin testingInstr 
+cd cbuild/
+ls
+cd workEQU/
+ls
+cd
+git add --all
+git commit -m "commit with my stuff and Katy's stuff"
+git pull
+git push origin testingInstr 
+cd cbuild/
+cd workOR
+ls
+vim logfile1
+cd ..
+cd workOR
+ls
+cd data1
+ls
+vim tasks.dat 
+cd ../data2/
+ls
+vim tasks.dat 
+cd 
+ls
+vim setup.sh
+array=(3 4 5)
+array
+$array
+%array
+$array[0]
+$array[1]
+echo $array
+echo $array[1]
+echo ${array[2]}
+echo ${array[1]}
+vim setup.sh 
+echo $array
+echo ${array}
+echo ${array[]}
+echo ${array[*]}
+for i in ${array[*]} echo hello; 
+for i in ${array[*]} ; echo hello
+for i in ${array[*]}; do echo hello; done
+for i in ${array[*]}; do echo hello $i; done
+squeue
+for i in ${array[*]}; do echo hello; done
+vim setup.sh 
+cd cbuild/work
+vim avida.cfg 
+cd
+ls
+vim runAntiANDN.sh 
+vim setup.sh 
+vim runAntiANDN.sh 
+vim setup.sh 
+vim runAntiANDN.sh 
+vim setup.sh 
+cd cbuild/work
+ls
+vim environment.cfg 
+cd ..
+vim setup.sh 
+CNTR=2
+CNTR
+echo CNTR
+echo $CNTR
+f=1+$CNTR
+echo $f
+f=$(1+CNTR)
+f=$((1+CNTR))
+echo f
+echo $f
+vim setup.sh 
+echo $f
+echo $(f)
+echo ${f}
+echo ${f}hello
+echo $fhello
+vim setup.sh 
+git add setup.sh
+git status
+git commit -m "setup"
+git push origin testingInstr 
+git pull
+git push origin testingInstr 
+vim setup.sh 
+vim testLine
+sed '1s/^/#/' testLine 
+sed -i "3s/again/notagain/" testLine 
+vim testLine 
+sed -i '1s/^/#/' testLine 
+vim testLine 
+vim setup.sh 
+sed -i "1s/^/#/" testLine 
+vim testLine 
+vim setup.sh 
+git add setup.sh
+git commit -m "setup complete"
+git push origin testingInstr 
+git pull
+git push origin testingInstr 
+logout

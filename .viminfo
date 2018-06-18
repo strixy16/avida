@@ -15,9 +15,9 @@
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1529330384,,"x"
+|2,0,1529348976,,"x"
 :q
-|2,0,1529330382,,"q"
+|2,0,1529348860,,"q"
 :s
 |2,0,1527184562,,"s"
 :Q
@@ -85,230 +85,464 @@
 |3,0,36,0,1,0,1527187955,"U"
 
 # File marks:
-'0  10  0  ~/.gitignore
-|4,48,10,0,1529330384,"~/.gitignore"
-'1  9  42  ~/.gitignore
-|4,49,9,42,1529329685,"~/.gitignore"
-'2  12  13  ~/.gitignore
-|4,50,12,13,1529329685,"~/.gitignore"
-'3  8  0  ~/.gitignore
-|4,51,8,0,1529329575,"~/.gitignore"
-'4  8  0  ~/.gitignore
-|4,52,8,0,1529329575,"~/.gitignore"
-'5  8  0  ~/.gitignore
-|4,53,8,0,1529329575,"~/.gitignore"
-'6  8  0  ~/.gitignore
-|4,54,8,0,1529329575,"~/.gitignore"
-'7  18  0  ~/cbuild/workOR/environment.cfg
-|4,55,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
-'8  37  2  ~/cbuild/workOR/events.cfg
-|4,56,37,2,1529328992,"~/cbuild/workOR/events.cfg"
-'9  39  0  ~/cbuild/workOR/avida.cfg
-|4,57,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+'0  18  25  ~/cbuild/workNop-A20/runANDN/events.cfg
+|4,48,18,25,1529348976,"~/cbuild/workNop-A20/runANDN/events.cfg"
+'1  18  0  ~/cbuild/workNop-A20/runANDN/events.cfg
+|4,49,18,0,1529348944,"~/cbuild/workNop-A20/runANDN/events.cfg"
+'2  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,50,108,0,1529348860,"~/cbuild/workORN/data2/tasks.dat"
+'3  108  0  ~/cbuild/workORN/data1/tasks.dat
+|4,51,108,0,1529348845,"~/cbuild/workORN/data1/tasks.dat"
+'4  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,52,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+'5  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,53,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+'6  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,54,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+'7  108  0  ~/cbuild/workANDN/data1/tasks.dat
+|4,55,108,0,1529348441,"~/cbuild/workANDN/data1/tasks.dat"
+'8  18  51  ~/cbuild/workNop-A20/runANDN/events.cfg
+|4,56,18,51,1529348388,"~/cbuild/workNop-A20/runANDN/events.cfg"
+'9  18  51  ~/cbuild/workNop-A20/runANDN/events.cfg
+|4,57,18,51,1529348388,"~/cbuild/workNop-A20/runANDN/events.cfg"
 
 # Jumplist (newest first):
--'  10  0  ~/.gitignore
-|4,39,10,0,1529330384,"~/.gitignore"
--'  9  35  ~/.gitignore
-|4,39,9,35,1529330363,"~/.gitignore"
--'  12  13  ~/.gitignore
-|4,39,12,13,1529329685,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1529329657,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1529329657,"~/.gitignore"
--'  8  0  ~/.gitignore
-|4,39,8,0,1529329575,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1529329563,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1529329563,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1529329563,"~/.gitignore"
--'  18  0  ~/cbuild/workOR/environment.cfg
-|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
--'  18  0  ~/cbuild/workOR/environment.cfg
-|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
--'  18  0  ~/cbuild/workOR/environment.cfg
-|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
--'  18  0  ~/cbuild/workOR/environment.cfg
-|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
--'  18  0  ~/cbuild/workOR/environment.cfg
-|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
--'  18  0  ~/cbuild/workOR/environment.cfg
-|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
--'  18  0  ~/cbuild/workOR/environment.cfg
-|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
--'  18  0  ~/cbuild/workOR/environment.cfg
-|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
--'  23  0  ~/cbuild/workOR/environment.cfg
-|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
--'  23  0  ~/cbuild/workOR/environment.cfg
-|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
--'  23  0  ~/cbuild/workOR/environment.cfg
-|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
--'  23  0  ~/cbuild/workOR/environment.cfg
-|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
--'  23  0  ~/cbuild/workOR/environment.cfg
-|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
--'  23  0  ~/cbuild/workOR/environment.cfg
-|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
--'  23  0  ~/cbuild/workOR/environment.cfg
-|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
--'  23  0  ~/cbuild/workOR/environment.cfg
-|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  37  2  ~/cbuild/workOR/events.cfg
-|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  39  0  ~/cbuild/workOR/avida.cfg
-|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  1  0  ~/cbuild/workOR/avida.cfg
-|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  18  25  ~/cbuild/workNop-A20/runANDN/events.cfg
+|4,39,18,25,1529348976,"~/cbuild/workNop-A20/runANDN/events.cfg"
+-'  18  0  ~/cbuild/workNop-A20/runANDN/events.cfg
+|4,39,18,0,1529348944,"~/cbuild/workNop-A20/runANDN/events.cfg"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529348860,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529348860,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529348860,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data2/tasks.dat
+|4,39,108,0,1529348860,"~/cbuild/workORN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data1/tasks.dat
+|4,39,108,0,1529348845,"~/cbuild/workORN/data1/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data1/tasks.dat
+|4,39,108,0,1529348845,"~/cbuild/workORN/data1/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data1/tasks.dat
+|4,39,108,0,1529348845,"~/cbuild/workORN/data1/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data1/tasks.dat
+|4,39,108,0,1529348845,"~/cbuild/workORN/data1/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data1/tasks.dat
+|4,39,108,0,1529348845,"~/cbuild/workORN/data1/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data1/tasks.dat
+|4,39,108,0,1529348845,"~/cbuild/workORN/data1/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data1/tasks.dat
+|4,39,108,0,1529348845,"~/cbuild/workORN/data1/tasks.dat"
+-'  108  0  ~/cbuild/workORN/data1/tasks.dat
+|4,39,108,0,1529348845,"~/cbuild/workORN/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data2/tasks.dat
+|4,39,209,0,1529348739,"~/cbuild/workOR/data2/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  209  0  ~/cbuild/workOR/data1/tasks.dat
+|4,39,209,0,1529348660,"~/cbuild/workOR/data1/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
+-'  108  0  ~/cbuild/workANDN/data2/tasks.dat
+|4,39,108,0,1529348468,"~/cbuild/workANDN/data2/tasks.dat"
 
 # History of marks within files (newest to oldest):
+
+> ~/cbuild/workNop-A20/runANDN/events.cfg
+	*	1529348975	0
+	"	18	25
+	^	18	26
+	.	18	25
+	+	17	0
+	+	18	51
+	+	17	0
+	+	18	25
+
+> ~/cbuild/workORN/data2/tasks.dat
+	*	1529348859	0
+	"	108	0
+
+> ~/cbuild/workORN/data1/tasks.dat
+	*	1529348844	0
+	"	108	0
+
+> ~/cbuild/workOR/data2/tasks.dat
+	*	1529348738	0
+	"	209	0
+
+> ~/cbuild/workOR/data1/tasks.dat
+	*	1529348659	0
+	"	209	0
+
+> ~/cbuild/workANDN/data2/tasks.dat
+	*	1529348466	0
+	"	108	0
+
+> ~/cbuild/workANDN/data1/tasks.dat
+	*	1529348437	0
+	"	108	0
+
+> ~/setup.sh
+	*	1529347545	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	1	44
+	+	2	183
+	+	3	22
+	+	6	24
+	+	8	15
+	+	6	19
+	+	8	23
+	+	10	20
+	+	11	40
+	+	12	12
+	+	15	26
+	+	21	34
+	+	22	12
+	+	19	10
+	+	5	5
+	+	8	0
+	+	5	0
+	+	14	7
+	+	17	18
+	+	19	19
+	+	22	15
+	+	19	12
+	+	22	17
+	+	21	16
+	+	22	3
+	+	22	11
+	+	22	10
+	+	22	101
+	+	24	42
+	+	26	38
+	+	38	0
+	+	28	39
+	+	29	0
+	+	22	78
+	+	37	0
+	+	20	14
+	+	31	7
+	+	33	12
+	+	36	4
+	+	34	6
+	+	10	55
+	+	11	66
+	+	13	42
+	+	18	21
+	+	17	63
+	+	18	51
+	+	19	23
+	+	17	19
+	+	18	19
+	+	19	33
+	+	22	0
+	+	22	145
+	+	26	40
+	+	1	3
+	+	15	20
+	+	18	19
+	+	20	13
+	+	17	52
+	+	21	13
+	+	22	12
+	+	21	22
+	+	22	65
+	+	5	8
+	+	3	0
+	+	2	0
+	+	4	11
+	+	6	0
+	+	4	20
+	+	1	6
+	+	19	12
+	+	22	15
+	+	13	2
+	+	18	8
+	+	26	7
+	+	13	2
+	+	28	13
+	+	22	89
+	+	22	3
+	+	24	0
+	+	22	31
+	+	23	82
+	+	4	23
+	+	24	3
+	+	4	0
+	+	3	0
+	+	2	0
+
+> ~/cbuild/workNop-A40/runEQU/events.cfg
+	*	1529347493	0
+	"	1	0
+
+> ~/cbuild/workNop-A20/runORN/environment.cfg
+	*	1529347459	0
+	"	1	0
+
+> ~/cbuild/workNop-A20/runANDN/environment.cfg
+	*	1529347445	0
+	"	1	0
+
+> ~/cbuild/workNop-A20/environment.cfg
+	*	1529347278	0
+	"	21	0
+	^	21	0
+	.	21	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	22	0
+	+	23	0
+	+	21	0
+
+> ~/cbuild/workNop-A20/avida.cfg
+	*	1529347253	0
+	"	153	19
+	^	153	20
+	.	153	19
+	+	49	18
+	+	153	19
+
+> ~/cbuild/workNop-A20/runORN/events.cfg
+	*	1529346875	0
+	"	1	0
+
+> ~/cbuild/workNop-A20/runANDN/avida.cfg
+	*	1529346825	0
+	"	1	19
+	^	49	20
+	.	49	19
+	+	49	19
+
+> ~/cbuild/workNop-A20/events.cfg
+	*	1529345674	0
+	"	1	0
+
+> ~/cbuild/workNop-A20/avida
+	*	1529345623	0
+	"	1	0
+
+> ~/.git/MERGE_MSG
+	*	1529339224	0
+	"	8	2
+	^	8	3
+	.	8	2
+	+	8	9
+	+	8	2
+
+> ~/testLine
+	*	1529338183	0
+	"	4	0
+	^	4	0
+	.	3	5
+	+	3	5
+
+> ~/cbuild/work/environment.cfg
+	*	1529336557	0
+	"	15	0
+
+> ~/runAntiANDN.sh
+	*	1529336198	0
+	"	9	0
+
+> ~/cbuild/work/avida.cfg
+	*	1529336072	0
+	"	49	17
+	^	94	14
+	.	94	13
+	+	10	10
+	+	4	0
+	+	3	42
+	+	4	0
+	+	6	0
+	+	8	0
+	+	5	12
+	+	5	13
+	+	40	16
+	+	279	1
+	+	743	82
+	+	5	0
+	+	743	80
+	+	743	79
+	+	5	0
+	+	10	10
+	+	40	15
+	+	85	16
+	+	510	26
+	+	40	14
+	+	49	19
+	+	94	13
+
+> ~/cbuild/workOR/logfile1
+	*	1529330987	0
+	"	20022	0
 
 > ~/.gitignore
 	*	1529330382	0
@@ -345,36 +579,8 @@
 	*	1529328959	0
 	"	39	0
 
-> ~/cbuild/workORN/data2/tasks.dat
-	*	1529328768	0
-	"	108	0
-
-> ~/cbuild/workORN/data1/tasks.dat
-	*	1529328752	0
-	"	108	0
-
-> ~/cbuild/workANDN/data2/tasks.dat
-	*	1529328693	0
-	"	108	0
-
-> ~/cbuild/workANDN/data1/tasks.dat
-	*	1529328661	0
-	"	108	0
-
-> ~/cbuild/workOR/data2/tasks.dat
-	*	1529328638	0
-	"	108	0
-
-> ~/cbuild/workOR/data1/tasks.dat
-	*	1529328616	0
-	"	1	0
-
 > ~/cbuild/workOR/logfile2
 	*	1529328588	0
-	"	10022	0
-
-> ~/cbuild/workOR/logfile1
-	*	1529328579	0
 	"	10022	0
 
 > ~/cbuild/workANDN/logfile1
@@ -406,10 +612,6 @@
 	^	19	16
 	.	19	15
 	+	19	15
-
-> ~/runAntiANDN.sh
-	*	1529078397	0
-	"	13	0
 
 > ~/runAnti.sh
 	*	1529078357	0
@@ -466,34 +668,6 @@
 	+	21	0
 	+	22	0
 	+	23	0
-
-> ~/cbuild/work/avida.cfg
-	*	1529077806	0
-	"	94	13
-	^	94	14
-	.	94	13
-	+	10	10
-	+	4	0
-	+	3	42
-	+	4	0
-	+	6	0
-	+	8	0
-	+	5	12
-	+	5	13
-	+	40	16
-	+	279	1
-	+	743	82
-	+	5	0
-	+	743	80
-	+	743	79
-	+	5	0
-	+	10	10
-	+	40	15
-	+	85	16
-	+	510	26
-	+	40	14
-	+	49	19
-	+	94	13
 
 > ~/avida-core/source/cpu/cHardwareCPU.cc
 	*	1529077522	0
@@ -938,83 +1112,3 @@
 > ~/cbuild/work/myprog14627551.out
 	*	1527099323	0
 	"	1022	0
-
-> ~/cbuild/work/myprog14627550.out
-	*	1527099309	0
-	"	994	0
-
-> ~/cbuild/work/slurm-1462554.out
-	*	1527099283	0
-	"	1647	35
-
-> ~/cbuild/work/slurm-1462340.out
-	*	1527099226	0
-	"	7080	6
-
-> ~/cbuild/work/job.sh
-	*	1527099051	0
-	"	8	20
-	^	8	21
-	.	8	20
-	+	9	6
-	+	6	26
-	+	5	22
-	+	7	25
-	+	4	11
-	+	8	20
-
-> ~/copywork/avida.cfg
-	*	1527090383	0
-	"	138	35
-	^	170	0
-	.	170	0
-	+	143	24
-	+	170	0
-
-> ~/copywork/avida
-	*	1527090137	0
-	"	1	0
-
-> ~/copywork/environment.cfg
-	*	1527090120	0
-	"	1	0
-
-> ~/copywork/events.cfg
-	*	1527090097	0
-	"	1	0
-
-> ~/cbuild/work/work
-	*	1527087562	0
-	"	8	0
-
-> ~/avida/avida-core/include/public/avida/core/Types.h
-	*	1527084253	0
-	"	59	22
-	^	59	23
-	.	60	0
-	+	60	0
-
-> ~/avida/avida-core/source/actions/PopulationActions.cc
-	*	1527084185	0
-	"	100	2
-	^	100	3
-	.	119	44
-	+	108	12
-	+	115	62
-	+	116	65
-	+	119	44
-
-> ~/avida/.gitmodules
-	*	1527082142	0
-	"	3	38
-	^	3	39
-	.	3	38
-	+	3	38
-
-> ~/avida/avida-core/CMakeFiles/avida-core.dir/source/actions/EnvironmentActions.cc.o
-	*	1527003276	0
-	"	18	0
-
-> ~/avida/avida-core/CMakeFiles/avida-core.dir/build.make
-	*	1527003184	0
-	"	68	0
