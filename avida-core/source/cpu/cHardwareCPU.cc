@@ -1625,7 +1625,7 @@ inline int cHardwareCPU::FindModifiedRegister(int default_register)
   //nop-A = 0, nop B = 1, nop C = 2
   const int r = rand() % 100 + 1;
   const int concentration = 0;
-  int nopType = 0;
+  const int nopType = 0;
 
   if (m_inst_set->IsNop(getIP().GetNextInst())) {
     getIP().Advance();
@@ -1670,10 +1670,18 @@ inline int cHardwareCPU::FindModifiedPreviousRegister(int default_register)
 inline int cHardwareCPU::FindModifiedHead(int default_head)
 {
   assert(default_head < NUM_HEADS); // Head ID too high.
-  
+  //nop-A = 0, nop B = 1, nop C = 2
+  const int r = rand() % 100 + 1;
+  const int concentration = 0;
+  const int nopType = 0;
+
   if (m_inst_set->IsNop(getIP().GetNextInst())) {
     getIP().Advance();
-    default_head = m_inst_set->GetNopMod(getIP().GetInst());
+    if (m_inst_set->GetNopMod(getIP().GetInst()) != nopType){
+      default_head = m_inst_set->GetNopMod(getIP().GetInst());
+    } else if (r > concentration) {
+        default_register = m_inst_set->GetNopMod(getIP().GetInst());
+    }
     getIP().SetFlagExecuted();
   }
   return default_head;
