@@ -15,9 +15,9 @@
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1529329683,,"x"
+|2,0,1529330384,,"x"
 :q
-|2,0,1529329575,,"q"
+|2,0,1529330382,,"q"
 :s
 |2,0,1527184562,,"s"
 :Q
@@ -74,38 +74,47 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
+""1	LINE	0
+	>>>>>>> ab1c0abc6c70634dcf4bd53cb068efb4ce3924e0
+|3,1,1,1,1,0,1529330380,">>>>>>> ab1c0abc6c70634dcf4bd53cb068efb4ce3924e0"
+"2	LINE	0
 	
-|3,0,1,1,1,0,1527098810,""
-""-	CHAR	0
+|3,0,2,1,1,0,1527098810,""
+"-	CHAR	0
 	U
-|3,1,36,0,1,0,1527187955,"U"
+|3,0,36,0,1,0,1527187955,"U"
 
 # File marks:
-'0  12  13  ~/.gitignore
-|4,48,12,13,1529329685,"~/.gitignore"
-'1  8  0  ~/.gitignore
-|4,49,8,0,1529329575,"~/.gitignore"
-'2  8  0  ~/.gitignore
-|4,50,8,0,1529329575,"~/.gitignore"
-'3  18  0  ~/cbuild/workOR/environment.cfg
-|4,51,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
-'4  37  2  ~/cbuild/workOR/events.cfg
-|4,52,37,2,1529328992,"~/cbuild/workOR/events.cfg"
-'5  39  0  ~/cbuild/workOR/avida.cfg
-|4,53,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
-'6  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,54,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
-'7  108  0  ~/cbuild/workORN/data1/tasks.dat
-|4,55,108,0,1529328753,"~/cbuild/workORN/data1/tasks.dat"
-'8  108  0  ~/cbuild/workANDN/data2/tasks.dat
-|4,56,108,0,1529328697,"~/cbuild/workANDN/data2/tasks.dat"
-'9  108  0  ~/cbuild/workANDN/data1/tasks.dat
-|4,57,108,0,1529328676,"~/cbuild/workANDN/data1/tasks.dat"
+'0  10  0  ~/.gitignore
+|4,48,10,0,1529330384,"~/.gitignore"
+'1  9  42  ~/.gitignore
+|4,49,9,42,1529329685,"~/.gitignore"
+'2  12  13  ~/.gitignore
+|4,50,12,13,1529329685,"~/.gitignore"
+'3  8  0  ~/.gitignore
+|4,51,8,0,1529329575,"~/.gitignore"
+'4  8  0  ~/.gitignore
+|4,52,8,0,1529329575,"~/.gitignore"
+'5  8  0  ~/.gitignore
+|4,53,8,0,1529329575,"~/.gitignore"
+'6  8  0  ~/.gitignore
+|4,54,8,0,1529329575,"~/.gitignore"
+'7  18  0  ~/cbuild/workOR/environment.cfg
+|4,55,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+'8  37  2  ~/cbuild/workOR/events.cfg
+|4,56,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+'9  39  0  ~/cbuild/workOR/avida.cfg
+|4,57,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
 
 # Jumplist (newest first):
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529330384,"~/.gitignore"
+-'  9  35  ~/.gitignore
+|4,39,9,35,1529330363,"~/.gitignore"
 -'  12  13  ~/.gitignore
 |4,39,12,13,1529329685,"~/.gitignore"
+-'  8  0  ~/.gitignore
+|4,39,8,0,1529329657,"~/.gitignore"
 -'  8  0  ~/.gitignore
 |4,39,8,0,1529329657,"~/.gitignore"
 -'  8  0  ~/.gitignore
@@ -114,6 +123,8 @@
 |4,39,1,0,1529329563,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1529329563,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1529329563,"~/.gitignore"
 -'  18  0  ~/cbuild/workOR/environment.cfg
 |4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
 -'  18  0  ~/cbuild/workOR/environment.cfg
@@ -122,6 +133,22 @@
 |4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
 -'  18  0  ~/cbuild/workOR/environment.cfg
 |4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+-'  18  0  ~/cbuild/workOR/environment.cfg
+|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+-'  18  0  ~/cbuild/workOR/environment.cfg
+|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+-'  18  0  ~/cbuild/workOR/environment.cfg
+|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+-'  18  0  ~/cbuild/workOR/environment.cfg
+|4,39,18,0,1529329011,"~/cbuild/workOR/environment.cfg"
+-'  23  0  ~/cbuild/workOR/environment.cfg
+|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
+-'  23  0  ~/cbuild/workOR/environment.cfg
+|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
+-'  23  0  ~/cbuild/workOR/environment.cfg
+|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
+-'  23  0  ~/cbuild/workOR/environment.cfg
+|4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
 -'  23  0  ~/cbuild/workOR/environment.cfg
 |4,39,23,0,1529328997,"~/cbuild/workOR/environment.cfg"
 -'  23  0  ~/cbuild/workOR/environment.cfg
@@ -146,6 +173,54 @@
 |4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
 -'  37  2  ~/cbuild/workOR/events.cfg
 |4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  37  2  ~/cbuild/workOR/events.cfg
+|4,39,37,2,1529328992,"~/cbuild/workOR/events.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
+-'  39  0  ~/cbuild/workOR/avida.cfg
+|4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
 -'  39  0  ~/cbuild/workOR/avida.cfg
 |4,39,39,0,1529328961,"~/cbuild/workOR/avida.cfg"
 -'  39  0  ~/cbuild/workOR/avida.cfg
@@ -210,109 +285,38 @@
 |4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
 -'  1  0  ~/cbuild/workOR/avida.cfg
 |4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  108  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,108,0,1529328769,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
--'  1  0  ~/cbuild/workORN/data2/tasks.dat
-|4,39,1,0,1529328768,"~/cbuild/workORN/data2/tasks.dat"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
+-'  1  0  ~/cbuild/workOR/avida.cfg
+|4,39,1,0,1529328951,"~/cbuild/workOR/avida.cfg"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1529329682	0
-	"	12	13
-	^	12	14
-	.	12	13
-	+	12	13
+	*	1529330382	0
+	"	10	0
+	^	9	11
+	.	10	0
+	+	9	29
+	+	10	0
 
 > ~/cbuild/workOR/environment.cfg
 	*	1529329009	0

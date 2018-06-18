@@ -1,0 +1,138 @@
+# Fri Jun 15 12:09:10 2018
+# Filename........: archive/117-aaase.org
+# Update Output...: 9300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 106.000000
+# Gestation Time..: 265
+# Fitness.........: 0.400000
+# Errors..........: 1
+# Genome Size.....: 117
+# Copied Size.....: 117
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# andn 0 (0.000000)
+
+
+if-label
+nop-B
+h-alloc
+h-search
+inc
+set-flow
+h-alloc
+h-alloc
+nop-A
+set-flow
+nop-A
+mov-head
+nop-C
+h-copy
+nop-C
+swap-stk
+inc
+push
+shift-r
+nop-C
+nop-C
+IO
+shift-l
+nop-B
+add
+nop-C
+shift-l
+h-copy
+nop-C
+nop-C
+if-n-equ
+nop-C
+get-head
+h-copy
+get-head
+set-flow
+h-search
+nop-C
+shift-l
+nop-B
+nand
+h-divide
+dec
+nop-C
+nand
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+inc
+nop-C
+IO
+nop-B
+nop-C
+nop-C
+sub
+nop-C
+nop-C
+IO
+swap-stk
+get-head
+if-label
+push
+sub
+swap-stk
+if-label
+h-search
+nop-C
+if-label
+nop-B
+nop-C
+IO
+sub
+IO
+dec
+dec
+nop-C
+nop-C
+swap
+h-copy
+IO
+swap-stk
+if-n-equ
+swap
+nop-C
+swap-stk
+nop-C
+swap
+nop-C
+h-divide
+set-flow
+nop-C
+nand
+nop-C
+add
+IO
+h-copy
+inc
+nop-C
+h-search
+h-copy
+if-label
+nop-C
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B
+h-alloc
+h-search
+inc
+set-flow
+h-alloc
+h-alloc
+nop-A

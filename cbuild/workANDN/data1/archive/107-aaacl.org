@@ -1,0 +1,128 @@
+# Fri Jun 15 12:09:28 2018
+# Filename........: archive/107-aaacl.org
+# Update Output...: 9700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 832.000000
+# Gestation Time..: 278
+# Fitness.........: 2.992806
+# Errors..........: 3
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# andn 1 (1.000000)
+
+
+pop
+h-alloc
+h-search
+nop-C
+nop-A
+push
+mov-head
+nop-C
+nop-C
+sub
+nop-A
+IO
+h-alloc
+nop-C
+push
+nop-A
+nop-C
+IO
+nop-C
+nop-C
+nop-C
+add
+nop-A
+nop-C
+if-n-equ
+nop-C
+nop-C
+nop-C
+if-n-equ
+h-copy
+nand
+add
+nop-C
+nop-A
+if-less
+nop-C
+nop-A
+IO
+inc
+nop-C
+nop-C
+nop-C
+inc
+IO
+nop-C
+set-flow
+sub
+nop-C
+h-copy
+dec
+nop-C
+swap-stk
+nop-B
+h-search
+nand
+push
+nop-C
+inc
+nop-C
+nop-B
+nop-C
+sub
+nop-C
+h-copy
+h-copy
+pop
+nop-B
+if-less
+nop-C
+nop-C
+h-search
+IO
+nop-C
+h-alloc
+pop
+nop-C
+pop
+nop-C
+inc
+nop-C
+add
+sub
+shift-r
+nop-C
+pop
+nop-B
+h-alloc
+push
+nand
+nop-C
+nop-C
+nand
+nop-C
+get-head
+pop
+shift-l
+dec
+h-search
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

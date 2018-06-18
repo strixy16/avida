@@ -1,0 +1,129 @@
+# Fri Jun 15 12:06:01 2018
+# Filename........: archive/108-aafbu.org
+# Update Output...: 6000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 100.000000
+# Gestation Time..: 247
+# Fitness.........: 0.404858
+# Errors..........: 0
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 100
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+nop-C
+if-less
+pop
+nop-C
+if-n-equ
+nop-C
+nop-A
+IO
+if-less
+nop-C
+nop-C
+inc
+nop-C
+nop-C
+nop-C
+nop-C
+shift-r
+IO
+nop-C
+nop-C
+nop-C
+h-search
+nop-C
+nop-C
+sub
+push
+nop-C
+if-n-equ
+if-n-equ
+h-divide
+sub
+nop-C
+swap-stk
+get-head
+nop-C
+nand
+get-head
+nop-C
+get-head
+shift-l
+nop-C
+nop-C
+nop-C
+h-copy
+set-flow
+set-flow
+h-divide
+h-copy
+nop-C
+if-less
+nop-C
+add
+nand
+shift-l
+IO
+nop-C
+nop-C
+pop
+nop-C
+nop-C
+nop-C
+shift-r
+nop-C
+shift-r
+if-label
+h-search
+shift-l
+add
+nop-C
+nop-C
+add
+nop-C
+if-n-equ
+nop-A
+if-less
+pop
+sub
+dec
+dec
+add
+shift-l
+nop-B
+add
+h-copy
+nop-C
+inc
+shift-r
+nand
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+mov-head
+add
+nop-A
+nop-B

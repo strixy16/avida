@@ -1,0 +1,128 @@
+# Fri Jun 15 12:07:29 2018
+# Filename........: archive/107-abmem.org
+# Update Output...: 7900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 101.000000
+# Gestation Time..: 248
+# Fitness.........: 0.407258
+# Errors..........: 2
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+get-head
+nop-C
+pop
+get-head
+add
+nand
+nop-A
+push
+sub
+pop
+nop-C
+IO
+nop-C
+nop-C
+nop-C
+nop-C
+nop-A
+sub
+shift-l
+nop-C
+nop-C
+h-search
+swap
+IO
+nop-C
+push
+if-less
+h-divide
+nop-A
+nop-C
+sub
+nop-C
+swap-stk
+push
+nop-C
+nop-C
+nop-C
+nop-C
+h-alloc
+sub
+nop-C
+shift-l
+nop-C
+h-copy
+set-flow
+IO
+nop-A
+h-copy
+nop-C
+nop-C
+nop-C
+nop-C
+nand
+nop-C
+push
+if-less
+nop-C
+nop-A
+nop-C
+sub
+nop-C
+add
+h-alloc
+shift-r
+nop-C
+shift-l
+nand
+IO
+h-search
+if-less
+nop-C
+if-n-equ
+get-head
+nand
+pop
+sub
+nop-C
+dec
+set-flow
+if-less
+push
+add
+nop-C
+nop-A
+inc
+add
+nand
+nop-B
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+mov-head
+nand
+nop-A
+nop-B

@@ -1,0 +1,123 @@
+# Fri Jun 15 12:05:32 2018
+# Filename........: archive/102-abfiv.org
+# Update Output...: 5500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 99.000000
+# Gestation Time..: 268
+# Fitness.........: 0.369403
+# Errors..........: 1
+# Genome Size.....: 102
+# Copied Size.....: 102
+# Executed Size...: 99
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# or 0 (0.000000)
+
+
+swap-stk
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+if-n-equ
+nop-C
+nop-C
+nop-C
+IO
+nop-C
+h-alloc
+nop-C
+nop-C
+get-head
+nop-B
+nop-C
+swap
+nop-C
+get-head
+nop-C
+inc
+add
+nop-C
+shift-r
+nop-C
+if-label
+add
+nop-C
+swap
+nop-C
+nop-C
+nop-C
+h-copy
+add
+nop-C
+nop-C
+nop-C
+h-copy
+nop-C
+h-copy
+nop-C
+nop-C
+nop-C
+set-flow
+nop-A
+nop-C
+shift-l
+inc
+nop-C
+inc
+pop
+nop-C
+pop
+push
+nop-B
+nop-A
+h-divide
+nand
+shift-r
+if-n-equ
+add
+shift-l
+nop-B
+get-head
+swap
+nop-C
+h-divide
+nop-C
+nop-C
+sub
+swap
+nop-C
+nop-C
+shift-r
+nop-C
+nop-C
+nop-C
+nop-C
+push
+nop-C
+if-n-equ
+nop-C
+swap
+if-n-equ
+h-divide
+nop-C
+swap
+nop-C
+inc
+h-search
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

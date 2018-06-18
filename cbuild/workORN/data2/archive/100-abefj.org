@@ -1,0 +1,121 @@
+# Fri Jun 15 12:05:03 2018
+# Filename........: archive/100-abefj.org
+# Update Output...: 5300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 368.000000
+# Gestation Time..: 269
+# Fitness.........: 1.368030
+# Errors..........: 1
+# Genome Size.....: 100
+# Copied Size.....: 100
+# Executed Size...: 92
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+inc
+sub
+nop-C
+nop-C
+nop-C
+nop-C
+get-head
+set-flow
+inc
+nop-B
+IO
+inc
+pop
+nop-C
+nop-C
+sub
+if-less
+jmp-head
+nop-C
+if-n-equ
+nop-C
+IO
+nop-C
+nop-C
+shift-r
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nand
+IO
+IO
+nop-C
+nop-C
+nop-C
+swap-stk
+nop-A
+nand
+swap-stk
+nop-C
+nop-C
+nop-C
+nop-C
+push
+nop-C
+nop-C
+nop-C
+nop-C
+h-divide
+h-alloc
+nand
+IO
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+IO
+swap-stk
+dec
+if-n-equ
+nop-C
+h-divide
+h-search
+nop-C
+nop-C
+nop-C
+inc
+swap-stk
+inc
+if-label
+nop-C
+nop-C
+swap-stk
+get-head
+swap
+pop
+nop-C
+IO
+nop-C
+get-head
+swap
+h-search
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+mov-head
+nop-A
+nop-B

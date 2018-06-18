@@ -1,0 +1,145 @@
+# Fri Jun 15 15:56:11 2018
+# Filename........: archive/116-aarqi.org
+# Update Output...: 100000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 1851392.000000
+# Gestation Time..: 223
+# Fitness.........: 8302.206278
+# Errors..........: 6
+# Genome Size.....: 116
+# Copied Size.....: 116
+# Executed Size...: 113
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+# nand 1 (1.000000)
+# and 0 (0.000000)
+# orn 1 (1.000000)
+# or 1 (1.000000)
+# andn 1 (1.000000)
+# nor 1 (1.000000)
+# xor 0 (0.000000)
+# equ 0 (0.000000)
+
+
+h-alloc
+h-alloc
+set-flow
+nop-A
+if-n-equ
+nop-C
+sub
+h-divide
+h-alloc
+pop
+nop-B
+nop-B
+push
+IO
+nop-C
+pop
+nop-B
+inc
+nop-C
+mov-head
+nop-C
+sub
+nop-B
+shift-r
+h-copy
+swap
+nop-A
+swap-stk
+pop
+nop-B
+sub
+nop-A
+if-label
+h-alloc
+h-copy
+sub
+h-copy
+set-flow
+nop-B
+push
+IO
+set-flow
+nop-B
+h-copy
+nop-C
+get-head
+swap
+nop-C
+nand
+nand
+IO
+h-copy
+h-copy
+h-copy
+if-less
+h-copy
+nand
+nop-B
+if-n-equ
+nop-A
+nand
+push
+nand
+h-alloc
+sub
+nop-C
+if-label
+shift-l
+nop-A
+inc
+nop-A
+swap-stk
+h-copy
+h-divide
+dec
+nop-C
+h-alloc
+h-copy
+if-label
+h-divide
+sub
+nop-C
+add
+nop-C
+h-copy
+h-alloc
+nop-A
+IO
+nop-C
+IO
+swap-stk
+nand
+h-copy
+inc
+if-n-equ
+nop-A
+add
+IO
+nop-B
+nand
+h-copy
+IO
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

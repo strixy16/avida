@@ -1,0 +1,125 @@
+# Mon Jun 18 09:44:14 2018
+# Filename........: archive/103-aapby.org
+# Update Output...: 9000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 99.000000
+# Gestation Time..: 214
+# Fitness.........: 0.462617
+# Errors..........: 2
+# Genome Size.....: 103
+# Copied Size.....: 103
+# Executed Size...: 99
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 0 (0.000000)
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-C
+h-copy
+inc
+nop-C
+pop
+nop-C
+nop-C
+shift-r
+if-label
+nop-C
+IO
+h-alloc
+nop-C
+sub
+h-copy
+dec
+nop-C
+add
+nop-B
+nop-A
+nop-C
+sub
+nop-A
+nop-C
+inc
+dec
+pop
+nop-C
+h-search
+nop-B
+h-copy
+nop-C
+h-alloc
+if-n-equ
+nop-C
+inc
+nop-C
+nop-C
+add
+sub
+pop
+swap-stk
+swap
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+inc
+set-flow
+swap
+if-n-equ
+nop-C
+get-head
+nop-C
+pop
+nop-C
+h-divide
+sub
+nop-B
+get-head
+nop-C
+h-search
+h-copy
+get-head
+shift-l
+get-head
+get-head
+nop-C
+push
+nop-A
+dec
+nop-C
+shift-r
+nop-C
+nop-C
+get-head
+h-search
+pop
+nop-A
+push
+nop-C
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

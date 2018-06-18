@@ -1,0 +1,123 @@
+# Mon Jun 18 09:41:51 2018
+# Filename........: archive/101-aaxmy.org
+# Update Output...: 6400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 98.000000
+# Gestation Time..: 265
+# Fitness.........: 0.369811
+# Errors..........: 2
+# Genome Size.....: 101
+# Copied Size.....: 101
+# Executed Size...: 98
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 0 (0.000000)
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+pop
+nop-C
+nop-A
+nop-C
+nop-C
+nop-C
+nand
+nop-C
+dec
+nop-C
+swap
+nop-C
+add
+nop-C
+swap
+nop-C
+nop-C
+nop-C
+set-flow
+nop-C
+nop-C
+nop-C
+pop
+pop
+dec
+nop-B
+swap
+h-alloc
+shift-l
+nop-C
+shift-r
+nop-C
+add
+nop-C
+nop-C
+h-copy
+IO
+h-copy
+nop-C
+nop-C
+swap
+if-n-equ
+nop-B
+nop-C
+nop-C
+nop-A
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+set-flow
+nop-C
+nop-C
+shift-r
+IO
+nop-C
+shift-r
+nop-C
+nop-C
+nop-C
+add
+nop-C
+swap
+if-less
+nop-C
+push
+nop-C
+shift-r
+nand
+nop-C
+nop-C
+nop-C
+swap
+sub
+set-flow
+nop-C
+swap
+nop-A
+push
+nop-C
+nop-C
+h-alloc
+dec
+nop-C
+h-search
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

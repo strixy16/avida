@@ -1,0 +1,128 @@
+# Fri Jun 15 12:08:52 2018
+# Filename........: archive/107-aburr.org
+# Update Output...: 9700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 99.000000
+# Gestation Time..: 241
+# Fitness.........: 0.410788
+# Errors..........: 0
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 99
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+h-search
+IO
+nop-C
+add
+nop-C
+add
+nop-C
+IO
+get-head
+swap-stk
+if-less
+nop-C
+nop-C
+push
+dec
+nop-C
+if-less
+nop-A
+h-divide
+shift-l
+if-label
+sub
+nop-C
+push
+if-less
+shift-l
+IO
+nop-C
+if-n-equ
+nop-B
+h-divide
+if-less
+dec
+swap-stk
+get-head
+if-n-equ
+if-label
+if-less
+nop-C
+get-head
+nand
+get-head
+if-label
+shift-r
+h-copy
+swap-stk
+get-head
+nop-C
+h-copy
+nop-C
+if-n-equ
+shift-l
+nop-C
+nand
+nop-C
+dec
+nand
+nop-C
+shift-l
+nop-C
+nop-C
+nop-C
+nop-B
+pop
+shift-r
+nop-B
+h-search
+nop-C
+add
+IO
+nop-C
+nop-C
+if-n-equ
+nop-A
+sub
+nop-C
+push
+nop-B
+dec
+set-flow
+get-head
+nop-B
+shift-l
+nop-C
+h-search
+if-n-equ
+nand
+nand
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+mov-head
+h-alloc
+nop-A
+nop-B

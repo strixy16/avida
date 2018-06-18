@@ -1,0 +1,124 @@
+# Fri Jun 15 12:07:20 2018
+# Filename........: archive/103-aaasp.org
+# Update Output...: 8100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 392.000000
+# Gestation Time..: 240
+# Fitness.........: 1.633333
+# Errors..........: 1
+# Genome Size.....: 103
+# Copied Size.....: 103
+# Executed Size...: 98
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+inc
+nop-C
+h-copy
+dec
+push
+nop-A
+nop-C
+dec
+swap-stk
+pop
+nop-B
+IO
+shift-r
+pop
+get-head
+shift-r
+sub
+if-n-equ
+h-search
+nop-C
+jmp-head
+set-flow
+IO
+nop-A
+swap
+h-divide
+nop-C
+push
+nop-C
+nop-C
+h-divide
+nop-B
+nop-C
+IO
+shift-l
+nop-C
+nop-B
+h-divide
+swap-stk
+nop-A
+nop-C
+nop-C
+IO
+nop-C
+h-alloc
+nand
+swap
+if-label
+nop-A
+if-less
+nop-A
+set-flow
+nand
+h-copy
+if-n-equ
+nand
+nop-C
+swap
+nop-C
+nop-C
+IO
+set-flow
+nop-C
+get-head
+IO
+swap
+nop-C
+nand
+nop-C
+nop-C
+nop-B
+nop-C
+swap-stk
+sub
+if-label
+sub
+if-n-equ
+nop-B
+get-head
+nop-C
+pop
+h-search
+IO
+nop-B
+nop-C
+nop-B
+h-search
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

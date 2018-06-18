@@ -1,0 +1,125 @@
+# Mon Jun 18 09:44:38 2018
+# Filename........: archive/103-aaqih.org
+# Update Output...: 9500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 99.000000
+# Gestation Time..: 213
+# Fitness.........: 0.464789
+# Errors..........: 1
+# Genome Size.....: 103
+# Copied Size.....: 103
+# Executed Size...: 99
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 0 (0.000000)
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+get-head
+nop-C
+h-copy
+shift-r
+nop-C
+dec
+nop-C
+nop-C
+shift-r
+shift-l
+nop-C
+set-flow
+nop-C
+nop-C
+sub
+h-copy
+dec
+nop-C
+h-search
+nop-B
+nop-A
+pop
+sub
+nop-A
+nop-C
+inc
+inc
+pop
+nop-C
+push
+sub
+h-copy
+nop-C
+h-alloc
+if-n-equ
+nop-C
+inc
+inc
+nop-C
+add
+nop-B
+pop
+nop-A
+if-less
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+inc
+set-flow
+swap
+if-n-equ
+nop-C
+get-head
+nop-C
+sub
+nop-C
+nop-A
+nop-C
+swap-stk
+get-head
+nop-C
+h-search
+h-copy
+get-head
+shift-l
+nop-C
+get-head
+nop-C
+push
+nop-A
+dec
+shift-r
+swap
+nop-C
+h-search
+get-head
+h-search
+h-search
+nop-A
+h-search
+nop-C
+set-flow
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

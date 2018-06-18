@@ -1,0 +1,128 @@
+# Fri Jun 15 12:04:57 2018
+# Filename........: archive/107-aakac.org
+# Update Output...: 4600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 101.000000
+# Gestation Time..: 247
+# Fitness.........: 0.408907
+# Errors..........: 0
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+nop-C
+nop-C
+pop
+nop-C
+add
+nop-C
+dec
+nop-C
+nop-C
+nop-C
+h-divide
+nop-C
+nop-C
+nop-C
+nop-C
+add
+swap-stk
+nop-C
+set-flow
+IO
+nop-C
+h-search
+nop-C
+nop-C
+push
+inc
+nop-C
+if-n-equ
+if-n-equ
+nop-C
+nop-C
+nop-C
+swap-stk
+get-head
+nand
+nop-C
+h-search
+nop-C
+IO
+nand
+nop-C
+nop-C
+nop-C
+h-copy
+set-flow
+set-flow
+nop-C
+h-copy
+nop-C
+nop-C
+nop-C
+nop-C
+nand
+nop-C
+nop-C
+nop-C
+h-divide
+pop
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+shift-r
+nop-C
+h-search
+nop-C
+add
+nop-C
+nop-C
+nop-C
+if-n-equ
+nop-A
+if-less
+swap
+sub
+nop-C
+dec
+set-flow
+nop-C
+h-divide
+add
+nop-C
+nop-C
+inc
+push
+get-head
+sub
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+mov-head
+add
+nop-A
+nop-B

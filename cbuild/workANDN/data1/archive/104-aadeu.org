@@ -1,0 +1,125 @@
+# Fri Jun 15 12:05:28 2018
+# Filename........: archive/104-aadeu.org
+# Update Output...: 5100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 101.000000
+# Gestation Time..: 279
+# Fitness.........: 0.362007
+# Errors..........: 1
+# Genome Size.....: 104
+# Copied Size.....: 104
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# andn 0 (0.000000)
+
+
+pop
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+sub
+nop-C
+get-head
+h-alloc
+nop-C
+push
+nop-A
+nop-C
+IO
+nop-C
+get-head
+nop-C
+add
+nop-C
+h-copy
+if-n-equ
+nop-C
+nop-C
+nop-C
+if-n-equ
+nand
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+dec
+IO
+nop-C
+nop-C
+nop-C
+nop-C
+add
+nop-C
+pop
+sub
+add
+swap
+add
+swap-stk
+shift-r
+nop-C
+h-divide
+nop-C
+nop-C
+inc
+nop-C
+nop-B
+add
+nop-C
+nop-C
+h-copy
+swap
+nand
+swap-stk
+nop-C
+nop-C
+h-search
+IO
+nop-C
+nop-C
+pop
+nop-C
+nop-C
+nop-B
+nop-C
+nop-C
+nop-C
+sub
+nop-C
+nop-C
+nop-C
+nop-B
+h-copy
+nop-C
+push
+swap-stk
+nop-C
+nop-C
+swap-stk
+pop
+get-head
+pop
+nop-A
+push
+h-search
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

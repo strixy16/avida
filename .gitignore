@@ -7,6 +7,5 @@ install_manifest.txt
 .DS_Store
 wbuild
 DerivedData
-cbuild
 cbuild/*
 !cbuild/work*/
