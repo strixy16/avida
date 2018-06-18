@@ -1,0 +1,130 @@
+# Fri Jun 15 12:08:43 2018
+# Filename........: archive/109-aadgr.org
+# Update Output...: 9500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 103.000000
+# Gestation Time..: 248
+# Fitness.........: 0.415323
+# Errors..........: 0
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# or 0 (0.000000)
+
+
+h-alloc
+nop-A
+set-flow
+nop-A
+mov-head
+nop-C
+nop-C
+if-less
+nop-C
+nop-C
+dec
+inc
+nand
+nop-C
+get-head
+swap-stk
+nop-C
+dec
+nop-C
+IO
+nop-C
+pop
+IO
+nop-A
+swap
+nop-C
+nop-C
+nop-C
+h-search
+nop-C
+if-n-equ
+get-head
+nop-C
+nop-C
+if-n-equ
+add
+nop-C
+nop-C
+set-flow
+swap-stk
+get-head
+inc
+inc
+nop-C
+shift-r
+nop-C
+nand
+nop-C
+nop-C
+nop-C
+h-copy
+set-flow
+if-less
+nop-B
+swap
+h-copy
+pop
+nop-C
+nop-C
+push
+nand
+nop-C
+dec
+nop-C
+nop-C
+pop
+inc
+IO
+h-copy
+nop-C
+nop-C
+shift-r
+nop-C
+h-search
+nop-C
+set-flow
+nop-C
+if-n-equ
+swap
+if-n-equ
+if-less
+if-less
+pop
+sub
+get-head
+IO
+inc
+pop
+nop-B
+h-copy
+sub
+nop-C
+if-label
+shift-r
+nand
+nand
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+mov-head
+nand
+nop-A
+nop-B

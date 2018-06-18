@@ -1,0 +1,122 @@
+# Fri Jun 15 12:04:29 2018
+# Filename........: archive/101-aaemr.org
+# Update Output...: 3900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 98.000000
+# Gestation Time..: 270
+# Fitness.........: 0.362963
+# Errors..........: 0
+# Genome Size.....: 101
+# Copied Size.....: 101
+# Executed Size...: 98
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# andn 0 (0.000000)
+
+
+pop
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+push
+nop-C
+nop-C
+IO
+nop-C
+h-copy
+nop-C
+nop-C
+nop-C
+nop-C
+dec
+get-head
+nop-C
+get-head
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+shift-l
+nop-C
+nop-C
+pop
+sub
+if-less
+swap-stk
+add
+nop-C
+h-search
+get-head
+nop-C
+swap
+nop-C
+nop-C
+nop-B
+dec
+nop-C
+h-copy
+nop-C
+nand
+pop
+if-less
+nop-C
+nop-C
+IO
+sub
+nop-C
+get-head
+nop-C
+nop-C
+nop-C
+h-search
+nop-C
+pop
+nop-C
+nop-C
+jmp-head
+sub
+sub
+get-head
+nop-C
+get-head
+nop-C
+dec
+nop-C
+IO
+dec
+nop-C
+nop-C
+push
+h-search
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

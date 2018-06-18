@@ -9,3 +9,4 @@ wbuild
 DerivedData
 cbuild/*
 !cbuild/work*/
+slurm*

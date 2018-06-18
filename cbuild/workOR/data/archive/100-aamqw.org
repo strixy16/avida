@@ -1,0 +1,122 @@
+# Mon Jun 18 09:40:24 2018
+# Filename........: archive/100-aamqw.org
+# Update Output...: 4200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 97.000000
+# Gestation Time..: 222
+# Fitness.........: 0.436937
+# Errors..........: 4
+# Genome Size.....: 100
+# Copied Size.....: 100
+# Executed Size...: 97
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 0 (0.000000)
+# or 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+nop-C
+h-copy
+nop-C
+nop-C
+dec
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+h-alloc
+push
+nop-C
+nop-C
+set-flow
+dec
+if-label
+set-flow
+nop-C
+nop-C
+h-alloc
+nop-A
+nop-C
+dec
+nop-C
+nop-C
+nop-C
+sub
+if-n-equ
+nop-C
+set-flow
+h-alloc
+if-n-equ
+nop-C
+nop-C
+nop-C
+nop-C
+shift-r
+swap-stk
+pop
+swap-stk
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+shift-l
+nop-C
+nand
+nop-C
+h-alloc
+nand
+nop-C
+pop
+shift-r
+nop-C
+inc
+swap-stk
+nop-C
+IO
+get-head
+nop-C
+nop-C
+swap-stk
+nop-C
+nop-C
+swap-stk
+nop-C
+nop-C
+shift-r
+nop-C
+h-divide
+nop-C
+nop-C
+swap-stk
+nop-C
+nop-C
+nop-C
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

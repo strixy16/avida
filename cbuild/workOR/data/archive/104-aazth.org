@@ -1,0 +1,126 @@
+# Mon Jun 18 09:52:16 2018
+# Filename........: archive/104-aazth.org
+# Update Output...: 18900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 3136.000000
+# Gestation Time..: 223
+# Fitness.........: 14.062780
+# Errors..........: 4
+# Genome Size.....: 104
+# Copied Size.....: 104
+# Executed Size...: 98
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# orn 1 (1.000000)
+# or 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+shift-r
+nop-B
+h-copy
+inc
+swap
+nop-A
+nop-C
+h-divide
+shift-r
+add
+nop-C
+h-alloc
+h-alloc
+nop-C
+dec
+h-copy
+pop
+if-less
+if-label
+h-divide
+nand
+nop-B
+shift-l
+shift-l
+nop-C
+inc
+pop
+if-less
+nop-C
+inc
+shift-r
+h-copy
+pop
+h-alloc
+inc
+nop-C
+swap
+nop-C
+get-head
+sub
+IO
+inc
+swap-stk
+h-divide
+h-copy
+get-head
+if-less
+nop-B
+nop-C
+set-flow
+nop-C
+if-n-equ
+set-flow
+get-head
+get-head
+inc
+add
+swap
+sub
+nop-C
+IO
+inc
+nop-C
+push
+nand
+swap-stk
+h-copy
+swap
+nand
+IO
+add
+inc
+sub
+nand
+IO
+nop-C
+swap-stk
+h-alloc
+sub
+swap-stk
+set-flow
+h-search
+shift-l
+if-less
+sub
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B
