@@ -8,12 +8,7 @@ CURR=1                  #version of data file you start with
 TIMESRUN=5             #number of times you run avida
 POPUPDATES=100000		#how many updates
 
-
-cd cbuild/workXOR          # go into correct directory
-
-#change updates in event file
-sed -i "37s/100000/$POPUPDATES/" events.cfg 
-sed -i "28s/100000/$POPUPDATES/" events.cfg
+cd cbuild/work		# go into correct directory
 
 sed -i "40s/data/data1/" avida.cfg
 
