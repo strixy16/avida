@@ -1,0 +1,151 @@
+# Mon Jun 18 17:57:31 2018
+# Filename........: archive/123-aasab.org
+# Update Output...: 100000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 126877696.000000
+# Gestation Time..: 387
+# Fitness.........: 327849.343669
+# Errors..........: 8
+# Genome Size.....: 123
+# Copied Size.....: 123
+# Executed Size...: 121
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+# nand 1 (1.000000)
+# and 1 (1.000000)
+# orn 1 (1.000000)
+# or 1 (1.000000)
+# andn 1 (1.000000)
+# nor 1 (1.000000)
+# xor 1 (1.000000)
+
+
+jmp-head
+h-alloc
+h-divide
+if-label
+set-flow
+h-search
+nop-A
+h-alloc
+add
+push
+h-alloc
+nop-A
+set-flow
+set-flow
+h-alloc
+IO
+IO
+nop-C
+set-flow
+nop-A
+mov-head
+nop-C
+if-less
+h-copy
+h-copy
+if-label
+swap
+nop-B
+add
+h-alloc
+inc
+if-label
+if-label
+shift-r
+pop
+nand
+inc
+h-search
+dec
+h-divide
+nop-C
+h-copy
+h-copy
+nop-A
+pop
+nop-C
+h-alloc
+h-alloc
+swap
+h-alloc
+IO
+nand
+nop-C
+if-n-equ
+h-copy
+swap
+nop-C
+inc
+h-copy
+set-flow
+h-alloc
+get-head
+shift-l
+if-less
+h-divide
+pop
+dec
+IO
+push
+nop-C
+sub
+h-divide
+add
+nop-B
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+nop-A
+h-copy
+if-less
+h-search
+IO
+IO
+h-copy
+nand
+h-copy
+inc
+swap
+nop-C
+if-label
+h-copy
+add
+push
+nand
+IO
+nand
+nand
+nop-C
+h-copy
+swap
+nop-C
+h-copy
+IO
+IO
+nop-C
+h-copy
+if-label
+IO
+nop-C
+h-copy
+pop
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+h-divide
+h-copy
+mov-head
+push
+nop-A
