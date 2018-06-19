@@ -35,7 +35,7 @@ do
 			cp -R run run$RXN		#make folder for specific task
 			LINE=$((17+CNTR))	#same as CNTR
 			cd run$RXN
-			sed -i "153s/-1/$RXN/" avida.cfg	#change the required reaction
+			sed -i "153s/-1/0/" avida.cfg	#change the required reaction
 			sed -i "17s/^/#/" events.cfg
 			sed -i "18iu begin LoadPopulation ../work$RXN/data/detail-50000.spop" events.cfg
 			for I in 15 16 17 18 19 20 21 22 23 
