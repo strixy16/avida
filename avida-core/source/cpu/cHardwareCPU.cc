@@ -1680,7 +1680,7 @@ inline int cHardwareCPU::FindModifiedHead(int default_head)
     if (m_inst_set->GetNopMod(getIP().GetInst()) != nopType){
       default_head = m_inst_set->GetNopMod(getIP().GetInst());
     } else if (r > concentration) {
-        default_register = m_inst_set->GetNopMod(getIP().GetInst());
+        default_head = m_inst_set->GetNopMod(getIP().GetInst());
     }
     getIP().SetFlagExecuted();
   }
