@@ -1,7 +1,24 @@
 aRXNS=(ORN OR ANDN NOR XOR EQU)
-aINSTR=(Nop-A Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
+aINSTR=(Nop-A ) #Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
 aCONC=(20 40 60 80 100)
 
+iCNT=0
+for INSTR in ${aINSTR[*]}
+do
+	iLINE=$((11+iCNT))
+	sed -i "${iLINE}s/false/true/" changeConcentration.sh  #choose which instruction
+	
+	for CONC in ${aCONC[*]}
+	do
+		sed -i "4s/0/$CONC/" changeConcentration.sh 	#set concentration
+		./changeConcentration.sh
+		sed -i "4s/$CONC/0/" changeConcentration.sh 	#set concentration
+
+	done
+
+	sed -i "${iLINE}s/true/false/" changeConcentration.sh  #turn off instruction
+	iCNT=$((iCNT+1))
+done
 cd cbuild
 for INSTR in ${aINSTR[*]}
 do
