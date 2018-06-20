@@ -1,6 +1,17 @@
+#!/bin/bash
+
+#SBATCH -c 3
+#SBATCH --mem=3072
+#SBATCH --time=0-4:0:00
+
 aRXNS=(ORN OR ANDN NOR XOR EQU)
+<<<<<<< HEAD
 aINSTR=(Nop-A) # Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
 aCONC=(20 40 60 80 100)
+=======
+aINSTR=(Nop-A Nop-B) # Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
+aCONC=(20 40)  #(20 40 60 80 100)
+>>>>>>> c18d05b41212b324f79d175dce7f12ae7350ccb9
 
 iCNT=0
 for INSTR in ${aINSTR[*]}
@@ -10,22 +21,28 @@ do
 	
 	for CONC in ${aCONC[*]}
 	do
-		sed -i "4s/0/$CONC/" changeConcentration.sh 	#set concentration
+		sed -i "4s/CONCENTRATION=0/CONCENTRATION=$CONC/" changeConcentration.sh 	#set concentration
 		./changeConcentration.sh
+<<<<<<< HEAD
 		sed -i "4s/$CONC/0/" changeConcentration.sh 	#reset concentration
+=======
+		sed -i "4s/CONCENTRATION=$CONC/CONCENTRATION=0/" changeConcentration.sh 	#set concentration
+>>>>>>> c18d05b41212b324f79d175dce7f12ae7350ccb9
 
 	done
 
 	sed -i "${iLINE}s/true/false/" changeConcentration.sh  #turn off instruction
 	iCNT=$((iCNT+1))
 done
+
+
 cd cbuild
 for INSTR in ${aINSTR[*]}
 do
 	for CONC in ${aCONC[*]}
 	do
 		cd work$INSTR$CONC   #go into the specific work folder
-		sed -i "49s/0.0075/0.0025/" avida.cfg  #change its copy mutation
+		#sed -i "49s/0.0075/0.0025/" avida.cfg  #change its copy mutation
 		mkdir run 
 		mv * run/    #move all the files into run
 		CNTR=0

@@ -1,7 +1,7 @@
 #settings to set
 #more than one antibiotic on at once will probably have exact same random pattern
 #assuming only one on at a time, may be bugs if try (particularly if combine with nop)
-CONCENTRATION=20 #default concentration is 0, can just change number here
+CONCENTRATION=0  #default concentration is 0, can just change number here
 
 declare -A instr
 # declare -A rxn
@@ -93,14 +93,14 @@ do
 		sed -i "${lineNum[$i]}s/0/$CONCENTRATION/" cHardwareCPU.cc
 		NAME=$i #will only work if only 1 turned on
 		#need to change 2 functions for nop, only gave one to array
-		if [[ $i == NOP-* ]]; then
+		if [[ $i == Nop-* ]]; then
 			sed -i "1675s/0/$CONCENTRATION/" cHardwareCPU.cc
 			#not NOP-A as default is 0, which is NOP-A
-			if [[ $i == NOP-B ]]; then
+			if [[ $i == Nop-B ]]; then
 				sed -i "1628s/0/1/" cHardwareCPU.cc
 				sed -i "1676s/0/1/" cHardwareCPU.cc
 			fi
-			if [[ $i == NOP-C ]]; then
+			if [[ $i == Nop-C ]]; then
 				sed -i "1628s/0/2/" cHardwareCPU.cc
 				sed -i "1676s/0/2/" cHardwareCPU.cc
 			fi
@@ -160,18 +160,19 @@ for i in "${!instr[@]}"
 do
 	if [[ ${instr[$i]} = true ]]; then
 		sed -i "${lineNum[$i]}s/$CONCENTRATION/0/" cHardwareCPU.cc
-		if [[ $i == NOP-* ]]; then
+		if [[ $i == Nop-* ]]; then
 			sed -i "1675s/$CONCENTRATION/0/" cHardwareCPU.cc
 			#not NOP-A as default is 0, which is NOP-A
-			if [[ $i == NOP-B ]]; then
+			if [[ $i == Nop-B ]]; then
 				sed -i "1628s/1/0/" cHardwareCPU.cc
 				sed -i "1676s/1/0/" cHardwareCPU.cc
 			fi
-			if [[ $i == NOP-C ]]; then
+			if [[ $i == Nop-C ]]; then
 				sed -i "1628s/2/0/" cHardwareCPU.cc
 				sed -i "1676s/2/0/" cHardwareCPU.cc
 			fi
 		fi
 	fi
 done
-cd ../../..
+cd
+cd avida/

@@ -1,243 +1,3 @@
-ls
-sbatch job.sh 
-squeue -u hpc4256
-ls
-vim Data1.out 
-vim Data2.out 
-cd work_1
-ls
-cd data/
-ls
-rm *
-ls
-cd ..
-rm work_*/data *
-ls
-cd work_1
-ls
-cd data
-ls
-cd ..
-cd work_2
-cd data
-ls
-rm *
-ls
-cd ..
-cd work_3
-ls
-cd data
-ls
-rm *
-cd ..
-ls
-cd ..
-ls
-cd hpc4256
-ls
-./build_avida
-cd cbuild/
-ls
-rm -R work
-ls
-vim job.sh
-sbatch job.sh 
-squeue -u hpc4256
-sbatch job.sh 
-scancel 1470141
-squeue -u hpc4256
-ls
-cd work_1
-ls
-cd data/
-la
-ls
-vim detail-1000.spop 
-cd ../..
-cd work_2/data
-vim detail-1000.spop 
-cd ../..
-ls
-cd work_1
-cd data
-ls
-cd ..
-ls
-vim analyze.cfg 
-ls
-./avida -a
-cd /home/hpc4256/cbuild/work_1/data/detail-1000.spop
-cd ..
-cd ../../..
-ls
-cd /home/hpc4256/cbuild/work_1/data/detail-1000.spop
-cd home
-cd hpc4256/cbuild
-cd ../..
-cd ..
-cd /home/hpc4256/cbuild/work_1
-cd /home/hpc4256/cbuild
-cd /home/hpc4256
-cd /home
-cd hpc4256
-ls
-cd ..
-ls
-cd ..
-ls
-cd
-ls
-cd ..
-ls
-cd ..
-cd home/hpc4256/cbuild
-cd ..
-cd ../..
-ls
-cd home/hpc4256/cbuild/work_1/data
-cd ..
-vim analyze.cfg 
-./avida -a
-vim analyze.cfg 
-./avida -a
-vim analyze.cfg 
-./avida -a
-vim analyze.cfg 
-./avida -a
-vim analyze.cfg 
-./avida -a
-cd data
-ls
-vim lineage..html 
-xdg-open lineage..html 
-cd ..
-cd data
-rm *
-cd 
-cd cbuild
-vim job.sh 
-sbatch job.sh 
-squeue -u hpc4256
-cd
-cd cbuild
-cd work_1
-cd data
-ls
-cd ..
-cd..
-cd ..
-cd work_1
-vim analyze.cfg 
-cd ..
-cd work_2
-ls
-rm myprog*.out
-ls
-rm -R data_$i
-rm -R data_%$i
-rm -R data_$$i
-rm -R "data_$i"
-rm -R 'data_$i'
-ls
-vim analyze.cfg 
-cd data
-ls
-cd ../..
-cd work_3
-vim analyze.cfg 
-cd ..
-vim sed
-cd work_1
-vim avida.cfg 
-cd ..
-vim sed 
-mv sed sed.sh
-ls
-mv sed.sh work_1/
-ls
-cd work_1/
-ls
-sed.sh
-run sed.sh 
-srun sed.sh 
-sh sed.sh
-vim avida.cfg 
-vim sed.sh
-sh sed.sh
-vim avida.cfg
-cd ..
-vim job.sh 
-sbatch job.sh 
-squeue -u hpc4256
-ls
-cd work_1
-ls
-cd ..
-Data2.out
-vim Data1.out 
-cd work_1
-ls
-vim sed.sh
-cd ..
-ls
-vim job.sh 
-sbatch job.sh 
-squeue -u hpc4256
-vim Data1.out 
-cd work_1
-./avida
-vim avida.cfg 
-ls
-vim avida.cfg
-cd ..
-cd work_2
-./avida
-cd ..
-vim job.sh 
-sbatch job.sh 
-squeue -u hpc4256
-vim Data1.out 
-cd work_2
-ls
-cd ..
-vim Data2.out 
-vim job.sh 
-cd work_2
-vim avida.cfg 
-cd ..
-vim job.sh 
-cd work_2
-ls
-vim runAvida.sh
-ls
-vim runAvida
-vim runAvida.sh 
-vim avida.cfg 
-sh runAvida.sh 
-ls
-vim avida.cfg 
-vim runAvida.sh 
-sh runAvida.sh 
-ls
-vim runAvida.sh 
-sh runAvida.sh 
-ls
-vim runAvida.sh 
-sh runAvida.sh 
-ls
-rm -R data
-ls
-vim runAvida.sh 
-vim avida.cfg 
-cd data_1/
-ls
-rm *
-cd ..
-cd data_2
-ls
-rm *
-ls
-cd ..
 sh runAvida.sh 
 ls
 vim runAvida.sh 
@@ -998,3 +758,243 @@ vim multi.sh
 sh submission.sh 
 vim multi.sh 
 sh submission.sh 
+ls
+cd
+cd cbuild/
+ls
+cd ..
+cd
+ls
+vim submission.sh 
+./submission
+sh submission.sh 
+./multi.sh 
+vim multi.sh 
+vim v.sh
+ls
+rm v.sh 
+ls
+vim logfile
+rm logfile*
+ls
+run submission.sh 
+job submission.sh 
+sjob submission.sh 
+sh submission.sh 
+chmod u+x submission.sh 
+ls
+./submission.sh 
+vim submission.sh 
+git add submission.sh
+git commit -m "submissions script"
+git push origin testingInstr 
+git pull
+git add --all
+git commit -m "submission"
+git pull
+git pull origin testingInstr 
+git push origin testingInstr 
+git pull
+vim changeConcentration.sh 
+vim multi.sh 
+vim setup.sh 
+git pull
+git pull origin testingInstr 
+git add .
+git commit -m "submission"
+git config --global user.email "16sek@queensu.ca"
+git config --global user.name "Spencer Kelly"
+ls
+git push origin testingInstr 
+git pull
+git pull origin testingInstr 
+git status
+git commit -m "submission"
+git push origin testingInstr 
+ls
+./submission.sh 
+sh submission.sh 
+vim submission.sh 
+sh submission.sh 
+./submission.sh 
+vim submission.sh 
+./submission.sh 
+sh submission.sh 
+vim submission.sh 
+sh submission.sh 
+vim multi.sh 
+sh submission.sh 
+vim multi.sh 
+vim submission.sh 
+sh submission.sh 
+vim submission.sh 
+sh submission.sh 
+vim multi.sh 
+cd cbuild/
+ls
+cd workSet-Flow20/
+ls
+vim logfile1
+rm logfile*
+ls
+cd
+sh submission.sh 
+cd cbuild/workSet-Flow20/
+ls
+cd
+ls
+vim multi.sh 
+cd cbuild/workSet-Flow20/
+ls
+rm logfile*
+ls
+cd
+vim submission.sh 
+sh submission.sh 
+cd cbuild/
+cd workSet-Flow20/
+ls
+vim logfile1
+cd
+cd cbuild/workSet-Flow20/
+ls
+vim events.cfg 
+vim logfile1
+jobs
+cd
+jobs
+kill
+ps
+kill 74014
+ps
+kill 740*
+kill 74017
+kill 74056
+kill 74077
+ls
+ps
+kill 74107
+kill 74126
+ps
+ls
+cd cbuild/
+ls
+cd workSet-Flow20/
+ls
+rm -R data*
+ls
+rm logfile*
+ls
+cd
+ls
+vim multi.sh 
+cd
+cd cbuild/
+ls
+cd workSet-Flow20/
+vim avida
+vim avida.cfg 
+cd
+cd cbuild/workSet-Flow20/
+ls
+vim events.cfg 
+cd
+ls
+sh submission.sh 
+ps
+vim changeConcentration.sh 
+git status
+git add submission.sh
+git add multi.sh
+git commit -m "final submission and multi"
+git push origin testingInstr 
+cd
+vim setup.sh 
+cd
+cd cbuild
+ls
+rm -R workSet-Flow20/
+ls
+cd ..
+ls
+sbatch setup.sh 
+vim multi.sh 
+vim setup.sh 
+sbatch setup.sh 
+ls
+;s
+ls
+vim slurm-1578063.out 
+running
+vim slurm-1578063.out 
+cd cbuild/u
+cd cbuild/
+ls
+scancel 1578063
+cd ..
+ls
+vim setup.sh 
+vim submission.sh 
+vim changeConcentration.sh 
+vim setup.sh 
+rm slurm-1578063.out 
+ls
+vim setup.sh 
+sbatch setup.sh 
+vim slurm-1578120.out 
+cd cbuild/
+ls
+scancel 1578120
+cd
+vim changeConcentration.sh 
+vim avida-core/source/cpu/cHardwareCPU.cc 
+vim changeConcentration.sh 
+vim avida-core/source/cpu/cHardwareCPU.cc 
+vim changeConcentration.sh 
+vim setup.sh 
+cd cbuild/
+ls
+rm -R workIf*
+ls
+rm -R workNop*
+ls
+cd
+sbatch setup.sh 
+cd cbuild/
+ls
+cd
+vim slurm-1578
+vim slurm-1578267.out 
+cd cbuild/
+ls
+cd
+ls
+cd cbu
+cd cbuild
+cd ..
+ls
+cd
+ls
+cd run
+ls
+cd ..
+cd runOR
+ls
+logout
+ls
+cd
+cd global/
+ls
+cd ..
+cd home
+ls
+cd ..
+cd run
+ls
+cd ..
+cd usr
+ls
+cd ..
+cd mnt
+ls
+logout
