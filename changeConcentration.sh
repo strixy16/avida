@@ -174,3 +174,4 @@ do
 		fi
 	fi
 done
+cd ../../..
