@@ -1,7 +1,7 @@
 #settings to set
 #more than one antibiotic on at once will probably have exact same random pattern
 #assuming only one on at a time, may be bugs if try (particularly if combine with nop)
-CONCENTRATION=0 #default concentration is 0, can just change number here
+CONCENTRATION=20 #default concentration is 0, can just change number here
 
 declare -A instr
 # declare -A rxn

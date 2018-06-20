@@ -1,373 +1,4 @@
 ls
-cd ..
-ls
-mv work work_1
-ls
-cp -R work_1 work_3
-ls
-cd work_1
-ls
-mv job.sh cbuild
-ls
-cd ..
-ls
-echo $PATH
-ls
-cd work_1/
-mv cbuild job.sh
-mv job.sh ..
-ls
-cd ..
-ls
-vim job.sh 
-cd work_1
-ls
-cd ..
-sbatch job.sh 
-squeue -u hpc4256
-ls
-vim Data1.out 
-rm Data*.out
-ls
-vim job.sh 
-sbatch job.sh 
-squeue -u hpc4256
-ls
-squeue -u hpc4256
-ls
-vim Data2.out
-rm work_2
-rm -R work_2
-rm -R work_3
-ls
-mv work_1 work
-ls
-rm Data
-rm Data*.out
-ls
-cd ..
-ls
-vim build.xml 
-cd documentation/
-ls
-vim PrintData-Options.md 
-cd ..
-ls
-cd apps
-ls
-cd ..
-cd avida
-ls
-cd cbuild/
-ls
-cd work
-ls
-vim avida.cfg 
-./avida
-vim avida.cfg 
-./avida
-ls
-cd data
-ls
-rm *
-ls
-cd ..
-cp avida avida_2
-ls
-cd avida.cfg
-rm avida_2
-ls
-cd avida.cfg
-vim avida.cfg 
-./avida
-vim avida.cfg 
-cd ..
-vim job.sh 
-cd
-cd ..
-cd /home/hpc4256
-ls
-cd home
-ls
-cd ..
-cd home/hbc4256
-cd home/hpc4256/cbuild/
-vim job.sh 
-ls
-mv work work_1
-cp work_1 work_2
-ls
-cp work_1/ work_2
-cp -R work_1 work_2
-ls
-cp -R work_1 work_3
-ls
-sbatch job.sh 
-squeue hpc 4256
-
-squeue hpc4256
-squeue -u hpc4256
-squeue hpc4256
-squeue -u hpc4256
-ls
-cd work_!
-cd work_1
-ls
-cd ..
-cd work
-cd work_1
-cd data
-ls
-cd ../..
-ls
-squeue -u hpc4256
-vim job.sh 
-squeue -u hpc4256
-sbatch job.sh 
-squeue -u hpc4256
-ls
-cd work_1
-ls
-cd ..
-ls
-vim
-vim job.sh 
-squeue -u hpc4256
-sbatch job.sh 
-squeue -u hpc4256
-scancel 1463338
-squeue -u hpc4256
-sbatch job.sh 
-squeue -u hpc4256
-ls
-cd work_1/
-ls
-cd data
-ls
-cd ..
-cd data_\$i/
-ls
-cd ..
-rm -R data_\$i/
-ls
-cd ..
-ls
-vim job.sh 
-sbatch job.sh 
-squeue -u hpc4256
-cd .
-cd ..
-cd cbuild/
-ls
-cd work_!
-cd work_1
-ls
-cd ..
-vim job.sh 
-sbatch job.sh 
-squeue -u hpc4256
-cd work_1
-ls
-vim Data1.out 
-vim Data3.out 
-rm Data*.out
-ls
-cd ..
-ls
-vim job.sh 
-sbatch job.sh 
-squeue -u hpc4256
-cd work_1
-ls
-vim Data1.out 
-cd ..
-cd work_2
-ls
-vim Data2.out 
-cd ..
-cd work_3
-ls
-vim Data3.out 
-cd ..
-ls
-rm work_*/Data*.out
-ls
-cd work_1
-ls
-cd ..
-ls
-vim job.sh 
-sbatch job.sh 
-squeue -u hpc4256
-cd work_1
-vim Data1.out 
-cd ..
-vim job.sh 
-cd work_1
-ls
-cd data
-ls
-cd ..
-ls
-cd ..
-ls
-cd work_1
-ls
-mv avida.cfg avida_1.cfg
-./avida
-mv avida_1.cfg avida.cfg
-./avida
-cd ..
-cd avida-core
-ls
-cd source
-ls
-cd environment
-ls
-vim Manager.cc 
-cd ..
-ls
-cd script/
-ls
-vim AvidaScript.h
-vim cParser.cc
-vim ASAnalyzeLib.h
-vim ASAnalyzeLib.cc
-vim AvidaScript.cc
-cd ..
-ls
-cd ..
-ls
-cd include
-ls
-cd private
-ls
-cd avida
-ls
-cd priivate
-cd private
-ls
-cd systematics
-ls
-cd ..
-ls
-cd util
-ls
-cd ..
-cd ../..
-cd ..
-cd public/
-ls
-cd avida
-ls
-cd output
-ls
-cd ..
-ls
-cd core
-ls
-vim Definitions.h 
-vim InstructionSequence.h 
-cd ..
-vim Avida.h 
-cd output/
-ls
-cd File.h
-vim File.h 
-vim Socket.h 
-vim Manager.h 
-cd ..
-ls
-cd util
-ls
-vim CmdLine.h 
-cd ../..
-ls
-cd ..
-ls
-cd notes
-ls
-vim readme.txt 
-cd ..
-ls
-cd ..
-ls
-cd libs
-ls
-cd apto
-ls
-cd src
-ls
-cd core
-ls
-cd ..
-cd platform
-ls
-vim Platform.cc 
-cd ..
-ls
-cd Apto.xcodeproj/
-ls
-vim project.pbxproj 
-cd cbuild/
-ls
-work_1
-cd work_2
-ls
-cd ..
-rm -R work_1
-rm -R work_3
-ls
-mv -R work_2 work
-mv work_2 work
-ls
-cd work
-ls
-vim runAvida.sh 
-rm slurm*
-ls
-vim runAvida.sh 
-vim avida.cfg
-vim runAvida.sh 
-sbatch runAvida.sh 
-ls
-squeue -u hpc4256
-vim runAvida.sh n
-vim runAvida.sh 
-squeue -u hpc4256
-ls
-rm slurm*
-ls
-vim runAvida.sh
-sbatch runAvida.sh 
-squeue -u hpc4256
-ls
-vim slurm-1472124.out 
-vim runAvida.sh 
-sbatch runAvida.sh 
-squeue -u hpc4256
-cd ..
-ls
-ls -a
-cd .bashrc
-vim .bashrc 
-work
-source ~/.bashrc
-ls
-cd cbuild
-ls
-vim job.sh 
-sbatch job.sh 
-squeue -u hpc4256
-ls
-vim Data1.out 
-vim Data2.out 
-vim job.sh 
-sbatch job.sh 
-vim Data1.out 
-vim job.sh 
-rm Data*.out
-ls
 sbatch job.sh 
 squeue -u hpc4256
 ls
@@ -998,3 +629,372 @@ git push origin testingInstr
 git pull
 git push origin testingInstr 
 logout
+ls
+cd cbuild/
+ls
+cd workOR
+ls
+cd data1
+vim tasks.dat 
+vim ../data2/tasks.dat 
+vim ../data1/tasks.dat 
+vim ../data2/tasks.dat 
+cd
+git pull origin testingInstr 
+vim setup.sh 
+cd cbuild/
+cd work
+ls
+:q
+cd
+./build_avida 
+cd cbuild/
+cd work
+mv work workNop-A20
+ls
+cd ..
+mv work workNop-A20
+ls
+cd 
+vim setup.sh 
+sh setup.sh 
+cd cbuild/
+ls
+cd workNop-A20/
+ls
+cd run
+ls
+mv * ..
+ls
+cd ..
+ls
+rm -R run
+vim avida
+vim avida.cfg 
+vim events.cfg 
+cd
+vim setup.sh 
+cp lib lib2
+cp -R lib lib2
+ls
+cp libs lib2
+ls
+cp -R libs lib2
+vim setup.sh 
+sh setup.sh 
+vim setup.sh 
+cd cbuild/
+ls
+cd workNop-A20/
+ls
+rm -R run*
+ls
+cd 
+vim setup.sh 
+sh setup.sh 
+vim setup.sh 
+cd cbuild/
+ls
+cd workNop-A20/
+ls
+runANDN
+cd runANDN/
+ls
+vim environment.cfg 
+vim events.cfg 
+vim avida.cfg 
+cd ..
+ls
+cd runANDN/
+mv * ..
+ls
+cd ..
+ls
+rm -R run*
+ls
+cd 
+vim setup.sh 
+sh setup.sh 
+cd cbuild/
+ls
+cd workNop-A20/
+ls
+cd runANDN/
+ls
+vim environment.cfg 
+vim events.cfg 
+vim avida.cfg 
+vim ../runORN/environment.cfg 
+vim ../runORN/events.cfg 
+cd
+vim setup.sh 
+cd cbuild/workNop-A20/
+ls
+cd runANDN
+mv * ..
+ls
+cd ..
+ls
+rm -R run*
+ls
+cd avida.
+vim avida.cfg 
+vim environment.cfg 
+ls
+cd
+cd cbuild/
+cp workNop-A20/ workNop-A40
+cp -R workNop-A20/ workNop-A40
+ls
+cd
+ls
+vim setup.sh 
+sh setup.sh 
+cd cbuild
+cd workNop-A
+cd workNop-A20/
+ls
+vim runANDN/events.cfg 
+vim runANDN/environment.cfg 
+vim runORN/environment.cfg 
+cd ..
+cd workNop-A40/
+ls
+cd runEQU
+ls
+vim events.cfg 
+cd ..
+vim setup.sh 
+cd cbuild/
+ls
+cd workNop-A20
+ls'
+ls
+cd runANDN
+ls
+./avida
+vim events.cfg 
+./avida
+:q
+vim events.cfg 
+cd
+cd cbuild/workANDN/
+ls
+cd data1
+ls
+vim tasks.dat 
+cd ..
+cd data2
+vim tasks.dat 
+cd ..
+rm -R data2
+ls
+mv -R data1 data
+mv data1 data
+ls
+cd data
+ls
+mv detail-10000.spop 
+mv detail-10000.spop detail.spop
+ls
+cd ../..
+cd workOR
+ls
+cd data1
+ls
+vim tasks.dat 
+cd ../data2
+vim tasks.dat 
+cd ..
+ls
+rm -R data2
+mv data1 data
+ls
+cd data
+ls
+mv detail-10000.spop detail.spop
+ls
+cd ..
+cd workORN
+cd data1
+ls
+vim tasks.dat 
+cd ..
+cd data2
+vim tasks.dat 
+cd ..
+rm -R data2
+mv data1 data
+cd data
+ls
+mv detail-10000.spop detail.spop
+ls
+cd ..
+cd workNop-A20
+cd runANDN
+ls
+vim events.cfg 
+./avida
+vim events.cfg 
+./avida
+cd
+ls
+rm runAnti*
+ls
+git add --all
+git status
+:q
+cd cbuild
+ls
+rm -R workNop-A*
+cd
+git reset HEAd
+git reset HEAD
+git add --all
+git commit -m "complete setup.sh"
+git push origin testingInstr 
+vim testing
+mv testing testss.sh
+vim testss.sh 
+cd cbuild/
+ls
+mkdir work
+ls
+cd ..
+sh testss.sh 
+cd cbuild
+ls
+rm -R workdfsf*
+ls
+rm -R workdsf*
+ls
+rm -R workffd*
+ls
+rm -R workNop*
+ls
+cd ..
+vim testss.sh 
+sh testss.sh 
+cd cbuild/
+ls
+rm -R workNop*
+ls
+cd ..
+ls
+rm -R lib2/
+vim testss.sh 
+sh testss.sh 
+vim testss.sh 
+sh testss.sh 
+:q
+cd cbuild/
+ls
+:q
+cd
+vim testss.sh 
+sh testss.sh 
+:q
+vim testss.sh 
+sh testss.sh 
+vim testss.sh 
+sh testss.sh 
+vim testss.sh 
+sh testss.sh
+array=(1 2 3 4)
+for i in ${array[@]}; do for j in ${array[@]}; do  echo $i $j; done; done
+a=(nop for)
+for i in ${a[@]}; do for j in ${array[@]}; do  echo $i $j; done; done
+ls
+rm testLine
+vim testss.sh 
+sh testss.sh 
+vim testss.sh 
+ls
+rm testss.sh
+vim setup.sh 
+ls
+cd cbuild/
+ls
+rm -R work{20,40,60}
+ls
+rm -
+rm -R work80
+rm -R workNop*
+ls
+rm -R workswap*
+ls
+cd ..
+ls
+git pull origin testingInstr 
+ls
+vim changeConcentration.sh 
+sh changeConcentration.sh 
+ls
+cd cbuild/
+ls
+cd ..
+vim changeConcentration.sh 
+sh changeConcentration.sh 
+vim avida-core/source/cpu/cHardwareCPU.cc 
+cd
+ls
+cd cbuild
+ks
+ls
+cd workO
+cd work0
+ls
+cd ..
+rm work0
+rm -R work0
+ls
+cd ..
+ls
+vim avida-core/source/cpu/cHardwareCPU.cc 
+sh changeConcentration.sh 
+cd cbuild/
+ls
+cd work0
+ls
+cd ..
+ls
+cd ..
+vim setup.sh 
+vim changeConcentration.sh 
+sh changeConcentration.sh 
+cd cbuild/
+ls
+cd workSet-Flow20/
+ls
+cd
+cd cbuild/
+rm work0
+rm -R work0
+rm -R workSet-Flow20/
+ls
+cd ..
+ls
+vim multi.sh 
+vim submission.sh
+vim setup.sh 
+vim submission.sh
+vim setup.sh 
+vim multi.sh 
+vim submission.sh 
+cd ..
+cd 
+cd cbuild/
+ls
+cd ..
+sh changeConcentration.sh 
+vim submission.sh 
+cd cbuild/
+ls
+cd ..
+ls
+sh submission.sh 
+vim submission.sh 
+vim multi.sh 
+sh submission.sh 
+vim multi.sh 
+sh submission.sh 
