@@ -1,0 +1,127 @@
+# Fri Jun 15 13:23:20 2018
+# Filename........: archive/106-aaaue.org
+# Update Output...: 26100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 416.000000
+# Gestation Time..: 210
+# Fitness.........: 1.980952
+# Errors..........: 7
+# Genome Size.....: 106
+# Copied Size.....: 106
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# and 1 (1.000000)
+
+
+nop-B
+h-alloc
+nand
+set-flow
+nop-A
+if-n-equ
+shift-l
+IO
+swap-stk
+add
+IO
+if-label
+swap-stk
+pop
+shift-r
+get-head
+pop
+nop-C
+nand
+dec
+sub
+h-alloc
+nop-B
+h-alloc
+nand
+if-label
+if-n-equ
+get-head
+add
+swap
+if-label
+IO
+nop-C
+push
+nop-B
+push
+nop-C
+IO
+nand
+nand
+nop-C
+add
+mov-head
+nop-C
+push
+h-copy
+push
+h-alloc
+inc
+swap-stk
+IO
+nop-A
+if-n-equ
+nop-C
+h-copy
+nand
+h-divide
+h-alloc
+nop-C
+nop-C
+add
+nop-C
+inc
+shift-l
+inc
+nop-C
+h-copy
+dec
+sub
+IO
+pop
+IO
+nop-C
+h-alloc
+h-alloc
+nop-B
+shift-r
+pop
+dec
+IO
+nop-A
+nand
+push
+nop-B
+h-divide
+shift-l
+shift-l
+if-less
+if-less
+h-alloc
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

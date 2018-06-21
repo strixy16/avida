@@ -1,0 +1,133 @@
+# Fri Jun 15 13:26:18 2018
+# Filename........: archive/112-aagfj.org
+# Update Output...: 28200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 218.000000
+# Gestation Time..: 224
+# Fitness.........: 0.973214
+# Errors..........: 1
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 109
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+nand
+nand
+swap
+swap-stk
+push
+get-head
+nop-C
+nop-B
+h-copy
+IO
+h-copy
+IO
+dec
+inc
+if-n-equ
+nop-B
+set-flow
+swap
+sub
+if-label
+set-flow
+nop-C
+swap-stk
+IO
+nand
+nop-C
+IO
+IO
+nop-C
+set-flow
+nand
+nop-C
+dec
+nop-A
+sub
+h-divide
+if-n-equ
+swap
+IO
+h-copy
+h-copy
+swap-stk
+get-head
+nop-C
+shift-r
+nop-A
+h-search
+if-n-equ
+shift-l
+IO
+nop-C
+inc
+nop-A
+shift-l
+nop-C
+nop-C
+pop
+nop-B
+get-head
+shift-l
+if-n-equ
+h-copy
+add
+add
+nop-A
+h-copy
+h-alloc
+shift-r
+h-search
+h-search
+nop-B
+h-copy
+if-n-equ
+nop-A
+h-divide
+nop-B
+if-n-equ
+nop-B
+sub
+if-n-equ
+nop-C
+swap-stk
+set-flow
+h-copy
+IO
+if-n-equ
+shift-r
+shift-r
+get-head
+nand
+swap
+IO
+h-copy
+swap-stk
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

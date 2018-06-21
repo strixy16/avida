@@ -1,0 +1,133 @@
+# Fri Jun 15 13:38:10 2018
+# Filename........: archive/112-aasxz.org
+# Update Output...: 37700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 216.000000
+# Gestation Time..: 224
+# Fitness.........: 0.964286
+# Errors..........: 2
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 108
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+swap-stk
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+shift-l
+shift-r
+mov-head
+nop-C
+dec
+nop-A
+nop-A
+set-flow
+if-n-equ
+push
+shift-l
+nop-A
+jmp-head
+nop-A
+h-copy
+push
+nop-A
+IO
+set-flow
+nop-C
+nop-C
+h-copy
+add
+nop-C
+nop-C
+nand
+IO
+h-search
+h-search
+push
+IO
+h-copy
+nop-A
+h-search
+nop-C
+swap
+h-search
+add
+IO
+nop-C
+IO
+shift-l
+pop
+nand
+nop-B
+set-flow
+pop
+nop-B
+h-copy
+set-flow
+swap
+h-search
+nop-C
+sub
+h-alloc
+h-copy
+sub
+nop-A
+h-copy
+IO
+h-copy
+get-head
+shift-l
+if-label
+dec
+h-alloc
+nop-C
+add
+nop-C
+nop-B
+h-copy
+shift-r
+sub
+nand
+swap
+nop-B
+h-copy
+swap-stk
+if-less
+nop-C
+pop
+swap
+if-less
+nop-B
+nop-A
+shift-l
+inc
+swap
+pop
+inc
+h-search
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

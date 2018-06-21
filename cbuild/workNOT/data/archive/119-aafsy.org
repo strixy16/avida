@@ -1,0 +1,140 @@
+# Fri Jun 15 13:50:18 2018
+# Filename........: archive/119-aafsy.org
+# Update Output...: 49200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 232.000000
+# Gestation Time..: 233
+# Fitness.........: 0.995708
+# Errors..........: 3
+# Genome Size.....: 119
+# Copied Size.....: 119
+# Executed Size...: 116
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+nop-A
+set-flow
+nop-A
+mov-head
+nop-C
+shift-r
+nop-A
+sub
+nop-C
+h-copy
+h-copy
+swap-stk
+h-copy
+h-copy
+dec
+h-divide
+sub
+swap-stk
+if-less
+if-less
+nop-C
+h-search
+jmp-head
+h-copy
+push
+IO
+h-alloc
+if-n-equ
+nop-C
+add
+nop-C
+nop-C
+nand
+push
+IO
+nop-B
+h-search
+nop-B
+sub
+nop-C
+inc
+h-copy
+get-head
+if-less
+nand
+h-copy
+h-copy
+inc
+h-search
+nand
+sub
+jmp-head
+h-search
+nand
+h-copy
+add
+swap
+nop-B
+inc
+shift-l
+h-copy
+pop
+nand
+if-n-equ
+if-label
+h-search
+h-divide
+h-copy
+get-head
+dec
+h-copy
+shift-r
+nop-B
+h-copy
+if-label
+h-divide
+shift-r
+nop-B
+h-alloc
+h-copy
+inc
+nop-C
+h-copy
+if-n-equ
+h-search
+h-search
+swap
+set-flow
+nop-B
+h-copy
+set-flow
+shift-l
+nop-C
+pop
+nand
+shift-r
+dec
+nop-B
+h-alloc
+get-head
+if-less
+shift-r
+dec
+push
+nop-B
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,128 @@
+# Fri Jun 15 13:16:05 2018
+# Filename........: archive/107-aatwu.org
+# Update Output...: 17200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 206.000000
+# Gestation Time..: 216
+# Fitness.........: 0.953704
+# Errors..........: 1
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+nand
+nop-C
+pop
+get-head
+mov-head
+nop-C
+h-divide
+dec
+pop
+nop-C
+jmp-head
+nop-C
+shift-r
+nop-B
+dec
+shift-r
+add
+h-copy
+h-divide
+nop-C
+IO
+jmp-head
+nop-A
+nop-C
+add
+if-label
+add
+nop-C
+nand
+nop-C
+shift-r
+if-n-equ
+nop-C
+nop-C
+swap-stk
+if-label
+IO
+nop-C
+h-copy
+h-copy
+nand
+nop-A
+nop-C
+push
+nop-C
+set-flow
+swap
+if-label
+nop-B
+shift-r
+IO
+h-copy
+set-flow
+swap
+sub
+nop-C
+swap-stk
+if-n-equ
+nop-A
+h-divide
+nop-C
+shift-l
+add
+nop-C
+swap
+IO
+add
+nop-C
+dec
+set-flow
+dec
+shift-l
+nop-B
+h-divide
+add
+nop-C
+if-label
+h-copy
+IO
+get-head
+nop-C
+set-flow
+pop
+swap
+h-alloc
+push
+push
+nop-A
+h-search
+IO
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

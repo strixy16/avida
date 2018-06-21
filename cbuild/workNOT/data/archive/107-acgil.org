@@ -1,0 +1,128 @@
+# Fri Jun 15 13:22:27 2018
+# Filename........: archive/107-acgil.org
+# Update Output...: 23100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 210.000000
+# Gestation Time..: 220
+# Fitness.........: 0.954545
+# Errors..........: 5
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+shift-l
+nop-C
+pop
+nop-C
+mov-head
+nop-C
+h-alloc
+nop-B
+pop
+nop-C
+jmp-head
+nop-C
+nand
+nand
+jmp-head
+h-alloc
+dec
+h-copy
+dec
+shift-r
+IO
+set-flow
+nop-C
+if-n-equ
+add
+nop-C
+nop-C
+nand
+nop-C
+push
+nop-C
+nop-C
+set-flow
+h-copy
+add
+IO
+nop-C
+h-copy
+IO
+get-head
+dec
+set-flow
+sub
+nop-C
+pop
+nop-C
+if-label
+get-head
+nand
+h-alloc
+sub
+nop-C
+set-flow
+swap-stk
+swap
+shift-r
+if-n-equ
+IO
+h-copy
+nop-B
+h-alloc
+push
+if-n-equ
+swap
+sub
+push
+swap
+h-search
+dec
+dec
+shift-r
+if-less
+pop
+nop-C
+h-alloc
+pop
+IO
+nop-C
+if-label
+nop-C
+IO
+shift-r
+nop-B
+swap-stk
+swap-stk
+h-search
+nop-C
+sub
+if-label
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

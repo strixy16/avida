@@ -1,0 +1,140 @@
+# Fri Jun 15 13:48:37 2018
+# Filename........: archive/119-aacuw.org
+# Update Output...: 47600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 232.000000
+# Gestation Time..: 233
+# Fitness.........: 0.995708
+# Errors..........: 2
+# Genome Size.....: 119
+# Copied Size.....: 119
+# Executed Size...: 116
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+nop-A
+set-flow
+nop-A
+mov-head
+nop-C
+shift-r
+nop-A
+sub
+nop-C
+h-copy
+h-copy
+swap-stk
+h-copy
+h-copy
+dec
+h-divide
+sub
+swap-stk
+if-n-equ
+if-less
+nop-C
+nop-A
+jmp-head
+h-copy
+push
+IO
+h-alloc
+push
+nop-C
+add
+nop-C
+nop-C
+nand
+push
+IO
+nop-B
+h-search
+nop-B
+sub
+nop-C
+swap
+h-copy
+get-head
+pop
+nop-C
+h-copy
+h-copy
+swap-stk
+h-search
+h-divide
+sub
+jmp-head
+h-search
+push
+h-copy
+jmp-head
+swap
+nop-B
+inc
+shift-l
+h-copy
+pop
+nand
+if-n-equ
+if-label
+shift-l
+push
+h-copy
+add
+dec
+h-copy
+shift-r
+nop-B
+h-copy
+push
+nand
+shift-r
+h-search
+h-alloc
+h-copy
+inc
+nop-C
+h-copy
+if-n-equ
+h-search
+h-search
+add
+set-flow
+nop-B
+h-copy
+h-divide
+if-n-equ
+nop-C
+pop
+shift-r
+shift-r
+inc
+nop-B
+pop
+get-head
+if-less
+shift-r
+IO
+push
+nop-B
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

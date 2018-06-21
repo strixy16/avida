@@ -1,0 +1,129 @@
+# Fri Jun 15 13:21:28 2018
+# Filename........: archive/108-aajua.org
+# Update Output...: 22200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 212.000000
+# Gestation Time..: 218
+# Fitness.........: 0.972477
+# Errors..........: 4
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+shift-l
+nop-C
+if-n-equ
+nop-C
+mov-head
+nop-C
+h-alloc
+shift-r
+dec
+jmp-head
+nop-C
+inc
+nop-A
+nop-A
+jmp-head
+if-less
+h-copy
+push
+IO
+IO
+nop-B
+nop-C
+if-label
+add
+nop-C
+nop-C
+nand
+nop-C
+push
+nop-C
+nop-C
+swap-stk
+h-copy
+sub
+IO
+nop-C
+h-copy
+nop-B
+sub
+set-flow
+sub
+nop-C
+shift-r
+shift-r
+nop-B
+sub
+pop
+h-divide
+pop
+nop-A
+sub
+h-divide
+set-flow
+nop-C
+h-alloc
+dec
+dec
+nop-C
+h-copy
+pop
+shift-r
+push
+if-n-equ
+if-n-equ
+swap
+h-search
+swap
+nop-C
+IO
+nop-C
+set-flow
+nop-C
+h-alloc
+h-copy
+nop-C
+IO
+nop-A
+if-n-equ
+nop-C
+if-less
+swap
+swap-stk
+h-search
+if-label
+h-alloc
+inc
+h-search
+nop-C
+add
+nop-A
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

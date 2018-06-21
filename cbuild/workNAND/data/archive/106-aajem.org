@@ -1,0 +1,127 @@
+# Fri Jun 15 13:09:06 2018
+# Filename........: archive/106-aajem.org
+# Update Output...: 10100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 208.000000
+# Gestation Time..: 218
+# Fitness.........: 0.954128
+# Errors..........: 3
+# Genome Size.....: 106
+# Copied Size.....: 106
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+nand
+if-n-equ
+sub
+jmp-head
+swap
+if-n-equ
+nop-C
+nop-C
+nop-C
+nand
+nop-B
+nop-A
+swap
+IO
+if-less
+nop-C
+h-alloc
+swap
+h-divide
+nop-C
+nop-C
+nop-C
+IO
+nand
+nop-C
+nop-C
+nand
+swap-stk
+nop-C
+nop-C
+IO
+nop-C
+pop
+nop-C
+dec
+pop
+h-copy
+nop-C
+h-search
+h-copy
+h-alloc
+nand
+nop-C
+if-label
+set-flow
+nop-C
+nop-A
+nop-C
+set-flow
+nop-C
+add
+nop-C
+nop-C
+shift-r
+nop-C
+nop-C
+nop-C
+get-head
+nop-C
+h-alloc
+nop-C
+h-copy
+swap
+nop-C
+nop-C
+nop-C
+swap
+sub
+nop-C
+pop
+nop-C
+pop
+if-n-equ
+nop-C
+dec
+dec
+if-n-equ
+set-flow
+nop-C
+add
+sub
+dec
+nop-C
+inc
+nop-C
+nop-C
+if-less
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

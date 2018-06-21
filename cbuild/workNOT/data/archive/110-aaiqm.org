@@ -1,0 +1,131 @@
+# Fri Jun 15 13:29:09 2018
+# Filename........: archive/110-aaiqm.org
+# Update Output...: 29300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 214.000000
+# Gestation Time..: 219
+# Fitness.........: 0.977169
+# Errors..........: 3
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+shift-l
+nop-C
+push
+nop-C
+mov-head
+nop-C
+shift-r
+set-flow
+if-label
+inc
+set-flow
+push
+if-less
+get-head
+jmp-head
+nop-A
+h-copy
+h-divide
+nop-A
+IO
+push
+nop-C
+nop-C
+add
+nop-C
+nop-C
+nand
+nop-C
+IO
+nop-C
+shift-l
+swap-stk
+pop
+nop-A
+h-search
+nop-C
+h-copy
+dec
+nop-C
+set-flow
+h-search
+nop-C
+shift-r
+shift-l
+nand
+if-less
+pop
+h-divide
+shift-l
+nop-C
+set-flow
+swap
+push
+h-divide
+h-alloc
+get-head
+sub
+nop-C
+h-copy
+pop
+shift-r
+h-copy
+add
+nop-A
+if-n-equ
+inc
+h-search
+IO
+add
+inc
+nop-C
+h-copy
+shift-r
+nop-C
+h-alloc
+dec
+jmp-head
+h-copy
+h-search
+shift-l
+nop-C
+h-alloc
+swap
+nop-C
+set-flow
+nop-A
+push
+inc
+h-search
+nop-C
+h-copy
+push
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

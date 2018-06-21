@@ -17,10 +17,10 @@
 $
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1529508162,,"q"
 :x
-|2,0,1529507406,,"x"
+|2,0,1529603014,,"x"
+:q
+|2,0,1529590171,,"q"
 :s
 |2,0,1527184562,,"s"
 :Q
@@ -99,230 +99,404 @@ $
 |3,1,36,0,1,0,1529507301,":"
 
 # File marks:
-'0  8  13  ~/submission.sh
-|4,48,8,13,1529508163,"~/submission.sh"
-'1  13  15  ~/multi.sh
-|4,49,13,15,1529508156,"~/multi.sh"
-'2  1  0  ~/cbuild/workNop-B40/runNOR/environment.cfg
-|4,50,1,0,1529507407,"~/cbuild/workNop-B40/runNOR/environment.cfg"
-'3  170  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,51,170,0,1529507400,"~/cbuild/workNop-B40/runNOR/avida.cfg"
-'4  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,52,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
-'5  452  0  ~/slurm-1580174.out
-|4,53,452,0,1529507311,"~/slurm-1580174.out"
-'6  452  0  ~/slurm-1580174.out
-|4,54,452,0,1529507242,"~/slurm-1580174.out"
-'7  452  0  ~/slurm-1580174.out
-|4,55,452,0,1529507236,"~/slurm-1580174.out"
-'8  452  0  ~/slurm-1580174.out
-|4,56,452,0,1529507236,"~/slurm-1580174.out"
-'9  452  0  ~/slurm-1580174.out
-|4,57,452,0,1529507229,"~/slurm-1580174.out"
+'0  50  0  ~/setup.sh
+|4,48,50,0,1529603014,"~/setup.sh"
+'1  21  0  ~/cbuild/workANDN/environment.cfg
+|4,49,21,0,1529590171,"~/cbuild/workANDN/environment.cfg"
+'2  54  6  ~/setup.sh
+|4,50,54,6,1529590147,"~/setup.sh"
+'3  57  6  ~/setup.sh
+|4,51,57,6,1529590147,"~/setup.sh"
+'4  45  59  ~/setup.sh
+|4,52,45,59,1529589553,"~/setup.sh"
+'5  45  59  ~/setup.sh
+|4,53,45,59,1529589553,"~/setup.sh"
+'6  48  59  ~/setup.sh
+|4,54,48,59,1529589553,"~/setup.sh"
+'7  48  59  ~/setup.sh
+|4,55,48,59,1529589553,"~/setup.sh"
+'8  45  1  ~/setup.sh
+|4,56,45,1,1529589482,"~/setup.sh"
+'9  45  1  ~/setup.sh
+|4,57,45,1,1529589482,"~/setup.sh"
 
 # Jumplist (newest first):
--'  8  13  ~/submission.sh
-|4,39,8,13,1529508163,"~/submission.sh"
--'  13  15  ~/multi.sh
-|4,39,13,15,1529508156,"~/multi.sh"
--'  13  15  ~/multi.sh
-|4,39,13,15,1529508156,"~/multi.sh"
--'  11  15  ~/multi.sh
-|4,39,11,15,1529508151,"~/multi.sh"
--'  11  15  ~/multi.sh
-|4,39,11,15,1529508151,"~/multi.sh"
--'  1  0  ~/cbuild/workNop-B40/runNOR/environment.cfg
-|4,39,1,0,1529507407,"~/cbuild/workNop-B40/runNOR/environment.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/environment.cfg
-|4,39,1,0,1529507407,"~/cbuild/workNop-B40/runNOR/environment.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/environment.cfg
-|4,39,1,0,1529507407,"~/cbuild/workNop-B40/runNOR/environment.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/environment.cfg
-|4,39,1,0,1529507407,"~/cbuild/workNop-B40/runNOR/environment.cfg"
--'  170  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,170,0,1529507400,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  170  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,170,0,1529507400,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  170  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,170,0,1529507400,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  170  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,170,0,1529507400,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  170  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,170,0,1529507400,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  170  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,170,0,1529507400,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  170  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,170,0,1529507400,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  170  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,170,0,1529507400,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,1,0,1529507378,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,1,0,1529507378,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,1,0,1529507378,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,1,0,1529507378,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,1,0,1529507378,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,1,0,1529507378,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,1,0,1529507378,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/avida.cfg
-|4,39,1,0,1529507378,"~/cbuild/workNop-B40/runNOR/avida.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  1  0  ~/cbuild/workNop-B40/runNOR/events.cfg
-|4,39,1,0,1529507373,"~/cbuild/workNop-B40/runNOR/events.cfg"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507311,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
--'  452  0  ~/slurm-1580174.out
-|4,39,452,0,1529507242,"~/slurm-1580174.out"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  21  0  ~/cbuild/workANDN/environment.cfg
+|4,39,21,0,1529590171,"~/cbuild/workANDN/environment.cfg"
+-'  21  0  ~/cbuild/workANDN/environment.cfg
+|4,39,21,0,1529590171,"~/cbuild/workANDN/environment.cfg"
+-'  23  0  ~/cbuild/workANDN/environment.cfg
+|4,39,23,0,1529590159,"~/cbuild/workANDN/environment.cfg"
+-'  23  0  ~/cbuild/workANDN/environment.cfg
+|4,39,23,0,1529590159,"~/cbuild/workANDN/environment.cfg"
+-'  57  6  ~/setup.sh
+|4,39,57,6,1529590147,"~/setup.sh"
+-'  57  6  ~/setup.sh
+|4,39,57,6,1529590147,"~/setup.sh"
+-'  45  59  ~/setup.sh
+|4,39,45,59,1529590131,"~/setup.sh"
+-'  48  59  ~/setup.sh
+|4,39,48,59,1529590131,"~/setup.sh"
+-'  48  59  ~/setup.sh
+|4,39,48,59,1529590131,"~/setup.sh"
+-'  48  59  ~/setup.sh
+|4,39,48,59,1529589553,"~/setup.sh"
+-'  48  59  ~/setup.sh
+|4,39,48,59,1529589553,"~/setup.sh"
+-'  48  1  ~/setup.sh
+|4,39,48,1,1529589482,"~/setup.sh"
+-'  48  1  ~/setup.sh
+|4,39,48,1,1529589482,"~/setup.sh"
+-'  44  1  ~/setup.sh
+|4,39,44,1,1529589468,"~/setup.sh"
+-'  47  1  ~/setup.sh
+|4,39,47,1,1529589468,"~/setup.sh"
+-'  47  1  ~/setup.sh
+|4,39,47,1,1529589468,"~/setup.sh"
+-'  47  1  ~/setup.sh
+|4,39,47,1,1529589468,"~/setup.sh"
+-'  47  1  ~/setup.sh
+|4,39,47,1,1529589468,"~/setup.sh"
+-'  47  1  ~/setup.sh
+|4,39,47,1,1529589468,"~/setup.sh"
+-'  47  1  ~/setup.sh
+|4,39,47,1,1529589468,"~/setup.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  126  3  ~/changeConcentration.sh
+|4,39,126,3,1529589465,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1  15  ~/changeConcentration.sh
+|4,39,1,15,1529589453,"~/changeConcentration.sh"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
+|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
 
 # History of marks within files (newest to oldest):
+
+> ~/setup.sh
+	*	1529603014	0
+	"	50	0
+	^	50	0
+	.	33	0
+	+	31	65
+	+	31	38
+	+	24	78
+	+	38	0
+	+	22	14
+	+	32	7
+	+	34	12
+	+	37	4
+	+	35	6
+	+	12	55
+	+	13	66
+	+	15	42
+	+	20	21
+	+	19	63
+	+	20	51
+	+	21	23
+	+	19	19
+	+	20	19
+	+	21	33
+	+	24	0
+	+	24	145
+	+	30	40
+	+	1	3
+	+	17	20
+	+	20	19
+	+	22	13
+	+	19	52
+	+	23	13
+	+	24	12
+	+	23	22
+	+	24	65
+	+	9	15
+	+	8	0
+	+	9	11
+	+	9	194
+	+	9	20
+	+	1	6
+	+	21	12
+	+	24	15
+	+	15	2
+	+	20	8
+	+	30	7
+	+	15	2
+	+	31	39
+	+	24	89
+	+	24	3
+	+	26	0
+	+	24	31
+	+	25	82
+	+	9	23
+	+	26	3
+	+	9	0
+	+	8	0
+	+	1	0
+	+	8	0
+	+	9	209
+	+	10	15
+	+	17	15
+	+	9	0
+	+	10	0
+	+	9	10
+	+	8	11
+	+	1	6
+	+	8	21
+	+	9	11
+	+	6	0
+	+	7	0
+	+	14	11
+	+	8	32
+	+	33	2
+	+	10	1
+	+	27	5
+	+	56	2
+	+	55	0
+	+	56	6
+	+	59	0
+	+	57	6
+	+	58	0
+	+	9	9
+	+	8	15
+	+	7	16
+	+	10	0
+	+	28	1
+	+	8	18
+	+	14	11
+	+	9	12
+	+	19	13
+	+	21	19
+	+	19	42
+	+	21	46
+	+	31	0
+	+	8	19
+	+	9	6
+	+	7	18
+	+	5	18
+	+	4	15
+	+	45	60
+	+	31	26
+	+	31	25
+	+	33	0
+
+> ~/cbuild/workANDN/environment.cfg
+	*	1529590168	0
+	"	21	0
+	^	23	1
+	.	23	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	21	0
+	+	22	0
+	+	23	0
+
+> ~/changeConcentration.sh
+	*	1529589465	0
+	"	126	3
+	^	177	3
+	.	178	0
+	+	13	172
+	+	4	15
+	+	14	0
+	+	23	0
+	+	12	19
+	+	71	0
+	+	4	14
+	+	15	21
+	+	99	17
+	+	103	17
+	+	170	17
+	+	166	17
+	+	163	16
+	+	96	16
+	+	4	14
+	+	11	18
+	+	4	14
+	+	177	3
+	+	178	0
+
+> ~/avida-core/source/cpu/cHardwareCPU.cc
+	*	1529589445	0
+	"	1799	27
+	^	1799	28
+	.	1627	28
+	+	3029	28
+	+	1683	19
+	+	1627	28
+	+	1755	29
+	+	2258	28
+	+	1675	28
+	+	1627	28
+
+> ~/cbuild/workH-alloc20/runANDN/environment.cfg
+	*	1529522752	0
+	"	1	0
+
+> ~/slurm-1580505.out
+	*	1529516342	0
+	"	6732	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1529508189	0
+	"	29	4
+	^	29	5
+	.	29	4
+	+	29	0
+	+	29	4
 
 > ~/submission.sh
 	*	1529508160	0
@@ -394,137 +568,6 @@ $
 	.	452	0
 	+	452	0
 
-> ~/changeConcentration.sh
-	*	1529506788	0
-	"	177	2
-	^	177	3
-	.	178	0
-	+	13	172
-	+	4	15
-	+	14	0
-	+	23	0
-	+	12	19
-	+	71	0
-	+	4	14
-	+	15	21
-	+	99	17
-	+	103	17
-	+	170	17
-	+	166	17
-	+	163	16
-	+	96	16
-	+	4	14
-	+	11	18
-	+	4	14
-	+	177	3
-	+	178	0
-
-> ~/setup.sh
-	*	1529506745	0
-	"	63	0
-	^	63	0
-	.	31	0
-	+	24	17
-	+	23	16
-	+	24	3
-	+	24	11
-	+	24	10
-	+	24	101
-	+	26	42
-	+	30	38
-	+	42	0
-	+	32	39
-	+	33	0
-	+	24	78
-	+	41	0
-	+	22	14
-	+	35	7
-	+	37	12
-	+	40	4
-	+	38	6
-	+	12	55
-	+	13	66
-	+	15	42
-	+	20	21
-	+	19	63
-	+	20	51
-	+	21	23
-	+	19	19
-	+	20	19
-	+	21	33
-	+	24	0
-	+	24	145
-	+	30	40
-	+	1	3
-	+	17	20
-	+	20	19
-	+	22	13
-	+	19	52
-	+	23	13
-	+	24	12
-	+	23	22
-	+	24	65
-	+	9	15
-	+	8	0
-	+	9	11
-	+	9	194
-	+	9	20
-	+	1	6
-	+	21	12
-	+	24	15
-	+	15	2
-	+	20	8
-	+	30	7
-	+	15	2
-	+	32	13
-	+	24	89
-	+	24	3
-	+	26	0
-	+	24	31
-	+	25	82
-	+	9	23
-	+	26	3
-	+	9	0
-	+	8	0
-	+	1	0
-	+	8	0
-	+	9	209
-	+	10	15
-	+	17	15
-	+	9	0
-	+	10	0
-	+	9	10
-	+	8	11
-	+	1	6
-	+	8	21
-	+	9	11
-	+	6	0
-	+	7	0
-	+	14	11
-	+	8	32
-	+	36	2
-	+	10	1
-	+	27	5
-	+	59	2
-	+	58	0
-	+	59	6
-	+	62	0
-	+	60	6
-	+	61	0
-	+	9	9
-	+	8	15
-	+	7	16
-	+	10	0
-	+	28	1
-	+	8	18
-	+	14	11
-	+	9	12
-	+	19	13
-	+	21	19
-	+	19	42
-	+	21	46
-	+	31	0
-
 > ~/slurm-1580031.out
 	*	1529506666	0
 	"	454	90
@@ -571,17 +614,6 @@ $
 > ~/slurm-1578
 	*	1529440612	0
 	"	1	0
-
-> ~/avida-core/source/cpu/cHardwareCPU.cc
-	*	1529440207	0
-	"	2258	28
-	^	2258	29
-	.	2258	28
-	+	3029	28
-	+	1683	19
-	+	1627	28
-	+	1755	29
-	+	2258	28
 
 > ~/slurm-1578120.out
 	*	1529439733	0
@@ -930,20 +962,6 @@ $
 	+	22	0
 	+	23	0
 
-> ~/cbuild/workANDN/environment.cfg
-	*	1529077968	0
-	"	23	0
-	^	23	1
-	.	23	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	21	0
-	+	22	0
-	+	23	0
-
 > ~/cbuild/work/slurm-1472711.out
 	*	1527188038	0
 	"	9954	0
@@ -1218,47 +1236,3 @@ $
 	^	12	69
 	.	13	0
 	+	13	0
-
-> ~/cbuild/work_2/analyze.cfg
-	*	1527173829	0
-	"	12	68
-	^	12	69
-	.	13	0
-	+	13	0
-
-> ~/cbuild/work_1/analyze.cfg
-	*	1527173626	0
-	"	9	4
-	^	9	5
-	.	9	5
-	+	7	96
-	+	9	0
-	+	11	0
-	+	12	0
-	+	7	109
-	+	13	2
-	+	9	56
-	+	9	67
-	+	11	11
-	+	9	55
-	+	8	11
-	+	10	21
-	+	12	69
-	+	9	6
-	+	7	96
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	8	0
-	+	9	5
-	+	9	49
-	+	9	5
-	+	10	0
-	+	9	5
-
-> ~/cbuild/work_1/data/lineage..html
-	*	1527172786	0
-	"	1	0

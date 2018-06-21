@@ -1,0 +1,127 @@
+# Fri Jun 15 13:45:11 2018
+# Filename........: archive/106-abmtr.org
+# Update Output...: 50000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 408.000000
+# Gestation Time..: 199
+# Fitness.........: 2.050251
+# Errors..........: 2
+# Genome Size.....: 106
+# Copied Size.....: 106
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# and 1 (1.000000)
+
+
+h-alloc
+shift-l
+sub
+set-flow
+nop-A
+nop-A
+swap-stk
+shift-r
+nop-C
+IO
+get-head
+sub
+nop-A
+push
+if-less
+nop-A
+if-less
+nop-A
+get-head
+nop-C
+sub
+nop-C
+add
+shift-l
+if-less
+dec
+if-label
+nop-B
+if-label
+nop-C
+IO
+shift-l
+h-alloc
+push
+push
+nop-C
+nop-C
+nand
+nand
+nop-C
+add
+mov-head
+nop-C
+nop-A
+IO
+nop-C
+inc
+swap-stk
+sub
+nop-A
+if-n-equ
+nop-C
+nand
+swap-stk
+h-copy
+if-n-equ
+nop-C
+add
+nop-C
+if-label
+push
+inc
+nop-C
+h-copy
+shift-l
+nand
+swap
+nop-C
+h-copy
+shift-r
+swap-stk
+if-n-equ
+add
+nop-B
+sub
+nop-C
+IO
+nop-A
+sub
+if-n-equ
+sub
+nop-A
+pop
+nop-B
+add
+if-label
+h-alloc
+nop-B
+nop-C
+add
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

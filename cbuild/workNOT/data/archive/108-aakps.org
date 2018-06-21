@@ -1,0 +1,129 @@
+# Fri Jun 15 13:21:47 2018
+# Filename........: archive/108-aakps.org
+# Update Output...: 22500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 210.000000
+# Gestation Time..: 220
+# Fitness.........: 0.954545
+# Errors..........: 3
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+swap
+set-flow
+nop-A
+shift-l
+nop-C
+h-divide
+inc
+mov-head
+nop-C
+IO
+shift-r
+pop
+inc
+if-label
+nop-C
+set-flow
+IO
+jmp-head
+jmp-head
+nop-C
+h-copy
+shift-l
+if-n-equ
+IO
+nop-B
+nop-C
+IO
+add
+nop-C
+h-divide
+nand
+nop-C
+push
+nop-C
+if-n-equ
+inc
+h-copy
+if-label
+get-head
+h-divide
+h-copy
+shift-r
+shift-r
+set-flow
+swap
+nop-C
+pop
+IO
+dec
+nop-B
+set-flow
+nop-C
+inc
+nop-A
+pop
+nop-C
+swap
+swap
+shift-r
+h-copy
+nop-C
+h-copy
+nop-A
+shift-l
+h-alloc
+nop-A
+if-n-equ
+nop-C
+get-head
+set-flow
+sub
+nop-C
+dec
+nop-C
+push
+nop-C
+h-alloc
+inc
+swap-stk
+nop-C
+IO
+dec
+get-head
+h-divide
+sub
+pop
+IO
+h-alloc
+inc
+h-search
+nop-C
+add
+IO
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

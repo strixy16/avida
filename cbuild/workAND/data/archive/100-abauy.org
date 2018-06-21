@@ -1,0 +1,121 @@
+# Fri Jun 15 13:10:03 2018
+# Filename........: archive/100-abauy.org
+# Update Output...: 12300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 384.000000
+# Gestation Time..: 203
+# Fitness.........: 1.891626
+# Errors..........: 1
+# Genome Size.....: 100
+# Copied Size.....: 100
+# Executed Size...: 96
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# and 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+if-less
+swap-stk
+pop
+nand
+h-divide
+sub
+nop-C
+inc
+nand
+sub
+swap
+nop-C
+shift-r
+IO
+nand
+mov-head
+nop-C
+nop-C
+swap-stk
+nop-C
+nop-C
+add
+push
+IO
+if-label
+IO
+nop-C
+push
+nop-B
+set-flow
+if-less
+IO
+nand
+nand
+nop-C
+add
+nop-B
+nop-C
+if-less
+nop-C
+nop-C
+inc
+swap-stk
+nop-B
+nop-C
+if-n-equ
+swap-stk
+nand
+h-divide
+swap-stk
+nop-C
+nop-C
+add
+nop-C
+sub
+inc
+nop-C
+nop-C
+pop
+IO
+nop-C
+if-n-equ
+add
+nop-C
+h-search
+nop-C
+pop
+nop-A
+swap-stk
+swap-stk
+add
+if-label
+sub
+nop-C
+pop
+h-alloc
+nop-C
+nand
+nand
+IO
+get-head
+shift-l
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

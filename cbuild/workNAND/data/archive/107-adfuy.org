@@ -1,0 +1,128 @@
+# Fri Jun 15 13:19:12 2018
+# Filename........: archive/107-adfuy.org
+# Update Output...: 20100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 210.000000
+# Gestation Time..: 220
+# Fitness.........: 0.954545
+# Errors..........: 0
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+nop-C
+dec
+IO
+push
+nop-C
+push
+nop-C
+swap
+pop
+inc
+IO
+shift-l
+nop-C
+IO
+nop-C
+nop-B
+swap
+push
+h-divide
+nop-C
+add
+IO
+nand
+mov-head
+nop-C
+IO
+dec
+shift-r
+shift-l
+get-head
+add
+pop
+nop-C
+dec
+add
+h-copy
+inc
+h-divide
+shift-l
+h-copy
+shift-l
+swap-stk
+IO
+dec
+swap
+nop-C
+dec
+nop-C
+set-flow
+nop-C
+add
+h-divide
+inc
+shift-r
+nop-C
+inc
+nop-C
+sub
+nop-A
+nand
+h-search
+if-label
+IO
+nop-C
+nand
+nop-C
+get-head
+get-head
+if-n-equ
+pop
+set-flow
+nop-C
+IO
+shift-l
+dec
+nop-C
+nop-B
+shift-r
+nand
+h-copy
+shift-r
+shift-l
+nop-C
+set-flow
+nop-C
+h-divide
+if-label
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

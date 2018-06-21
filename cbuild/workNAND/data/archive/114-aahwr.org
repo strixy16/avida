@@ -1,0 +1,135 @@
+# Fri Jun 15 13:39:34 2018
+# Filename........: archive/114-aahwr.org
+# Update Output...: 43500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 220.000000
+# Gestation Time..: 226
+# Fitness.........: 0.973451
+# Errors..........: 2
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+if-label
+sub
+if-label
+swap
+add
+nop-C
+h-search
+set-flow
+h-copy
+inc
+h-copy
+if-less
+IO
+swap
+IO
+shift-r
+nop-A
+swap-stk
+swap
+add
+nop-B
+nop-B
+push
+IO
+nand
+nop-C
+push
+nop-A
+IO
+nop-C
+IO
+inc
+swap
+h-copy
+get-head
+nop-C
+h-alloc
+inc
+nop-C
+h-copy
+swap
+IO
+h-copy
+h-copy
+add
+nop-C
+if-less
+if-n-equ
+if-label
+inc
+h-search
+h-copy
+jmp-head
+swap
+nand
+IO
+nop-A
+nop-B
+nop-B
+if-n-equ
+h-search
+h-copy
+h-divide
+h-alloc
+shift-l
+dec
+h-copy
+shift-r
+nop-C
+jmp-head
+nop-A
+pop
+nop-B
+nand
+pop
+nop-A
+nand
+dec
+nop-B
+nop-A
+h-search
+swap-stk
+get-head
+if-label
+sub
+nop-B
+h-search
+shift-l
+jmp-head
+pop
+nop-C
+add
+dec
+h-copy
+h-copy
+nop-A
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

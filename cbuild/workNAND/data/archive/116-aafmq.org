@@ -1,0 +1,137 @@
+# Fri Jun 15 13:43:43 2018
+# Filename........: archive/116-aafmq.org
+# Update Output...: 48400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 222.000000
+# Gestation Time..: 232
+# Fitness.........: 0.956897
+# Errors..........: 1
+# Genome Size.....: 116
+# Copied Size.....: 116
+# Executed Size...: 111
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+h-alloc
+shift-l
+set-flow
+if-less
+nop-C
+h-search
+nop-B
+h-copy
+push
+h-copy
+h-copy
+add
+swap
+IO
+push
+nop-C
+swap
+if-n-equ
+nop-B
+nop-B
+push
+IO
+nand
+nop-C
+swap
+nop-A
+IO
+nop-C
+IO
+h-copy
+if-n-equ
+get-head
+h-copy
+get-head
+swap-stk
+shift-r
+shift-r
+swap-stk
+h-copy
+h-divide
+shift-r
+h-copy
+h-copy
+add
+nop-C
+push
+add
+get-head
+sub
+h-search
+h-copy
+jmp-head
+dec
+nop-B
+IO
+h-copy
+nop-A
+jmp-head
+nop-B
+if-n-equ
+h-search
+h-divide
+nop-A
+h-divide
+swap
+h-copy
+shift-r
+shift-l
+h-search
+push
+h-divide
+add
+nop-B
+nand
+if-n-equ
+swap
+nand
+dec
+shift-r
+nop-A
+dec
+nop-B
+get-head
+add
+dec
+if-label
+push
+add
+h-search
+pop
+set-flow
+swap
+pop
+h-copy
+h-copy
+sub
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+get-head
+nop-A
+nop-B

@@ -1,0 +1,132 @@
+# Fri Jun 15 13:24:28 2018
+# Filename........: archive/111-ablyl.org
+# Update Output...: 26100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 214.000000
+# Gestation Time..: 225
+# Fitness.........: 0.951111
+# Errors..........: 1
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+nand
+dec
+h-divide
+nop-C
+nop-B
+if-n-equ
+nop-C
+add
+h-copy
+IO
+h-copy
+IO
+shift-r
+nop-C
+if-n-equ
+nop-C
+get-head
+swap
+shift-r
+set-flow
+swap-stk
+sub
+IO
+nand
+nop-C
+pop
+IO
+IO
+nop-C
+if-label
+IO
+if-label
+if-less
+nop-A
+if-less
+h-divide
+h-copy
+get-head
+nop-A
+swap
+h-copy
+nand
+get-head
+shift-l
+dec
+nop-A
+swap
+if-label
+h-divide
+get-head
+if-label
+inc
+shift-l
+nop-C
+nop-C
+IO
+nop-C
+shift-r
+if-less
+sub
+h-copy
+add
+add
+nop-A
+h-copy
+nand
+nop-C
+h-search
+pop
+pop
+h-copy
+if-n-equ
+get-head
+add
+IO
+swap-stk
+if-n-equ
+nop-B
+sub
+if-n-equ
+nop-C
+set-flow
+h-divide
+h-alloc
+set-flow
+nop-C
+inc
+h-divide
+nand
+h-divide
+if-less
+h-copy
+dec
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

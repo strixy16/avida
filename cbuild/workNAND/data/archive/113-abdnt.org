@@ -1,0 +1,134 @@
+# Fri Jun 15 13:44:39 2018
+# Filename........: archive/113-abdnt.org
+# Update Output...: 49500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 218.000000
+# Gestation Time..: 227
+# Fitness.........: 0.960352
+# Errors..........: 2
+# Genome Size.....: 113
+# Copied Size.....: 113
+# Executed Size...: 109
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+swap
+swap
+nand
+set-flow
+dec
+get-head
+nop-B
+h-copy
+nop-A
+h-copy
+h-copy
+nop-B
+IO
+inc
+nop-A
+set-flow
+swap
+h-copy
+set-flow
+IO
+inc
+inc
+IO
+nand
+nop-C
+nop-C
+nop-A
+IO
+nop-C
+if-n-equ
+dec
+pop
+h-copy
+nand
+swap-stk
+nop-C
+sub
+nop-C
+h-search
+nop-C
+nop-C
+add
+nop-B
+IO
+nop-A
+if-less
+nop-B
+shift-r
+h-copy
+add
+h-divide
+h-copy
+inc
+IO
+h-alloc
+pop
+if-n-equ
+nand
+h-search
+h-divide
+dec
+nand
+h-copy
+if-n-equ
+nop-B
+jmp-head
+inc
+nop-C
+IO
+nop-B
+nop-B
+dec
+get-head
+shift-r
+nop-A
+sub
+if-label
+swap-stk
+add
+if-n-equ
+inc
+h-divide
+h-alloc
+push
+if-n-equ
+nop-B
+sub
+pop
+nop-C
+add
+if-label
+h-copy
+h-copy
+if-label
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,304 +1,3 @@
-sh runAvida.sh 
-ls
-vim runAvida.sh 
-sh runAvida.sh 
-ls
-rm Data2.out
-vim runAvida.sh 
-sbatch runAvida.sh 
-squeue -u hpc4256
-ls
-vim slurm-1471565.out 
-vim runAvida.sh 
-sbatch runAvida.sh 
-squeue -u hpc4256
-ls
-vim slurm-1471584.out 
-ls -a
-l -a
-ls -l
-du -h
-man ls
-man ls -S
-ls -s
-ls -S
-vim runAvida.sh 
-sbatch runAvida.sh 
-squeue -u hpc4256
-ls
-vim slurm-1471591.out 
-vim runAvida.sh 
-sbatch runAvida.sh 
-squeue -u hpc4256
-ls
-vim slurm-1471594.out 
-vim runAvida.sh 
-rm slurm-*
-ls
-sbatch runAvida.sh 
-squeue -u hpc4256
-ls
-vim slurm-1471650_1.out 
-vim slurm-1471650_2.out 
-cd data_1/
-ls
-rm *
-ls
-cd ..
-data_2
-cd data_2
-ls
-rm *
-ls
-cd ..
-cd dat_3
-cd data_3
-ls
-rm *
-ls
-cd ..
-ls
-cd data_4
-ls
-rm *
-cd ..
-sbatch runAvida.sh 
-squeue -u hpc4256
-sbatch runAvida.sh 
-scancel 1471660
-squeue -u hpc4256
-ls
-rm slurm -*
-rm slurm-*
-ls
-data_1
-cd data_1
-ls
-cd ..
-cd data_2
-ls
-cd ..
-vim avida.cfg
-rm avida.cfg 
-cp original_avida.cfg avida.cfg
-ls
-rm -R data_5
-rm -R data_*
-ls
-cd avida.cfg
-vim avida.cfg 
-sbatch runAvida.sh 
-squeue -u 4256
-squeue -u hpc4256
-ls
-vim slurm-1471667_1.out 
-vim slurm-1471667_2.out 
-cd data_1
-ls
-cd ..
-vim runAvida.sh 
-sbatch runAvida.sh 
-squeue -u hpc4256
-ls
-cd data_1
-ls
-cd ..
-cd data_2
-cd data_4
-ls
-cd ..
-ls
-vim slurm-1471673_1
-vim slurm-1471673_1.out 
-vim slurm-1471673_2.out 
-vim runAvida.sh 
-cd cbuild/
-ls
-cd work
-ls
-cd data
-ls
-cd ..
-vim avida.cfg
-./avida-viewer 
-vim avida.cfg 
-vim events.cfg 
-vim instset-heads
-vim instset-heads.cfg 
-cd
-cd avida-core/source/cpu/
-vim cHardwareCPU.cc
-ls
-cd
-ls
-git fetch origin testingInstr
-ls
-git branch
-git checkout testingInstr
-git branch -a
-git update
-git checkout testingInstr
-git fetch
-git branch -a
-git checkout testingInstr
-git status
-git branch
-git add .
-git add ./*
-git status
-git stash
-git status
-git checkout testingInstr 
-git branch
-ls
-cd cbuild/
-ls
-cd ..
-cd avida-core/source/cpu/
-ls
-vim cHardwareCPU.cc
-cd
-./build_avida 
-ls
-cd cbuild/
-cd work
-ls
-vim avida.cfg 
-cd ..
-cp work workORN
-cp -R work workORN
-cp -R work workANDN
-cp -R work workOR
-ls
-cd workANDN
-ls
-vim environment.cfg 
-cd ..
-cd workOR
-vim environment.cfg 
-vim events.cfg 
-cd ..
-workORN
-cd workORN
-vim environment.cfg 
-vim events.cfg 
-cd ../workANDN/
-vim events.cfg 
-cd
-vim runAnti.sh 
-mv runAnti.sh runAntiANDN.sh 
-vim runAntiANDN.sh 
-cp runAntiANDN.sh runAntiORN.sh 
-cp runAntiANDN.sh runAntiOR.sh 
-vim runAntiOR.sh 
-vim runAntiORN.sh 
-sbatch runAntiORN.sh 
-sbatch runAntiOR.sh 
-sbatch runAntiANDN.sh 
-cd cbuild/
-running
-cd workORN
-ls
-cd logfile1
-vim logfile1
-vim logfile2
-cd ../workOR
-ls
-vim logfile1
-vim logfile2
-cd ../workANDN
-vim logfile1
-vim logfile2
-running
-ls
-cd cbuild/
-ls
-cd workANDN
-ls
-vim logfile1
-workOR
-work OR
-ls
-cd ../workOR
-vim logfile1
-vim logfile2
-cd data1
-ls
-vim tasks.dat 
-cd ../daat2
-cd ../data2
-vim tasks.dat 
-cd ..
-cd workANDN/
-cd data1
-vim tasks.dat 
-vim ../data2/tasks.dat 
-cd ..
-ls
-cd workORN
-cd data1
-vim tasks.dat 
-vim ../data2/tasks.dat 
-cd ..
-ls
-cd workOR
-ls
-vim avida.cfg 
-vim events.cfg 
-vim environment.cfg 
-cd ..
-ls
-sbatch runAntiOR.sh 
-running
-ls
-cd cbuild
-ls
-cd workOR
-ls
-cd
-vim .gitignore
-git push origin testingInstr 
-git pull origin
-cd cbuild/
-ls
-cd ..
-git push origin testingInstr 
-git pull
-git add .
-git commit -m "ORN and ANDN completed"
-status
-git add .
-git add --all
-git status
-git commit -m "ANDN and ORN completed"
-git config --global user.email "16sek@queensu.ca"
-git config --global user.name "Spencer Kelly"
-git status
-git commit -m "ANDN and ORN completed"
-git status 
-git pull origin testingInstr 
-git push origin testingInstr 
-git pull
-cd cbuild/
-mv work/ workDefault/
-ls
-cd
-git pull
-vim .gitignore
-git pull
-git pull origin testingInstr 
-cd cbuild/
-ls
-cd workEQU/
-ls
-cd
-git add --all
-git commit -m "commit with my stuff and Katy's stuff"
-git pull
-git push origin testingInstr 
-cd cbuild/
-cd workOR
-ls
 vim logfile1
 cd ..
 cd workOR
@@ -998,3 +697,304 @@ cd ..
 cd mnt
 ls
 logout
+ls
+cd runANDN
+ls
+cd cbuild/
+ls
+cd runANDN/
+ls
+cd ..
+cd runEQU
+ls
+cd
+ls
+cd runANDN
+ls
+cd cb
+cd cbuild/
+ls
+cd runANDN
+ls
+cd workEQU
+ls
+cd
+ls
+cd runEQU
+ls
+cd cbuild/
+ls
+runANDN
+cd runANDN
+ls
+cd
+ls
+cd runXOR
+ls
+vim slurm-1578120.out 
+vim slurm-1578267.out 
+ls
+cd ..
+ls
+rm -R runEQU
+rm -R runO*
+ls
+mv runANDN/ m/
+ls
+rm -R run*
+ls
+cd m
+ls
+mv * ..
+ls
+cd ..
+ls
+rm -R m
+ls
+cd cbuild/
+ls
+cd runANDN
+ls
+mv * ..
+ls
+cd ..
+ls
+rm -R run*
+ls
+cd workIf-label20/
+ls
+vim environment.cfg 
+cd ..
+cd
+vim changeConcentration.sh 
+./changeConcentration.sh 
+ls
+cd cbuild/
+ls
+cd workNop-A20/
+ls
+:q
+cd ..
+vim setup.sh 
+cd cbuild/
+ls
+rm -R workIf*
+ls
+rm -R workMov*
+ls
+cd
+ls
+./setup.sh 
+ls
+cd cbuild/
+ls
+cd workNop-A20/
+ls
+cd runANDN
+ls
+cd ..
+ls
+cd cbuild/
+rm -R workNop-A20/
+cd
+ls
+vim setup.sh 
+vim changeConcentration.sh 
+vim submission.sh 
+./setup.sh 
+ls
+cd cbuild/
+ls
+cd
+ls
+vim changeConcentration.sh 
+vim setup.sh 
+vim changeConcentration.sh 
+vim setup.sh 
+vim changeConcentration.sh 
+mkdir
+mkdir avida
+ls
+mv * avida/
+ls
+cd ..
+ls
+cd
+ls
+cd avida
+ls
+vim changeConcentration.sh 
+vim setup.sh 
+ls
+cd cbuild/
+ls
+rm -R workNop*
+ls
+cd ..
+ls
+vim slurm-1578267.out 
+rm slurm-1578*
+ls
+vim setup.sh 
+sbatch setup.sh 
+ls
+vim slurm-1579515.out 
+scancel 1579515.out
+scancel 1579515
+cd cbuild/
+ls
+cd ..
+vim changeConcentration.sh 
+cd ..
+cd avida/
+mv * ..
+ls
+cd ..
+ls
+rm -R avida
+ls
+rm slurm-1579515.out 
+sbatch setup.sh 
+vim slurm-1580031.out 
+ls
+vim slurm-1580031.out 
+ls
+vim slurm-1580031.out 
+ls
+vim cbuild/
+cd cbuild/
+ls
+cd workNop-A20/
+l
+ls
+cd ..
+cd
+vim slurm-1580031.out 
+running
+vim changeConcentration.sh 
+vim setup.sh 
+vim changeConcentration.sh 
+cd cbuild/
+ls
+rm -R workNop-*
+ls
+:q
+cd
+rm slurm-1580031.out 
+sbatch setup.sh 
+ls
+vim slurm-1580174.out 
+ls
+vim slurm-1580174.out 
+running
+cd cbuild/
+ls
+cd workNop-A20/
+ls
+cd ..
+cd workNop-A40/
+ls
+cd ..
+cd workNop-B40/
+ls
+cd runNOR
+ls
+vim events.cfg 
+vim avida.cfg 
+vim environment.cfg 
+cd ..
+cd
+git add .
+ls
+rm slurm-1580174.out 
+cd cbuild/
+ls
+rm -R workNop*
+ls
+cd
+ls
+git add .
+git add --all
+git commit -m "working"
+git push origin testingInstr 
+ls
+git pull origin testingInstr 
+git pull
+git push changeConcentration.sh testingInstr 
+ls
+git push origin testingInstr 
+git pull origin testingInstr 
+vim multi.sh 
+vim submission.sh 
+git commit -a
+git pull origin testingInstr 
+git status
+git push origin testingInstr 
+ls
+vim setup.sh 
+sbatch setup.sh 
+cd cbuild/
+l
+ls
+cd workXOR/
+ls
+cd data
+ls
+cd ..
+rm -R data1*
+rm -R data2*
+ls
+cd ..
+cd cbuild/
+ls
+running
+ls
+cd cbuild/
+ls
+running
+cd ..
+ls
+vim slurm-1580505.out 
+cd cbuild/
+ls
+cd workDec20/
+ls
+cd ..
+cd
+clear
+ls
+cd cbuild/
+ls
+l
+-l
+ls
+ ls
+ls
+ls -l
+ls
+cd
+ls
+cd avida-core/source/cpu/cHardwareCPU.cc
+vim avida-core/source/cpu/cHardwareCPU.cc
+ls
+vim changeConcentration.sh 
+cd cbuild/
+ls
+running
+cd workH-alloc20
+ls
+cd runANDN
+vim environment.cfg 
+cd
+cd cbuild/
+ls
+mv runXOR rXOR
+mv -R runXOR rXOR
+mv workXOR rXOR
+mv workEQU rEQU
+mv workORN rORN
+mv workOR rOR
+mv workANDN rANDN
+mv workNOR rNOR
+mv workDefault/ rDef
+rm -R work*

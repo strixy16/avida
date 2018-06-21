@@ -1,0 +1,130 @@
+# Fri Jun 15 13:29:19 2018
+# Filename........: archive/109-abiel.org
+# Update Output...: 31700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 208.000000
+# Gestation Time..: 221
+# Fitness.........: 0.941176
+# Errors..........: 2
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+shift-l
+add
+add
+nop-A
+set-flow
+nop-C
+jmp-head
+shift-r
+h-copy
+nand
+h-copy
+IO
+nop-B
+nop-C
+shift-r
+nop-A
+get-head
+swap
+push
+swap-stk
+h-alloc
+push
+IO
+nand
+nop-C
+shift-l
+nop-A
+IO
+nop-C
+swap
+inc
+nop-A
+get-head
+nop-A
+shift-l
+h-alloc
+h-divide
+nand
+shift-l
+get-head
+push
+h-search
+if-n-equ
+swap
+h-copy
+if-label
+inc
+nand
+nop-C
+IO
+swap-stk
+add
+h-search
+jmp-head
+IO
+nop-B
+pop
+h-copy
+nand
+if-n-equ
+dec
+swap-stk
+h-copy
+shift-r
+IO
+push
+inc
+jmp-head
+nand
+nop-B
+IO
+shift-l
+swap-stk
+dec
+pop
+nop-B
+sub
+if-n-equ
+sub
+set-flow
+h-search
+nop-B
+push
+nop-C
+push
+pop
+set-flow
+add
+nop-C
+h-copy
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

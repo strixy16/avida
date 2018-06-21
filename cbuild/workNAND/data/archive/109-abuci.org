@@ -1,0 +1,130 @@
+# Fri Jun 15 13:33:49 2018
+# Filename........: archive/109-abuci.org
+# Update Output...: 37000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 214.000000
+# Gestation Time..: 222
+# Fitness.........: 0.963964
+# Errors..........: 0
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+h-divide
+get-head
+dec
+sub
+set-flow
+nop-C
+shift-r
+nop-B
+IO
+h-copy
+IO
+pop
+IO
+shift-r
+nop-A
+get-head
+swap
+nop-B
+swap-stk
+nop-B
+push
+IO
+nand
+nop-C
+swap
+nop-A
+IO
+nop-C
+nop-A
+inc
+nop-A
+get-head
+nop-B
+shift-l
+inc
+inc
+dec
+push
+h-copy
+add
+dec
+dec
+nop-C
+add
+shift-r
+h-search
+h-search
+nop-A
+add
+h-search
+IO
+h-search
+swap-stk
+nand
+h-search
+h-search
+h-copy
+h-divide
+nand
+inc
+shift-l
+h-copy
+shift-r
+shift-l
+nop-A
+pop
+nop-B
+dec
+nop-B
+IO
+nop-B
+nop-C
+swap-stk
+if-n-equ
+nop-B
+sub
+if-n-equ
+h-divide
+set-flow
+get-head
+nop-B
+nop-C
+nop-C
+nand
+if-n-equ
+set-flow
+add
+nop-C
+h-copy
+h-copy
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

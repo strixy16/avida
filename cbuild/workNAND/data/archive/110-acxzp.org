@@ -1,0 +1,131 @@
+# Fri Jun 15 13:36:34 2018
+# Filename........: archive/110-acxzp.org
+# Update Output...: 40200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 214.000000
+# Gestation Time..: 222
+# Fitness.........: 0.963964
+# Errors..........: 5
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+nop-A
+add
+if-n-equ
+nop-A
+shift-l
+nop-C
+nop-C
+nop-B
+h-copy
+IO
+h-copy
+IO
+nop-B
+set-flow
+shift-r
+nop-A
+get-head
+swap
+nop-B
+swap-stk
+h-alloc
+push
+IO
+nand
+nop-C
+shift-l
+shift-l
+IO
+nop-C
+nop-A
+shift-l
+nop-A
+pop
+nop-B
+h-alloc
+h-alloc
+nop-C
+dec
+shift-l
+h-copy
+add
+add
+if-n-equ
+nop-C
+nop-B
+shift-r
+h-alloc
+pop
+if-less
+dec
+shift-l
+h-divide
+h-search
+jmp-head
+nand
+nop-B
+if-less
+h-copy
+h-divide
+nand
+inc
+shift-l
+h-copy
+h-alloc
+inc
+nop-A
+pop
+add
+nop-B
+jmp-head
+IO
+jmp-head
+swap-stk
+dec
+if-n-equ
+nop-C
+h-search
+nop-A
+shift-r
+nop-B
+get-head
+if-label
+nop-A
+if-less
+push
+swap
+set-flow
+add
+nop-C
+h-copy
+h-copy
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

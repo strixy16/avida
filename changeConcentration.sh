@@ -174,4 +174,5 @@ do
 		fi
 	fi
 done
-cd 
+cd
+cd avida/

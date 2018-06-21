@@ -1,0 +1,120 @@
+# Fri Jun 15 13:10:28 2018
+# Filename........: archive/099-acwrf.org
+# Update Output...: 12700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 384.000000
+# Gestation Time..: 202
+# Fitness.........: 1.900990
+# Errors..........: 2
+# Genome Size.....: 99
+# Copied Size.....: 99
+# Executed Size...: 96
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# and 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+sub
+nop-C
+pop
+get-head
+nand
+push
+add
+swap
+nop-B
+nop-C
+nand
+nop-C
+nop-C
+shift-l
+nop-C
+sub
+swap-stk
+if-less
+nop-C
+sub
+push
+IO
+if-label
+IO
+nop-C
+h-divide
+swap-stk
+sub
+nop-C
+IO
+nop-C
+nand
+nop-C
+h-alloc
+mov-head
+nop-C
+if-less
+nop-C
+shift-l
+swap
+swap-stk
+IO
+nop-C
+if-n-equ
+nop-C
+nand
+swap-stk
+swap-stk
+nop-C
+nop-C
+add
+nop-C
+nand
+inc
+nop-C
+nop-C
+nop-B
+IO
+nop-C
+pop
+IO
+h-alloc
+dec
+nop-C
+shift-r
+swap-stk
+swap-stk
+pop
+IO
+nop-B
+inc
+nop-C
+pop
+add
+nop-B
+nand
+nand
+nop-B
+set-flow
+nand
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,136 @@
+# Fri Jun 15 13:38:55 2018
+# Filename........: archive/115-aahlv.org
+# Update Output...: 38400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 222.000000
+# Gestation Time..: 229
+# Fitness.........: 0.969432
+# Errors..........: 1
+# Genome Size.....: 115
+# Copied Size.....: 115
+# Executed Size...: 111
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+dec
+set-flow
+nop-A
+mov-head
+nop-C
+if-n-equ
+h-divide
+h-copy
+swap-stk
+nop-C
+sub
+h-copy
+dec
+set-flow
+sub
+nop-A
+if-label
+nop-C
+shift-r
+nop-A
+h-copy
+sub
+nop-A
+IO
+swap-stk
+nop-C
+sub
+add
+nop-C
+nop-C
+nand
+if-n-equ
+IO
+shift-r
+set-flow
+nop-B
+pop
+h-copy
+h-copy
+swap
+swap
+set-flow
+h-copy
+nop-B
+h-search
+pop
+h-divide
+jmp-head
+sub
+shift-l
+dec
+dec
+nop-B
+nop-B
+jmp-head
+nop-B
+h-copy
+set-flow
+nop-A
+push
+nop-C
+get-head
+if-less
+h-copy
+inc
+h-alloc
+h-copy
+pop
+shift-l
+h-copy
+if-n-equ
+nop-A
+inc
+shift-r
+h-search
+swap-stk
+dec
+inc
+nop-C
+h-copy
+shift-r
+nop-C
+inc
+push
+nop-B
+h-copy
+swap
+shift-l
+nop-C
+pop
+shift-l
+nop-C
+dec
+IO
+IO
+nand
+h-search
+shift-r
+if-less
+push
+set-flow
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

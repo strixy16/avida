@@ -1,0 +1,125 @@
+# Fri Jun 15 13:34:25 2018
+# Filename........: archive/104-aexaw.org
+# Update Output...: 37900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 404.000000
+# Gestation Time..: 202
+# Fitness.........: 2.000000
+# Errors..........: 2
+# Genome Size.....: 104
+# Copied Size.....: 104
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# and 1 (1.000000)
+
+
+h-alloc
+set-flow
+set-flow
+nop-A
+shift-l
+nop-A
+if-label
+shift-l
+inc
+h-alloc
+if-n-equ
+nop-A
+nop-C
+nop-A
+nop-A
+nop-C
+nop-C
+jmp-head
+if-n-equ
+if-n-equ
+inc
+dec
+h-alloc
+inc
+add
+nop-B
+pop
+nop-C
+if-less
+add
+IO
+nop-C
+if-label
+nand
+push
+nop-C
+IO
+nand
+nand
+nop-C
+add
+swap-stk
+swap-stk
+mov-head
+nop-C
+h-divide
+inc
+if-label
+shift-l
+nop-A
+h-divide
+if-label
+nand
+nop-B
+if-less
+nop-C
+swap
+h-copy
+add
+nop-C
+inc
+dec
+inc
+nop-C
+sub
+h-divide
+IO
+nop-C
+h-search
+h-divide
+h-divide
+add
+nop-B
+pop
+shift-l
+get-head
+dec
+swap-stk
+swap-stk
+nop-C
+if-n-equ
+nop-B
+push
+sub
+nop-B
+shift-l
+nop-A
+swap-stk
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

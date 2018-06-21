@@ -1,0 +1,135 @@
+# Fri Jun 15 13:34:20 2018
+# Filename........: archive/114-aaggi.org
+# Update Output...: 34100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 220.000000
+# Gestation Time..: 221
+# Fitness.........: 0.995475
+# Errors..........: 4
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+h-alloc
+nop-C
+mov-head
+nop-C
+sub
+h-copy
+nop-B
+h-alloc
+swap
+sub
+nop-B
+nop-C
+jmp-head
+nop-A
+h-copy
+push
+nop-A
+IO
+h-alloc
+shift-l
+nop-C
+dec
+nop-C
+set-flow
+nand
+if-n-equ
+IO
+nop-B
+h-search
+nand
+h-divide
+h-copy
+h-copy
+nop-A
+h-search
+nop-C
+h-copy
+nop-B
+inc
+set-flow
+sub
+nop-C
+IO
+add
+nop-B
+shift-r
+push
+h-divide
+get-head
+nop-B
+h-copy
+if-less
+push
+push
+nop-C
+inc
+h-divide
+h-copy
+if-label
+dec
+h-copy
+pop
+shift-r
+h-copy
+if-n-equ
+nop-A
+if-label
+shift-r
+h-search
+set-flow
+nop-A
+inc
+nop-C
+h-copy
+sub
+nop-C
+if-n-equ
+swap
+nop-B
+h-copy
+nop-C
+shift-l
+nop-C
+h-alloc
+swap
+nop-C
+dec
+nop-A
+nop-B
+inc
+h-search
+nop-C
+nop-C
+IO
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

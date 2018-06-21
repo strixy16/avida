@@ -1,0 +1,132 @@
+# Fri Jun 15 13:22:05 2018
+# Filename........: archive/111-aatbu.org
+# Update Output...: 23400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 216.000000
+# Gestation Time..: 226
+# Fitness.........: 0.955752
+# Errors..........: 2
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 108
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+inc
+get-head
+swap
+swap
+nop-B
+if-n-equ
+nop-C
+IO
+h-copy
+IO
+h-copy
+pop
+add
+sub
+if-n-equ
+nop-C
+get-head
+swap
+push
+IO
+nop-C
+if-less
+IO
+nand
+nop-C
+nop-C
+IO
+IO
+nop-C
+get-head
+nop-A
+nop-A
+if-less
+nop-A
+dec
+h-divide
+h-copy
+if-n-equ
+h-alloc
+IO
+h-copy
+dec
+pop
+nop-C
+add
+h-search
+inc
+swap-stk
+sub
+nop-C
+dec
+swap
+shift-l
+pop
+nop-C
+IO
+nop-C
+shift-l
+h-divide
+add
+h-copy
+get-head
+add
+push
+nand
+nop-C
+shift-r
+dec
+pop
+h-copy
+if-n-equ
+sub
+if-label
+shift-l
+set-flow
+pop
+nop-B
+swap
+if-n-equ
+nop-C
+IO
+add
+h-copy
+set-flow
+shift-r
+h-alloc
+h-divide
+sub
+add
+if-less
+nand
+h-copy
+if-label
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,130 @@
+# Fri Jun 15 13:30:35 2018
+# Filename........: archive/109-abmyf.org
+# Update Output...: 33200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 214.000000
+# Gestation Time..: 221
+# Fitness.........: 0.968326
+# Errors..........: 1
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+add
+swap
+nop-A
+set-flow
+nop-C
+shift-r
+nop-B
+h-copy
+h-copy
+h-copy
+IO
+nop-B
+nop-C
+shift-r
+nop-A
+nop-A
+swap
+h-alloc
+swap-stk
+nop-B
+shift-r
+IO
+nand
+nop-C
+swap-stk
+nop-A
+IO
+nop-C
+swap
+nop-B
+nop-A
+swap-stk
+nop-A
+shift-l
+nop-C
+inc
+sub
+shift-l
+h-copy
+get-head
+nop-A
+swap
+nop-A
+swap
+set-flow
+dec
+h-search
+nop-A
+if-label
+swap-stk
+h-search
+h-search
+jmp-head
+nand
+nop-B
+h-search
+h-copy
+nop-A
+nop-B
+dec
+jmp-head
+h-copy
+h-divide
+nop-A
+push
+shift-r
+swap-stk
+dec
+nop-B
+IO
+jmp-head
+swap-stk
+shift-l
+if-n-equ
+nop-B
+swap
+if-n-equ
+shift-l
+shift-r
+get-head
+nop-B
+if-n-equ
+nop-C
+push
+h-search
+nop-C
+add
+nop-C
+if-label
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

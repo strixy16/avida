@@ -1,0 +1,129 @@
+# Fri Jun 15 13:22:33 2018
+# Filename........: archive/108-aammx.org
+# Update Output...: 23200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 212.000000
+# Gestation Time..: 225
+# Fitness.........: 0.942222
+# Errors..........: 5
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+shift-l
+h-alloc
+nop-C
+nop-C
+mov-head
+nop-C
+h-alloc
+shift-r
+pop
+if-label
+jmp-head
+nop-C
+nop-C
+IO
+nop-B
+shift-r
+push
+h-copy
+set-flow
+IO
+IO
+shift-r
+nop-C
+if-n-equ
+add
+nop-C
+nop-C
+nand
+nop-C
+push
+nop-C
+IO
+nop-C
+h-copy
+sub
+IO
+nop-C
+h-copy
+h-copy
+nop-B
+set-flow
+pop
+shift-r
+if-n-equ
+h-alloc
+nop-C
+nop-B
+pop
+nand
+push
+pop
+nop-A
+nop-C
+nop-C
+set-flow
+swap
+h-search
+inc
+dec
+shift-r
+h-copy
+set-flow
+h-alloc
+push
+get-head
+nop-C
+nop-B
+add
+swap
+nop-C
+dec
+pop
+push
+nop-A
+nop-C
+if-label
+IO
+shift-r
+IO
+shift-l
+h-alloc
+nop-C
+pop
+if-label
+swap
+set-flow
+nand
+nop-C
+set-flow
+if-less
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

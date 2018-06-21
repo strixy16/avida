@@ -1,0 +1,127 @@
+# Fri Jun 15 13:15:59 2018
+# Filename........: archive/106-acars.org
+# Update Output...: 17100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 204.000000
+# Gestation Time..: 213
+# Fitness.........: 0.957746
+# Errors..........: 2
+# Genome Size.....: 106
+# Copied Size.....: 106
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+pop
+set-flow
+nop-A
+nand
+nop-C
+pop
+swap
+mov-head
+nop-C
+set-flow
+if-n-equ
+pop
+nop-C
+jmp-head
+nop-C
+IO
+nop-B
+push
+swap-stk
+set-flow
+h-copy
+h-divide
+nop-C
+IO
+jmp-head
+nop-C
+if-less
+swap-stk
+add
+add
+nop-C
+nand
+nop-C
+if-n-equ
+IO
+nop-C
+shift-r
+nop-A
+shift-r
+IO
+nop-C
+h-copy
+nand
+h-search
+get-head
+push
+nop-C
+if-less
+nop-C
+push
+nop-B
+if-n-equ
+if-n-equ
+nop-A
+swap-stk
+if-less
+if-less
+if-label
+if-n-equ
+pop
+nop-C
+h-search
+nop-A
+shift-r
+if-less
+nop-C
+sub
+nop-C
+nand
+if-n-equ
+dec
+if-less
+set-flow
+if-n-equ
+h-alloc
+nop-C
+add
+nop-C
+if-label
+h-copy
+nop-C
+get-head
+nop-C
+set-flow
+pop
+push
+h-alloc
+push
+nop-B
+add
+sub
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

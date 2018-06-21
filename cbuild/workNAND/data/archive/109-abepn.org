@@ -1,0 +1,130 @@
+# Fri Jun 15 13:28:33 2018
+# Filename........: archive/109-abepn.org
+# Update Output...: 30800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 214.000000
+# Gestation Time..: 221
+# Fitness.........: 0.968326
+# Errors..........: 2
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+nand
+sub
+swap
+nop-A
+h-alloc
+get-head
+shift-r
+IO
+nand
+h-copy
+h-copy
+IO
+shift-r
+nop-C
+shift-r
+nop-A
+get-head
+swap
+push
+set-flow
+nop-C
+swap-stk
+IO
+nand
+nop-C
+shift-l
+nop-A
+IO
+nop-C
+swap
+IO
+nop-A
+swap-stk
+nop-A
+shift-l
+h-alloc
+inc
+h-search
+shift-l
+h-copy
+nop-B
+get-head
+nop-C
+shift-r
+nop-A
+swap-stk
+nop-C
+nop-B
+nand
+nop-C
+IO
+if-n-equ
+pop
+h-search
+nop-C
+nand
+nop-B
+h-search
+h-copy
+nand
+dec
+nop-A
+h-copy
+if-n-equ
+IO
+shift-l
+shift-r
+pop
+dec
+nop-B
+IO
+h-search
+swap-stk
+dec
+add
+swap-stk
+sub
+shift-r
+inc
+sub
+get-head
+nop-B
+if-n-equ
+nop-C
+add
+pop
+nop-C
+IO
+nop-A
+h-copy
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

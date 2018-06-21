@@ -1,0 +1,130 @@
+# Fri Jun 15 13:28:43 2018
+# Filename........: archive/109-abaff.org
+# Update Output...: 28900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 212.000000
+# Gestation Time..: 218
+# Fitness.........: 0.972477
+# Errors..........: 2
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+shift-l
+nop-C
+h-alloc
+nop-C
+mov-head
+nop-C
+IO
+set-flow
+nop-C
+shift-l
+jmp-head
+nop-C
+shift-r
+nop-A
+IO
+set-flow
+nop-A
+h-copy
+push
+if-n-equ
+sub
+push
+nop-C
+add
+add
+nop-C
+h-alloc
+nand
+nop-C
+IO
+nop-C
+nop-C
+nand
+h-copy
+nand
+IO
+IO
+h-copy
+if-label
+add
+set-flow
+nand
+nop-C
+dec
+shift-r
+if-n-equ
+sub
+if-less
+nop-C
+pop
+nop-A
+shift-r
+push
+nop-A
+nop-C
+shift-r
+set-flow
+shift-l
+h-copy
+shift-l
+shift-r
+h-copy
+dec
+if-n-equ
+if-n-equ
+h-search
+sub
+add
+nop-C
+inc
+nop-C
+h-copy
+shift-r
+nop-C
+push
+nop-C
+shift-r
+IO
+jmp-head
+nop-C
+add
+swap
+nand
+h-search
+nop-A
+nop-C
+inc
+nop-B
+shift-l
+add
+nop-A
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

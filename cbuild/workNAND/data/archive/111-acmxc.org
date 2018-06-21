@@ -1,0 +1,132 @@
+# Fri Jun 15 13:32:53 2018
+# Filename........: archive/111-acmxc.org
+# Update Output...: 35900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 218.000000
+# Gestation Time..: 224
+# Fitness.........: 0.973214
+# Errors..........: 0
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 109
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+sub
+swap
+nop-A
+shift-l
+nop-C
+shift-r
+h-copy
+h-copy
+IO
+h-copy
+dec
+dec
+nop-B
+IO
+shift-r
+nop-A
+get-head
+swap
+if-n-equ
+swap-stk
+nop-B
+push
+IO
+nand
+nop-C
+shift-l
+nop-A
+IO
+nop-C
+nop-A
+inc
+nop-A
+h-copy
+nand
+nop-A
+shift-r
+inc
+inc
+if-label
+shift-l
+h-divide
+h-copy
+add
+nop-C
+if-less
+nop-A
+shift-r
+inc
+h-search
+nop-A
+swap
+h-search
+IO
+swap-stk
+h-divide
+nop-B
+h-search
+nand
+swap-stk
+dec
+shift-l
+h-copy
+nop-C
+push
+get-head
+nop-B
+add
+nop-B
+if-label
+if-n-equ
+swap-stk
+dec
+if-n-equ
+nop-B
+swap-stk
+sub
+get-head
+inc
+nop-B
+sub
+nop-B
+sub
+shift-l
+push
+pop
+nop-C
+add
+swap-stk
+h-copy
+h-divide
+h-copy
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

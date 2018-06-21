@@ -1,0 +1,130 @@
+# Fri Jun 15 13:19:27 2018
+# Filename........: archive/109-aaltg.org
+# Update Output...: 20400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 210.000000
+# Gestation Time..: 225
+# Fitness.........: 0.933333
+# Errors..........: 2
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+h-search
+sub
+IO
+shift-l
+push
+nop-C
+get-head
+nop-B
+pop
+nop-A
+if-n-equ
+IO
+if-less
+IO
+IO
+nop-C
+swap-stk
+if-n-equ
+nop-B
+nop-A
+swap-stk
+shift-l
+IO
+nand
+shift-l
+nop-C
+IO
+set-flow
+swap
+nop-C
+set-flow
+inc
+h-copy
+IO
+dec
+if-label
+h-copy
+if-n-equ
+h-divide
+h-divide
+h-copy
+shift-l
+if-label
+inc
+if-n-equ
+inc
+if-n-equ
+sub
+nop-B
+nop-B
+nop-C
+nop-A
+sub
+shift-l
+inc
+nand
+swap
+nand
+nop-C
+h-divide
+nop-B
+nand
+nop-C
+h-copy
+pop
+nop-C
+if-n-equ
+push
+h-copy
+dec
+shift-r
+swap
+nop-C
+inc
+h-search
+pop
+push
+sub
+nop-B
+set-flow
+push
+add
+dec
+h-alloc
+nop-C
+nop-A
+nop-C
+set-flow
+h-divide
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

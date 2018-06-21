@@ -1,0 +1,127 @@
+# Fri Jun 15 13:10:36 2018
+# Filename........: archive/106-aawsw.org
+# Update Output...: 12100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 202.000000
+# Gestation Time..: 218
+# Fitness.........: 0.926606
+# Errors..........: 2
+# Genome Size.....: 106
+# Copied Size.....: 106
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+pop
+nop-C
+shift-l
+nop-C
+add
+pop
+IO
+shift-l
+mov-head
+nop-C
+if-n-equ
+h-alloc
+IO
+set-flow
+add
+if-n-equ
+h-copy
+IO
+IO
+h-divide
+if-less
+nop-B
+nop-C
+if-n-equ
+nop-C
+push
+set-flow
+nand
+nop-C
+nop-C
+nop-C
+if-less
+nop-C
+nand
+nop-C
+IO
+if-n-equ
+h-copy
+if-less
+nop-A
+pop
+IO
+nop-C
+add
+shift-l
+if-less
+add
+swap
+swap
+if-label
+h-divide
+swap-stk
+nop-C
+nop-C
+add
+swap
+nop-C
+IO
+add
+if-less
+add
+nop-C
+h-divide
+h-alloc
+nop-C
+push
+push
+set-flow
+push
+nop-C
+nop-C
+nop-C
+IO
+nop-C
+if-label
+h-copy
+nop-C
+nop-C
+nop-C
+pop
+swap
+nop-B
+if-n-equ
+nop-C
+nop-C
+get-head
+nop-A
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,128 @@
+# Fri Jun 15 13:30:15 2018
+# Filename........: archive/107-adqvl.org
+# Update Output...: 32800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 208.000000
+# Gestation Time..: 220
+# Fitness.........: 0.945455
+# Errors..........: 2
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+shift-l
+add
+add
+pop
+set-flow
+nop-C
+shift-r
+h-copy
+nand
+IO
+nop-B
+nop-C
+shift-r
+nop-A
+get-head
+swap
+push
+swap-stk
+h-alloc
+push
+IO
+nand
+nop-C
+shift-l
+nop-A
+IO
+nop-C
+swap
+inc
+nop-A
+get-head
+nop-A
+shift-l
+h-alloc
+h-divide
+sub
+shift-l
+get-head
+push
+h-search
+set-flow
+swap
+if-label
+inc
+nand
+nop-C
+IO
+swap-stk
+h-search
+h-search
+jmp-head
+IO
+nop-B
+pop
+h-copy
+nand
+if-n-equ
+dec
+nop-B
+h-copy
+shift-r
+IO
+push
+shift-r
+jmp-head
+if-less
+if-label
+nop-B
+IO
+nop-A
+swap-stk
+dec
+pop
+nop-B
+sub
+if-n-equ
+sub
+set-flow
+h-search
+nop-B
+push
+shift-l
+nop-C
+pop
+nop-C
+add
+nop-C
+h-copy
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

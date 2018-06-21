@@ -1,0 +1,127 @@
+# Fri Jun 15 13:19:06 2018
+# Filename........: archive/106-abftt.org
+# Update Output...: 20000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 206.000000
+# Gestation Time..: 218
+# Fitness.........: 0.944954
+# Errors..........: 1
+# Genome Size.....: 106
+# Copied Size.....: 106
+# Executed Size...: 103
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+pop
+set-flow
+nop-A
+mov-head
+nop-C
+get-head
+nop-B
+if-less
+get-head
+get-head
+get-head
+inc
+swap-stk
+if-label
+if-n-equ
+IO
+pop
+IO
+IO
+set-flow
+nop-B
+swap
+push
+nop-C
+pop
+push
+IO
+h-copy
+nand
+shift-l
+nop-C
+IO
+nop-B
+dec
+nop-C
+h-alloc
+nop-C
+pop
+nop-C
+add
+if-label
+h-copy
+if-n-equ
+push
+sub
+h-copy
+nop-B
+nand
+nop-C
+shift-l
+shift-r
+if-n-equ
+swap-stk
+swap
+shift-r
+nop-A
+swap
+push
+inc
+nand
+nop-C
+nop-C
+nop-C
+shift-r
+nop-B
+nand
+nop-C
+IO
+nop-C
+h-search
+h-search
+nop-C
+nand
+nop-A
+nop-C
+nop-C
+h-search
+h-search
+nop-B
+dec
+dec
+swap-stk
+set-flow
+shift-r
+if-less
+nop-B
+if-n-equ
+shift-r
+get-head
+nop-C
+nop-B
+swap-stk
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B
