@@ -1,0 +1,123 @@
+# Fri Jun 15 13:01:43 2018
+# Filename........: archive/102-aappp.org
+# Update Output...: 4000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 196.000000
+# Gestation Time..: 241
+# Fitness.........: 0.813278
+# Errors..........: 2
+# Genome Size.....: 102
+# Copied Size.....: 102
+# Executed Size...: 98
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+h-search
+h-search
+nop-A
+mov-head
+nop-C
+nop-C
+nop-C
+sub
+shift-l
+nop-C
+nop-C
+nop-C
+h-divide
+nop-C
+nop-C
+if-less
+swap
+nop-C
+IO
+nop-C
+if-less
+nop-C
+h-copy
+nop-C
+nop-C
+nop-C
+IO
+nand
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+shift-l
+h-alloc
+nop-C
+mov-head
+nop-C
+nop-C
+nop-C
+pop
+h-copy
+nop-C
+nop-C
+sub
+h-alloc
+nop-C
+pop
+set-flow
+nop-C
+nop-C
+add
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+IO
+nop-C
+set-flow
+nop-C
+get-head
+nop-C
+nop-C
+nop-C
+swap
+nop-C
+nop-C
+nop-C
+shift-r
+sub
+nop-C
+pop
+nop-C
+get-head
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+add
+sub
+nop-A
+nop-C
+inc
+nop-C
+nop-C
+nop-C
+h-search
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,130 @@
+# Fri Jun 15 13:30:20 2018
+# Filename........: archive/109-abekx.org
+# Update Output...: 30400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 214.000000
+# Gestation Time..: 225
+# Fitness.........: 0.951111
+# Errors..........: 7
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+shift-l
+h-alloc
+shift-l
+set-flow
+nop-A
+push
+nop-C
+dec
+h-alloc
+sub
+if-less
+h-alloc
+shift-r
+nop-C
+mov-head
+nop-C
+shift-l
+h-divide
+h-alloc
+h-search
+nop-A
+h-copy
+push
+h-search
+IO
+swap-stk
+sub
+nop-B
+add
+nop-C
+h-copy
+nop-C
+nand
+nop-C
+push
+nop-C
+pop
+nop-A
+h-alloc
+IO
+nop-C
+h-copy
+push
+swap-stk
+nop-C
+inc
+nop-C
+nop-C
+nop-B
+nop-B
+if-n-equ
+h-copy
+swap-stk
+swap-stk
+if-label
+h-alloc
+sub
+swap
+h-search
+nop-C
+h-alloc
+sub
+dec
+nop-C
+h-copy
+IO
+sub
+push
+if-n-equ
+shift-r
+inc
+h-search
+nop-C
+nand
+h-copy
+set-flow
+shift-r
+swap-stk
+h-alloc
+get-head
+dec
+if-n-equ
+IO
+nand
+push
+swap
+swap-stk
+h-divide
+swap
+nop-C
+inc
+h-search
+nop-C
+inc
+if-n-equ
+IO
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,130 @@
+# Fri Jun 15 13:27:25 2018
+# Filename........: archive/109-aazen.org
+# Update Output...: 29500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 210.000000
+# Gestation Time..: 219
+# Fitness.........: 0.958904
+# Errors..........: 2
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+nand
+sub
+swap
+nop-A
+nand
+if-n-equ
+nop-C
+pop
+h-copy
+IO
+h-copy
+IO
+jmp-head
+push
+if-n-equ
+nop-C
+get-head
+swap
+h-alloc
+set-flow
+shift-l
+swap-stk
+IO
+nand
+nop-C
+pop
+sub
+IO
+nop-C
+get-head
+IO
+if-label
+if-less
+h-search
+if-less
+nop-A
+h-copy
+shift-r
+nop-A
+nop-B
+h-copy
+nand
+nop-A
+nop-C
+get-head
+push
+push
+nop-C
+shift-r
+nop-C
+get-head
+if-less
+shift-l
+nop-C
+if-label
+IO
+nop-C
+inc
+nop-B
+sub
+h-copy
+add
+sub
+nop-A
+nand
+nop-B
+shift-r
+h-divide
+pop
+h-copy
+h-search
+h-search
+h-search
+IO
+nop-B
+nop-C
+jmp-head
+add
+swap
+nop-C
+IO
+h-divide
+h-alloc
+swap
+nop-C
+swap
+shift-l
+nop-C
+sub
+nop-C
+dec
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

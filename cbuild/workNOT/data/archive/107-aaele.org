@@ -1,0 +1,128 @@
+# Fri Jun 15 13:12:10 2018
+# Filename........: archive/107-aaele.org
+# Update Output...: 13600
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 204.000000
+# Gestation Time..: 217
+# Fitness.........: 0.940092
+# Errors..........: 3
+# Genome Size.....: 107
+# Copied Size.....: 107
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+sub
+nop-C
+pop
+swap
+mov-head
+nop-C
+set-flow
+inc
+pop
+nop-C
+jmp-head
+add
+nop-A
+sub
+set-flow
+jmp-head
+add
+h-copy
+h-divide
+inc
+IO
+jmp-head
+jmp-head
+nop-C
+swap-stk
+push
+add
+nop-C
+nand
+nop-C
+if-n-equ
+nop-C
+nop-C
+nop-C
+nop-B
+sub
+IO
+nop-C
+h-copy
+shift-r
+nop-A
+nop-C
+push
+push
+set-flow
+nop-C
+shift-l
+add
+inc
+if-less
+sub
+nop-C
+h-alloc
+if-less
+shift-r
+sub
+pop
+nop-C
+sub
+nop-C
+inc
+nop-C
+shift-r
+push
+nop-C
+nop-C
+nop-C
+IO
+nop-C
+set-flow
+shift-l
+h-alloc
+nop-C
+add
+nop-C
+if-label
+h-copy
+nop-C
+get-head
+if-n-equ
+swap-stk
+dec
+add
+h-alloc
+h-copy
+push
+nop-C
+add
+push
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

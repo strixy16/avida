@@ -1,0 +1,130 @@
+# Fri Jun 15 13:27:51 2018
+# Filename........: archive/109-aawmu.org
+# Update Output...: 28100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 212.000000
+# Gestation Time..: 222
+# Fitness.........: 0.954955
+# Errors..........: 4
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+IO
+nop-B
+h-alloc
+swap-stk
+mov-head
+nop-C
+add
+set-flow
+if-n-equ
+jmp-head
+nop-C
+inc
+nop-A
+dec
+set-flow
+nop-A
+h-copy
+push
+IO
+IO
+push
+pop
+add
+add
+nop-C
+swap
+nand
+nop-C
+IO
+nop-C
+nop-C
+swap-stk
+h-copy
+nop-C
+sub
+nop-C
+h-copy
+shift-l
+sub
+nop-B
+sub
+IO
+sub
+shift-r
+nand
+h-alloc
+swap-stk
+h-divide
+pop
+nop-A
+swap-stk
+nop-B
+if-less
+nop-C
+h-alloc
+swap-stk
+dec
+nop-C
+h-copy
+add
+shift-r
+h-copy
+get-head
+shift-l
+if-label
+swap-stk
+h-search
+if-label
+set-flow
+get-head
+nop-C
+h-copy
+nop-C
+nop-C
+set-flow
+nop-C
+IO
+pop
+add
+h-alloc
+dec
+swap
+nand
+if-label
+nop-A
+h-alloc
+dec
+push
+nop-C
+add
+nop-A
+shift-r
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

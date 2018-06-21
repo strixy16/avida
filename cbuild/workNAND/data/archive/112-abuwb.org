@@ -1,0 +1,133 @@
+# Fri Jun 15 13:43:23 2018
+# Filename........: archive/112-abuwb.org
+# Update Output...: 48000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 218.000000
+# Gestation Time..: 226
+# Fitness.........: 0.964602
+# Errors..........: 0
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 109
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+sub
+swap
+swap
+get-head
+set-flow
+dec
+shift-r
+nop-B
+h-copy
+nop-A
+h-copy
+h-copy
+nop-B
+IO
+IO
+nop-A
+set-flow
+swap
+h-copy
+set-flow
+nop-B
+inc
+nop-A
+IO
+nand
+nop-C
+if-n-equ
+nop-A
+IO
+nop-C
+if-n-equ
+dec
+nop-C
+h-copy
+nand
+swap-stk
+nop-C
+sub
+nop-C
+swap
+h-search
+nand
+add
+swap
+IO
+nop-A
+if-less
+nop-B
+dec
+h-copy
+nop-A
+h-divide
+nop-B
+IO
+IO
+pop
+add
+nand
+h-search
+h-search
+h-divide
+dec
+nand
+h-copy
+sub
+h-search
+add
+inc
+nop-C
+add
+nop-B
+dec
+dec
+IO
+shift-r
+nop-B
+sub
+swap-stk
+if-label
+if-n-equ
+inc
+h-divide
+nand
+push
+if-n-equ
+nop-B
+sub
+pop
+nop-C
+add
+add
+h-copy
+h-copy
+if-label
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

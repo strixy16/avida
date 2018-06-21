@@ -1,0 +1,135 @@
+# Fri Jun 15 13:41:04 2018
+# Filename........: archive/114-aamlr.org
+# Update Output...: 45300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 226.000000
+# Gestation Time..: 231
+# Fitness.........: 0.978355
+# Errors..........: 1
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 113
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+sub
+swap
+jmp-head
+nop-A
+pop
+h-search
+push
+h-copy
+h-alloc
+h-copy
+h-copy
+dec
+nop-B
+IO
+shift-r
+nop-A
+swap-stk
+swap
+IO
+nop-B
+nop-B
+if-n-equ
+IO
+nand
+nop-C
+sub
+nop-A
+IO
+nop-C
+nop-C
+nop-A
+h-copy
+h-copy
+add
+nop-C
+inc
+add
+nop-C
+h-copy
+if-n-equ
+shift-l
+h-copy
+get-head
+if-less
+nop-C
+add
+nop-A
+swap
+inc
+h-search
+h-copy
+jmp-head
+swap
+nand
+if-n-equ
+nop-A
+jmp-head
+nop-B
+nand
+add
+h-copy
+h-divide
+swap-stk
+set-flow
+get-head
+pop
+h-search
+shift-r
+IO
+jmp-head
+if-less
+if-less
+add
+h-divide
+dec
+if-n-equ
+set-flow
+h-divide
+dec
+swap
+get-head
+inc
+h-search
+h-search
+set-flow
+sub
+nop-B
+h-search
+shift-l
+jmp-head
+pop
+nop-C
+add
+dec
+h-copy
+h-copy
+nop-A
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A

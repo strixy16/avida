@@ -1,0 +1,131 @@
+# Fri Jun 15 13:34:05 2018
+# Filename........: archive/110-acmiu.org
+# Update Output...: 37300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 214.000000
+# Gestation Time..: 222
+# Fitness.........: 0.963964
+# Errors..........: 2
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+get-head
+add
+swap
+nop-A
+if-n-equ
+nop-C
+shift-r
+nop-B
+h-copy
+dec
+h-copy
+h-copy
+IO
+nop-B
+IO
+dec
+nop-A
+get-head
+swap
+nop-B
+swap-stk
+nop-B
+push
+IO
+nand
+nop-C
+swap
+nop-A
+IO
+nop-C
+if-less
+swap
+nop-A
+get-head
+nop-B
+shift-l
+inc
+inc
+nand
+shift-l
+h-copy
+add
+h-divide
+get-head
+nop-C
+add
+shift-r
+inc
+nand
+nop-A
+IO
+h-search
+nop-C
+h-search
+jmp-head
+nand
+nop-B
+h-search
+h-copy
+h-divide
+nand
+swap-stk
+swap-stk
+h-alloc
+nop-C
+nop-A
+pop
+nop-B
+if-label
+nop-B
+IO
+jmp-head
+swap-stk
+dec
+if-n-equ
+nop-B
+sub
+if-n-equ
+inc
+set-flow
+get-head
+IO
+shift-l
+swap-stk
+push
+h-alloc
+set-flow
+swap
+nop-C
+h-copy
+h-copy
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

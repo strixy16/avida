@@ -1,0 +1,138 @@
+# Fri Jun 15 13:51:08 2018
+# Filename........: archive/117-aauri.org
+# Update Output...: 50000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 228.000000
+# Gestation Time..: 229
+# Fitness.........: 0.995633
+# Errors..........: 4
+# Genome Size.....: 117
+# Copied Size.....: 117
+# Executed Size...: 114
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+nand
+set-flow
+nop-A
+mov-head
+nop-C
+dec
+nop-A
+h-alloc
+nop-C
+nand
+h-copy
+shift-l
+dec
+dec
+shift-r
+if-n-equ
+if-less
+h-divide
+nop-A
+h-copy
+h-copy
+if-less
+IO
+h-alloc
+shift-r
+nop-C
+add
+nop-C
+set-flow
+nand
+if-less
+IO
+nop-B
+swap
+nop-B
+sub
+nop-C
+nop-C
+h-copy
+pop
+add
+nop-A
+h-copy
+h-copy
+get-head
+if-n-equ
+h-alloc
+sub
+shift-l
+nop-A
+h-alloc
+h-copy
+set-flow
+nop-B
+nop-A
+h-search
+get-head
+shift-r
+if-less
+nand
+if-label
+nop-C
+h-alloc
+h-copy
+h-copy
+add
+nop-C
+h-copy
+sub
+IO
+h-copy
+nand
+nop-A
+shift-r
+nop-B
+nop-A
+set-flow
+add
+nop-C
+h-copy
+nand
+nop-C
+push
+set-flow
+nop-B
+h-copy
+h-divide
+nop-B
+nop-C
+h-copy
+nand
+dec
+nop-C
+add
+nop-B
+swap
+get-head
+pop
+push
+set-flow
+shift-r
+push
+h-search
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

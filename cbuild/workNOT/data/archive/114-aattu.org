@@ -1,0 +1,135 @@
+# Fri Jun 15 13:39:59 2018
+# Filename........: archive/114-aattu.org
+# Update Output...: 39400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 222.000000
+# Gestation Time..: 223
+# Fitness.........: 0.995516
+# Errors..........: 2
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 111
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+h-alloc
+mov-head
+nop-C
+IO
+nop-B
+if-label
+jmp-head
+if-less
+if-less
+pop
+nop-B
+dec
+nop-A
+h-copy
+push
+sub
+IO
+set-flow
+shift-r
+nop-C
+dec
+nop-C
+nop-C
+nand
+if-n-equ
+IO
+inc
+nop-C
+shift-l
+h-divide
+h-copy
+h-search
+shift-r
+set-flow
+nop-C
+h-copy
+h-alloc
+shift-r
+nop-B
+sub
+push
+swap-stk
+add
+nop-B
+nand
+push
+nop-C
+h-search
+nop-B
+h-copy
+dec
+push
+h-search
+nop-C
+inc
+set-flow
+h-copy
+shift-r
+dec
+h-copy
+pop
+shift-r
+h-copy
+if-n-equ
+nop-A
+if-label
+h-copy
+h-divide
+shift-r
+get-head
+pop
+nop-C
+h-copy
+if-less
+nop-C
+h-copy
+swap
+nop-B
+h-copy
+get-head
+shift-l
+nop-C
+swap
+shift-l
+nop-C
+dec
+nop-A
+nand
+inc
+h-divide
+nop-C
+IO
+IO
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

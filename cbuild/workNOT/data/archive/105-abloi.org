@@ -1,0 +1,126 @@
+# Fri Jun 15 13:09:35 2018
+# Filename........: archive/105-abloi.org
+# Update Output...: 11100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 202.000000
+# Gestation Time..: 219
+# Fitness.........: 0.922374
+# Errors..........: 0
+# Genome Size.....: 105
+# Copied Size.....: 105
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+pop
+nop-C
+pop
+h-divide
+mov-head
+nop-C
+if-less
+inc
+pop
+nop-C
+jmp-head
+nop-C
+shift-l
+nop-B
+set-flow
+nop-C
+if-label
+h-copy
+h-divide
+nand
+IO
+jmp-head
+nop-C
+if-label
+shift-l
+nop-C
+add
+nop-C
+nand
+nop-C
+nop-C
+IO
+nop-C
+nop-C
+nop-C
+nop-C
+IO
+nop-C
+h-copy
+swap
+nop-A
+get-head
+push
+set-flow
+shift-r
+if-n-equ
+if-label
+add
+inc
+IO
+sub
+nop-C
+push
+h-search
+nand
+shift-l
+nand
+nop-A
+nand
+nop-C
+inc
+add
+nop-C
+add
+sub
+if-less
+nop-C
+if-less
+nop-C
+pop
+nop-C
+nop-C
+nop-C
+add
+nop-C
+if-label
+h-copy
+nop-C
+get-head
+nop-C
+inc
+nop-C
+nand
+nop-C
+push
+nop-C
+h-divide
+get-head
+nop-C
+h-search
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

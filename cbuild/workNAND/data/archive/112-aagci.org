@@ -1,0 +1,133 @@
+# Fri Jun 15 13:26:12 2018
+# Filename........: archive/112-aagci.org
+# Update Output...: 28100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 220.000000
+# Gestation Time..: 227
+# Fitness.........: 0.969163
+# Errors..........: 1
+# Genome Size.....: 112
+# Copied Size.....: 112
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+nand
+h-alloc
+swap
+nop-A
+nop-B
+if-n-equ
+nop-C
+swap-stk
+h-copy
+add
+h-copy
+h-copy
+IO
+swap
+nop-C
+swap
+nop-C
+get-head
+swap
+dec
+set-flow
+h-divide
+swap-stk
+IO
+nand
+nop-C
+inc
+nop-A
+IO
+nop-C
+if-less
+IO
+nop-C
+nand
+h-copy
+nop-A
+get-head
+h-divide
+h-copy
+inc
+nop-A
+h-divide
+h-copy
+push
+get-head
+nop-C
+get-head
+sub
+inc
+nop-C
+get-head
+nand
+nop-C
+if-n-equ
+swap-stk
+h-divide
+IO
+nop-C
+get-head
+if-n-equ
+get-head
+h-copy
+nand
+add
+nop-A
+h-copy
+shift-r
+add
+swap
+swap-stk
+swap-stk
+set-flow
+nop-B
+get-head
+swap
+get-head
+shift-r
+if-label
+swap-stk
+sub
+set-flow
+sub
+set-flow
+h-divide
+if-n-equ
+h-search
+h-divide
+inc
+inc
+nop-C
+nop-A
+get-head
+h-copy
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

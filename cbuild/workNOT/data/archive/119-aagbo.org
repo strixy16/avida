@@ -1,0 +1,140 @@
+# Fri Jun 15 13:50:06 2018
+# Filename........: archive/119-aagbo.org
+# Update Output...: 49000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 232.000000
+# Gestation Time..: 229
+# Fitness.........: 1.013100
+# Errors..........: 3
+# Genome Size.....: 119
+# Copied Size.....: 119
+# Executed Size...: 116
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+nop-A
+set-flow
+nop-A
+mov-head
+nop-C
+shift-r
+nop-A
+sub
+nop-C
+h-copy
+h-copy
+nand
+h-copy
+h-copy
+dec
+h-divide
+sub
+add
+if-n-equ
+if-less
+jmp-head
+nop-A
+jmp-head
+h-copy
+push
+IO
+h-alloc
+push
+nop-C
+add
+nop-C
+nop-C
+nand
+push
+IO
+nop-B
+h-search
+nop-B
+sub
+nop-C
+swap
+h-copy
+get-head
+pop
+nop-C
+h-copy
+h-copy
+swap-stk
+h-search
+h-alloc
+swap-stk
+jmp-head
+push
+inc
+h-copy
+IO
+swap
+swap
+inc
+shift-l
+h-copy
+nop-A
+push
+nop-A
+if-label
+nop-C
+push
+h-copy
+IO
+dec
+h-copy
+shift-r
+nop-B
+h-copy
+push
+nop-A
+shift-r
+nop-B
+h-alloc
+h-copy
+inc
+nop-C
+h-copy
+if-n-equ
+h-search
+h-search
+add
+IO
+nop-B
+h-copy
+h-search
+shift-l
+nop-C
+pop
+nand
+shift-r
+jmp-head
+nop-B
+pop
+get-head
+nop-B
+shift-r
+IO
+nop-C
+nop-B
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

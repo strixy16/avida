@@ -1,0 +1,139 @@
+# Fri Jun 15 13:48:05 2018
+# Filename........: archive/118-aadln.org
+# Update Output...: 47100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 228.000000
+# Gestation Time..: 231
+# Fitness.........: 0.987013
+# Errors..........: 2
+# Genome Size.....: 118
+# Copied Size.....: 118
+# Executed Size...: 114
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-search
+h-alloc
+dec
+set-flow
+nop-A
+mov-head
+nop-C
+if-less
+jmp-head
+nop-C
+push
+nop-B
+shift-l
+nand
+set-flow
+if-less
+nop-C
+jmp-head
+if-n-equ
+h-copy
+inc
+IO
+IO
+if-n-equ
+nop-B
+nop-C
+sub
+nop-C
+nop-C
+nand
+if-n-equ
+IO
+h-alloc
+nop-C
+if-label
+swap-stk
+h-copy
+nand
+nop-B
+h-search
+swap-stk
+h-copy
+dec
+if-label
+h-copy
+pop
+dec
+nop-C
+swap-stk
+h-search
+pop
+add
+push
+if-less
+if-n-equ
+nop-B
+h-copy
+dec
+sub
+h-search
+nop-C
+h-copy
+shift-r
+nop-B
+h-copy
+h-copy
+h-copy
+nop-A
+h-alloc
+h-copy
+pop
+h-copy
+h-copy
+if-n-equ
+nop-A
+if-label
+IO
+h-copy
+get-head
+if-less
+if-less
+inc
+nop-C
+h-copy
+if-less
+nop-C
+pop
+swap
+nop-B
+h-copy
+dec
+shift-l
+nop-C
+dec
+shift-l
+shift-r
+h-divide
+nop-A
+shift-l
+h-search
+shift-r
+nop-C
+nop-A
+sub
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

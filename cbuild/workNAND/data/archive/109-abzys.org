@@ -1,0 +1,130 @@
+# Fri Jun 15 13:44:14 2018
+# Filename........: archive/109-abzys.org
+# Update Output...: 49000
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 208.000000
+# Gestation Time..: 220
+# Fitness.........: 0.945455
+# Errors..........: 1
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+swap
+nop-A
+get-head
+nop-A
+sub
+nop-A
+nop-A
+h-copy
+nop-C
+h-copy
+IO
+nop-B
+IO
+set-flow
+nop-A
+h-divide
+swap
+set-flow
+nop-B
+inc
+if-label
+IO
+nand
+nop-C
+push
+nop-A
+IO
+nop-C
+pop
+inc
+nop-C
+if-less
+if-label
+shift-r
+nop-B
+nand
+if-less
+h-search
+h-copy
+shift-r
+IO
+IO
+nop-A
+if-less
+pop
+IO
+nop-A
+h-divide
+nand
+IO
+add
+pop
+add
+set-flow
+h-search
+h-search
+h-divide
+set-flow
+nand
+h-copy
+swap
+h-search
+add
+if-n-equ
+h-search
+add
+nop-B
+if-n-equ
+push
+nop-A
+shift-r
+nop-B
+sub
+shift-l
+nand
+nop-B
+swap-stk
+inc
+nop-B
+dec
+h-search
+inc
+h-search
+IO
+h-alloc
+add
+add
+h-copy
+h-copy
+if-label
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

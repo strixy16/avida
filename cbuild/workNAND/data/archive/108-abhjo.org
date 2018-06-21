@@ -1,0 +1,129 @@
+# Fri Jun 15 13:31:01 2018
+# Filename........: archive/108-abhjo.org
+# Update Output...: 33700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 210.000000
+# Gestation Time..: 222
+# Fitness.........: 0.945946
+# Errors..........: 1
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+nop-C
+swap
+get-head
+if-n-equ
+h-divide
+push
+push
+h-copy
+h-divide
+h-copy
+h-copy
+IO
+nop-B
+nop-B
+shift-r
+nop-A
+get-head
+swap
+h-alloc
+swap-stk
+add
+pop
+IO
+nand
+IO
+shift-r
+nop-A
+if-n-equ
+nop-C
+swap
+inc
+nop-A
+shift-r
+nop-A
+add
+swap-stk
+inc
+nand
+shift-l
+shift-l
+nop-C
+shift-r
+nop-A
+swap
+nop-C
+nand
+pop
+nop-A
+IO
+swap-stk
+h-search
+h-search
+jmp-head
+nop-B
+nop-B
+h-search
+h-copy
+nand
+IO
+dec
+jmp-head
+h-copy
+shift-r
+shift-l
+push
+shift-l
+pop
+dec
+nop-B
+IO
+jmp-head
+dec
+dec
+set-flow
+nop-B
+sub
+if-n-equ
+inc
+set-flow
+nand
+nop-B
+if-n-equ
+shift-l
+push
+if-less
+nop-C
+IO
+nop-C
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

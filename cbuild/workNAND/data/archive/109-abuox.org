@@ -1,0 +1,130 @@
+# Fri Jun 15 13:34:26 2018
+# Filename........: archive/109-abuox.org
+# Update Output...: 37700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 210.000000
+# Gestation Time..: 220
+# Fitness.........: 0.954545
+# Errors..........: 0
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 105
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+nop-A
+nop-B
+swap
+nop-A
+set-flow
+push
+shift-r
+nop-B
+if-less
+h-copy
+h-copy
+dec
+nop-B
+IO
+shift-r
+nop-A
+get-head
+swap
+nop-B
+swap-stk
+nop-B
+push
+IO
+nand
+nop-C
+swap
+nop-A
+IO
+nop-C
+nop-A
+h-copy
+nop-A
+get-head
+nop-B
+shift-l
+inc
+inc
+shift-r
+shift-l
+h-copy
+nop-A
+nop-A
+IO
+nop-C
+add
+shift-r
+IO
+h-search
+nop-A
+nop-A
+h-search
+IO
+h-search
+jmp-head
+nand
+nop-B
+h-search
+h-divide
+nand
+pop
+shift-l
+h-copy
+shift-r
+nop-C
+nop-A
+pop
+nop-B
+dec
+nop-B
+IO
+jmp-head
+swap-stk
+shift-l
+if-n-equ
+nop-B
+inc
+push
+swap
+IO
+get-head
+nop-B
+swap-stk
+nop-C
+push
+if-n-equ
+h-search
+add
+nop-C
+h-copy
+h-copy
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,136 @@
+# Fri Jun 15 13:44:55 2018
+# Filename........: archive/115-aaovi.org
+# Update Output...: 49800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 220.000000
+# Gestation Time..: 228
+# Fitness.........: 0.964912
+# Errors..........: 1
+# Genome Size.....: 115
+# Copied Size.....: 115
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+sub
+dec
+swap
+nop-A
+pop
+set-flow
+inc
+h-copy
+push
+h-copy
+h-copy
+set-flow
+push
+IO
+if-n-equ
+nop-C
+nop-C
+swap
+IO
+nop-B
+nop-B
+inc
+IO
+nand
+nop-C
+dec
+nop-A
+IO
+nop-C
+IO
+nop-A
+h-copy
+h-copy
+shift-r
+nop-C
+inc
+pop
+nop-C
+h-copy
+if-n-equ
+h-alloc
+h-copy
+get-head
+shift-l
+add
+if-less
+nop-A
+push
+inc
+h-search
+h-copy
+jmp-head
+swap
+pop
+if-n-equ
+nand
+shift-l
+nop-B
+nand
+add
+h-copy
+shift-r
+push
+set-flow
+pop
+h-copy
+IO
+if-n-equ
+jmp-head
+if-less
+if-less
+add
+push
+nop-A
+if-n-equ
+pop
+get-head
+nop-B
+pop
+nop-A
+IO
+add
+h-search
+set-flow
+sub
+nop-B
+if-less
+shift-l
+nop-C
+h-divide
+nop-C
+swap-stk
+dec
+h-copy
+h-copy
+nop-A
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

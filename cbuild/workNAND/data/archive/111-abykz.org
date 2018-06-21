@@ -1,0 +1,132 @@
+# Fri Jun 15 13:29:29 2018
+# Filename........: archive/111-abykz.org
+# Update Output...: 31900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 218.000000
+# Gestation Time..: 220
+# Fitness.........: 0.990909
+# Errors..........: 1
+# Genome Size.....: 111
+# Copied Size.....: 111
+# Executed Size...: 109
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+nop-C
+swap
+nop-A
+set-flow
+nop-C
+shift-r
+h-copy
+nop-B
+h-copy
+nand
+h-copy
+h-copy
+IO
+nop-B
+nop-C
+shift-r
+nop-A
+get-head
+swap
+if-n-equ
+swap-stk
+nop-B
+dec
+IO
+nand
+nop-C
+shift-l
+nop-A
+IO
+nop-C
+swap
+inc
+nop-A
+swap-stk
+nop-A
+nand
+h-alloc
+inc
+nand
+shift-l
+h-copy
+get-head
+nop-A
+swap
+nop-A
+swap
+nop-C
+h-search
+h-search
+nop-A
+IO
+nop-B
+h-search
+h-search
+IO
+nand
+nop-B
+inc
+h-copy
+nand
+if-n-equ
+dec
+jmp-head
+h-copy
+shift-r
+nop-A
+push
+shift-r
+pop
+dec
+nop-B
+IO
+jmp-head
+swap-stk
+shift-l
+if-n-equ
+nop-B
+sub
+if-n-equ
+inc
+set-flow
+get-head
+nop-B
+if-n-equ
+nop-C
+push
+pop
+nop-C
+nand
+nop-C
+h-copy
+add
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

@@ -1,0 +1,129 @@
+# Fri Jun 15 13:26:32 2018
+# Filename........: archive/108-aawkl.org
+# Update Output...: 26900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 208.000000
+# Gestation Time..: 217
+# Fitness.........: 0.958525
+# Errors..........: 1
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+shift-l
+nop-C
+shift-l
+nop-C
+mov-head
+nop-C
+set-flow
+set-flow
+nop-C
+push
+nop-C
+inc
+nop-A
+if-label
+jmp-head
+nop-A
+h-copy
+push
+IO
+sub
+push
+set-flow
+jmp-head
+add
+nop-C
+nop-C
+nand
+nop-C
+IO
+nop-C
+nop-C
+swap-stk
+h-copy
+inc
+inc
+add
+nop-B
+sub
+nop-B
+sub
+nop-C
+shift-r
+set-flow
+h-search
+if-less
+pop
+h-divide
+pop
+nop-A
+sub
+add
+push
+nop-C
+nop-B
+set-flow
+dec
+nop-C
+h-copy
+pop
+shift-r
+h-copy
+shift-r
+if-n-equ
+if-n-equ
+inc
+h-search
+sub
+nop-C
+pop
+nop-C
+h-copy
+shift-r
+shift-l
+h-alloc
+jmp-head
+IO
+swap
+add
+add
+nop-B
+swap
+swap-stk
+h-search
+nop-A
+swap
+if-less
+shift-l
+nop-C
+add
+nop-A
+nop-C
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

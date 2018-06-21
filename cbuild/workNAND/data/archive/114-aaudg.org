@@ -1,0 +1,135 @@
+# Fri Jun 15 13:43:59 2018
+# Filename........: archive/114-aaudg.org
+# Update Output...: 48700
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 222.000000
+# Gestation Time..: 228
+# Fitness.........: 0.973684
+# Errors..........: 3
+# Genome Size.....: 114
+# Copied Size.....: 114
+# Executed Size...: 111
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+jmp-head
+sub
+swap
+swap
+nand
+pop
+add
+push
+h-copy
+pop
+h-copy
+set-flow
+h-divide
+IO
+add
+nop-A
+swap-stk
+swap
+IO
+set-flow
+nop-B
+if-n-equ
+IO
+nand
+nop-C
+sub
+nop-A
+IO
+nop-C
+IO
+nop-A
+h-copy
+h-copy
+add
+nop-C
+inc
+inc
+nop-C
+h-copy
+push
+shift-l
+h-copy
+if-label
+shift-l
+nop-C
+if-less
+IO
+h-search
+inc
+h-search
+h-copy
+nop-A
+sub
+nop-B
+if-n-equ
+nop-A
+shift-l
+h-divide
+jmp-head
+add
+h-copy
+shift-r
+h-alloc
+set-flow
+pop
+h-copy
+shift-r
+IO
+nop-C
+shift-l
+if-less
+add
+get-head
+nand
+if-n-equ
+h-alloc
+get-head
+nop-B
+pop
+nop-C
+inc
+if-less
+h-search
+IO
+nand
+nop-B
+swap-stk
+if-less
+nop-B
+h-divide
+nop-C
+add
+dec
+h-copy
+h-copy
+h-alloc
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

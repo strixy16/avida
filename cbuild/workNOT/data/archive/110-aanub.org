@@ -1,0 +1,131 @@
+# Fri Jun 15 13:30:08 2018
+# Filename........: archive/110-aanub.org
+# Update Output...: 30200
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 214.000000
+# Gestation Time..: 221
+# Fitness.........: 0.968326
+# Errors..........: 4
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 107
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+shift-l
+h-alloc
+shift-l
+set-flow
+nop-A
+push
+push
+dec
+nop-A
+sub
+if-less
+inc
+shift-r
+nop-C
+mov-head
+nop-C
+h-divide
+shift-r
+nop-A
+IO
+nop-A
+h-copy
+push
+h-search
+IO
+add
+if-n-equ
+nop-B
+add
+nop-C
+h-copy
+nop-C
+nand
+nop-C
+push
+nop-C
+inc
+nop-A
+h-alloc
+IO
+nop-C
+h-copy
+h-alloc
+sub
+nop-B
+inc
+push
+shift-r
+shift-r
+nop-B
+if-n-equ
+h-copy
+swap-stk
+add
+dec
+nop-A
+nand
+sub
+nop-B
+nop-C
+h-alloc
+sub
+dec
+nop-C
+h-copy
+h-divide
+shift-r
+swap
+if-n-equ
+get-head
+nop-B
+h-search
+nand
+nand
+h-copy
+if-n-equ
+nop-C
+swap-stk
+h-alloc
+sub
+pop
+pop
+add
+nop-C
+sub
+swap
+set-flow
+add
+swap
+set-flow
+h-copy
+inc
+h-search
+nop-C
+add
+get-head
+IO
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

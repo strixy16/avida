@@ -1,0 +1,134 @@
+# Fri Jun 15 13:29:55 2018
+# Filename........: archive/113-aacsm.org
+# Update Output...: 32400
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 220.000000
+# Gestation Time..: 233
+# Fitness.........: 0.944206
+# Errors..........: 2
+# Genome Size.....: 113
+# Copied Size.....: 113
+# Executed Size...: 110
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+nand
+nand
+push
+swap-stk
+push
+get-head
+nop-C
+inc
+h-copy
+IO
+h-copy
+add
+dec
+pop
+nand
+nand
+set-flow
+h-copy
+swap
+sub
+sub
+shift-r
+push
+swap-stk
+h-search
+nand
+h-alloc
+IO
+IO
+nop-C
+set-flow
+nand
+nop-C
+dec
+nop-A
+swap-stk
+h-divide
+sub
+swap
+IO
+h-copy
+h-copy
+swap-stk
+get-head
+push
+if-n-equ
+nop-A
+nop-A
+pop
+shift-l
+IO
+nop-C
+inc
+nop-A
+shift-l
+sub
+nop-C
+set-flow
+h-copy
+if-label
+get-head
+shift-l
+inc
+get-head
+add
+shift-r
+h-copy
+h-alloc
+shift-r
+inc
+set-flow
+nop-B
+h-copy
+h-search
+nand
+h-divide
+if-less
+h-divide
+nop-B
+pop
+nop-C
+if-n-equ
+set-flow
+h-copy
+IO
+pop
+shift-r
+swap-stk
+shift-r
+get-head
+nand
+swap
+IO
+h-copy
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

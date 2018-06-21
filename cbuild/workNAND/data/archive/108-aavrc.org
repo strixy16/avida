@@ -1,0 +1,129 @@
+# Fri Jun 15 13:19:22 2018
+# Filename........: archive/108-aavrc.org
+# Update Output...: 20300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 208.000000
+# Gestation Time..: 219
+# Fitness.........: 0.949772
+# Errors..........: 1
+# Genome Size.....: 108
+# Copied Size.....: 108
+# Executed Size...: 104
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+mov-head
+nop-C
+shift-r
+if-label
+shift-r
+set-flow
+nop-C
+jmp-head
+push
+swap
+pop
+nand
+IO
+get-head
+if-label
+if-less
+IO
+shift-r
+nop-A
+swap
+set-flow
+nop-A
+inc
+h-alloc
+IO
+nand
+inc
+nop-C
+IO
+if-n-equ
+swap
+push
+push
+nop-C
+swap-stk
+nop-C
+h-search
+nop-C
+h-copy
+swap-stk
+add
+shift-l
+h-copy
+nop-A
+IO
+nop-B
+if-n-equ
+sub
+nop-C
+sub
+add
+swap-stk
+sub
+shift-l
+nop-C
+shift-r
+nand
+nop-C
+shift-r
+nop-C
+sub
+if-label
+nand
+nop-B
+h-copy
+dec
+push
+dec
+if-label
+nop-A
+shift-r
+add
+set-flow
+nop-C
+get-head
+add
+get-head
+dec
+set-flow
+nop-C
+push
+nop-C
+h-search
+h-copy
+if-n-equ
+nop-C
+IO
+h-search
+nop-C
+if-less
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

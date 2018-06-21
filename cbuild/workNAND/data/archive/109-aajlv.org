@@ -1,0 +1,130 @@
+# Fri Jun 15 13:17:33 2018
+# Filename........: archive/109-aajlv.org
+# Update Output...: 18300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 212.000000
+# Gestation Time..: 218
+# Fitness.........: 0.972477
+# Errors..........: 4
+# Genome Size.....: 109
+# Copied Size.....: 109
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+set-flow
+nop-A
+add
+nop-C
+nand
+dec
+sub
+nop-A
+if-n-equ
+h-alloc
+nop-C
+h-alloc
+if-less
+nand
+IO
+nand
+nop-C
+if-less
+nop-C
+shift-l
+swap
+push
+nop-C
+if-n-equ
+add
+IO
+nand
+nop-C
+IO
+IO
+nop-C
+mov-head
+nop-C
+inc
+swap
+pop
+set-flow
+nop-C
+inc
+pop
+h-copy
+add
+nop-A
+IO
+h-copy
+if-less
+h-alloc
+nop-A
+if-n-equ
+set-flow
+nop-C
+h-copy
+add
+nop-B
+set-flow
+nop-C
+shift-l
+dec
+nop-B
+IO
+nop-C
+pop
+nop-C
+get-head
+if-n-equ
+nand
+nop-C
+h-copy
+swap
+get-head
+nop-C
+h-alloc
+pop
+nop-A
+nop-B
+nand
+nop-C
+sub
+if-n-equ
+nop-B
+swap
+dec
+h-copy
+nop-B
+nop-B
+add
+h-divide
+if-n-equ
+nop-C
+swap-stk
+inc
+get-head
+inc
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

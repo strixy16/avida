@@ -1,0 +1,126 @@
+# Fri Jun 15 13:14:41 2018
+# Filename........: archive/105-abyyv.org
+# Update Output...: 15900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 204.000000
+# Gestation Time..: 214
+# Fitness.........: 0.953271
+# Errors..........: 2
+# Genome Size.....: 105
+# Copied Size.....: 105
+# Executed Size...: 102
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# not 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+if-n-equ
+nop-C
+pop
+nop-C
+mov-head
+nop-C
+if-less
+shift-r
+pop
+nop-C
+jmp-head
+h-divide
+nop-A
+dec
+jmp-head
+jmp-head
+add
+h-copy
+h-divide
+if-n-equ
+IO
+nop-B
+sub
+nop-B
+add
+add
+nop-C
+nand
+nop-C
+if-less
+nop-C
+nop-C
+nop-C
+nop-C
+sub
+IO
+nop-C
+h-copy
+nop-B
+shift-r
+get-head
+push
+nop-C
+swap-stk
+get-head
+if-label
+pop
+h-divide
+inc
+nop-A
+sub
+nop-C
+swap
+if-less
+swap
+nop-C
+dec
+nop-C
+add
+nand
+push
+add
+nop-C
+nop-C
+add
+nop-C
+nop-C
+dec
+nop-C
+push
+nop-C
+h-alloc
+nop-C
+IO
+nop-C
+IO
+nop-C
+add
+nop-C
+if-n-equ
+pop
+h-search
+h-alloc
+nop-C
+nop-C
+add
+swap
+h-search
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

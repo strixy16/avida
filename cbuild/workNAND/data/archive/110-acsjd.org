@@ -1,0 +1,131 @@
+# Fri Jun 15 13:35:07 2018
+# Filename........: archive/110-acsjd.org
+# Update Output...: 38500
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 212.000000
+# Gestation Time..: 218
+# Fitness.........: 0.972477
+# Errors..........: 0
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 106
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+nop-A
+get-head
+nop-A
+sub
+set-flow
+nop-C
+shift-r
+nop-B
+h-copy
+if-n-equ
+h-copy
+IO
+nop-B
+IO
+shift-r
+nop-A
+get-head
+swap
+nop-B
+if-n-equ
+nop-B
+sub
+IO
+nand
+nop-C
+swap
+nop-A
+IO
+nop-C
+nop-A
+inc
+nop-A
+get-head
+nop-B
+shift-l
+inc
+inc
+inc
+push
+h-copy
+add
+dec
+IO
+if-label
+add
+shift-r
+h-search
+nop-A
+nop-A
+h-search
+IO
+h-search
+swap-stk
+nand
+h-search
+h-search
+h-copy
+h-divide
+swap-stk
+inc
+shift-l
+h-copy
+shift-l
+nop-B
+nop-A
+pop
+nop-B
+dec
+nop-B
+dec
+nand
+shift-r
+nop-C
+swap-stk
+IO
+nop-B
+sub
+shift-r
+sub
+set-flow
+get-head
+nop-B
+h-divide
+nop-C
+push
+nop-C
+set-flow
+add
+nop-C
+h-copy
+h-copy
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

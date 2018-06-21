@@ -1,0 +1,131 @@
+# Fri Jun 15 13:33:39 2018
+# Filename........: archive/110-ackpb.org
+# Update Output...: 36800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 216.000000
+# Gestation Time..: 221
+# Fitness.........: 0.977376
+# Errors..........: 0
+# Genome Size.....: 110
+# Copied Size.....: 110
+# Executed Size...: 108
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# nand 1 (1.000000)
+
+
+h-alloc
+set-flow
+nop-A
+mov-head
+nop-C
+nop-A
+get-head
+dec
+nop-A
+set-flow
+nop-C
+shift-r
+nop-B
+h-copy
+IO
+h-copy
+IO
+nop-B
+IO
+shift-r
+nop-A
+get-head
+swap
+nop-B
+swap-stk
+nop-B
+push
+IO
+nand
+nop-C
+swap
+nop-A
+IO
+nop-C
+nop-A
+inc
+nop-A
+get-head
+nop-B
+shift-l
+inc
+inc
+dec
+push
+h-copy
+add
+dec
+IO
+nop-C
+add
+shift-r
+h-search
+h-search
+nop-A
+add
+h-search
+IO
+h-search
+shift-r
+nand
+dec
+h-search
+h-copy
+h-divide
+nand
+inc
+shift-l
+h-copy
+shift-r
+nop-B
+nop-A
+pop
+nop-B
+dec
+nop-B
+IO
+nop-B
+nop-C
+swap-stk
+if-n-equ
+nop-B
+sub
+if-n-equ
+h-divide
+set-flow
+get-head
+nop-B
+nop-C
+nop-C
+push
+if-n-equ
+set-flow
+add
+nop-C
+h-copy
+h-copy
+if-n-equ
+h-search
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B
