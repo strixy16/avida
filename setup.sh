@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #SBATCH -c 3
-#SBATCH --mem=3072
-#SBATCH --time=0-4:0:00
+#SBATCH --mem=10072
+#SBATCH --time=0-12:0:00
 
-aRXNS=(ORN OR ANDN NOR XOR EQU)
-aINSTR=(Nop-A Nop-B) # Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
-aCONC=(20 40)  #(20 40 60 80 100)
+aRXNS=(ORN OR ANDN)
+aINSTR=(Nop-A Nop-B Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
+aCONC=(20 40 60 80 100)
 
 iCNT=0
 for INSTR in ${aINSTR[*]}
@@ -45,7 +45,7 @@ do
 			cd run$RXN
 			sed -i "153s/-1/0/" avida.cfg	#change the required reaction
 			sed -i "17s/^/#/" events.cfg
-			sed -i "18iu begin LoadPopulation ../work$RXN/data/detail-50000.spop" events.cfg
+			sed -i "18iu begin LoadPopulation ../work$RXN/data/detail.spop" events.cfg
 			for I in 15 16 17 18 19 20 21 22 23 
 			do 
 				if [[ I -gt LINE ]] || [[ I -lt LINE ]]	#
