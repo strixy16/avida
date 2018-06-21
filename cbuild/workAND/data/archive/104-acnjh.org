@@ -1,0 +1,125 @@
+# Fri Jun 15 13:26:57 2018
+# Filename........: archive/104-acnjh.org
+# Update Output...: 29900
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 404.000000
+# Gestation Time..: 196
+# Fitness.........: 2.061224
+# Errors..........: 5
+# Genome Size.....: 104
+# Copied Size.....: 104
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# and 1 (1.000000)
+
+
+h-alloc
+nop-C
+set-flow
+nop-A
+dec
+nop-B
+if-label
+nop-C
+h-alloc
+h-alloc
+nand
+nop-A
+IO
+h-alloc
+IO
+nop-A
+nop-C
+nand
+nop-B
+h-alloc
+inc
+IO
+if-less
+nop-A
+if-n-equ
+if-n-equ
+nop-A
+nop-C
+swap-stk
+nop-A
+IO
+nop-C
+push
+nop-B
+push
+nop-C
+IO
+nand
+nand
+nop-C
+add
+mov-head
+nop-C
+push
+push
+nop-C
+inc
+h-alloc
+IO
+nop-A
+if-less
+nop-C
+nand
+h-divide
+h-alloc
+nop-C
+nop-A
+add
+nop-C
+inc
+nop-A
+inc
+nop-C
+h-copy
+sub
+sub
+IO
+nop-C
+swap-stk
+shift-l
+nop-C
+swap
+nop-B
+shift-r
+nop-B
+h-divide
+pop
+nop-C
+nop-A
+nand
+push
+nop-B
+h-divide
+nand
+h-divide
+sub
+if-n-equ
+add
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

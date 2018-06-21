@@ -1,0 +1,125 @@
+# Fri Jun 15 13:24:00 2018
+# Filename........: archive/104-abqum.org
+# Update Output...: 26800
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 404.000000
+# Gestation Time..: 200
+# Fitness.........: 2.020000
+# Errors..........: 4
+# Genome Size.....: 104
+# Copied Size.....: 104
+# Executed Size...: 101
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# and 1 (1.000000)
+
+
+h-alloc
+h-search
+set-flow
+nop-A
+nop-B
+nop-B
+if-label
+push
+add
+h-alloc
+nand
+nop-A
+pop
+h-alloc
+IO
+nop-A
+nop-C
+nand
+h-divide
+nop-C
+h-alloc
+add
+if-less
+nop-A
+if-n-equ
+h-divide
+add
+nop-C
+dec
+add
+IO
+nop-C
+pop
+nop-B
+push
+nop-C
+IO
+nand
+nand
+nop-C
+add
+mov-head
+nop-C
+push
+nop-C
+nop-C
+inc
+swap-stk
+IO
+nop-A
+set-flow
+nop-C
+nand
+push
+h-alloc
+nop-C
+nop-C
+add
+nop-C
+dec
+nop-A
+inc
+nop-C
+h-copy
+nop-C
+sub
+IO
+nop-C
+add
+add
+pop
+swap
+nop-B
+shift-r
+nop-B
+h-divide
+shift-l
+nop-C
+nop-A
+nand
+get-head
+nop-B
+h-divide
+IO
+if-label
+swap-stk
+nop-A
+nop-B
+h-copy
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B

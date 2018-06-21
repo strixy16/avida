@@ -1,0 +1,115 @@
+# Fri Jun 15 12:59:36 2018
+# Filename........: archive/094-aaaal.org
+# Update Output...: 1300
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 90.000000
+# Gestation Time..: 354
+# Fitness.........: 0.254237
+# Errors..........: 0
+# Genome Size.....: 94
+# Copied Size.....: 94
+# Executed Size...: 90
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# and 0 (0.000000)
+
+
+h-alloc
+h-search
+nop-C
+nop-A
+mov-head
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+swap-stk
+nop-C
+nop-A
+nop-C
+swap-stk
+nop-C
+shift-l
+nop-C
+nop-C
+nop-C
+pop
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+IO
+nop-C
+nop-C
+sub
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+h-divide
+nop-C
+nop-C
+add
+nop-C
+nop-C
+get-head
+nop-C
+get-head
+nop-C
+get-head
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+add
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+nop-C
+if-label
+nop-C
+swap
+h-search
+h-search
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+mov-head
+nop-A
+nop-B

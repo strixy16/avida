@@ -1,0 +1,124 @@
+# Fri Jun 15 13:28:06 2018
+# Filename........: archive/103-abpwd.org
+# Update Output...: 31100
+# Is Viable.......: 1
+# Repro Cycle Size: 0
+# Depth to Viable.: 0
+# 
+# Generation: 0
+# Merit...........: 396.000000
+# Gestation Time..: 194
+# Fitness.........: 2.041237
+# Errors..........: 5
+# Genome Size.....: 103
+# Copied Size.....: 103
+# Executed Size...: 99
+# Offspring.......: SELF
+# 
+# Tasks Performed:
+# and 1 (1.000000)
+
+
+h-alloc
+sub
+set-flow
+nop-A
+inc
+swap-stk
+if-label
+nop-C
+dec
+shift-l
+nand
+inc
+nop-C
+h-divide
+IO
+nop-A
+if-n-equ
+pop
+if-label
+h-alloc
+dec
+add
+if-less
+nop-A
+if-n-equ
+h-alloc
+if-n-equ
+nop-C
+shift-l
+nop-A
+IO
+nop-C
+push
+nop-B
+push
+nop-C
+IO
+nand
+nand
+nop-C
+add
+mov-head
+nop-C
+nop-C
+nop-C
+nop-C
+inc
+h-alloc
+IO
+nop-A
+if-n-equ
+nop-C
+nand
+h-divide
+h-alloc
+if-less
+nop-C
+add
+nop-C
+dec
+nop-A
+inc
+nop-C
+h-copy
+sub
+swap-stk
+IO
+nop-C
+nop-B
+shift-l
+nop-C
+if-n-equ
+nop-B
+add
+nop-B
+nop-B
+shift-r
+nop-C
+nand
+if-label
+push
+nop-B
+h-divide
+nand
+swap-stk
+pop
+nop-A
+h-alloc
+h-search
+h-copy
+h-copy
+h-copy
+h-copy
+if-label
+nop-C
+nop-A
+h-divide
+h-copy
+h-copy
+h-copy
+mov-head
+nop-A
+nop-B
