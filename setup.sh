@@ -4,20 +4,9 @@
 #SBATCH --mem=10072
 #SBATCH --time=0-12:0:00
 
-<<<<<<< HEAD
 aRXNS=(ORN OR ANDN)
 aINSTR=(Nop-A Nop-B Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
 aCONC=(20 40 60 80 100)
-=======
-aRXNS=(ORN OR ANDN NOR XOR EQU)
-<<<<<<< HEAD
-aINSTR=(Nop-A) # Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
-aCONC=(20 40 60 80 100)
-=======
-aINSTR=(Nop-A Nop-B) # Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
-aCONC=(20 40)  #(20 40 60 80 100)
->>>>>>> c18d05b41212b324f79d175dce7f12ae7350ccb9
->>>>>>> 0429d3d0db34d6b14dcc50c8ed0508620836184c
 
 iCNT=0
 for INSTR in ${aINSTR[*]}
