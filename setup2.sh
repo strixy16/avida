@@ -36,7 +36,6 @@ do
         cd work$INSTR$CONC   #go into the specific work folder
         mkdir run 
         cd runOR
-        pwd
         cp * ../run   #move all the files into run
         cd ../run
         sed -i "19s/^/#/" environment.cfg
