@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1529956495,,"x"
+|2,0,1529956708,,"x"
 :q
 |2,0,1529956424,,"q"
 :s
@@ -99,36 +99,52 @@ $
 |3,1,36,0,1,0,1529507301,":"
 
 # File marks:
-'0  11  19  ~/.gitignore
-|4,48,11,19,1529956495,"~/.gitignore"
-'1  1  0  ~/cbuild/workIf-label40/runANDN/logfile1
-|4,49,1,0,1529956424,"~/cbuild/workIf-label40/runANDN/logfile1"
-'2  1  0  ~/slurm-1597953.out
-|4,50,1,0,1529956183,"~/slurm-1597953.out"
-'3  1  10  ~/gitadd.sh
-|4,51,1,10,1529955981,"~/gitadd.sh"
-'4  3  3  ~/gitadd.sh
-|4,52,3,3,1529955943,"~/gitadd.sh"
-'5  4  3  ~/gitadd.sh
-|4,53,4,3,1529955943,"~/gitadd.sh"
-'6  1  0  ~/gitadd.
-|4,54,1,0,1529955856,"~/gitadd."
-'7  10  0  ~/.gitignore
-|4,55,10,0,1529955848,"~/.gitignore"
+'0  11  17  ~/.gitignore
+|4,48,11,17,1529956708,"~/.gitignore"
+'1  11  19  ~/.gitignore
+|4,49,11,19,1529956495,"~/.gitignore"
+'2  1  0  ~/cbuild/workIf-label40/runANDN/logfile1
+|4,50,1,0,1529956424,"~/cbuild/workIf-label40/runANDN/logfile1"
+'3  1  0  ~/slurm-1597953.out
+|4,51,1,0,1529956183,"~/slurm-1597953.out"
+'4  1  10  ~/gitadd.sh
+|4,52,1,10,1529955981,"~/gitadd.sh"
+'5  3  3  ~/gitadd.sh
+|4,53,3,3,1529955943,"~/gitadd.sh"
+'6  4  3  ~/gitadd.sh
+|4,54,4,3,1529955943,"~/gitadd.sh"
+'7  1  0  ~/gitadd.
+|4,55,1,0,1529955856,"~/gitadd."
 '8  10  0  ~/.gitignore
 |4,56,10,0,1529955848,"~/.gitignore"
-'9  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,57,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+'9  10  0  ~/.gitignore
+|4,57,10,0,1529955848,"~/.gitignore"
 
 # Jumplist (newest first):
+-'  11  17  ~/.gitignore
+|4,39,11,17,1529956708,"~/.gitignore"
 -'  11  19  ~/.gitignore
 |4,39,11,19,1529956495,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529956433,"~/.gitignore"
 -'  10  0  ~/.gitignore
 |4,39,10,0,1529956433,"~/.gitignore"
 -'  1  0  ~/cbuild/workIf-label40/runANDN/logfile1
 |4,39,1,0,1529956424,"~/cbuild/workIf-label40/runANDN/logfile1"
 -'  1  0  ~/cbuild/workIf-label40/runANDN/logfile1
 |4,39,1,0,1529956424,"~/cbuild/workIf-label40/runANDN/logfile1"
+-'  1  0  ~/cbuild/workIf-label40/runANDN/logfile1
+|4,39,1,0,1529956424,"~/cbuild/workIf-label40/runANDN/logfile1"
+-'  1  0  ~/cbuild/workIf-label40/runANDN/logfile1
+|4,39,1,0,1529956424,"~/cbuild/workIf-label40/runANDN/logfile1"
+-'  1  0  ~/slurm-1597953.out
+|4,39,1,0,1529956183,"~/slurm-1597953.out"
+-'  1  0  ~/slurm-1597953.out
+|4,39,1,0,1529956183,"~/slurm-1597953.out"
+-'  1  0  ~/slurm-1597953.out
+|4,39,1,0,1529956183,"~/slurm-1597953.out"
+-'  1  0  ~/slurm-1597953.out
+|4,39,1,0,1529956183,"~/slurm-1597953.out"
 -'  1  0  ~/slurm-1597953.out
 |4,39,1,0,1529956183,"~/slurm-1597953.out"
 -'  1  0  ~/slurm-1597953.out
@@ -153,6 +169,38 @@ $
 |4,39,1,10,1529955981,"~/gitadd.sh"
 -'  1  10  ~/gitadd.sh
 |4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
 -'  3  3  ~/gitadd.sh
 |4,39,3,3,1529955964,"~/gitadd.sh"
 -'  3  3  ~/gitadd.sh
@@ -185,6 +233,38 @@ $
 |4,39,4,3,1529955943,"~/gitadd.sh"
 -'  4  3  ~/gitadd.sh
 |4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
 -'  1  0  ~/gitadd.sh
 |4,39,1,0,1529955894,"~/gitadd.sh"
 -'  1  0  ~/gitadd.sh
@@ -241,97 +321,17 @@ $
 |4,39,1,0,1529955856,"~/gitadd."
 -'  1  0  ~/gitadd.
 |4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  1  0  ~/gitadd.
-|4,39,1,0,1529955856,"~/gitadd."
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
--'  10  0  ~/.gitignore
-|4,39,10,0,1529955848,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	*	1529956495	0
-	"	11	19
-	^	11	20
-	.	11	19
+	*	1529956708	0
+	"	11	17
+	^	11	18
+	.	11	18
 	+	9	29
 	+	10	0
-	+	11	19
+	+	11	18
 
 > ~/cbuild/workIf-label40/runANDN/logfile1
 	*	1529956422	0
