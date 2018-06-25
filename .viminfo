@@ -18,9 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1529955981,,"x"
+|2,0,1529956495,,"x"
 :q
-|2,0,1529955856,,"q"
+|2,0,1529956424,,"q"
 :s
 |2,0,1527184562,,"s"
 :Q
@@ -99,34 +99,106 @@ $
 |3,1,36,0,1,0,1529507301,":"
 
 # File marks:
-'0  1  10  ~/gitadd.sh
-|4,48,1,10,1529955981,"~/gitadd.sh"
-'1  3  3  ~/gitadd.sh
-|4,49,3,3,1529955943,"~/gitadd.sh"
-'2  4  3  ~/gitadd.sh
-|4,50,4,3,1529955943,"~/gitadd.sh"
-'3  1  0  ~/gitadd.
-|4,51,1,0,1529955856,"~/gitadd."
-'4  10  0  ~/.gitignore
-|4,52,10,0,1529955848,"~/.gitignore"
-'5  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,53,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
-'6  50  0  ~/setup.sh
-|4,54,50,0,1529603014,"~/setup.sh"
-'7  21  0  ~/cbuild/workANDN/environment.cfg
-|4,55,21,0,1529590171,"~/cbuild/workANDN/environment.cfg"
-'8  54  6  ~/setup.sh
-|4,56,54,6,1529590147,"~/setup.sh"
-'9  57  6  ~/setup.sh
-|4,57,57,6,1529590147,"~/setup.sh"
+'0  11  19  ~/.gitignore
+|4,48,11,19,1529956495,"~/.gitignore"
+'1  1  0  ~/cbuild/workIf-label40/runANDN/logfile1
+|4,49,1,0,1529956424,"~/cbuild/workIf-label40/runANDN/logfile1"
+'2  1  0  ~/slurm-1597953.out
+|4,50,1,0,1529956183,"~/slurm-1597953.out"
+'3  1  10  ~/gitadd.sh
+|4,51,1,10,1529955981,"~/gitadd.sh"
+'4  3  3  ~/gitadd.sh
+|4,52,3,3,1529955943,"~/gitadd.sh"
+'5  4  3  ~/gitadd.sh
+|4,53,4,3,1529955943,"~/gitadd.sh"
+'6  1  0  ~/gitadd.
+|4,54,1,0,1529955856,"~/gitadd."
+'7  10  0  ~/.gitignore
+|4,55,10,0,1529955848,"~/.gitignore"
+'8  10  0  ~/.gitignore
+|4,56,10,0,1529955848,"~/.gitignore"
+'9  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,57,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
 
 # Jumplist (newest first):
+-'  11  19  ~/.gitignore
+|4,39,11,19,1529956495,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529956433,"~/.gitignore"
+-'  1  0  ~/cbuild/workIf-label40/runANDN/logfile1
+|4,39,1,0,1529956424,"~/cbuild/workIf-label40/runANDN/logfile1"
+-'  1  0  ~/cbuild/workIf-label40/runANDN/logfile1
+|4,39,1,0,1529956424,"~/cbuild/workIf-label40/runANDN/logfile1"
+-'  1  0  ~/slurm-1597953.out
+|4,39,1,0,1529956183,"~/slurm-1597953.out"
+-'  1  0  ~/slurm-1597953.out
+|4,39,1,0,1529956183,"~/slurm-1597953.out"
+-'  1  0  ~/slurm-1597953.out
+|4,39,1,0,1529956183,"~/slurm-1597953.out"
+-'  1  0  ~/slurm-1597953.out
+|4,39,1,0,1529956183,"~/slurm-1597953.out"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
 -'  1  10  ~/gitadd.sh
 |4,39,1,10,1529955981,"~/gitadd.sh"
 -'  3  3  ~/gitadd.sh
 |4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
 -'  4  3  ~/gitadd.sh
 |4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
 -'  1  0  ~/gitadd.sh
 |4,39,1,0,1529955894,"~/gitadd.sh"
 -'  1  0  ~/gitadd.
@@ -137,6 +209,62 @@ $
 |4,39,1,0,1529955856,"~/gitadd."
 -'  1  0  ~/gitadd.
 |4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
 -'  10  0  ~/.gitignore
 |4,39,10,0,1529955848,"~/.gitignore"
 -'  10  0  ~/.gitignore
@@ -153,176 +281,65 @@ $
 |4,39,10,0,1529955848,"~/.gitignore"
 -'  10  0  ~/.gitignore
 |4,39,10,0,1529955848,"~/.gitignore"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  1  0  ~/cbuild/workDec20/runANDN/logfile1
-|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  50  0  ~/setup.sh
-|4,39,50,0,1529603014,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
--'  54  6  ~/setup.sh
-|4,39,54,6,1529602972,"~/setup.sh"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1529956495	0
+	"	11	19
+	^	11	20
+	.	11	19
+	+	9	29
+	+	10	0
+	+	11	19
+
+> ~/cbuild/workIf-label40/runANDN/logfile1
+	*	1529956422	0
+	"	1	0
+
+> ~/slurm-1597953.out
+	*	1529956181	0
+	"	1	0
 
 > ~/gitadd.sh
 	*	1529955980	0
@@ -335,14 +352,6 @@ $
 > ~/gitadd.
 	*	1529955854	0
 	"	1	0
-
-> ~/.gitignore
-	*	1529955741	0
-	"	10	0
-	^	9	11
-	.	10	0
-	+	9	29
-	+	10	0
 
 > ~/cbuild/workDec20/runANDN/logfile1
 	*	1529955724	0
@@ -1217,14 +1226,3 @@ $
 > ~/cbuild/Data2.out
 	*	1527175960	0
 	"	95	17
-
-> ~/cbuild/Data1.out
-	*	1527175906	0
-	"	81	34
-
-> ~/cbuild/work_1/avida.cfg
-	*	1527175710	0
-	"	1	0
-	^	40	15
-	.	40	14
-	+	40	14

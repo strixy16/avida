@@ -8,5 +8,5 @@ install_manifest.txt
 wbuild
 DerivedData
 cbuild/*
-!cbuild/work*/run*/data*/*
+!cbuild/work*/run*/*
 slurm*
