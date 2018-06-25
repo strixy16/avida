@@ -18,9 +18,9 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1529603014,,"x"
+|2,0,1529955981,,"x"
 :q
-|2,0,1529590171,,"q"
+|2,0,1529955856,,"q"
 :s
 |2,0,1527184562,,"s"
 :Q
@@ -99,230 +99,254 @@ $
 |3,1,36,0,1,0,1529507301,":"
 
 # File marks:
-'0  50  0  ~/setup.sh
-|4,48,50,0,1529603014,"~/setup.sh"
-'1  21  0  ~/cbuild/workANDN/environment.cfg
-|4,49,21,0,1529590171,"~/cbuild/workANDN/environment.cfg"
-'2  54  6  ~/setup.sh
-|4,50,54,6,1529590147,"~/setup.sh"
-'3  57  6  ~/setup.sh
-|4,51,57,6,1529590147,"~/setup.sh"
-'4  45  59  ~/setup.sh
-|4,52,45,59,1529589553,"~/setup.sh"
-'5  45  59  ~/setup.sh
-|4,53,45,59,1529589553,"~/setup.sh"
-'6  48  59  ~/setup.sh
-|4,54,48,59,1529589553,"~/setup.sh"
-'7  48  59  ~/setup.sh
-|4,55,48,59,1529589553,"~/setup.sh"
-'8  45  1  ~/setup.sh
-|4,56,45,1,1529589482,"~/setup.sh"
-'9  45  1  ~/setup.sh
-|4,57,45,1,1529589482,"~/setup.sh"
+'0  1  10  ~/gitadd.sh
+|4,48,1,10,1529955981,"~/gitadd.sh"
+'1  3  3  ~/gitadd.sh
+|4,49,3,3,1529955943,"~/gitadd.sh"
+'2  4  3  ~/gitadd.sh
+|4,50,4,3,1529955943,"~/gitadd.sh"
+'3  1  0  ~/gitadd.
+|4,51,1,0,1529955856,"~/gitadd."
+'4  10  0  ~/.gitignore
+|4,52,10,0,1529955848,"~/.gitignore"
+'5  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,53,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+'6  50  0  ~/setup.sh
+|4,54,50,0,1529603014,"~/setup.sh"
+'7  21  0  ~/cbuild/workANDN/environment.cfg
+|4,55,21,0,1529590171,"~/cbuild/workANDN/environment.cfg"
+'8  54  6  ~/setup.sh
+|4,56,54,6,1529590147,"~/setup.sh"
+'9  57  6  ~/setup.sh
+|4,57,57,6,1529590147,"~/setup.sh"
 
 # Jumplist (newest first):
+-'  1  10  ~/gitadd.sh
+|4,39,1,10,1529955981,"~/gitadd.sh"
+-'  3  3  ~/gitadd.sh
+|4,39,3,3,1529955964,"~/gitadd.sh"
+-'  4  3  ~/gitadd.sh
+|4,39,4,3,1529955943,"~/gitadd.sh"
+-'  1  0  ~/gitadd.sh
+|4,39,1,0,1529955894,"~/gitadd.sh"
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  1  0  ~/gitadd.
+|4,39,1,0,1529955856,"~/gitadd."
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  10  0  ~/.gitignore
+|4,39,10,0,1529955848,"~/.gitignore"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  100022  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,100022,0,1529955726,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  1  0  ~/cbuild/workDec20/runANDN/logfile1
+|4,39,1,0,1529955724,"~/cbuild/workDec20/runANDN/logfile1"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
+-'  50  0  ~/setup.sh
+|4,39,50,0,1529603014,"~/setup.sh"
 -'  50  0  ~/setup.sh
 |4,39,50,0,1529603014,"~/setup.sh"
 -'  54  6  ~/setup.sh
 |4,39,54,6,1529602972,"~/setup.sh"
--'  21  0  ~/cbuild/workANDN/environment.cfg
-|4,39,21,0,1529590171,"~/cbuild/workANDN/environment.cfg"
--'  21  0  ~/cbuild/workANDN/environment.cfg
-|4,39,21,0,1529590171,"~/cbuild/workANDN/environment.cfg"
--'  23  0  ~/cbuild/workANDN/environment.cfg
-|4,39,23,0,1529590159,"~/cbuild/workANDN/environment.cfg"
--'  23  0  ~/cbuild/workANDN/environment.cfg
-|4,39,23,0,1529590159,"~/cbuild/workANDN/environment.cfg"
--'  57  6  ~/setup.sh
-|4,39,57,6,1529590147,"~/setup.sh"
--'  57  6  ~/setup.sh
-|4,39,57,6,1529590147,"~/setup.sh"
--'  45  59  ~/setup.sh
-|4,39,45,59,1529590131,"~/setup.sh"
--'  48  59  ~/setup.sh
-|4,39,48,59,1529590131,"~/setup.sh"
--'  48  59  ~/setup.sh
-|4,39,48,59,1529590131,"~/setup.sh"
--'  48  59  ~/setup.sh
-|4,39,48,59,1529589553,"~/setup.sh"
--'  48  59  ~/setup.sh
-|4,39,48,59,1529589553,"~/setup.sh"
--'  48  1  ~/setup.sh
-|4,39,48,1,1529589482,"~/setup.sh"
--'  48  1  ~/setup.sh
-|4,39,48,1,1529589482,"~/setup.sh"
--'  44  1  ~/setup.sh
-|4,39,44,1,1529589468,"~/setup.sh"
--'  47  1  ~/setup.sh
-|4,39,47,1,1529589468,"~/setup.sh"
--'  47  1  ~/setup.sh
-|4,39,47,1,1529589468,"~/setup.sh"
--'  47  1  ~/setup.sh
-|4,39,47,1,1529589468,"~/setup.sh"
--'  47  1  ~/setup.sh
-|4,39,47,1,1529589468,"~/setup.sh"
--'  47  1  ~/setup.sh
-|4,39,47,1,1529589468,"~/setup.sh"
--'  47  1  ~/setup.sh
-|4,39,47,1,1529589468,"~/setup.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  126  3  ~/changeConcentration.sh
-|4,39,126,3,1529589465,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1  15  ~/changeConcentration.sh
-|4,39,1,15,1529589453,"~/changeConcentration.sh"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
--'  1799  27  ~/avida-core/source/cpu/cHardwareCPU.cc
-|4,39,1799,27,1529589446,"~/avida-core/source/cpu/cHardwareCPU.cc"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
+-'  54  6  ~/setup.sh
+|4,39,54,6,1529602972,"~/setup.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/gitadd.sh
+	*	1529955980	0
+	"	1	10
+	^	1	11
+	.	2	0
+	+	3	3
+	+	2	0
+
+> ~/gitadd.
+	*	1529955854	0
+	"	1	0
+
+> ~/.gitignore
+	*	1529955741	0
+	"	10	0
+	^	9	11
+	.	10	0
+	+	9	29
+	+	10	0
+
+> ~/cbuild/workDec20/runANDN/logfile1
+	*	1529955724	0
+	"	100022	0
 
 > ~/setup.sh
 	*	1529603014	0
@@ -851,14 +875,6 @@ $
 	*	1529330987	0
 	"	20022	0
 
-> ~/.gitignore
-	*	1529330382	0
-	"	10	0
-	^	9	11
-	.	10	0
-	+	9	29
-	+	10	0
-
 > ~/cbuild/workOR/environment.cfg
 	*	1529329009	0
 	"	18	0
@@ -1212,27 +1228,3 @@ $
 	^	40	15
 	.	40	14
 	+	40	14
-
-> ~/cbuild/work_1/sed.sh
-	*	1527175455	0
-	"	1	10
-	^	1	11
-	.	2	0
-	+	2	20
-	+	2	0
-
-> ~/cbuild/sed
-	*	1527174408	0
-	"	3	23
-	^	3	24
-	.	2	20
-	+	2	51
-	+	3	23
-	+	2	20
-
-> ~/cbuild/work_3/analyze.cfg
-	*	1527173914	0
-	"	12	68
-	^	12	69
-	.	13	0
-	+	13	0
