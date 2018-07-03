@@ -42,7 +42,7 @@ do
 		do
 			CNTR=$((CNTR+1))	#gonna need this for the environment file
 			cp -R run run$RXN		#make folder for specific task
-			LINE=$((17+CNTR))	#same as CNTR
+			LINE=$((17+CNTR))	#same as CNTR **Change this number based on what reactions you're working with**
 			cd run$RXN
 			sed -i "153s/-1/0/" avida.cfg	#change the required reaction
 			sed -i "17s/^/#/" events.cfg
