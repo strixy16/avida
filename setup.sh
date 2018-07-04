@@ -4,9 +4,9 @@
 #SBATCH --mem=3072
 #SBATCH --time=0-2:0:00
 
-aRXNS=(NOT) # NAND AND ORN OR ANDN NOR XOR EQU)
-aINSTR=(Nop-A) # Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
-aCONC=(20) #40 60 80 100)
+aRXNS=(NOT NAND AND ORN OR ANDN NOR XOR EQU)
+aINSTR=(Nop-A Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
+aCONC=(20 40 60 80 100)
 
 # Find line number to change concentration value
 CONCLINE=$(grep -n -m 1 "CONCENTRATION" changeConcentration.sh | cut -f1 -d:) 
