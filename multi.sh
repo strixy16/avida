@@ -7,8 +7,8 @@
 #variables to adjust
 TIMESRUN=5             #number of times you run avida
 POPUPDATES=100000		#how many updates
-
-cd cbuild/work          # go into correct directory
+# go into correct directory
+cd cbuild/work          
 
 CURR=1                  #version of data file you start with
 #change updates in event file
