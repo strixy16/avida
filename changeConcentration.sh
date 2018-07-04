@@ -128,10 +128,12 @@ cd work$NAME$CONCENTRATION
 # done
 
 #make default copy mutation 0.0025
-sed -i "49s/0.0075/0.0025/" avida.cfg
+MUTLINE=$(grep -n "COPY_MUT_PROB" avida.cfg | cut -f1 -d:)
+sed -i "${MUTLINE}s/0.0075/0.0025/" avida.cfg
 
 #make it well mixed
-sed -i "94s/0/4/" avida.cfg
+MIXLINE=$(grep -n -m 1 "BIRTH_METHOD" avida.cfg | cut -f1 -d:)
+sed -i "${MIXLINE}s/0/4/" avida.cfg
 
 #load population line instead of inject
 # sed -i "17s/Inject default-heads.org/LoadPopulation populations\/detail.spop/" events.cfg
