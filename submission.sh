@@ -1,4 +1,9 @@
-#!bin/bash
+#!/bin/bash
+
+#SBATCH -c 3
+#SBATCH --mem=3072
+#SBATCH --time=0-8:0:00
+
 aRXNS=(NOT NAND AND ORN OR ANDN NOR XOR EQU)
 aINSTR=(Nop-A Nop-B Nop-C If-n-equ If-less Pop Push Swap-stk Swap Shift-r Shift-l Inc Dec Add Sub Nand IO H-alloc H-divide H-copy H-search Mov-head Jmp-head Get-head If-label Set-flow)
 aCONC=(20 40 60 80 100)
@@ -10,7 +15,7 @@ do
 		for RXN in ${aRXNS[@]}
 		do
 			sed -i "11s|work|work$INSTR$CONC/run$RXN|" multi.sh
-			./multi.sh
+			sbatch ./multi.sh
 			sed -i "11s|work$INSTR$CONC/run$RXN|work|" multi.sh
 		done
 	done
