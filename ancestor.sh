@@ -7,8 +7,6 @@
 
 source ./variables.sh
 
-#aRXNS=(NOT NAND AND ORN OR ANDN NOR XOR EQU)
-
 cd cbuild
 for RXN in ${aRXNS[*]}
 do
