@@ -18,7 +18,10 @@ then
 	sed -i "${LINENUM}s|work\w*|work|" multi.sh
 fi
 
-aRXNS=(NAND AND ORN OR ANDN NOR XOR EQU)
+source variables.sh
+aRXNS=${REACTIONS[*]}
+
+#aRXNS=(NAND AND ORN OR ANDN NOR XOR EQU)
 # Start runs for each reaction
 for RXN in ${aRXNS[@]}
 do

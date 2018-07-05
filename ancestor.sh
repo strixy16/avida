@@ -5,9 +5,11 @@
 #SBATCH --mem=1024
 #SBATCH --time=0-3:0:00
 
-aRXNS=(NOT NAND AND ORN OR ANDN NOR XOR EQU)
+source variables.sh
+aRXNS=${REACTIONS[*]}
 
-CNTR=0
+#aRXNS=(NOT NAND AND ORN OR ANDN NOR XOR EQU)
+
 cd cbuild
 for RXN in ${aRXNS[*]}
 do
