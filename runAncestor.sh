@@ -27,3 +27,5 @@ do
 	sbatch ./multi.sh
 	sed -i -E "s|cd cbuiild/work$RXN|cd cbuild/work|" multi.sh
 done
+
+sed -i -E "s/TIMESRUN=[0-9]/TIMESRUN=5/" multi.sh
