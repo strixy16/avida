@@ -5,6 +5,7 @@
 #SBATCH --mem=1024
 #SBATCH --time=0-3:0:00
 
+# Import aRXNs list 
 source ./variables.sh
 
 cd cbuild
@@ -19,13 +20,16 @@ do
 		# Disable all reactions except desired reaction in environment file 
 		sed -i "s/REACTION/#REACTION/" environment.cfg
 		sed -i "s/#REACTION\s+$RXN/REACTION  $RXN/" environment.cfg
-	# NOR, XOR, EQU require all reactions below them to be enabled
+	# Settings for NOR 
 	elif [[ $RXN == "NOR" ]]
-	then
+	then	
+		# Disable XOR and EQU
 		sed -i -E "s/REACTION\s+XOR/#REACTION  XOR/" environment.cfg
 		sed -i -E "s/REACTION\s+EQU/#REACTION  EQU/" environment.cfg
+	# Settings for XOR
 	elif [[ $RXN == "XOR" ]]
 	then
+		# Disable EQU
 		EQUline=$(($LINE + 1))
 		sed -i -E "s/REACTION\s+EQU/#REACTION  EQU/" environment.cfg
 	#EQU leaves all REACTIONS active
