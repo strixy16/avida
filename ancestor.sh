@@ -19,7 +19,7 @@ do
 	then
 		# Disable all reactions except desired reaction in environment file 
 		sed -i "s/REACTION/#REACTION/" environment.cfg
-		sed -i "s/#REACTION\s+$RXN/REACTION  $RXN/" environment.cfg
+		sed -i -E "s/#REACTION\s+$RXN/REACTION  $RXN/" environment.cfg
 	# Settings for NOR 
 	elif [[ $RXN == "NOR" ]]
 	then	
