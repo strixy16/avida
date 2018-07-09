@@ -1624,14 +1624,14 @@ inline int cHardwareCPU::FindModifiedRegister(int default_register)
   assert(default_register < NUM_REGISTERS);  // Reg ID too high.
   //nop-A = 0, nop B = 1, nop C = 2
   const int r = rand() % 100 + 1;
-  const int concentration = 20;
-  const int nopType = 0;
+  const int concentrationNop = 0;
+  const int nopType = 1;
 
   if (m_inst_set->IsNop(getIP().GetNextInst())) {
     getIP().Advance();
     if (m_inst_set->GetNopMod(getIP().GetInst()) != nopType){
       default_register = m_inst_set->GetNopMod(getIP().GetInst());
-    } else if (r > concentration) {
+    } else if (r > concentrationNop) {
       default_register = m_inst_set->GetNopMod(getIP().GetInst());
     }
   }
@@ -1672,14 +1672,14 @@ inline int cHardwareCPU::FindModifiedHead(int default_head)
   assert(default_head < NUM_HEADS); // Head ID too high.
   //nop-A = 0, nop B = 1, nop C = 2
   const int r = rand() % 100 + 1;
-  const int concentration = 20;
-  const int nopType = 0;
+  const int concentrationNop = 0;
+  const int nopType = 1;
 
   if (m_inst_set->IsNop(getIP().GetNextInst())) {
     getIP().Advance();
     if (m_inst_set->GetNopMod(getIP().GetInst()) != nopType){
       default_head = m_inst_set->GetNopMod(getIP().GetInst());
-    } else if (r > concentration) {
+    } else if (r > concentrationNop) {
         default_head = m_inst_set->GetNopMod(getIP().GetInst());
     }
     getIP().SetFlagExecuted();
@@ -2205,9 +2205,9 @@ bool cHardwareCPU::Inst_IfEqu(cAvidaContext&)      // Execute next if bx == ?cx?
 bool cHardwareCPU::Inst_IfNEqu(cAvidaContext&)     // Execute next if bx != ?cx?
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationIfnequ = 0;
 
-  if (r > concentration) {
+  if (r > concentrationIfnequ) {
     const int op1 = FindModifiedRegister(REG_BX);
     const int op2 = FindNextRegister(op1);
     if (GetRegister(op1) == GetRegister(op2))  getIP().Advance();
@@ -2255,9 +2255,9 @@ bool cHardwareCPU::Inst_IfLess0(cAvidaContext&)       // Execute next if ?bx? !=
 bool cHardwareCPU::Inst_IfLess(cAvidaContext&)       // Execute next if ?bx? < ?cx?
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationIfless = 0;
 
-  if (r > concentration) {
+  if (r > concentrationIfless) {
     const int op1 = FindModifiedRegister(REG_BX);
     const int op2 = FindNextRegister(op1);
     if (GetRegister(op1) >=  GetRegister(op2))  getIP().Advance();
@@ -2723,9 +2723,9 @@ bool cHardwareCPU::Inst_GotoIf0(cAvidaContext& ctx)
 bool cHardwareCPU::Inst_Pop(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationPop = 0;
 
-  if (r > concentration) {
+  if (r > concentrationPop) {
     const int reg_used = FindModifiedRegister(REG_BX);
     GetRegister(reg_used) = StackPop();
   }
@@ -2735,9 +2735,9 @@ bool cHardwareCPU::Inst_Pop(cAvidaContext&)
 bool cHardwareCPU::Inst_Push(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationPush = 0;
 
-  if (r > concentration) {
+  if (r > concentrationPush) {
     const int reg_used = FindModifiedRegister(REG_BX);
     StackPush(GetRegister(reg_used));
   }
@@ -2773,9 +2773,9 @@ bool cHardwareCPU::Inst_PushC(cAvidaContext&) { StackPush(GetRegister(REG_CX)); 
 
 bool cHardwareCPU::Inst_SwitchStack(cAvidaContext&) { 
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationSwapstk = 0;
 
-  if (r > concentration) {
+  if (r > concentrationSwapstk) {
     SwitchStack();
   }
    return true;}
@@ -2784,9 +2784,9 @@ bool cHardwareCPU::Inst_FlipStack(cAvidaContext&)   { StackFlip(); return true;}
 bool cHardwareCPU::Inst_Swap(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationSwap = 0;
 
-  if (r > concentration) {
+  if (r > concentrationSwap) {
     const int op1 = FindModifiedRegister(REG_BX);
     const int op2 = FindNextRegister(op1);
     Swap(GetRegister(op1), GetRegister(op2));
@@ -2853,9 +2853,9 @@ bool cHardwareCPU::Inst_Reset(cAvidaContext&)
 bool cHardwareCPU::Inst_ShiftR(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationShiftr = 0;
 
-  if (r > concentration) {
+  if (r > concentrationShiftr) {
     const int reg_used = FindModifiedRegister(REG_BX);
     GetRegister(reg_used) >>= 1;
   }
@@ -2865,9 +2865,9 @@ bool cHardwareCPU::Inst_ShiftR(cAvidaContext&)
 bool cHardwareCPU::Inst_ShiftL(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationShiftl = 0;
 
-  if (r > concentration) {
+  if (r > concentrationShiftl) {
     const int reg_used = FindModifiedRegister(REG_BX);
     GetRegister(reg_used) <<= 1;
   }
@@ -2921,9 +2921,9 @@ bool cHardwareCPU::Inst_ValPolyC(cAvidaContext&) {
 bool cHardwareCPU::Inst_Inc(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationInc = 0;
 
-  if (r > concentration) {
+  if (r > concentrationInc) {
     const int reg_used = FindModifiedRegister(REG_BX);
     GetRegister(reg_used) += 1;
   }
@@ -2933,9 +2933,9 @@ bool cHardwareCPU::Inst_Inc(cAvidaContext&)
 bool cHardwareCPU::Inst_Dec(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationDec = 0;
 
-  if (r > concentration) {
+  if (r > concentrationDec) {
     const int reg_used = FindModifiedRegister(REG_BX);
     GetRegister(reg_used) -= 1;
   }
@@ -3026,8 +3026,9 @@ bool cHardwareCPU::Inst_Log10(cAvidaContext&)
 bool cHardwareCPU::Inst_Add(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
-  if (r > concentration) {
+  const int concentrationAdd = 0;
+
+  if (r > concentrationAdd) {
     const int dst = FindModifiedRegister(REG_BX);
     const int op1 = REG_BX;
     const int op2 = REG_CX;
@@ -3039,8 +3040,9 @@ bool cHardwareCPU::Inst_Add(cAvidaContext&)
 bool cHardwareCPU::Inst_Sub(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
-  if (r > concentration) {
+  const int concentrationSub = 0;
+
+  if (r > concentrationSub) {
     const int dst = FindModifiedRegister(REG_BX);
     const int op1 = REG_BX;
     const int op2 = REG_CX;
@@ -3093,8 +3095,9 @@ bool cHardwareCPU::Inst_Mod(cAvidaContext&)
 bool cHardwareCPU::Inst_Nand(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
-  if (r > concentration) {
+  const int concentrationNand = 0;
+
+  if (r > concentrationNand) {
     const int dst = FindModifiedRegister(REG_BX);
     const int op1 = REG_BX;
     const int op2 = REG_CX;
@@ -3373,9 +3376,9 @@ bool cHardwareCPU::Inst_CAlloc(cAvidaContext& ctx)
 bool cHardwareCPU::Inst_MaxAlloc(cAvidaContext& ctx)   // Allocate maximal more
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationHalloc = 0;
 
-  if (r > concentration) {
+  if (r > concentrationHalloc) {
     const int dst = REG_AX;
     const int cur_size = m_memory.GetSize();
     const int alloc_size = Apto::Min((int)(m_world->GetConfig().OFFSPRING_SIZE_RANGE.Get() * cur_size), MAX_GENOME_LENGTH - cur_size);
@@ -4273,9 +4276,9 @@ bool cHardwareCPU::Inst_TaskPutResetInputs(cAvidaContext& ctx)
 bool cHardwareCPU::Inst_TaskIO(cAvidaContext& ctx)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationIO = 0;
 
-  if (r > concentration) {
+  if (r > concentrationIO) {
     const int reg_used = FindModifiedRegister(REG_BX);
     
     // Do the "put" component
@@ -6899,9 +6902,9 @@ bool cHardwareCPU::Inst_AdvanceHead(cAvidaContext&)
 bool cHardwareCPU::Inst_MoveHead(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationMovhead = 0;
 
-  if (r > concentration) {
+  if (r > concentrationMovhead) {
     const int head_used = FindModifiedHead(nHardware::HEAD_IP);
     const int target = nHardware::HEAD_FLOW;
     getHead(head_used).Set(getHead(target));
@@ -6954,11 +6957,11 @@ bool cHardwareCPU::Inst_ResMoveHead(cAvidaContext& ctx)
 bool cHardwareCPU::Inst_JumpHead(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationJmphead = 0;
 
   const int head_used = FindModifiedHead(nHardware::HEAD_IP);
 
-  if (r > concentration) {
+  if (r > concentrationJmphead) {
     getHead(head_used).Jump(GetRegister(REG_CX) );
   }
   // @JEB - probably shouldn't advance IP after jumping here?
@@ -7008,9 +7011,9 @@ bool cHardwareCPU::Inst_ResJumpHead(cAvidaContext& ctx)
 bool cHardwareCPU::Inst_GetHead(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationGethead = 0;
 
-  if (r > concentration) {
+  if (r > concentrationGethead) {
     const int head_used = FindModifiedHead(nHardware::HEAD_IP);
     GetRegister(REG_CX) = getHead(head_used).GetPosition();
   }
@@ -7020,9 +7023,9 @@ bool cHardwareCPU::Inst_GetHead(cAvidaContext&)
 bool cHardwareCPU::Inst_IfLabel(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationIflabel = 0;
 
-  if (r > concentration) {
+  if (r > concentrationIflabel) {
     ReadLabel();
     GetLabel().Rotate(1, NUM_NOPS);
     if (GetLabel() != GetReadLabel())  getIP().Advance();
@@ -7072,9 +7075,9 @@ bool cHardwareCPU::Inst_HeadDivideMut(cAvidaContext& ctx, double mut_multiplier)
 bool cHardwareCPU::Inst_HeadDivide(cAvidaContext& ctx)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationHdivide = 0;
 
-  if (r > concentration) {
+  if (r > concentrationHdivide) {
     return Inst_HeadDivideMut(ctx, 1);
   }
   return true;
@@ -7247,9 +7250,9 @@ bool cHardwareCPU::Inst_HeadWrite(cAvidaContext& ctx)
 bool cHardwareCPU::Inst_HeadCopy(cAvidaContext& ctx)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationHcopy = 0;
 
-  if (r > concentration) {
+  if (r > concentrationHcopy) {
     // For the moment, this cannot be nop-modified.
     cHeadCPU& read_head = getHead(nHardware::HEAD_READ);
     cHeadCPU& write_head = getHead(nHardware::HEAD_WRITE);
@@ -7367,9 +7370,9 @@ bool cHardwareCPU::Inst_HeadCopy10(cAvidaContext& ctx) { return HeadCopy_ErrorCo
 bool cHardwareCPU::Inst_HeadSearch(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationHsearch = 0;
 
-  if (r > concentration) {
+  if (r > concentrationHsearch) {
     ReadLabel();
     GetLabel().Rotate(1, NUM_NOPS);
     cHeadCPU found_pos = FindLabel(0);
@@ -7397,9 +7400,9 @@ bool cHardwareCPU::Inst_HeadSearchDirect(cAvidaContext&)
 bool cHardwareCPU::Inst_SetFlow(cAvidaContext&)
 {
   const int r = rand() % 100 + 1;
-  const int concentration = 0;
+  const int concentrationSetflow = 0;
 
-  if (r > concentration) {
+  if (r > concentrationSetflow) {
     const int reg_used = FindModifiedRegister(REG_CX);
     getHead(nHardware::HEAD_FLOW).Set(GetRegister(reg_used));
   }
