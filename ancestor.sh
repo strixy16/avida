@@ -14,6 +14,9 @@ do
 	cp -R work work$RXN
 	cd work$RXN
 
+	# Print dominant genotype file
+	sed -i "s/# u 100:100 PrintDominantGenotype/u $POPUPDATES PrintDominantGenotype/" events.cfg 
+
 	# NOT through ANDN settings
 	if [[ $RXN != "NOR" ]] &&  [[ $RXN != "XOR" ]] && [[ $RXN != "EQU" ]]
 	then
@@ -31,9 +34,6 @@ do
 	else
 		continue
 	fi
-
-	# Print dominant genotype file
-	sed -i "s/# u 100:100 PrintDominantGenotype/u $POPUPDATES PrintDominantGenotype/" events.cfg 
 
 	cd ..
 done
