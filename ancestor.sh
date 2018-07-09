@@ -6,6 +6,7 @@
 #SBATCH --time=0-3:0:00
 
 source variables.sh
+POPUPDATES=100000
 
 cd cbuild
 for RXN in ${aRXNS[*]}
@@ -30,6 +31,10 @@ do
 	else
 		continue
 	fi
+
+	# Print dominant genotype file
+	sed -i "s/# u 100:100 PrintDominantGenotype/u $POPUPDATES PrintDominantGenotype/" events.cfg 
+
 	cd ..
 done
 
