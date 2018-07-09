@@ -7,9 +7,9 @@ declare -A rxn
 
 #for nops, nop-A = 0, nop B = 1, nop C = 2 
 #only one nop can be turned off at once
-instr["Nop-A"]=false #nop only in sense of switching which registers get used, not label reading
-instr["Nop-B"]=false 
-instr["Nop-C"]=false 
+instr["NopA"]=false #nop only in sense of switching which registers get used, not label reading
+instr["NopB"]=false 
+instr["NopC"]=false 
 instr["Ifnequ"]=false 
 instr["Ifless"]=false 
 instr["Iflabel"]=false 
@@ -47,11 +47,11 @@ rxn["EQU"]=true
 
 
 #if one of the nop instructions is turned on, which one
-if [[ ${instr["Nop-A"]} = true ]]; then
+if [[ ${instr["NopA"]} = true ]]; then
 	nop=0
-elif [[ ${instr["Nop-B"]} = true ]]; then
+elif [[ ${instr["NopB"]} = true ]]; then
 	nop=1
-elif [[ ${instr["Nop-C"]} = true ]]; then
+elif [[ ${instr["NopC"]} = true ]]; then
 	nop=2
 fi
 
@@ -63,7 +63,7 @@ for i in "${!instr[@]}"
 do
 	if [[ ${instr[$i]} = true ]]; then
 		#nop is a special case as function for all types, not unique
-		if [[ $i == Nop-* ]]; then
+		if [[ $i == Nop* ]]; then
 			#this affects register and head function
 			sed -i -E "s/(concentrationNop =) [0-9]+/\1 $CONCENTRATION/" cHardwareCPU.cc
 			#this is what decides what nop gets affected
@@ -115,7 +115,7 @@ cd ../../avida-core/source/cpu #get to directory with cHardwareCPU
 for i in "${!instr[@]}" 
 do
 	if [[ ${instr[$i]} = true ]]; then
-		if [[ $i == Nop-* ]]; then
+		if [[ $i == Nop* ]]; then
 			sed -i -E "s/(concentrationNop =) [0-9]+/\1 0/" cHardwareCPU.cc
 			#returning nop to 0 technically unnecessary, but for consistency
 			sed -i -E "s/(nopType =) [0-9]+/\1 0/" cHardwareCPU.cc
