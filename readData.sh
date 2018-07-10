@@ -76,10 +76,10 @@ do
 						echo "does not exist" >> ../../../../$WRITETO
 					fi
 				done
-				
+
 			fi
-			
-			
+
+
 			cd ../..
 		done
 
