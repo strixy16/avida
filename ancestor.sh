@@ -14,6 +14,9 @@ do
 	cp -R work work$RXN
 	cd work$RXN
 
+	# Set mutation rate lower
+	sed -i -E "s/COPY_MUT_PROB [0-9]*\.[0-9]*/COPY_MUT_PROB 0.0025/" avida.cfg
+
 	# Print dominant genotype file
 	sed -i "s/# u 100:100 PrintDominantGenotype/u $POPUPDATES PrintDominantGenotype/" events.cfg 
 
