@@ -1,13 +1,14 @@
 #!/bin/bash
 
-#SBATCH -c 2
-#SBATCH --mem=3072
-#SBATCH --time=0-4:0:00
+#SBATCH -c 6
+#SBATCH --mem=8072
+#SBATCH --time=1-0:0:00
 
 source ./variables.sh
 
-#only do fully blocked instructions for this, so overwrite other list
-aCONC=(100)
+#how long this run is
+UPDATES=100000
+
 
 cd cbuild
 
@@ -27,17 +28,23 @@ do
 			touch events.cfg 
 			touch avida.cfg
 
-			sed -E "s/([0-9]+) Exit/500 Exit/" eventbackup > events.cfg #onlny run for 500 updates
+			sed -E "s/([0-9]+) Exit/$UPDATES Exit/" eventbackup > events.cfg #onlny run for 500 updates
 			sed -E "
-				s/DATA_DIR [[:alnum:]]+/DATA_DIR nomutdata/
-				s/COPY_MUT_PROB [[:alnum:]]+/COPY_MUT_PROB 0.0/
-				s/DIV_INS_PROB [[:alnum:]]+/DIV_INS_PROB 0.0/
-				s/DIV_DEL_PROB [[:alnum:]]+/DIV_DEL_PROB 0.0/" avidabackup > avida.cfg #get rid of mutation
+				s/DATA_DIR [[:alnum:]]+/DATA_DIR nomutdata1/
+				s/COPY_MUT_PROB [0-9]*\.*[0-9]*/COPY_MUT_PROB 0.0/
+				s/DIVIDE_INS_PROB [0-9]*\.*[0-9]*/DIVIDE_INS_PROB 0.0/
+				s/DIVIDE_DEL_PROB [0-9]*\.*[0-9]*/DIVIDE_DEL_PROB 0.0/" avidabackup > avida.cfg #get rid of mutation
 
-			./avida
-			wait
+			for (( i = 1; i <= 5; i++ )); do
+				./avida
+				wait
+				((NEXT=i+1))
+				sed -i -E "s/nomutdata$i/nomutdata$NEXT/" avida.cfg
+						
+			done
 
-			#return to default mutation settings
+
+			# return to default mutation settings
 			rm events.cfg
 			rm avida.cfg
 			mv eventbackup events.cfg
