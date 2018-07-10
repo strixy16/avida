@@ -5,7 +5,9 @@
 source ./variables.sh
 
 # Expected number of updates
-POPUPDATES=100000 	
+POPUPDATES=100000
+# Boolean for adequate population
+FOUND=0
 
 cd cbuild
 
@@ -13,9 +15,11 @@ for RXN in ${aRXNS[*]}
 do
 	if [[ $RXN == XOR ]] || [[ $RXN == EQU ]]
 	then
+		cd work$RXN
+		FOUND=0
 		for i in {1..5}
 		do
-			cd work$RXN/data$i
+			cd data$i
 
 			# Check if the run made it to the expected number of updates
 			if [[ ! -e "detail-${POPUPDATES}.spop" ]]
@@ -40,18 +44,21 @@ do
 				cd ..
 				continue
 			fi	
-			
+
 			# Population can be used for experiment
 			# Set up for antibiotic trial
 			cp detail-$POPUPDATES.spop detail.spop
 			cd ..
 			cp -R data$i data
+			FOUND=1
 			break
 
 		done
-		# None of the populations can be used
-		echo "No $RXN populations evolved sufficiently for experiment use."
-		exit
+		if [[ $FOUND == 0 ]]
+		then
+			# None of the populations can be used
+			echo "No $RXN populations evolved sufficiently for experiment use."
+		fi
 	else
 		# For everything but XOR and EQU
 		cd work$RXN/data1
