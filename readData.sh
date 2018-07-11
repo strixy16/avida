@@ -56,14 +56,16 @@ do
 
 			if [[ $readNoMut == true ]]; then
 				##this code will read the noMut run
-				if [ -d nomutdata ]; then
-					cd nomutdata
-					TASK=$(tail -1 tasks.dat)
-					echo "$CONC $TASK" >> ../../../../$WRITETO
-					cd ..
-				else
-					echo "does not exist" >> ../../../$WRITETO
-				fi
+				for (( i = 1; i <= 5; i++ )); do
+					if [ -d nomutdata$i ]; then
+						cd nomutdata$i
+						TASK=$(tail -1 tasks.dat)
+						echo "$CONC $TASK" >> ../../../../$WRITETO
+						cd ..
+					else
+						echo "does not exist" >> ../../../../$WRITETO
+					fi
+				done
 			else
 				#this code reads a regular run with 5 runs per run folder
 				for (( i = 1; i <= 5; i++ )); do
