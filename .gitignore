@@ -10,3 +10,4 @@ DerivedData
 cbuild/*
 slurm*
 variables.sh
+instruction.sh

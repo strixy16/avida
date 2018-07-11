@@ -4,8 +4,6 @@
 # Import aRXNS list
 source ./variables.sh
 
-# Expected number of updates
-POPUPDATES=100000
 # Boolean for adequate population
 FOUND=0
 

@@ -5,8 +5,8 @@
 #SBATCH --time=0-6:0:00
 
 #variables to adjust
+#number of updates is in variables.sh
 TIMESRUN=5             #number of times you run avida
-POPUPDATES=100000		#how many updates
 # go into correct directory
 cd cbuild/work          
 
