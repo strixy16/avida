@@ -1,3 +1,3 @@
-aRXNS=(NOT EQU)  #(NOT NAND AND ORN OR ANDN NOR XOR EQU)
+aRXNS=(NOT NAND AND ORN OR ANDN NOR XOR EQU)
 aINSTR=(NopA NopB NopC Ifnequ Ifless Pop Push Swapstk Swap Shiftr Shiftl Inc Dec Add Sub Nand IO Halloc Hdivide Hcopy Hsearch Movhead Jmphead Gethead Iflabel Setflow)
 aCONC=(20 40 60 80 100)
