@@ -5,20 +5,22 @@
 #SBATCH --mem=1024
 #SBATCH --time=0-3:0:00
 
-source variables.sh
-POPUPDATES=100000
+source ./variables.sh
 
-cd cbuild
+cd cbuild/work
+
+# Set mutation rate lower
+sed -i -E "s/COPY_MUT_PROB [0-9]*\.[0-9]*/COPY_MUT_PROB 0.0025/" avida.cfg
+
+# Print dominant genotype file
+sed -i "s/# u 100:100 PrintDominantGenotype/u $POPUPDATES PrintDominantGenotype/" events.cfg
+
+cd ..
+
 for RXN in ${aRXNS[*]}
 do
 	cp -R work work$RXN
 	cd work$RXN
-
-	# Set mutation rate lower
-	sed -i -E "s/COPY_MUT_PROB [0-9]*\.[0-9]*/COPY_MUT_PROB 0.0025/" avida.cfg
-
-	# Print dominant genotype file
-	sed -i "s/# u 100:100 PrintDominantGenotype/u $POPUPDATES PrintDominantGenotype/" events.cfg 
 
 	# NOT through ANDN settings
 	if [[ $RXN != "NOR" ]] &&  [[ $RXN != "XOR" ]] && [[ $RXN != "EQU" ]]
