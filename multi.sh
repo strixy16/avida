@@ -4,8 +4,10 @@
 #SBATCH --mem=3072
 #SBATCH --time=0-6:0:00
 
-#variables to adjust
 #number of updates is in variables.sh
+source ./variables.sh
+
+#variables to adjust
 TIMESRUN=5             #number of times you run avida
 # go into correct directory
 cd cbuild/work          

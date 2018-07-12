@@ -6,6 +6,10 @@
 
 source ./variables.sh
 
+#makes sure no problems with leftover settings
+sed -i -E "s/(instr.*=)true/\1false/" changeConcentration #all instructions off
+sed -i -E "s/(rxn.*=)false/\1true/" changeConcentration  #all reactions on
+
 for INSTR in ${aINSTR[*]}
 do
 	sed -i -E "s/\[\"${INSTR}\"\]=false/\[\"${INSTR}\"\]=true/" changeConcentration.sh  #choose which instruction

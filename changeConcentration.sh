@@ -45,6 +45,12 @@ rxn["NOR"]=true
 rxn["XOR"]=true
 rxn["EQU"]=true
 
+#checks that there isn't anything called work
+if [[ $(find cbuild/ -name work) ]]; then
+	echo "Can't run, there is a folder called 'work' in cbuild"
+	exit
+fi
+
 
 #if one of the nop instructions is turned on, which one
 if [[ ${instr["NopA"]} = true ]]; then
@@ -81,6 +87,11 @@ cd ../../.. #get back into avida
 # change the name of work folder to be desciptive
 #naming only work well with one instruction antibiotic turned on
 cd cbuild
+if [ -d work$NAME$CONCENTRATION ]; then
+	echo "Renamed old version of this folder to oldwork$NAME$CONCENTRATION"
+	mv work$NAME$CONCENTRATION oldwork$NAME$CONCENTRATION
+fi
+
 mv work work$NAME$CONCENTRATION
 
 cd work$NAME$CONCENTRATION
