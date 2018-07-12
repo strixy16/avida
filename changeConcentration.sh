@@ -84,21 +84,21 @@ if [ -d cbuild ]; then
 	#if overlapping folder, create a folder called old<num> so can have multiple old folders in cbuild
 	if [ -d work ] || [ -d work$NAME$CONCENTRATION ]; then
 		NUM=1
-		while [ -d old$NUM ]; do
+		while [ -d oldwork$NAME$CONCENTRATION$NUM ]; do
 			((NUM=NUM+1))
 		done
-		mkdir old$NUM
+		mkdir oldwork$NAME$CONCENTRATION$NUM
 	fi
 	
 	#makes sure there isn't anything called work in cbuild
 	if [ -d work ]; then
 		echo "Folder called 'work', getting moved into old$NUM"
-		mv work old$NUM
+		mv work oldwork$NAME$CONCENTRATION$NUM
 	fi
 	#makes sure there isn't any same named work files in cbuild
 	if [ -d work$NAME$CONCENTRATION ]; then
 		echo "Folder called 'work$NAMECONCENTRATION', getting moved into old$NUM"
-		mv work$NAME$CONCENTRATION old$NUM
+		mv work$NAME$CONCENTRATION oldwork$NAME$CONCENTRATION$NUM
 	fi
 	
 	cd ..	
