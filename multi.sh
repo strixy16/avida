@@ -8,7 +8,7 @@
 source ./variables.sh
 
 # go into correct directory
-cd cbuild/workXOR          
+cd cbuild/work         
 
 
 #change updates in event file
