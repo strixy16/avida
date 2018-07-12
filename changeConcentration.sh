@@ -45,12 +45,6 @@ rxn["NOR"]=true
 rxn["XOR"]=true
 rxn["EQU"]=true
 
-#checks that there isn't anything called work
-if [[ $(find cbuild/ -name work) ]]; then
-	echo "Can't run, there is a folder called 'work' in cbuild"
-	exit
-fi
-
 
 #if one of the nop instructions is turned on, which one
 if [[ ${instr["NopA"]} = true ]]; then
@@ -82,18 +76,41 @@ do
 done
 
 cd ../../.. #get back into avida
+
+#if cbuild already built, checks if work folders that aren't allowed are there
+if [ -d cbuild ]; then
+	cd cbuild
+	
+	#if overlapping folder, create a folder called old<num> so can have multiple old folders in cbuild
+	if [ -d work ] || [ -d work$NAME$CONCENTRATION ]; then
+		NUM=1
+		while [ -d old$NUM ]; do
+			((NUM=NUM+1))
+		done
+		mkdir old$NUM
+	fi
+	
+	#makes sure there isn't anything called work in cbuild
+	if [ -d work ]; then
+		echo "Folder called 'work', getting moved into old$NUM"
+		mv work old$NUM
+	fi
+	#makes sure there isn't any same named work files in cbuild
+	if [ -d work$NAME$CONCENTRATION ]; then
+		echo "Folder called 'work$NAMECONCENTRATION', getting moved into old$NUM"
+		mv work$NAME$CONCENTRATION
+	fi
+	
+	cd ..	
+fi
+
+
 ./build_avida #compiles new concentration
 
 # change the name of work folder to be desciptive
 #naming only work well with one instruction antibiotic turned on
 cd cbuild
-if [ -d work$NAME$CONCENTRATION ]; then
-	echo "Renamed old version of this folder to oldwork$NAME$CONCENTRATION"
-	mv work$NAME$CONCENTRATION oldwork$NAME$CONCENTRATION
-fi
-
 mv work work$NAME$CONCENTRATION
-
 cd work$NAME$CONCENTRATION
 
 #file so can keep track of concentrations and what instruction in case change name of work folder
