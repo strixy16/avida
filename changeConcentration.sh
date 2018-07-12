@@ -1,6 +1,6 @@
 #more than one antibiotic on at once will probably have exact same random pattern
 #assuming only one on at a time, may be bugs if try to combine (particularly if combine with nop)
-CONCENTRATION=0  #default concentration is 0, aka work like normal, can just change number here
+CONCENTRATION=40  #default concentration is 0, aka work like normal, can just change number here
 
 declare -A instr
 declare -A rxn
@@ -31,7 +31,7 @@ instr["Nand"]=false
 instr["Hcopy"]=false 
 instr["Halloc"]=false #added a return true
 instr["Hdivide"]=false #as in divide avidian, not content of registers #added a return true
-instr["IO"]=false 
+instr["IO"]=true 
 instr["Hsearch"]=false
 
 #list of reactions in environment defauult is to have on
@@ -80,25 +80,25 @@ cd ../../.. #get back into avida
 #if cbuild already built, checks if work folders that aren't allowed are there
 if [ -d cbuild ]; then
 	cd cbuild
-	
-	#if overlapping folder, create a folder called old<num> so can have multiple old folders in cbuild
-	if [ -d work ] || [ -d work$NAME$CONCENTRATION ]; then
+
+	#checks for folders that we are creating don't already exist, and renaming if they do	
+	if [ -d work$NAME$CONCENTRATION ]; then
 		NUM=1
 		while [ -d oldwork$NAME$CONCENTRATION$NUM ]; do
 			((NUM=NUM+1))
 		done
-		mkdir oldwork$NAME$CONCENTRATION$NUM
-	fi
-	
-	#makes sure there isn't anything called work in cbuild
-	if [ -d work ]; then
-		echo "Folder called 'work', getting moved into old$NUM"
-		mv work oldwork$NAME$CONCENTRATION$NUM
-	fi
-	#makes sure there isn't any same named work files in cbuild
-	if [ -d work$NAME$CONCENTRATION ]; then
-		echo "Folder called 'work$NAMECONCENTRATION', getting moved into old$NUM"
+		echo "Folder called 'work$NAME$CONCENTRATION' getting renamed 'oldwork$NAME$CONCENTRATION$NUM'"
 		mv work$NAME$CONCENTRATION oldwork$NAME$CONCENTRATION$NUM
+	fi
+
+	#renames folder called work as that is default created by build_avida
+	if [ -d work ]; then
+		NUM=1
+		while [ -d oldwork ]; do
+			((NUM=NUM+1))
+		done
+		echo "Folder called 'work' getting renamed 'oldwork$NUM'"
+		mv work oldwork$NUM
 	fi
 	
 	cd ..	
