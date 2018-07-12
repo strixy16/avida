@@ -22,7 +22,7 @@ sed -E "
 	s/DIVIDE_INS_PROB [0-9]*\.*[0-9]*/DIVIDE_INS_PROB 0.0/
 	s/DIVIDE_DEL_PROB [0-9]*\.*[0-9]*/DIVIDE_DEL_PROB 0.0/" avidabackup > avida.cfg #get rid of mutation
 
-for (( i = 1; i <= $RUN; i++ )); do
+for (( i = 1; i <= $RUNS; i++ )); do
 	./avida
 	wait
 	((NEXT=i+1))
