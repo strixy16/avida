@@ -26,7 +26,11 @@ for INSTR in ${aINSTR[*]}
 do
 	for CONC in ${aCONC[*]}
 	do
-		cd work$INSTR$CONC   #go into the specific work folder
+		cd work$INSTR$CONC   #go into the specific work folder	
+		
+		sed -i -E "s/BIRTH_METHOD [0-9]+/BIRTH_METHOD 4/" avida.cfg # Make population well mixed
+		sed -i -E "s/REQUIRED_REACTION -*[0-9]+/REQUIRED_REACTION 0/" avida.cfg	#change the required reaction
+		
 		mkdir run 
 		mv * run/    #move all the files into run
 		
@@ -35,9 +39,6 @@ do
 			cp -R run run$RXN		#make folder for specific task
 			cd run$RXN
 			
-			sed -i -E "s/BIRTH_METHOD [0-9]+/BIRTH_METHOD 4/" avida.cfg # Make population well mixed
-
-			sed -i -E "s/REQUIRED_REACTION -*[0-9]+/REQUIRED_REACTION 0/" avida.cfg	#change the required reaction	
 			# Change events to load population from ancestors
 			sed -i "/u begin/c\u begin LoadPopulation ..\/..\/work$RXN\/data\/detail.spop" events.cfg
 			
