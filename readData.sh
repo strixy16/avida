@@ -8,8 +8,6 @@
 source ./variables.sh
 
 if [[ $noMut == true ]]; then
-	aCONC=(100)
-
 	#makes sure doens't write to bottom of taskDataNoMut
 	if [ -f taskDataNoMut ]; then
 		echo "taskDataNoMut already exists"
