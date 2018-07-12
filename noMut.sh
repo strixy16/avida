@@ -7,7 +7,7 @@
 source ./variables.sh
 
 #choose which run folder in which work folder this runs in
-cd cbuild/workXOR #/run
+cd cbuild/work/run
 
 #make backups so don't change stuff for this run
 mv events.cfg eventbackup
