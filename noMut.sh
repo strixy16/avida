@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#SBATCH -c 6
-#SBATCH --mem=8072
-#SBATCH --time=1-0:0:00
+#SBATCH -c 3
+#SBATCH --mem=3072
+#SBATCH --time=0-8:0:00
 
 source ./variables.sh
 
