@@ -98,7 +98,7 @@ if [ -d cbuild ]; then
 	#makes sure there isn't any same named work files in cbuild
 	if [ -d work$NAME$CONCENTRATION ]; then
 		echo "Folder called 'work$NAMECONCENTRATION', getting moved into old$NUM"
-		mv work$NAME$CONCENTRATION
+		mv work$NAME$CONCENTRATION old$NUM
 	fi
 	
 	cd ..	
