@@ -7,7 +7,7 @@
 source ./variables.sh
 
 #choose which run folder in which work folder this runs in
-cd cbuild/work/run
+cd cbuild/workXOR #/run
 
 #make backups so don't change stuff for this run
 mv events.cfg eventbackup
@@ -22,6 +22,29 @@ sed -E "
 	s/DIVIDE_INS_PROB [0-9]*\.*[0-9]*/DIVIDE_INS_PROB 0.0/
 	s/DIVIDE_DEL_PROB [0-9]*\.*[0-9]*/DIVIDE_DEL_PROB 0.0/" avidabackup > avida.cfg #get rid of mutation
 
+#looks at data files to see if some already exist and need to be moved
+LIST=$(find . -maxdepth 1 -type d -name "nomutdata*")
+for dataFile in $LIST; do
+    if [[ $dataFile == ./nomutdata[1-$RUNS] ]]; then
+        #makes new old folder and only one per run of multi
+        NUM=1
+        while [[ -d oldnomut$NUM ]]; do
+            ((NUM=NUM+1))
+        done
+        mkdir oldnomut$NUM
+        break
+    fi
+done
+
+#moves data files into old
+for (( i = 0; i <= $RUNS; i++ )); do
+    if [ -d nomutdata$i ]; then
+        echo "data$i already exists, moving to old$NUM"
+        mv nomutdata$i oldnomut$NUM
+    fi
+done
+
+#running avida
 for (( i = 1; i <= $RUNS; i++ )); do
 	./avida
 	wait
