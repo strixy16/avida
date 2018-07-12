@@ -19,7 +19,7 @@ sed -i -E "s/DATA_DIR [[:alnum:]]*/DATA_DIR data1/" avida.cfg
 
 CURR=1                  #version of data file you start with
 
-while ((CURR<=RUN))
+while ((CURR<=RUNS))
 do
 	((NEXT = CURR + 1)) # index of next data file
 	./avida > "logfile$CURR" &           # run avida in the background
