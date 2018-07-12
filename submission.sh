@@ -12,9 +12,17 @@ do
 	do
 		for RXN in ${aRXNS[@]}
 		do
-			sed -i -E "s|work|work$INSTR$CONC/run$RXN|" multi.sh
-			sbatch ./multi.sh
-			sed -i "${LINENUM}s|work$INSTR$CONC/run$RXN|work|" multi.sh
+			#runs noMut script if mutation run, multi if regular
+			if [[ $noMut == true ]]; then
+				sed -i -E "s|cbuild/[[:alnum:]]*/*[[:alnum:]]*|cbuild/work$INSTR$CONC/run$RXN|" noMut.sh
+				sbatch noMut.sh
+				sed -i -E "s|cbuild/work$INSTR$CONC/run$RXN|cbuild/work/run|" noMut.sh
+			else
+				sed -i -E "s|work|work$INSTR$CONC/run$RXN|" multi.sh
+				sbatch multi.sh
+				sed -i "s|work$INSTR$CONC/run$RXN|work|" multi.sh
+			fi
+
 		done
 	done
 done

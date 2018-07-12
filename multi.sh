@@ -7,8 +7,6 @@
 #number of updates is in variables.sh
 source ./variables.sh
 
-#variables to adjust
-TIMESRUN=5             #number of times you run avida
 # go into correct directory
 cd cbuild/work          
 
@@ -17,11 +15,11 @@ cd cbuild/work
 sed -i -E "s/[0-9]+ Exit/$POPUPDATES Exit/" events.cfg
 
 #set up data to run multiple times
-sed -i -E "s/DATA_DIR [[:alnum:]]+/DATA_DIR data1/" avida.cfg
+sed -i -E "s/DATA_DIR [[:alnum:]]*/DATA_DIR data1/" avida.cfg
 
 CURR=1                  #version of data file you start with
 
-while ((CURR<=TIMESRUN))
+while ((CURR<=RUN))
 do
 	((NEXT = CURR + 1)) # index of next data file
 	./avida > "logfile$CURR" &           # run avida in the background
