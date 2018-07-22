@@ -18,9 +18,9 @@ do
 				sbatch noMut.sh
 				sed -i -E "s|cbuild/work$INSTR$CONC/run$RXN|cbuild/work/run|" noMut.sh
 			else
-				sed -i -E "s|work|work$INSTR$CONC/run$RXN|" multi.sh
+				sed -i -E "s|cbuild/[[:alnum:]]*/*[[:alnum:]]*|cbuild/work$INSTR$CONC/run$RXN|" multi.sh
 				sbatch multi.sh
-				sed -i "s|work$INSTR$CONC/run$RXN|work|" multi.sh
+				sed -i "s|cbuild/work$INSTR$CONC/run$RXN|cbuild/work|" multi.sh
 			fi
 
 		done
