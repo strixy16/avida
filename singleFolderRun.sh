@@ -2,17 +2,20 @@
 
 #SBATCH -c 3
 #SBATCH --mem=5072
-#SBATCH --time=0-8:0:00
+#SBATCH --time=0-10:0:00
+
+source ./variables.sh
 
 LIST=("$@")
 
 # go into correct directory
-cd cbuild/work #gets chnaged by script running the file to make sure correct
+cd cbuild/work/run #gets chnaged by script running the file to make sure correct
+
 
 #make sure run for correct number of updates without losing what was there before
 mv events.cfg eventbackup
 touch events.cfg 
-sed -E "s/([0-9]+) Exit/$POPUPDATES Exit/" eventbackup > events.cfg 
+sed -E "s/([0-9]+) Exit/$POPUPDATES Exit/" eventbackup > events.cfg #onlny run for 500 updates
     
 if [[ $noMut == true ]]; then
     mv avida.cfg avidabackup
@@ -27,9 +30,9 @@ fi
 
 for i in ${LIST[@]}; do
     #print to the right place
-    sed -i "s/DATA_DIR [[:alnum:]]*/$i/" avida.cfg
+    sed -i "s/DATA_DIR [[:alnum:]]*/DATA_DIR $i/" avida.cfg
     ./avida
-    sleep 2    
+    sleep 2
 done
 
 if [[ $noMut == true ]]; then
@@ -43,4 +46,6 @@ rm events.cfg
 mv eventbackup events.cfg
 
 #return data folder it prints out to to default
-sed "s/DATA_DIR [[:alnum:]]*/data/" avida.cfg
+sed -i "s/DATA_DIR [[:alnum:]]*/DATA_DIR data/" avida.cfg
+
+wait
