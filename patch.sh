@@ -9,6 +9,7 @@ source ./variables.sh
 #create empty list for each incomplete run
 RERUN=()
 
+cd cbuild
 
 #loop to create arrays with the incomplete data folders in it, each array a different reaction
 for INSTR in ${aINSTR[@]} 
@@ -24,34 +25,52 @@ do
             if [[ $noMut == true ]]; then
                 ##this code will read the noMut run
                 for (( i = 1; i <= $RUNS; i++ )); do
-                    cd nomutdata$i
-                    lastLine=$(tail -1 tasks.dat)
-                    UPDATE=$(cut -d " " -f1 <<< $lastLine)
-                    NUMORG=$(cut -d " " -f2 <<< $lastLine)
+                    #check if data folder exists
+                    if [[ -d nomutdata$i ]]; then
+                        cd nomutdata$i
+                        #check if taskdata exists
+                        if [[ -f tasks.dat ]]; then
+                            lastLine=$(tail -1 tasks.dat)
+                            UPDATE=$(cut -d " " -f1 <<< $lastLine)
+                            NUMORG=$(cut -d " " -f2 <<< $lastLine)
 
-                    if [[ $NUMORG -eq 3600 ]]; then #this assumes population of 3600, will need to change if not true
-                        if [[ $UPDATE -ne $POPUPDATES ]]; then
-                            #need a patch, run got cut off early rather than dying out
-                            RERUN+=("$RXN $INSTR$CONC nomutdata$i") #add info to target incomplete run to array
+                            if [[ $NUMORG -eq 3600 ]]; then #this assumes population of 3600, will need to change if not true
+                                if [[ $UPDATE -ne $POPUPDATES ]]; then
+                                    #need a patch, run got cut off early rather than dying out
+                                    RERUN+=("$RXN+$INSTR$CONC+nomutdata$i") #add info to target incomplete run to array
+                                fi
+                            fi
+                        else 
+                            #if tasks.dat doesn't exist, it needs to be run
+                            RERUN+=("$RXN+$INSTR$CONC+nomutdata$i") #add info to target incomplete run to array
                         fi
-                    fi
 
-                    cd ..
+                        cd ..
+                    else
+                        #if data folder doesn't exist, it needs to be run
+                       RERUN+=("$RXN+$INSTR$CONC+nomutdata$i") 
+                    fi
                 done
             else
                 ##this code will read the regular run
                 for (( i = 1; i <= $RUNS; i++ )); do
                     cd data$i
-                    lastLine=$(tail -1 tasks.dat)
-                    UPDATE=$(cut -d " " -f1 <<< $lastLine)
-                    NUMORG=$(cut -d " " -f2 <<< $lastLine)
+                    if [[ -f tasks.dat ]]; then
+                        lastLine=$(tail -1 tasks.dat)
+                        UPDATE=$(cut -d " " -f1 <<< $lastLine)
+                        NUMORG=$(cut -d " " -f2 <<< $lastLine)
 
-                    if [[ $NUMORG -eq 3600 ]]; then #this assumes population of 3600, will need to change if not true
-                        if [[ $UPDATE -ne $POPUPDATES ]]; then
-                            #need a patch, run got cut off early rather than dying out
-                            RERUN+=("$RXN $INSTR$CONC data$i") #add info to target incomplete run to array
+                        if [[ $NUMORG -eq 3600 ]]; then #this assumes population of 3600, will need to change if not true
+                            if [[ $UPDATE -ne $POPUPDATES ]]; then
+                                #need a patch, run got cut off early rather than dying out
+                                RERUN+=("$RXN+$INSTR$CONC+data$i") #add info to target incomplete run to array
+                            fi
                         fi
+                    else
+                        #if tasks.dat doesn't exist, it needs to be run
+                        RERUN+=("$RXN+$INSTR$CONC+nomutdata$i") #add info to target incomplete run to array
                     fi
+  
 
                     cd ..  
                 done
@@ -62,38 +81,33 @@ do
     done
 done
 
+TEMPLIST=()
+#copy of the first so it passes the test
+OLDRUN=$(cut -d "+" -f1 <<< $RERUN)
+OLDWORK=$(cut -d "+" -f2 <<< $RERUN)
 
-#submits single multi.sh runs to replace incomplete runs
+# submits single multi.sh runs to replace incomplete runs
 for i in ${RERUN[@]}; do
-    RUNFOLDER=$(cut -d " " -f1 <<< $i)
-    WORKFOLDER=$(cut -d " " -f2 <<< $i)
-    DATA==$(cut -d " " -f3 <<< $i)
+    RUNFOLDER=$(cut -d "+" -f1 <<< $i)
+    WORKFOLDER=$(cut -d "+" -f2 <<< $i)
+    DATA=$(cut -d "+" -f3 <<< $i)
 
-    cd work$FOLDER/run$RXN
-    rm -R $DATA
-
-    #multi will create data1 so move conflict out of the way
-    if [[ -f data1 ]]; then
-        mv data1 temporarydatafolder
+    #testing if they are in the same directory
+    if [[ $OLDRUN == $RUNFOLDER ]] && [[ $OLDWORK == $WORKFOLDER ]]; then
+        TEMPLIST+=($i)
+        echo $TEMPLIST
     fi
+    # cd work$WORKFOLDER/run$RUNFOLDER
 
-    cd ../..
+    # #delete incomplete version if it exists
+    # if [[ -d $DATA ]]; then
+    #     rm -R $DATA
+    # fi
 
-    #goes into the right folder
-    sed -i -E "s|cbuild/[[:alnum:]]*/*[[:alnum:]]*|cbuild/work$FOLDER/run$RXN|" multi.sh 
-    #only runs once
-    sed -i "/source \.\/variables/a RUNS=1" multi.sh
-    sbatch multi.sh
-    #back to neutral
-    sed -i "s|cbuild/work$FOLDER/run$RXN|cbuild/work|" multi.sh
-    #will run according to variables.sh
-    sed -i "/RUNS=1/d" multi.sh
 
-    cd work$FOLDER/run$RXN
-    #puts the naming back to normal
-    mv data1 $DATA
-    if [[ -f temporarydatafolder ]]; then
-        mv temporarydatafolder data1
-    fi
+
+    # cd ../../..
+
+
 
 done
