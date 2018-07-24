@@ -4,24 +4,43 @@
 #SBATCH --mem=5072
 #SBATCH --time=0-8:0:00
 
-echo $1
+LIST=("$@")
 
 # go into correct directory
-# cd cbuild/work 
+cd cbuild/work #gets chnaged by script running the file to make sure correct
 
-# if [[ $noMut == true ]]; then
-# 	mv events.cfg eventbackup
-# 	mv avida.cfg avidabackup
-# 	touch events.cfg 
-# 	touch avida.cfg
+#make sure run for correct number of updates without losing what was there before
+mv events.cfg eventbackup
+touch events.cfg 
+sed -E "s/([0-9]+) Exit/$POPUPDATES Exit/" eventbackup > events.cfg 
+    
+if [[ $noMut == true ]]; then
+    mv avida.cfg avidabackup
+    touch avida.cfg
 
-# 	#make sure run for correct number of updates
-# 	sed -E "s/([0-9]+) Exit/$POPUPDATES Exit/" eventbackup > events.cfg #onlny run for 500 updates
-# 	#get rid of mutations
-# 	sed -E "
-# 		s/COPY_MUT_PROB [0-9]*\.*[0-9]*/COPY_MUT_PROB 0.0/
-# 		s/DIVIDE_INS_PROB [0-9]*\.*[0-9]*/DIVIDE_INS_PROB 0.0/
-# 		s/DIVIDE_DEL_PROB [0-9]*\.*[0-9]*/DIVIDE_DEL_PROB 0.0/" avidabackup > avida.cfg #get rid of mutation
+	#get rid of mutations
+	sed -E "
+		s/COPY_MUT_PROB [0-9]*\.*[0-9]*/COPY_MUT_PROB 0.0/
+		s/DIVIDE_INS_PROB [0-9]*\.*[0-9]*/DIVIDE_INS_PROB 0.0/
+		s/DIVIDE_DEL_PROB [0-9]*\.*[0-9]*/DIVIDE_DEL_PROB 0.0/" avidabackup > avida.cfg #get rid of mutation
+fi
 
+for i in ${LIST[@]}; do
+    #print to the right place
+    sed -i "s/DATA_DIR [[:alnum:]]*/$i/" avida.cfg
+    ./avida
+    sleep 2    
+done
 
-# fi
+if [[ $noMut == true ]]; then
+    #return avida to previous setup
+    rm avida.cfg
+    mv avidabackup avida.cfg
+fi
+
+#return events to previous setup
+rm events.cfg
+mv eventbackup events.cfg
+
+#return data folder it prints out to to default
+sed "s/DATA_DIR [[:alnum:]]*/data/" avida.cfg
