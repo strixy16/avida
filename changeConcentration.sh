@@ -1,6 +1,6 @@
 #more than one antibiotic on at once will probably have exact same random pattern
 #assuming only one on at a time, may be bugs if try to combine (particularly if combine with nop)
-CONCENTRATION=40  #default concentration is 0, aka work like normal, can just change number here
+CONCENTRATION=0  #default concentration is 0, aka work like normal, can just change number here
 
 declare -A instr
 declare -A rxn
@@ -31,7 +31,7 @@ instr["Nand"]=false
 instr["Hcopy"]=false 
 instr["Halloc"]=false #added a return true
 instr["Hdivide"]=false #as in divide avidian, not content of registers #added a return true
-instr["IO"]=true 
+instr["IO"]=false 
 instr["Hsearch"]=false
 
 #list of reactions in environment defauult is to have on
