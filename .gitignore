@@ -7,8 +7,7 @@ install_manifest.txt
 .DS_Store
 wbuild
 DerivedData
-
+cbuild
 slurm*
 variables.sh
-oldcbuild
-var.sh
+
