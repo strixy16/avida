@@ -48,7 +48,7 @@ do
 			
 			# Disable all but the tested reaction in environment file 
 			sed -i "s/REACTION/#REACTION/" environment.cfg
-			sed -i -E "s/#REACTION\s+$RXN/REACTION  $RXN/" environment.cfg
+			sed -i -E "s/#REACTION\s+$RXN /REACTION  $RXN/" environment.cfg
 			cd ..
 		done 
 		rm -R run/
