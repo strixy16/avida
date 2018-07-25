@@ -4,14 +4,10 @@
 #SBATCH --mem=3072
 #SBATCH --time=0-1:0:00
 
-readNoMut=false
-
 
 source ./variables.sh
 
-if [[ $readNoMut == true ]]; then
-	aCONC=(100)
-
+if [[ $noMut == true ]]; then
 	#makes sure doens't write to bottom of taskDataNoMut
 	if [ -f taskDataNoMut ]; then
 		echo "taskDataNoMut already exists"
@@ -54,32 +50,34 @@ do
 		do
 			cd work$INSTR$CONC/run$RXN
 
-			if [[ $readNoMut == true ]]; then
+			if [[ $noMut == true ]]; then
 				##this code will read the noMut run
-				if [ -d nomutdata ]; then
-					cd nomutdata
-					TASK=$(tail -1 tasks.dat)
-					echo "$CONC $TASK" >> ../../../../$WRITETO
-					cd ..
-				else
-					echo "does not exist" >> ../../../$WRITETO
-				fi
+				for (( i = 1; i <= $RUNS; i++ )); do
+					if [ -d nomutdata$i ]; then
+						cd nomutdata$i
+						TASK=$(tail -1 tasks.dat)
+						echo "$CONC $TASK" >> ../../../../$WRITETO
+						cd ..
+					else
+						echo "does not exist" >> ../../../$WRITETO
+					fi
+				done
 			else
 				#this code reads a regular run with 5 runs per run folder
-				for (( i = 1; i <= 5; i++ )); do
+				for (( i = 1; i <= $RUNS; i++ )); do
 					if [ -d data$i ]; then
 						cd data$i
 						TASK=$(tail -1 tasks.dat)
 						echo "$CONC $TASK" >> ../../../../$WRITETO
 						cd ..
 					else
-						echo "does not exist" >> ../../../../$WRITETO
+						echo "does not exist" >> ../../../$WRITETO
 					fi
 				done
-				
+
 			fi
-			
-			
+
+
 			cd ../..
 		done
 

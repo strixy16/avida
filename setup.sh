@@ -6,11 +6,13 @@
 
 source ./variables.sh
 
-# Find line number to change concentration value
-CONCLINE=$(grep -n -m 1 "CONCENTRATION" changeConcentration.sh | cut -f1 -d:) 
+#makes sure no problems with leftover settings
+sed -i -E "s/(instr.*=)true/\1false/" changeConcentration #all instructions off
+sed -i -E "s/(rxn.*=)false/\1true/" changeConcentration  #all reactions on
+
 for INSTR in ${aINSTR[*]}
 do
-	sed -i -E "s|\[\"${INSTR}\"\]=false|\[\"${INSTR}\"\]=true|" changeConcentration.sh  #choose which instruction
+	sed -i -E "s/\[\"${INSTR}\"\]=false/\[\"${INSTR}\"\]=true/" changeConcentration.sh  #choose which instruction
 
 	for CONC in ${aCONC[*]}
 	do
@@ -19,7 +21,7 @@ do
 		sed -i "s/CONCENTRATION=$CONC/CONCENTRATION=0/" changeConcentration.sh 	#reset concentration
 	done
 
-	sed -i -E "s|\[\"${INSTR}\"\]=true|\[\"${INSTR}\"\]=false|" changeConcentration.sh  #turn off instruction
+	sed -i -E "s/\[\"${INSTR}\"\]=true/\[\"${INSTR}\"\]=false/" changeConcentration.sh  #turn off instruction
 done
 
 
@@ -28,21 +30,22 @@ for INSTR in ${aINSTR[*]}
 do
 	for CONC in ${aCONC[*]}
 	do
-		cd work$INSTR$CONC   #go into the specific work folder
+		cd work$INSTR$CONC   #go into the specific work folder	
+		
+		sed -i -E "s/BIRTH_METHOD [0-9]+/BIRTH_METHOD 4/" avida.cfg # Make population well mixed
+		sed -i -E "s/REQUIRED_REACTION -*[0-9]+/REQUIRED_REACTION 0/" avida.cfg	#change the required reaction
+		
 		mkdir run 
 		mv * run/    #move all the files into run
-
+		
 		for RXN in ${aRXNS[*]}
 		do
 			cp -R run run$RXN		#make folder for specific task
 			cd run$RXN
-
-			sed -i -E "s/BIRTH_METHOD [0-9]+/BIRTH_METHOD 4/" avida.cfg # Make population well mixed
-
-			sed -i -E "s/REQUIRED_REACTION -*[0-9]+/REQUIRED_REACTION 0/" avida.cfg	#change the required reaction	
+			
 			# Change events to load population from ancestors
 			sed -i "/u begin/c\u begin LoadPopulation ..\/..\/work$RXN\/data\/detail.spop" events.cfg
-
+			
 			# Disable all but the tested reaction in environment file 
 			sed -i "s/REACTION/#REACTION/" environment.cfg
 			sed -i -E "s/#REACTION\s+$RXN/REACTION  $RXN/" environment.cfg

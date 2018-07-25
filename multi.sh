@@ -4,22 +4,44 @@
 #SBATCH --mem=3072
 #SBATCH --time=0-6:0:00
 
-#variables to adjust
-TIMESRUN=5             #number of times you run avida
-POPUPDATES=100000		#how many updates
+#number of updates is in variables.sh
+source ./variables.sh
+
 # go into correct directory
-cd cbuild/work          
+cd cbuild/work         
 
 
 #change updates in event file
 sed -i -E "s/[0-9]+ Exit/$POPUPDATES Exit/" events.cfg
 
 #set up data to run multiple times
-sed -i -E "s/DATA_DIR [[:alnum:]]+/DATA_DIR data1/" avida.cfg
+sed -i -E "s/DATA_DIR [[:alnum:]]*/DATA_DIR data1/" avida.cfg
+
+#looks at data files to see if some already exist and need to be moved
+LIST=$(find . -maxdepth 1 -type d -name "data*")
+for dataFile in $LIST; do
+    if [[ $dataFile == ./data[1-$RUNS] ]]; then
+        #makes new old folder and only one per run of multi
+        NUM=1
+        while [[ -d old$NUM ]]; do
+            ((NUM=NUM+1))
+        done
+        mkdir old$NUM
+        break
+    fi
+done
+
+#moves data files into old
+for (( i = 0; i <= $RUNS; i++ )); do
+    if [ -d data$i ]; then
+        echo "data$i already exists, moving to old$NUM"
+        mv data$i old$NUM
+    fi
+done
+
 
 CURR=1                  #version of data file you start with
-
-while ((CURR<=TIMESRUN))
+while ((CURR<=RUNS))
 do
 	((NEXT = CURR + 1)) # index of next data file
 	./avida > "logfile$CURR" &           # run avida in the background
