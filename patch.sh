@@ -54,25 +54,29 @@ do
             else
                 ##this code will read the regular run
                 for (( i = 1; i <= $RUNS; i++ )); do
-                    cd data$i
+                    if [[ -d data$i ]]; then
+                        cd data$i
                     if [[ -f tasks.dat ]]; then
-                        lastLine=$(tail -1 tasks.dat)
-                        UPDATE=$(cut -d " " -f1 <<< $lastLine)
-                        NUMORG=$(cut -d " " -f2 <<< $lastLine)
+                            lastLine=$(tail -1 tasks.dat)
+                            UPDATE=$(cut -d " " -f1 <<< $lastLine)
+                            NUMORG=$(cut -d " " -f2 <<< $lastLine)
 
-                        if [[ $NUMORG -eq 3600 ]]; then #this assumes population of 3600, will need to change if not true
-                            if [[ $UPDATE -ne $POPUPDATES ]]; then
-                                #need a patch, run got cut off early rather than dying out
-                                RERUN+=("$RXN+$INSTR$CONC+data$i") #add info to target incomplete run to array
+                            if [[ $NUMORG -eq 3600 ]]; then #this assumes population of 3600, will need to change if not true
+                                if [[ $UPDATE -ne $POPUPDATES ]]; then
+                                    #need a patch, run got cut off early rather than dying out
+                                    RERUN+=("$RXN+$INSTR$CONC+data$i") #add info to target incomplete run to array
+                                fi
                             fi
+                        else
+                            #if tasks.dat doesn't exist, it needs to be run
+                            RERUN+=("$RXN+$INSTR$CONC+data$i") #add info to target incomplete run to array
                         fi
-                    else
-                        #if tasks.dat doesn't exist, it needs to be run
-                        RERUN+=("$RXN+$INSTR$CONC+nomutdata$i") #add info to target incomplete run to array
-                    fi
   
-
-                    cd ..  
+                        cd .. 
+                    else
+                        #if data folder doesn't exist, it needs to be run
+                       RERUN+=("$RXN+$INSTR$CONC+data$i")
+                    fi     
                 done
             fi
             cd ..
@@ -82,7 +86,6 @@ do
 done
 
 cd ..
-
 
 TEMPLIST=()
 #copy of the first so it passes the test
@@ -111,7 +114,10 @@ for i in ${RERUN[@]}; do
         #script goes to correct folder
         sed -i -E "s|cbuild/[[:alnum:]]*/*[[:alnum:]]*|cbuild/work$OLDWORK/run$OLDRUN|" singleFolderRun.sh
         
-        sbatch singleFolderRun.sh ${TEMPLIST[@]}
+        #only run if not empty
+        if [[ ${#TEMPLIST[@]} -ne 0 ]]; then
+            sbatch singleFolderRun.sh ${TEMPLIST[@]}
+        fi
 
         #return to default
         sed -i "s|cbuild/work$OLDWORK/run$OLDRUN|cbuild/work/run|" singleFolderRun.sh
@@ -127,7 +133,9 @@ done
 #go to right folder
 sed -i -E "s|cbuild/[[:alnum:]]*/*[[:alnum:]]*|cbuild/work$OLDWORK/run$OLDRUN|" singleFolderRun.sh
 
-sbatch singleFolderRun.sh ${TEMPLIST[@]}
+if [[ ${#TEMPLIST[@]} -ne 0 ]]; then
+    sbatch singleFolderRun.sh ${TEMPLIST[@]}
+fi
 
 #return to default
 sed -i "s|cbuild/work$OLDWORK/run$OLDRUN|cbuild/work/run|" singleFolderRun.sh

@@ -15,7 +15,7 @@ mv avida.cfg avidabackup
 touch events.cfg 
 touch avida.cfg
 
-sed -E "s/([0-9]+) Exit/$POPUPDATES Exit/" eventbackup > events.cfg #onlny run for 500 updates
+sed -E "s/([0-9]+) Exit/$POPUPDATES Exit/" eventbackup > events.cfg #has correct number of updates
 sed -E "
 	s/DATA_DIR [[:alnum:]]+/DATA_DIR nomutdata1/
 	s/COPY_MUT_PROB [0-9]*\.*[0-9]*/COPY_MUT_PROB 0.0/
