@@ -9,3 +9,4 @@ wbuild
 DerivedData
 cbuild/*
 slurm*
+variables.sh
