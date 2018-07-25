@@ -36,7 +36,7 @@ do
 		sed -i -E "s/REQUIRED_REACTION -*[0-9]+/REQUIRED_REACTION 0/" avida.cfg	#change the required reaction
 		
 		mkdir run 
-		mv * run/    #move all the files into run
+		mv $(ls | grep -v run) run/    #move all the files into run without moving run into run
 		
 		for RXN in ${aRXNS[*]}
 		do
@@ -48,7 +48,7 @@ do
 			
 			# Disable all but the tested reaction in environment file 
 			sed -i "s/REACTION/#REACTION/" environment.cfg
-			sed -i -E "s/#REACTION\s+$RXN/REACTION  $RXN/" environment.cfg
+			sed -i -E "s/#REACTION\s+$RXN /REACTION  $RXN/" environment.cfg
 			cd ..
 		done 
 		rm -R run/
