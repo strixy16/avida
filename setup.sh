@@ -36,7 +36,7 @@ do
 		sed -i -E "s/REQUIRED_REACTION -*[0-9]+/REQUIRED_REACTION 0/" avida.cfg	#change the required reaction
 		
 		mkdir run 
-		mv * run/    #move all the files into run
+		mv $(ls | grep -v run) run/    #move all the files into run without moving run into run
 		
 		for RXN in ${aRXNS[*]}
 		do
