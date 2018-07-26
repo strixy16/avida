@@ -1625,7 +1625,7 @@ inline int cHardwareCPU::FindModifiedRegister(int default_register)
   //nop-A = 0, nop B = 1, nop C = 2
   const int r = rand() % 100 + 1;
   const int concentrationNop = 0;
-  const int nopType = 1;
+  const int nopType = 0;
 
   if (m_inst_set->IsNop(getIP().GetNextInst())) {
     getIP().Advance();
@@ -1673,7 +1673,7 @@ inline int cHardwareCPU::FindModifiedHead(int default_head)
   //nop-A = 0, nop B = 1, nop C = 2
   const int r = rand() % 100 + 1;
   const int concentrationNop = 0;
-  const int nopType = 1;
+  const int nopType = 0;
 
   if (m_inst_set->IsNop(getIP().GetNextInst())) {
     getIP().Advance();
