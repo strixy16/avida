@@ -100,11 +100,16 @@ now = datetime.datetime.now()
 directory = "avida_plots_" + str(now.year)+str(now.month)+str(now.day)+"_"+str(now.hour)+":"+str(now.minute)
 if not os.path.exists(directory):
     os.makedirs(directory)
+    
+# List for x axis ticks
+xpoints=[]
 # Plotting each of 26 instructions with all reactions
 for instr in instrList:
+    # Get concentrations as x axis ticks
+    xpoints = map(int, instr.rxns[0].xData)
     plt.figure()
     plt.title(instr.name)
-    plt.xticks([20, 40, 60, 80, 100])
+    plt.xticks(xpoints)
     plt.yticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
     plt.xlabel('Concentration')
     plt.ylabel('Probability of Successful Evolution')
