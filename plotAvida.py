@@ -106,10 +106,17 @@ xpoints=[]
 # Plotting each of 26 instructions with all reactions
 for instr in instrList:
     # Get concentrations as x axis ticks
-    xpoints = map(int, instr.rxns[0].xData)
+    xpoints=[]
+    for rxn in instr.rxns:
+        # Get all possible concentrations from each reaction/instruction pair
+        xpoints = xpoints + rxn.xData
+
+    # Convert to set to get unique concentrations, sort set, cast to integer for use in xticks
+    xunique = map(int, sorted(set(xpoints)))
+    
     plt.figure()
     plt.title(instr.name)
-    plt.xticks(xpoints)
+    plt.xticks(xunique)
     plt.yticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
     plt.xlabel('Concentration')
     plt.ylabel('Probability of Successful Evolution')
