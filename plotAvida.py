@@ -75,6 +75,9 @@ while k < len(lines):
     else:   # Otherwise is a line of data
         #i = 0
         currConc = lines[k][0]
+        # Check for "does not exist" lines
+        if(currConc == "does"):
+            print(RXN.name + "-" + INSTR.name + " data missing. Consider running patch.")
         # New concentration reached
         if(currConc != prevConc):
             if(prevConc != 0):
