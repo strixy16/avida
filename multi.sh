@@ -8,7 +8,7 @@
 source ./variables.sh
 
 # go into correct directory
-cd cbuild/work         
+cd cbuild/e_work         
 
 
 #change updates in event file
