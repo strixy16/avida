@@ -34,7 +34,7 @@ class instrData:
     #def plot(self):
 
 # Data file to analyze
-tasks = open("taskData", "r")
+tasks = open("taskDataDouble", "r")
 lines = [line.split() for line in tasks]
 # lines[i][0] = concentration level
 # lines[i][1] = number of updates reached
@@ -115,7 +115,7 @@ for instr in instrList:
         xpoints = xpoints + rxn.xData
 
     # Convert to set to get unique concentrations, sort set, cast to integer for use in xticks
-    xunique = map(int, sorted(set(xpoints)))
+    xunique = sorted(set(map(int, (xpoints))))
     
     plt.figure()
     plt.title(instr.name)
