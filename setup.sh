@@ -49,6 +49,22 @@ do
 			# Disable all but the tested reaction in environment file 
 			sed -i "s/REACTION/#REACTION/" environment.cfg
 			sed -i -E "s/#REACTION\s+$RXN /REACTION  $RXN/" environment.cfg
+			
+			# Energy settings
+			if [[ $energy==true ]]
+			then
+				# Insert resource line
+				if ! grep -q RESOURCE environment.cfg
+				then
+					sed -i '14iRESOURCE sunlight:initial=1.0:inflow=10:outflow=0.1' environment.cfg
+				fi
+				
+				# Replace reaction line with energy settings
+				# Need to add proper max counts and value for proper resource
+				enRXN=${RXN,,}
+				sed -i -E "s/${enRXN}\s*process.*/${enRXN}   process:resource=sunlight:value=1000.0:type=energy:frac=1.0:product=sunlight:conversion=1.0 requisite:max_count=35/" environment.cfg
+			fi
+
 			cd ..
 		done 
 		rm -R run/
