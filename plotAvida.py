@@ -115,7 +115,7 @@ for instr in instrList:
         xpoints = xpoints + rxn.xData
 
     # Convert to set to get unique concentrations, sort set, cast to integer for use in xticks
-    xunique = map(int, sorted(set(xpoints)))
+    xunique = sorted(set(map(int, (xpoints))))
     
     plt.figure()
     plt.title(instr.name)
