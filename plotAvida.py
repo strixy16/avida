@@ -116,10 +116,13 @@ for instr in instrList:
 
     # Convert to set to get unique concentrations, sort set, cast to integer for use in xticks
     xunique = sorted(set(map(int, (xpoints))))
+    min_val = min(xunique)
+    max_val = max(xunique)
+    xrange = list(range(min_val, max_val+5, 5)) # Get list of xticks that covers entire range of data with intervals of 5
     
     plt.figure()
     plt.title(instr.name)
-    plt.xticks(xunique)
+    plt.xticks(xrange)
     plt.yticks([0, 0.2, 0.4, 0.6, 0.8, 1.0])
     plt.xlabel('Concentration')
     plt.ylabel('Probability of Successful Evolution')
