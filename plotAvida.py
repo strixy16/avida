@@ -100,7 +100,7 @@ RXN.addXY(currConc, sRate)
 
 # Make directory for storing plots
 now = datetime.datetime.now()
-directory = "avida_plots_" + str(now.year)+str(now.month)+str(now.day)+"_"+str(now.hour)+":"+str(now.minute)
+directory = "avida_plots_" + str(now.year)+str(now.month)+str(now.day)+"_"+str(now.hour)+str(now.minute)
 if not os.path.exists(directory):
     os.makedirs(directory)
     
